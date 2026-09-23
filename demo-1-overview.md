@@ -72,3 +72,19 @@ Using the OKF bundle for the decision makers guide answer the following question
 - What impact does Carers Allowance have on other benefits which are being claimed?
 - What happens to Carers Allowance if someone is caring for two or more people?
 
+### Welfare benefit Advisors Questions
+
+Q1. Ask OKF: where a child is awarded the highest-rate care component of DLA from 26 January 2025, but the change is reported to Universal Credit on 28 March 2026, what's the effective date of the higher disabled-child addition, and from which assessment period should it be paid?
+
+Q2 Ask OKF is a child receives high rate care for DLA how does this effect the parents universal credit.
+
+Q3 Ask OKF for the New Style ESA rules for a person who is already an inpatient on the first day of their claim.
+
+Q4 Ask OKF do a person need a fit note if i am in hospital and applying for ESA
+
+Q5 Ask OKF for Universal Credit list circumstances when a second property can be disregarded as capital
+
+Note webMCP returned truncated for several aswers
+
+*"I asked OKF the specific question, but its returned evidence package is marked “insufficient” and truncated. It did not retrieve the crucial hospital-patient provision from the ESA Regulations 2013, so I would not use that OKF result alone to answer the question."*
+
