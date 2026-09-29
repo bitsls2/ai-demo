@@ -1,0 +1,45 @@
+{
+  "metadata_version": 1,
+  "image_file": "permission-aware-architecture-slide-v2.png",
+  "title": "Permission-aware AI: architecture and access",
+  "description": "Conceptual six-layer architecture showing permission-aware context assembly. OKF provides structured knowledge, metadata and provenance: its primary conceptual home is layer 2, supporting context assembly at layer 4 and federation discovery at layer 5.",
+  "okf_role": {
+    "summary": "OKF informs source selection, context assembly and access decisions through structured knowledge and provenance; it does not enforce access or grant permissions.",
+    "primary_conceptual_home": {
+      "layer": 2,
+      "name": "Local execution and tools",
+      "role": "Structured knowledge and metadata"
+    },
+    "supports": [
+      {
+        "layer": 4,
+        "name": "Agent orchestration",
+        "role": "Source selection, context assembly and provenance"
+      },
+      {
+        "layer": 5,
+        "name": "Federation control",
+        "role": "Registries, discovery and trust evidence"
+      }
+    ],
+    "enforcement_distinction": "Layer 3 represents security, identity and access enforcement, separate from OKF. Authorisation checks still operate across layers 2–4 and at each material transition.",
+    "does_not_provide": [
+      "Live ACL truth",
+      "Credentials",
+      "Runtime allow/deny decisions"
+    ]
+  },
+  "alt_text": "Six stacked architecture bands, numbered 6 to 1. A bracket spans layers 2–4. Dashed lines connect a separate OKF knowledge panel to layers 2, 4 and 5; layer 3 is labelled access enforcement, not OKF. The adjacent seven-step flow separates discovery, authorisation, context assembly, disclosure and actions.",
+  "authority_boundary": "Independent exploratory research and conceptual placement, not government policy, implementation guidance, endorsement or evidence of implemented controls.",
+  "asset_type": "AI-generated conceptual presentation illustration",
+  "generation_mode": "Built-in image edit",
+  "language": "en-GB",
+  "date": "2026-09-29",
+  "dimensions_pixels": {
+    "width": 1672,
+    "height": 941
+  },
+  "sha256": "7f12c0ac30813bbb433d14416837715f365d538ca9f10aafec47803f4bd9f575",
+  "provenance_receipt": "receipt-v2.json",
+  "generation_prompt": "generation-prompt-v2.txt"
+}
