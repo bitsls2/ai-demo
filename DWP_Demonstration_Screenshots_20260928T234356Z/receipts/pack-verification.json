@@ -1,0 +1,3226 @@
+{
+  "observed_at": "2026-09-29T00:08:31.245Z",
+  "scope": "Bounded file identity, crop geometry, input preservation, package invariants and unchanged checkout checks. Not answer accuracy, legal review or universal host compatibility.",
+  "counts": {
+    "main": {
+      "captured": 9,
+      "fallback": 2,
+      "blocked": 1
+    },
+    "reserve": {
+      "captured": 3,
+      "fallback": 1
+    }
+  },
+  "frames": 42,
+  "checks": [
+    {
+      "name": "S01 technical retry bound",
+      "passed": true,
+      "detail": {
+        "limit": 1
+      }
+    },
+    {
+      "name": "S01 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 4
+      }
+    },
+    {
+      "name": "S01-p3 raw/S01-p3.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 279447,
+        "sha256": "fc6fa8017e8fda02db464002d03418f1d93e1a377e8a847f4cca955c3a3c90af"
+      }
+    },
+    {
+      "name": "S01-p3 slide-ready/S01-p3.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 143352,
+        "sha256": "fb9ed6645b6bc67fce95d6c170afcadb2777060f79b4a8e8e1abdb6182fea510"
+      }
+    },
+    {
+      "name": "S01-p3 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S01-p3 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "width": 1654,
+        "height": 2339
+      }
+    },
+    {
+      "name": "S01-p3 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:24:54.956Z",
+        "url": "https://assets.publishing.service.gov.uk/media/69e0fdcbb5e95ca5017ed9da/dmg-Chap-60.pdf#page=3"
+      }
+    },
+    {
+      "name": "S01-p4 raw/S01-p4.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 334664,
+        "sha256": "a33f7d83d5f013d26f18e3597ce99b7eecb9d807c69be5ce6b7fc50d370eeb05"
+      }
+    },
+    {
+      "name": "S01-p4 slide-ready/S01-p4.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 163863,
+        "sha256": "7d3d596cfb5e9abe11c6e54cb90609d140af3901bbb50dd0dc05c44d5162d2fb"
+      }
+    },
+    {
+      "name": "S01-p4 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S01-p4 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "width": 1654,
+        "height": 2339
+      }
+    },
+    {
+      "name": "S01-p4 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:24:55.280Z",
+        "url": "https://assets.publishing.service.gov.uk/media/69e0fdcbb5e95ca5017ed9da/dmg-Chap-60.pdf#page=4"
+      }
+    },
+    {
+      "name": "S01-conditions raw/S01-p3.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 279447,
+        "sha256": "fc6fa8017e8fda02db464002d03418f1d93e1a377e8a847f4cca955c3a3c90af"
+      }
+    },
+    {
+      "name": "S01-conditions slide-ready/S01-conditions.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 223045,
+        "sha256": "1ff167a0ea9d0b5fcea3a57313f9a220adde3d6228d5ec7097c338aacf2ca603"
+      }
+    },
+    {
+      "name": "S01-conditions 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S01-conditions real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 1390,
+        "width": 1654,
+        "height": 820
+      }
+    },
+    {
+      "name": "S01-conditions timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:24:54.956Z",
+        "url": "https://assets.publishing.service.gov.uk/media/69e0fdcbb5e95ca5017ed9da/dmg-Chap-60.pdf#page=3"
+      }
+    },
+    {
+      "name": "S01-notes raw/S01-p4.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 334664,
+        "sha256": "a33f7d83d5f013d26f18e3597ce99b7eecb9d807c69be5ce6b7fc50d370eeb05"
+      }
+    },
+    {
+      "name": "S01-notes slide-ready/S01-notes.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 125709,
+        "sha256": "76ba3d6a2818790e2ef081c46cbe73d10d38b48c5f55dabcc3674274b76cf2b4"
+      }
+    },
+    {
+      "name": "S01-notes 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S01-notes real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 40,
+        "width": 1654,
+        "height": 300
+      }
+    },
+    {
+      "name": "S01-notes timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:24:55.280Z",
+        "url": "https://assets.publishing.service.gov.uk/media/69e0fdcbb5e95ca5017ed9da/dmg-Chap-60.pdf#page=4"
+      }
+    },
+    {
+      "name": "S02 technical retry bound",
+      "passed": true,
+      "detail": {
+        "limit": 1
+      }
+    },
+    {
+      "name": "S02 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 3
+      }
+    },
+    {
+      "name": "S02 raw/S02.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1005649,
+        "sha256": "fc961957123dac7eee684f029cbbb2e02f95a62a6458ce6b3a9fb84fcb134eb5"
+      }
+    },
+    {
+      "name": "S02 slide-ready/S02.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 180250,
+        "sha256": "26796f9a8e2fb1448281b16c86b6d7679a3d51f87fa05218a1f022b89846a6b5"
+      }
+    },
+    {
+      "name": "S02 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S02 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 768,
+        "y": 2869,
+        "width": 2304,
+        "height": 3908
+      }
+    },
+    {
+      "name": "S02 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:24:57.289Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/reading-help/corpus/?catalogue=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fcbada7bf544106bdceb2445fc379c8b3e5b73ee4%2Freading-help-corpus%2Fmanifest.json&catalogue_sha256=6c53b659b519aa4cbf7529e7e10eb4ad3bfe8efcac18055ec2a5ade724998b46&catalogue_bytes=260797&family=dmg&document=dmg-vol10-ch60&unit=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000002117-000-5fac0d6d5c5e&occurrence=94559367fa0c7f64933daf8c"
+      }
+    },
+    {
+      "name": "S02-occurrence raw/S02.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1005649,
+        "sha256": "fc961957123dac7eee684f029cbbb2e02f95a62a6458ce6b3a9fb84fcb134eb5"
+      }
+    },
+    {
+      "name": "S02-occurrence slide-ready/S02-occurrence.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 250825,
+        "sha256": "79e8352710c44797aff2ab4b2faf05c2f8415349ba0422ddf4a568d79a84ab88"
+      }
+    },
+    {
+      "name": "S02-occurrence 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S02-occurrence real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 768,
+        "y": 4350,
+        "width": 2304,
+        "height": 1240
+      }
+    },
+    {
+      "name": "S02-occurrence timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:24:57.289Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/reading-help/corpus/?catalogue=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fcbada7bf544106bdceb2445fc379c8b3e5b73ee4%2Freading-help-corpus%2Fmanifest.json&catalogue_sha256=6c53b659b519aa4cbf7529e7e10eb4ad3bfe8efcac18055ec2a5ade724998b46&catalogue_bytes=260797&family=dmg&document=dmg-vol10-ch60&unit=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000002117-000-5fac0d6d5c5e&occurrence=94559367fa0c7f64933daf8c"
+      }
+    },
+    {
+      "name": "S02-help raw/S02.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1005649,
+        "sha256": "fc961957123dac7eee684f029cbbb2e02f95a62a6458ce6b3a9fb84fcb134eb5"
+      }
+    },
+    {
+      "name": "S02-help slide-ready/S02-help.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 181724,
+        "sha256": "48376d0fc5379884505462cfaf5f355ef1111854692eceb126bb1ffe1be157b5"
+      }
+    },
+    {
+      "name": "S02-help 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S02-help real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 768,
+        "y": 5910,
+        "width": 2304,
+        "height": 868
+      }
+    },
+    {
+      "name": "S02-help timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:24:57.289Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/reading-help/corpus/?catalogue=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fcbada7bf544106bdceb2445fc379c8b3e5b73ee4%2Freading-help-corpus%2Fmanifest.json&catalogue_sha256=6c53b659b519aa4cbf7529e7e10eb4ad3bfe8efcac18055ec2a5ade724998b46&catalogue_bytes=260797&family=dmg&document=dmg-vol10-ch60&unit=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000002117-000-5fac0d6d5c5e&occurrence=94559367fa0c7f64933daf8c"
+      }
+    },
+    {
+      "name": "S03 technical retry bound",
+      "passed": true,
+      "detail": {
+        "retries": 1,
+        "limit": 1
+      }
+    },
+    {
+      "name": "S03 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 3
+      }
+    },
+    {
+      "name": "S03-r1 raw/S03-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 705094,
+        "sha256": "752c3435186be58c54ef1bd80ea7a2ae5beca74cb05c96e4a1e854274aeacd75"
+      }
+    },
+    {
+      "name": "S03-r1 slide-ready/S03-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 239733,
+        "sha256": "02d10776035f94c4319228a59f0f5898bddc52c902794ab509f0b8a2529cc2d9"
+      }
+    },
+    {
+      "name": "S03-r1 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S03-r1 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1000,
+        "y": 545,
+        "width": 2272,
+        "height": 3044
+      }
+    },
+    {
+      "name": "S03-r1 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:29:58.002Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/reading-help/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F2ad33add6d8660fec98bf34fb98480a9d0de9e27%2Freading-help-ch60-law.json&passage=dmg-60025"
+      }
+    },
+    {
+      "name": "S03-paired-reference raw/S03-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 705094,
+        "sha256": "752c3435186be58c54ef1bd80ea7a2ae5beca74cb05c96e4a1e854274aeacd75"
+      }
+    },
+    {
+      "name": "S03-paired-reference slide-ready/S03-paired-reference.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 180480,
+        "sha256": "e7c5cd85f47fb70c2dcd3b30d4f4b3f3ee132a8ea1f68a1b265d9fa4d842a625"
+      }
+    },
+    {
+      "name": "S03-paired-reference 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S03-paired-reference real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1030,
+        "y": 2070,
+        "width": 1510,
+        "height": 1460
+      }
+    },
+    {
+      "name": "S03-paired-reference timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:29:58.002Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/reading-help/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F2ad33add6d8660fec98bf34fb98480a9d0de9e27%2Freading-help-ch60-law.json&passage=dmg-60025"
+      }
+    },
+    {
+      "name": "S03-reference-card raw/S03-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 705094,
+        "sha256": "752c3435186be58c54ef1bd80ea7a2ae5beca74cb05c96e4a1e854274aeacd75"
+      }
+    },
+    {
+      "name": "S03-reference-card slide-ready/S03-reference-card.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 225112,
+        "sha256": "6b29887653b57f2c79c77a3160e92936a132914e06c34f8ae956b372c175855b"
+      }
+    },
+    {
+      "name": "S03-reference-card 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S03-reference-card real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 2565,
+        "y": 1750,
+        "width": 707,
+        "height": 1580
+      }
+    },
+    {
+      "name": "S03-reference-card timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:29:58.002Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/reading-help/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F2ad33add6d8660fec98bf34fb98480a9d0de9e27%2Freading-help-ch60-law.json&passage=dmg-60025"
+      }
+    },
+    {
+      "name": "S04 technical retry bound",
+      "passed": true,
+      "detail": {
+        "limit": 1
+      }
+    },
+    {
+      "name": "S04 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 1
+      }
+    },
+    {
+      "name": "S04 raw/S04.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 454819,
+        "sha256": "1eb23d92d5fdaaedfea8ce5c241846d962a93982ee80528c598e92889718bd32"
+      }
+    },
+    {
+      "name": "S04 slide-ready/S04.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 227788,
+        "sha256": "62c35af790c65801739330f12dd5c7cbff18f7611e13cd48b854c0101db3266e"
+      }
+    },
+    {
+      "name": "S04 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S04 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 768,
+        "y": 1424,
+        "width": 2304,
+        "height": 1600
+      }
+    },
+    {
+      "name": "S04 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:26:08.409Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/reading-help/corpus/?catalogue=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fcbada7bf544106bdceb2445fc379c8b3e5b73ee4%2Freading-help-corpus%2Fmanifest.json&catalogue_sha256=6c53b659b519aa4cbf7529e7e10eb4ad3bfe8efcac18055ec2a5ade724998b46&catalogue_bytes=260797&family=adm&document=adm-chapter-a2"
+      }
+    },
+    {
+      "name": "S05 technical retry bound",
+      "passed": true,
+      "detail": {
+        "limit": 1
+      }
+    },
+    {
+      "name": "S05 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 3
+      }
+    },
+    {
+      "name": "S05a raw/S05a.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1539317,
+        "sha256": "8992a5a6dcdb1856995fbbec4cdcddce600d2845cfea9e0caa84bd4a9cf29ed8"
+      }
+    },
+    {
+      "name": "S05a slide-ready/S05a.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 586046,
+        "sha256": "1f040d3c7a47c51801f7de2f2eeb126b67e626574d669aa22ecd7220256ee165"
+      }
+    },
+    {
+      "name": "S05a 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S05a real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1229,
+        "y": 772,
+        "width": 2024,
+        "height": 1298
+      }
+    },
+    {
+      "name": "S05a timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:25:00.880Z",
+        "url": "https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/uc-disabled-child-supersession-follow-up.md"
+      }
+    },
+    {
+      "name": "S05b raw/S05b.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1569130,
+        "sha256": "45611f9876c3e53d519b75046536b82b510239036975f1aefc9facd95b1fea52"
+      }
+    },
+    {
+      "name": "S05b slide-ready/S05b.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 351786,
+        "sha256": "66214eb63fd50a2e7ed61821a6ace4b5922818d72b406fce82e8838b025e6cf5"
+      }
+    },
+    {
+      "name": "S05b 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S05b real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1229,
+        "y": 2070,
+        "width": 2024,
+        "height": 1740
+      }
+    },
+    {
+      "name": "S05b timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:25:01.388Z",
+        "url": "https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/uc-disabled-child-supersession-follow-up.md"
+      }
+    },
+    {
+      "name": "S05-question raw/S05-question.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1036658,
+        "sha256": "354c8ab8644d6c7e7def668e6084d79c37b3005f47383bea5172e8e2aeba8523"
+      }
+    },
+    {
+      "name": "S05-question slide-ready/S05-question.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 307889,
+        "sha256": "6af496d4915b97499634264f51af5f2483887519282c3013203144ef91e2b5ed"
+      }
+    },
+    {
+      "name": "S05-question 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S05-question real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1229,
+        "y": 3983,
+        "width": 2024,
+        "height": 1455
+      }
+    },
+    {
+      "name": "S05-question timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:35:00.914Z",
+        "url": "https://github.com/bitsls2/ai-demo/blob/301f1cce6b82e82233a1a801f941ebe143fc6249/presentation-structure.md"
+      }
+    },
+    {
+      "name": "S06 technical retry bound",
+      "passed": true,
+      "detail": {
+        "limit": 1
+      }
+    },
+    {
+      "name": "S06 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 5
+      }
+    },
+    {
+      "name": "S06-p36 raw/S06-p36.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 429784,
+        "sha256": "c2cba838473a83ad6c24de3821c5fe7bbda576a36b9d71ff8c9d05bfcd282ad2"
+      }
+    },
+    {
+      "name": "S06-p36 slide-ready/S06-p36.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 208997,
+        "sha256": "e9a2ebe8ec13d1ce0e1eb12572af9dc424a75c8e8227f71ed89eceec9e0e408c"
+      }
+    },
+    {
+      "name": "S06-p36 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S06-p36 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "width": 1654,
+        "height": 2339
+      }
+    },
+    {
+      "name": "S06-p36 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:25:01.882Z",
+        "url": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=36"
+      }
+    },
+    {
+      "name": "S06-p37 raw/S06-p37.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 234174,
+        "sha256": "330a093166859162220196918257f3fab187c39992fbc12692edd52539d7081d"
+      }
+    },
+    {
+      "name": "S06-p37 slide-ready/S06-p37.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 129180,
+        "sha256": "f3f9964cd2541c4b083643278c147b8c36ed8125bd9a2598d21450e4a68b360e"
+      }
+    },
+    {
+      "name": "S06-p37 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S06-p37 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "width": 1654,
+        "height": 2339
+      }
+    },
+    {
+      "name": "S06-p37 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:25:02.154Z",
+        "url": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=37"
+      }
+    },
+    {
+      "name": "S06-p34 raw/S06-p34.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 381830,
+        "sha256": "074ef150e90484bb28ecb721f967945e5e826a2f06e1cfa64389adab7bb5cb0b"
+      }
+    },
+    {
+      "name": "S06-p34 slide-ready/S06-p34.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 192599,
+        "sha256": "2186d6935ef288a312aa01abae99782463e9e73028bd25dd36c9ffd751fb9231"
+      }
+    },
+    {
+      "name": "S06-p34 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S06-p34 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "width": 1654,
+        "height": 2339
+      }
+    },
+    {
+      "name": "S06-p34 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:25:02.485Z",
+        "url": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=34"
+      }
+    },
+    {
+      "name": "S06-A4361 raw/S06-p36.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 429784,
+        "sha256": "c2cba838473a83ad6c24de3821c5fe7bbda576a36b9d71ff8c9d05bfcd282ad2"
+      }
+    },
+    {
+      "name": "S06-A4361 slide-ready/S06-A4361.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 213232,
+        "sha256": "248945c27c5e3da47238c919a332c356cbfbc789d5859dc57ce432c4b1148c19"
+      }
+    },
+    {
+      "name": "S06-A4361 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S06-A4361 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 675,
+        "width": 1654,
+        "height": 480
+      }
+    },
+    {
+      "name": "S06-A4361 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:25:01.882Z",
+        "url": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=36"
+      }
+    },
+    {
+      "name": "S06-A4352 raw/S06-p34.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 381830,
+        "sha256": "074ef150e90484bb28ecb721f967945e5e826a2f06e1cfa64389adab7bb5cb0b"
+      }
+    },
+    {
+      "name": "S06-A4352 slide-ready/S06-A4352.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 265887,
+        "sha256": "c802b341e034d302543936a55b44e2d74c0e4ab76ac449b5fc8736d38ad4cbff"
+      }
+    },
+    {
+      "name": "S06-A4352 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S06-A4352 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 1250,
+        "width": 1654,
+        "height": 705
+      }
+    },
+    {
+      "name": "S06-A4352 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:25:02.485Z",
+        "url": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=34"
+      }
+    },
+    {
+      "name": "S07 technical retry bound",
+      "passed": true,
+      "detail": {
+        "retries": 1,
+        "limit": 1
+      }
+    },
+    {
+      "name": "S07 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 3
+      }
+    },
+    {
+      "name": "S07a-r1 raw/S07a-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 760126,
+        "sha256": "927634838824911b5b41c5f46d00baea8e528dcbcd21ba7f06c64791431b06bc"
+      }
+    },
+    {
+      "name": "S07a-r1 slide-ready/S07a-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 372996,
+        "sha256": "a3e484b29d819a7d52904e3b2269ecc29ba2b3b1e991665d8a79653a20eccf99"
+      }
+    },
+    {
+      "name": "S07a-r1 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S07a-r1 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1082,
+        "y": 314,
+        "width": 2227,
+        "height": 1640
+      }
+    },
+    {
+      "name": "S07a-r1 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:30:01.456Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/explore/?bundle=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F7eeded763042ddd0070f4fed834c6074149e8e2f%2Fstructured-context%2Fevidence-connect-explorer.json#overview"
+      }
+    },
+    {
+      "name": "S07b-r1 raw/S07b-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 534443,
+        "sha256": "d14f2ee56df649203a17404bb3f2feb6da3ccb97e18d3f071cd1756f91c248ee"
+      }
+    },
+    {
+      "name": "S07b-r1 slide-ready/S07b-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 263524,
+        "sha256": "603593b6574fe3e23a888f219c64f56b48d228790063b330ba6813a744edf416"
+      }
+    },
+    {
+      "name": "S07b-r1 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S07b-r1 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1082,
+        "y": 313,
+        "width": 2227,
+        "height": 1358
+      }
+    },
+    {
+      "name": "S07b-r1 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:30:01.754Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/explore/?bundle=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F7eeded763042ddd0070f4fed834c6074149e8e2f%2Fstructured-context%2Fevidence-connect-explorer.json#overview"
+      }
+    },
+    {
+      "name": "S07c-r1 raw/S07c-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 760501,
+        "sha256": "1d4e01f6c7a324a3d813aef9e164d2d4a9682d1e6415e66e0d026d80bdacdf9d"
+      }
+    },
+    {
+      "name": "S07c-r1 slide-ready/S07c-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 553934,
+        "sha256": "87a90a89025fd3a181e5a6d693cf5e0b2a5b5296e43e86dcee32370c5885f88f"
+      }
+    },
+    {
+      "name": "S07c-r1 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S07c-r1 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1082,
+        "y": 635,
+        "width": 2227,
+        "height": 1400
+      }
+    },
+    {
+      "name": "S07c-r1 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:30:02.036Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/explore/?bundle=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F7eeded763042ddd0070f4fed834c6074149e8e2f%2Fstructured-context%2Fevidence-connect-explorer.json#overview"
+      }
+    },
+    {
+      "name": "S08 technical retry bound",
+      "passed": true,
+      "detail": {
+        "limit": 1
+      }
+    },
+    {
+      "name": "S08 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 2
+      }
+    },
+    {
+      "name": "S08a raw/S08a.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 965365,
+        "sha256": "6144bd9ddcb88b1eafd085f169a6a4eaa84179eeceddf86fbb663335bf400747"
+      }
+    },
+    {
+      "name": "S08a slide-ready/S08a.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 227871,
+        "sha256": "06e70831aea96a3adc0ce6c70b2196a44097c8558b1cb7239f9539f14b8c36c5"
+      }
+    },
+    {
+      "name": "S08a 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S08a real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1290,
+        "y": 1772,
+        "width": 2509,
+        "height": 1556
+      }
+    },
+    {
+      "name": "S08a timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:25:23.899Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=passage"
+      }
+    },
+    {
+      "name": "S08b raw/S08b.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1089284,
+        "sha256": "95c556c7768d099990213786fb6b78fac7628ffce3da3a7ec99ba0c5a672a5c8"
+      }
+    },
+    {
+      "name": "S08b slide-ready/S08b.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 226999,
+        "sha256": "c116b1db321f182876df5137a3c67b1c318149471ea7670daa40d029ab49d82c"
+      }
+    },
+    {
+      "name": "S08b 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S08b real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1290,
+        "y": 1772,
+        "width": 2509,
+        "height": 1900
+      }
+    },
+    {
+      "name": "S08b timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:25:24.290Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=source"
+      }
+    },
+    {
+      "name": "S09 technical retry bound",
+      "passed": true,
+      "detail": {
+        "limit": 1
+      }
+    },
+    {
+      "name": "S09 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 4
+      }
+    },
+    {
+      "name": "S09a raw/S09a.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 6129431,
+        "sha256": "d1ae31e1121b361307e06b2cb29fab64f5ee52fdbec4c56feca7a3ef60ea7c71"
+      }
+    },
+    {
+      "name": "S09a slide-ready/S09a.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 262864,
+        "sha256": "40b9fc30126f55fa916e9f3ab87b5e614c6cd872dca153735f23a8e671e980f1"
+      }
+    },
+    {
+      "name": "S09a 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S09a real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1290,
+        "y": 1772,
+        "width": 2509,
+        "height": 2080
+      }
+    },
+    {
+      "name": "S09a timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:25:56.599Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=graph"
+      }
+    },
+    {
+      "name": "S09b raw/S09b.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 2721240,
+        "sha256": "f99983a9ff806a190546b05f2e52fd66022e940543be77e07fcc5e58c522adc9"
+      }
+    },
+    {
+      "name": "S09b slide-ready/S09b.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 186926,
+        "sha256": "0a306a27af09a724a5f3a13cea928022cf467c4e2f0ccb66d86195cd6aaa8911"
+      }
+    },
+    {
+      "name": "S09b 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S09b real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1290,
+        "y": 1772,
+        "width": 2509,
+        "height": 2040
+      }
+    },
+    {
+      "name": "S09b timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:25:57.663Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=requirements"
+      }
+    },
+    {
+      "name": "S09-connection raw/S09-connection.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 6129431,
+        "sha256": "d1ae31e1121b361307e06b2cb29fab64f5ee52fdbec4c56feca7a3ef60ea7c71"
+      }
+    },
+    {
+      "name": "S09-connection slide-ready/S09-connection.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 96446,
+        "sha256": "f136bd92902b449dc5aa877f191d6452d8768574fb3e407d19848e97a7a60b97"
+      }
+    },
+    {
+      "name": "S09-connection 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S09-connection real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1325,
+        "y": 14395,
+        "width": 2439,
+        "height": 229
+      }
+    },
+    {
+      "name": "S09-connection timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:34:57.210Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=graph"
+      }
+    },
+    {
+      "name": "S09-requirement raw/S09-requirement.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 2721240,
+        "sha256": "f99983a9ff806a190546b05f2e52fd66022e940543be77e07fcc5e58c522adc9"
+      }
+    },
+    {
+      "name": "S09-requirement slide-ready/S09-requirement.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 626718,
+        "sha256": "cd4da3659456aff50ab9fcd519e6a199bb7de34ca411d8cba9e15d5efb3d5b35"
+      }
+    },
+    {
+      "name": "S09-requirement 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S09-requirement real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1325,
+        "y": 3811,
+        "width": 2439,
+        "height": 1189
+      }
+    },
+    {
+      "name": "S09-requirement timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:48:06.010Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=requirements"
+      }
+    },
+    {
+      "name": "S10 technical retry bound",
+      "passed": true,
+      "detail": {
+        "limit": 1
+      }
+    },
+    {
+      "name": "S10 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 2
+      }
+    },
+    {
+      "name": "S10 raw/S10.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1388227,
+        "sha256": "179ae352bfc23a1c7e7c8c5b856187605cae1ec86959b3a6bc7bedd98a436e59"
+      }
+    },
+    {
+      "name": "S10 slide-ready/S10.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 254094,
+        "sha256": "c04acb9029481880a34b813630bba7aae47bf3e5faf14db545ef0ee0812c1adf"
+      }
+    },
+    {
+      "name": "S10 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S10 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1290,
+        "y": 1772,
+        "width": 2509,
+        "height": 3129
+      }
+    },
+    {
+      "name": "S10 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:26:01.910Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcalculation&tab=calculation"
+      }
+    },
+    {
+      "name": "S10-stages raw/S10.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1388227,
+        "sha256": "179ae352bfc23a1c7e7c8c5b856187605cae1ec86959b3a6bc7bedd98a436e59"
+      }
+    },
+    {
+      "name": "S10-stages slide-ready/S10-stages.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 317955,
+        "sha256": "53e577b4eeeb0c93b152cae19f6e32601ca219d729609a76637899fe0208378d"
+      }
+    },
+    {
+      "name": "S10-stages 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S10-stages real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1323,
+        "y": 3625,
+        "width": 2440,
+        "height": 880
+      }
+    },
+    {
+      "name": "S10-stages timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:26:01.910Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcalculation&tab=calculation"
+      }
+    },
+    {
+      "name": "S11 technical retry bound",
+      "passed": true,
+      "detail": {
+        "limit": 1
+      }
+    },
+    {
+      "name": "S11 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 2
+      }
+    },
+    {
+      "name": "S11 raw/S11.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1258357,
+        "sha256": "bcddb784e40e57297fa412c9ffaef0bbdf4b919c0c35906b42ab1f85554b59c3"
+      }
+    },
+    {
+      "name": "S11 slide-ready/S11.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 254011,
+        "sha256": "64f8e80b1b12c33f372ec84b2adbbbfd70ab7c8902c247ac52c48d667d8580ec"
+      }
+    },
+    {
+      "name": "S11 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S11 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1290,
+        "y": 1834,
+        "width": 2509,
+        "height": 2665
+      }
+    },
+    {
+      "name": "S11 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:26:05.825Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=interactions"
+      }
+    },
+    {
+      "name": "S11-directions raw/S11.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1258357,
+        "sha256": "bcddb784e40e57297fa412c9ffaef0bbdf4b919c0c35906b42ab1f85554b59c3"
+      }
+    },
+    {
+      "name": "S11-directions slide-ready/S11-directions.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 271102,
+        "sha256": "87551928df844b42315e0bf2ac6fa0c7f3f67a2d9899c71357202dd61c3ff290"
+      }
+    },
+    {
+      "name": "S11-directions 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S11-directions real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1323,
+        "y": 3210,
+        "width": 2440,
+        "height": 835
+      }
+    },
+    {
+      "name": "S11-directions timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:26:05.825Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=interactions"
+      }
+    },
+    {
+      "name": "S12 technical retry bound",
+      "passed": true,
+      "detail": {
+        "retries": 1,
+        "limit": 10
+      }
+    },
+    {
+      "name": "S12 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 5,
+        "native_failure_evidence": true
+      }
+    },
+    {
+      "name": "S12-before-overview raw/S12-before-top-privacy-redacted.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 3217168,
+        "sha256": "c76e3850aad414d60385fa119ce5ec1ac396922f7268afa0fe18e94fca6d797a"
+      }
+    },
+    {
+      "name": "S12-before-overview slide-ready/S12-before-overview.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 736507,
+        "sha256": "4ecd33b72eb0a46018d1b7159d1ee96157a3ac6cdc63585a888593dc71cfa773"
+      }
+    },
+    {
+      "name": "S12-before-overview 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S12-before-overview real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "width": 3024,
+        "height": 1898
+      }
+    },
+    {
+      "name": "S12-before-overview timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T23:50:06.943Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcalculation&tab=requirements"
+      }
+    },
+    {
+      "name": "S12-before-qualifications raw/S12-before-qualifications-privacy-redacted.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1907595,
+        "sha256": "f1c13dcdf95f108e45d2b07ab859737cf4a013ef04d4fb57113e2e7c3084ce12"
+      }
+    },
+    {
+      "name": "S12-before-qualifications slide-ready/S12-before-qualifications.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 577597,
+        "sha256": "0adc9479ecd685756d75818df1b7c3fc3a585863c482fe0b3a455ed5af36be82"
+      }
+    },
+    {
+      "name": "S12-before-qualifications 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S12-before-qualifications real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1428,
+        "y": 321,
+        "width": 1596,
+        "height": 1355
+      }
+    },
+    {
+      "name": "S12-before-qualifications timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T23:50:26.395Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcalculation&tab=requirements"
+      }
+    },
+    {
+      "name": "S12-failure-1 raw/S12-follow-up-1-failure-privacy-redacted.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1644135,
+        "sha256": "81bc7ea152422d938769cc50faf1b2f8fcfe83f0df113f63a1656e619d0b107a"
+      }
+    },
+    {
+      "name": "S12-failure-1 slide-ready/S12-failure-1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 521837,
+        "sha256": "abe660e0b015df7edfb417d441b58a693c12760add975146cda3b8533b360b90"
+      }
+    },
+    {
+      "name": "S12-failure-1 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S12-failure-1 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 2260,
+        "y": 1140,
+        "width": 745,
+        "height": 470
+      }
+    },
+    {
+      "name": "S12-failure-1 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T23:56:12.802Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcalculation&tab=requirements"
+      }
+    },
+    {
+      "name": "S12-failure-overview raw/S12-follow-up-2-failure-privacy-redacted.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1616911,
+        "sha256": "add15d1112f18153826d8e771ef0868129e9e834fb4e44b5250c671f38cc0401"
+      }
+    },
+    {
+      "name": "S12-failure-overview slide-ready/S12-failure-overview.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 467604,
+        "sha256": "201605d9f3eb379197ad9689a2c460db44bd1dca7c9479b0b9c69f0a7bd5aa56"
+      }
+    },
+    {
+      "name": "S12-failure-overview 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S12-failure-overview real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1428,
+        "y": 321,
+        "width": 1596,
+        "height": 1355
+      }
+    },
+    {
+      "name": "S12-failure-overview timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T23:59:14.556Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcalculation&tab=requirements"
+      }
+    },
+    {
+      "name": "S12-failure-2 raw/S12-follow-up-2-failure-privacy-redacted.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1616911,
+        "sha256": "add15d1112f18153826d8e771ef0868129e9e834fb4e44b5250c671f38cc0401"
+      }
+    },
+    {
+      "name": "S12-failure-2 slide-ready/S12-failure-2.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 483246,
+        "sha256": "86a22bfd0f2e5f90cb915d7968bc1c1fb1e1484aba991869de58c0ec5a995ee7"
+      }
+    },
+    {
+      "name": "S12-failure-2 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S12-failure-2 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 2260,
+        "y": 1190,
+        "width": 745,
+        "height": 445
+      }
+    },
+    {
+      "name": "S12-failure-2 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T23:59:14.556Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcalculation&tab=requirements"
+      }
+    },
+    {
+      "name": "S13 technical retry bound",
+      "passed": true,
+      "detail": {
+        "retries": 1,
+        "limit": 1
+      }
+    },
+    {
+      "name": "S13 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 1
+      }
+    },
+    {
+      "name": "S13-r1 raw/S13-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 995746,
+        "sha256": "48eb00225865b7c8726dfdec26b29dce2dc0b193b136c3ec97c17f0361729cd8"
+      }
+    },
+    {
+      "name": "S13-r1 slide-ready/S13-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 245157,
+        "sha256": "a4e69bb75c92c6bcb31d47edf6a5feedce6a87368a3cade601bb43f17b6dc5be"
+      }
+    },
+    {
+      "name": "S13-r1 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S13-r1 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1290,
+        "y": 1772,
+        "width": 2509,
+        "height": 1556
+      }
+    },
+    {
+      "name": "S13-r1 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:30:03.475Z",
+        "url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=review"
+      }
+    },
+    {
+      "name": "S14 technical retry bound",
+      "passed": true,
+      "detail": {
+        "retries": 1,
+        "limit": 1
+      }
+    },
+    {
+      "name": "S14 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 1
+      }
+    },
+    {
+      "name": "S14-report raw/S14-report.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 2338196,
+        "sha256": "a8d941b61752e020496fa5c22f6546afb1e7ba7541250934a36ad8e6f10bc833"
+      }
+    },
+    {
+      "name": "S14-report slide-ready/S14-report.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 458894,
+        "sha256": "5e6b49703c93fdae8e3ae3e50f3f2f2caef83ed3a5d4dc7c840a3f698d1491b1"
+      }
+    },
+    {
+      "name": "S14-report 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S14-report real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1229,
+        "y": 772,
+        "width": 2024,
+        "height": 2100
+      }
+    },
+    {
+      "name": "S14-report timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:34:59.322Z",
+        "url": "https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/passage-boundary-review.md"
+      }
+    },
+    {
+      "name": "S15 technical retry bound",
+      "passed": true,
+      "detail": {
+        "retries": 1,
+        "limit": 1
+      }
+    },
+    {
+      "name": "S15 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 2
+      }
+    },
+    {
+      "name": "S15a-r1 raw/S15a-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1818147,
+        "sha256": "9363036db252e7910e8b02cb86cfb309b0370694ff6ead8a5525393ec765beb8"
+      }
+    },
+    {
+      "name": "S15a-r1 slide-ready/S15a-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 537625,
+        "sha256": "7545ac2d5c4a9943e2a11d0aac010ef1100abcef039b48d4008ad50270566e5f"
+      }
+    },
+    {
+      "name": "S15a-r1 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S15a-r1 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1229,
+        "y": 772,
+        "width": 2024,
+        "height": 2000
+      }
+    },
+    {
+      "name": "S15a-r1 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:30:04.949Z",
+        "url": "https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/reading-help-release-2026-09-27.md"
+      }
+    },
+    {
+      "name": "S15b-r1 raw/S15b-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 1846787,
+        "sha256": "84861b636aa0d556cd198a321d4b9a2b298bd187b2bbe8cda0c14daf0134f821"
+      }
+    },
+    {
+      "name": "S15b-r1 slide-ready/S15b-r1.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 460814,
+        "sha256": "bd982b931c6641f9be0baf2f96109a89eaf011797d9c58d34b375cec5717c6e6"
+      }
+    },
+    {
+      "name": "S15b-r1 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S15b-r1 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 1229,
+        "y": 1950,
+        "width": 2024,
+        "height": 2300
+      }
+    },
+    {
+      "name": "S15b-r1 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:30:05.504Z",
+        "url": "https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/reading-help-release-2026-09-27.md"
+      }
+    },
+    {
+      "name": "S16 technical retry bound",
+      "passed": true,
+      "detail": {
+        "limit": 1
+      }
+    },
+    {
+      "name": "S16 blocked has no placeholder",
+      "passed": true,
+      "detail": {
+        "frames": 1
+      }
+    },
+    {
+      "name": "S16 raw/S16.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 2499473,
+        "sha256": "822b544b4ca10a10cd350cb49a43e19c33f6e204aded925a4ce23cc6db3c7269"
+      }
+    },
+    {
+      "name": "S16 slide-ready/S16.png SHA-256",
+      "passed": true,
+      "detail": {
+        "bytes": 309581,
+        "sha256": "1b9b1ade4cd97af92a128180618644639029ae34e9c384bda6278b359311daca"
+      }
+    },
+    {
+      "name": "S16 16:9 output",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "name": "S16 real non-empty in-bounds crop",
+      "passed": true,
+      "detail": {
+        "x": 16,
+        "y": 156,
+        "width": 3808,
+        "height": 2120
+      }
+    },
+    {
+      "name": "S16 timestamp/URL supplied",
+      "passed": true,
+      "detail": {
+        "captured_at": "2026-09-28T22:26:06.846Z",
+        "url": "https://chris-page-gov.github.io/okf-dwp/docs/learning-path.html"
+      }
+    },
+    {
+      "name": "supplied input 00-paste-into-codex.txt unchanged",
+      "passed": true,
+      "detail": "bebf609daa375d979ae44121599d56eb7f54848b36015ea31b5b6c12813bf63d"
+    },
+    {
+      "name": "original input 00-paste-into-codex.txt preserved",
+      "passed": true,
+      "detail": "bebf609daa375d979ae44121599d56eb7f54848b36015ea31b5b6c12813bf63d"
+    },
+    {
+      "name": "supplied input 01-codex-screenshot-instructions.md unchanged",
+      "passed": true,
+      "detail": "47713618842d8442ca485c1d78fa4b930f9cf366a957f2366adfe454e4f4ab0e"
+    },
+    {
+      "name": "original input 01-codex-screenshot-instructions.md preserved",
+      "passed": true,
+      "detail": "47713618842d8442ca485c1d78fa4b930f9cf366a957f2366adfe454e4f4ab0e"
+    },
+    {
+      "name": "supplied input 02-shot-list.json unchanged",
+      "passed": true,
+      "detail": "7abf6dd0750060c4185f780392e229f2491df566a22e7768bbce05fcd84f651f"
+    },
+    {
+      "name": "original input 02-shot-list.json preserved",
+      "passed": true,
+      "detail": "7abf6dd0750060c4185f780392e229f2491df566a22e7768bbce05fcd84f651f"
+    },
+    {
+      "name": "supplied input 03-presentation-fit-and-source-notes.md unchanged",
+      "passed": true,
+      "detail": "32b2e84e8838f43fdc1bcc9c98f9cbfeef3bce8180e38594dc2642ef0ca05a59"
+    },
+    {
+      "name": "original input 03-presentation-fit-and-source-notes.md preserved",
+      "passed": true,
+      "detail": "32b2e84e8838f43fdc1bcc9c98f9cbfeef3bce8180e38594dc2642ef0ca05a59"
+    },
+    {
+      "name": "supplied input README.md unchanged",
+      "passed": true,
+      "detail": "bfa78977c1e892a909a63ee8e065099b679c0d83c79ff1de306834bc1c4f60bc"
+    },
+    {
+      "name": "original input README.md preserved",
+      "passed": true,
+      "detail": "bfa78977c1e892a909a63ee8e065099b679c0d83c79ff1de306834bc1c4f60bc"
+    },
+    {
+      "name": "supplied input presentation-structure.md unchanged",
+      "passed": true,
+      "detail": "f3d24d52f5bfb67a46c4dcc2302ba2e6404f02369926fdc51a1741d0b4aedbfd"
+    },
+    {
+      "name": "original input presentation-structure.md preserved",
+      "passed": true,
+      "detail": "f3d24d52f5bfb67a46c4dcc2302ba2e6404f02369926fdc51a1741d0b4aedbfd"
+    },
+    {
+      "name": "fresh question exact",
+      "passed": true,
+      "detail": "Can Pension Credit treat capital as still held after someone has got rid of it, and are there exceptions?"
+    },
+    {
+      "name": "fresh budget exact",
+      "passed": true,
+      "detail": {
+        "max_nodes": 64,
+        "max_relationships": 128,
+        "max_depth": 6,
+        "max_bytes": 524288,
+        "used_nodes": 44,
+        "used_relationships": 68,
+        "used_bytes": 522995,
+        "reached_depth": 3,
+        "truncated": true,
+        "omissions": [
+          {
+            "code": "retrieval_candidate_budget",
+            "message": "Only the highest-ranked source-bound units fit the fixed lexical candidate limit.",
+            "ids": []
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "relationships/0b.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "relationships/4c.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "relationships/50.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "relationships/9b.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0115.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "relationships/e0.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "relationships/aa.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "evidence-connect/relationships/b4.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "relationships/fd.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0114.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "discovery/0114.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0312.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "discovery/0312.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0414.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "discovery/0414.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0196.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "discovery/0196.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0033.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "discovery/0033.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0032.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "discovery/0032.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0195.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "discovery/0195.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0314.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "discovery/0314.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0416.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "discovery/0416.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0398.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "discovery/0398.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0037.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "discovery/0037.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0239.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "discovery/0239.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0375.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "discovery/0375.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "records/0307.json.gz"
+            ]
+          },
+          {
+            "code": "retrieval_resource_budget",
+            "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+            "ids": [
+              "discovery/0307.json.gz"
+            ]
+          },
+          {
+            "code": "relationship_byte_budget",
+            "message": "An assertion outside the retained paths was omitted whole to preserve source evidence within the byte budget. Its exact incident metadata remains source-bound.",
+            "ids": [
+              "https://chris-page-gov.github.io/okf-dwp/id/assertion/source-reference/b00b68920502572bdbf9f9f993d72c67e8645eb62df4f1daa635b271f2cd6e5b",
+              "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077001-16a64dc4da2d",
+              "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol1-ch4/v1-edb8bd0e46e5d94b/spc-supersession-04642-ff882bce33d6"
+            ]
+          },
+          {
+            "code": "relationship_byte_budget",
+            "message": "An assertion outside the retained paths was omitted whole to preserve source evidence within the byte budget. Its exact incident metadata remains source-bound.",
+            "ids": [
+              "https://chris-page-gov.github.io/okf-dwp/id/assertion/logical-unit/b42f1cb24d6bbc36dacf59939646976f93b61ce88b187f0a904c2d68ca083986",
+              "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077001-16a64dc4da2d",
+              "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol1-ch4/v1-edb8bd0e46e5d94b/spc-supersession-04642-ff882bce33d6"
+            ]
+          },
+          {
+            "code": "byte_budget",
+            "message": "A whole item was omitted to meet the package byte budget.",
+            "ids": [
+              "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-qyp-077008-014-870ddab241ae",
+              "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch85/manual-structure-v1/source-0000036852-000-422a97253cf5"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "fresh result preserves insufficient/truncated",
+      "passed": true,
+      "detail": {
+        "status": "insufficient",
+        "truncated": true
+      }
+    },
+    {
+      "name": "technical screenshot retry preserved assembly bytes",
+      "passed": true,
+      "detail": "b802ae0c742190ab5e058083e67c7211662644bd0d019b8d20fcdd0746ec07b7"
+    },
+    {
+      "name": "observed selected U07 to DMG 84861 direct link",
+      "passed": true,
+      "detail": {
+        "assertion_status": "model-derived",
+        "authority": {
+          "class": "model-assisted",
+          "label": "Unreviewed source navigation proposal",
+          "source": "https://github.com/chris-page-gov/okf-dwp/blob/main/domain-profile/evidence-connect/profile.json"
+        },
+        "id": "https://chris-page-gov.github.io/okf-dwp/id/assertion/evidence-connect/6ae33fbe71c85090116e97ba5ae02c0ef987720a683a1fc49d8f03d7122441b9",
+        "label": "Captured source entry: DMG 84861 et seq",
+        "predicate": "http://purl.org/dc/terms/references",
+        "provenance": [
+          {
+            "captured_at": "2026-09-15T14:21:02Z",
+            "literal_sha256": "74f363f1c2a2af1f32b905619d6689d30a21ac98da9058c21fe0952df2c8b3ec",
+            "locator": "PDF page 110",
+            "source_sha256": "f5c610b29bdb81e11736409b7f33ccf7917a4d8945f2821802801073e0d753ee",
+            "url": "https://assets.publishing.service.gov.uk/media/6a5e38bb8b7e4fa537e693d5/dmg-ch84.pdf#page=110"
+          }
+        ],
+        "scope": "Navigation to captured source only; legal effect and applicability unreviewed.",
+        "source": "https://chris-page-gov.github.io/okf-dwp/id/unit/zz-evidence-connect/pc-capital-u07",
+        "target": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000200424-000-606242ace072"
+      }
+    },
+    {
+      "name": "saved staff-001 local bytes match bound manifest",
+      "passed": true,
+      "detail": "a7e6c65038ffe2a1d75346ad048e529a0ecf00b3a8f9b6bbae8c560107c635b7"
+    },
+    {
+      "name": "saved staff-002 local bytes match bound manifest",
+      "passed": true,
+      "detail": "9479c0cab5d4ff5779e8af6c89cbe04bf13776e2361150e92068bac775ad154c"
+    },
+    {
+      "name": "saved staff-003 local bytes match bound manifest",
+      "passed": true,
+      "detail": "36695c6da14d96f9334e17b2ab89cdea0040b6194c1d794f26010c13ff85b834"
+    },
+    {
+      "name": "saved staff-004 local bytes match bound manifest",
+      "passed": true,
+      "detail": "20fb7948157cd7363dabb01ae0b825f5562dd57a0827d29b864a079ed63acbae"
+    },
+    {
+      "name": "saved staff-005 local bytes match bound manifest",
+      "passed": true,
+      "detail": "9f688a284db5cc071a727c1a50bdb9f469eaf8989edf0a241c954a4edfbf24ae"
+    },
+    {
+      "name": "saved staff-006 local bytes match bound manifest",
+      "passed": true,
+      "detail": "09c3fd4636fa7ef5e31f426b62bad6686c68b2f220371af45c950fc504da29cd"
+    },
+    {
+      "name": "saved staff-007 local bytes match bound manifest",
+      "passed": true,
+      "detail": "cd286dd7ebf0e6caf3bb151ae19552dc46d5d25c5bb2305c5a9cdfc07a0056cd"
+    },
+    {
+      "name": "saved staff-008 local bytes match bound manifest",
+      "passed": true,
+      "detail": "e63226c47839cc2edfc500d2f45582a43ead0fb48d53ba32c5b718cc107fa797"
+    },
+    {
+      "name": "saved staff-009 local bytes match bound manifest",
+      "passed": true,
+      "detail": "14c3b5d7f76e579dbf6c0d10517e98a1ac2536b12684a42738626aa40659eacd"
+    },
+    {
+      "name": "saved staff-010 local bytes match bound manifest",
+      "passed": true,
+      "detail": "310529c5524c9c2d66d918f1875cfcdc530d4e967cbfc74434d703a390dc81fc"
+    },
+    {
+      "name": "saved staff-011 local bytes match bound manifest",
+      "passed": true,
+      "detail": "6b2897b64958bf5ac3b1e2ac6661136e397977dee797f518efe145b18f266a38"
+    },
+    {
+      "name": "saved staff-012 local bytes match bound manifest",
+      "passed": true,
+      "detail": "ec9a19b3291e1f2386efda8e4d5f540eed9dc178cc8b827ab697c3451ffd8f6a"
+    },
+    {
+      "name": "saved staff-013 local bytes match bound manifest",
+      "passed": true,
+      "detail": "f73aa7cd4a1536daf47843f475e048263ed7f1c5a8b5967c0b6db91cbac059a2"
+    },
+    {
+      "name": "saved staff-014 local bytes match bound manifest",
+      "passed": true,
+      "detail": "756574018453d2cd485108422978029b2db616daf56e26d8a157fc8bdf823c26"
+    },
+    {
+      "name": "saved staff-015 local bytes match bound manifest",
+      "passed": true,
+      "detail": "489aaafc1847e571265481b1d145bbaec51a00a3d265cc2b231ae1339273b68a"
+    },
+    {
+      "name": "saved staff-016 local bytes match bound manifest",
+      "passed": true,
+      "detail": "fc97c431b38381a6cee896dd8d1a8ef25b2b9b32f47da9318ce962231d3bac2e"
+    },
+    {
+      "name": "saved staff-017 local bytes match bound manifest",
+      "passed": true,
+      "detail": "00ae02920e50f08d6301a9ec9e268e834f4f9403acfe59d2456be40f55f7a098"
+    },
+    {
+      "name": "saved staff-018 local bytes match bound manifest",
+      "passed": true,
+      "detail": "597e326539f5f39b6b1cc02e83424613bc596470e84d0848411230b1cfd5d3b5"
+    },
+    {
+      "name": "saved staff-019 local bytes match bound manifest",
+      "passed": true,
+      "detail": "57449d5c3e52c03323435e17edced88c608f3669c02f0d036ea3a5e6925eb25d"
+    },
+    {
+      "name": "saved staff-020 local bytes match bound manifest",
+      "passed": true,
+      "detail": "78f0d58ca151be6436d365ae05ea4710f1ca2bc32f64cb044d2973b0a368ad76"
+    },
+    {
+      "name": "saved staff-021 local bytes match bound manifest",
+      "passed": true,
+      "detail": "671a82f710d242171708d82d62c062e3ae3e5e4ae42d5ba8ef888a7298aa1cac"
+    },
+    {
+      "name": "saved staff-022 local bytes match bound manifest",
+      "passed": true,
+      "detail": "849c922d7b795e213e76c4afc7fdd7030b164bf24b1d38adf4ac17c6aeb65a97"
+    },
+    {
+      "name": "saved staff-023 local bytes match bound manifest",
+      "passed": true,
+      "detail": "3a5654530e7670bed846cb6d9ae4bed33bff02eed07c1e8f24c2577a0e0f20c6"
+    },
+    {
+      "name": "saved staff-024 local bytes match bound manifest",
+      "passed": true,
+      "detail": "273f2d4ca5d58cf085daf1f5fa40440093214af45b2990f2e6f3bf13697bbf86"
+    },
+    {
+      "name": "saved staff-025 local bytes match bound manifest",
+      "passed": true,
+      "detail": "683e30cbfa13c50698ca4f9f4dfe6c752df35ab4c506f500bceeb12992e75dcd"
+    },
+    {
+      "name": "saved staff-026 local bytes match bound manifest",
+      "passed": true,
+      "detail": "f7d11bff48828de0a25cc1f4d06078f77f72b8d65cc221fcca76ef72b24370e6"
+    },
+    {
+      "name": "saved staff-027 local bytes match bound manifest",
+      "passed": true,
+      "detail": "a001ee4c9a4487e85c1f6c8e149e546c74aef6b99f7c3b900ce3ee8df1ac72da"
+    },
+    {
+      "name": "saved staff-028 local bytes match bound manifest",
+      "passed": true,
+      "detail": "1420904baef544bd8db70e26fe0544dd3ece3ee0001d6bc344e23d93f9d55eff"
+    },
+    {
+      "name": "saved staff-029 local bytes match bound manifest",
+      "passed": true,
+      "detail": "3de6736649982eecd9e5e5ce3ff7f01e6b00ca9b3dc8f8bbddde1a8a9c7d85fa"
+    },
+    {
+      "name": "saved staff-030 local bytes match bound manifest",
+      "passed": true,
+      "detail": "b14091942f1ea0728e4ef97ca5108c1cd5770e59cf303563f3b561240e850bd0"
+    },
+    {
+      "name": "saved staff-031 local bytes match bound manifest",
+      "passed": true,
+      "detail": "f0c5c96d6c02b793c3152566b16269f72cb6184b5b76932520eab63c87c61ca0"
+    },
+    {
+      "name": "saved staff-032 local bytes match bound manifest",
+      "passed": true,
+      "detail": "f5765c1360cb585c2ea436d31102baa8c07cc5d53f97fb159dac826e1f5dc261"
+    },
+    {
+      "name": "saved staff-033 local bytes match bound manifest",
+      "passed": true,
+      "detail": "f7d11bff48828de0a25cc1f4d06078f77f72b8d65cc221fcca76ef72b24370e6"
+    },
+    {
+      "name": "saved staff-034 local bytes match bound manifest",
+      "passed": true,
+      "detail": "3c06b629dcfdb04252de92fc7b5aa54875df39660aa29681353d50f4ee948339"
+    },
+    {
+      "name": "saved staff-035 local bytes match bound manifest",
+      "passed": true,
+      "detail": "5f2b1092f883b7a2286cd1a529073c4718d8644417af32af96785b9d16cbb993"
+    },
+    {
+      "name": "saved staff-036 local bytes match bound manifest",
+      "passed": true,
+      "detail": "f842468964058a9935a37eadd48879735950a018c1a00b2fc1d7a9e2599e34b2"
+    },
+    {
+      "name": "saved staff-037 local bytes match bound manifest",
+      "passed": true,
+      "detail": "b8ad804378e1847aa22fd92f9781300a3234835dc1d21a921f9dbf94b660519e"
+    },
+    {
+      "name": "saved staff-038 local bytes match bound manifest",
+      "passed": true,
+      "detail": "aa043e4bdb78d9453723be4474abea62303165804cd2fdbccda863eb40183502"
+    },
+    {
+      "name": "saved staff-039 local bytes match bound manifest",
+      "passed": true,
+      "detail": "80e8af9cc56719802aa13085c13e8bab8f53706b1588e2ff5e3adff2a5ac4c91"
+    },
+    {
+      "name": "saved staff-040 local bytes match bound manifest",
+      "passed": true,
+      "detail": "9d6e9e4c0bae8a49cdc9b720b03f1f15b4102de872566953dc29ceaeebfc0886"
+    },
+    {
+      "name": "no preferred selected route in bound forty saved packages",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "/Users/crpage/repos/okf-dwp commit unchanged",
+      "passed": true,
+      "detail": "77ef16047415ee48dcb93b80adf1ba057ea00d9b"
+    },
+    {
+      "name": "/Users/crpage/repos/okf-dwp tracked work unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/Users/crpage/repos/okf-dwp status unchanged",
+      "passed": true,
+      "detail": "?? research/dwp-demo-codex-pack/"
+    },
+    {
+      "name": "/Users/crpage/repos/okf-dwp branch unchanged",
+      "passed": true,
+      "detail": "main"
+    },
+    {
+      "name": "/Users/crpage/repos/okf-explorer commit unchanged",
+      "passed": true,
+      "detail": "0326460034345c7b5227c530065b7f21cb4e3970"
+    },
+    {
+      "name": "/Users/crpage/repos/okf-explorer tracked work unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/Users/crpage/repos/okf-explorer status unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "/Users/crpage/repos/okf-explorer branch unchanged",
+      "passed": true,
+      "detail": "main"
+    },
+    {
+      "name": "all 16 specifications have actual outcomes",
+      "passed": true,
+      "detail": [
+        {
+          "id": "S01",
+          "status": "captured"
+        },
+        {
+          "id": "S02",
+          "status": "captured"
+        },
+        {
+          "id": "S03",
+          "status": "captured"
+        },
+        {
+          "id": "S04",
+          "status": "captured"
+        },
+        {
+          "id": "S05",
+          "status": "captured"
+        },
+        {
+          "id": "S06",
+          "status": "captured"
+        },
+        {
+          "id": "S07",
+          "status": "captured"
+        },
+        {
+          "id": "S08",
+          "status": "fallback"
+        },
+        {
+          "id": "S09",
+          "status": "fallback"
+        },
+        {
+          "id": "S10",
+          "status": "captured"
+        },
+        {
+          "id": "S11",
+          "status": "captured"
+        },
+        {
+          "id": "S12",
+          "status": "blocked"
+        },
+        {
+          "id": "S13",
+          "status": "captured"
+        },
+        {
+          "id": "S14",
+          "status": "fallback"
+        },
+        {
+          "id": "S15",
+          "status": "captured"
+        },
+        {
+          "id": "S16",
+          "status": "captured"
+        }
+      ]
+    },
+    {
+      "name": "S01-p3 inherited raw unchanged",
+      "passed": true,
+      "detail": "fc6fa8017e8fda02db464002d03418f1d93e1a377e8a847f4cca955c3a3c90af"
+    },
+    {
+      "name": "S01-p3 inherited derivative unchanged",
+      "passed": true,
+      "detail": "fb9ed6645b6bc67fce95d6c170afcadb2777060f79b4a8e8e1abdb6182fea510"
+    },
+    {
+      "name": "S01-p4 inherited raw unchanged",
+      "passed": true,
+      "detail": "a33f7d83d5f013d26f18e3597ce99b7eecb9d807c69be5ce6b7fc50d370eeb05"
+    },
+    {
+      "name": "S01-p4 inherited derivative unchanged",
+      "passed": true,
+      "detail": "7d3d596cfb5e9abe11c6e54cb90609d140af3901bbb50dd0dc05c44d5162d2fb"
+    },
+    {
+      "name": "S01-conditions inherited raw unchanged",
+      "passed": true,
+      "detail": "fc6fa8017e8fda02db464002d03418f1d93e1a377e8a847f4cca955c3a3c90af"
+    },
+    {
+      "name": "S01-conditions inherited derivative unchanged",
+      "passed": true,
+      "detail": "1ff167a0ea9d0b5fcea3a57313f9a220adde3d6228d5ec7097c338aacf2ca603"
+    },
+    {
+      "name": "S01-notes inherited raw unchanged",
+      "passed": true,
+      "detail": "a33f7d83d5f013d26f18e3597ce99b7eecb9d807c69be5ce6b7fc50d370eeb05"
+    },
+    {
+      "name": "S01-notes inherited derivative unchanged",
+      "passed": true,
+      "detail": "76ba3d6a2818790e2ef081c46cbe73d10d38b48c5f55dabcc3674274b76cf2b4"
+    },
+    {
+      "name": "S02 inherited raw unchanged",
+      "passed": true,
+      "detail": "fc961957123dac7eee684f029cbbb2e02f95a62a6458ce6b3a9fb84fcb134eb5"
+    },
+    {
+      "name": "S02 inherited derivative unchanged",
+      "passed": true,
+      "detail": "26796f9a8e2fb1448281b16c86b6d7679a3d51f87fa05218a1f022b89846a6b5"
+    },
+    {
+      "name": "S02-occurrence inherited raw unchanged",
+      "passed": true,
+      "detail": "fc961957123dac7eee684f029cbbb2e02f95a62a6458ce6b3a9fb84fcb134eb5"
+    },
+    {
+      "name": "S02-occurrence inherited derivative unchanged",
+      "passed": true,
+      "detail": "79e8352710c44797aff2ab4b2faf05c2f8415349ba0422ddf4a568d79a84ab88"
+    },
+    {
+      "name": "S02-help inherited raw unchanged",
+      "passed": true,
+      "detail": "fc961957123dac7eee684f029cbbb2e02f95a62a6458ce6b3a9fb84fcb134eb5"
+    },
+    {
+      "name": "S02-help inherited derivative unchanged",
+      "passed": true,
+      "detail": "48376d0fc5379884505462cfaf5f355ef1111854692eceb126bb1ffe1be157b5"
+    },
+    {
+      "name": "S03-r1 inherited raw unchanged",
+      "passed": true,
+      "detail": "752c3435186be58c54ef1bd80ea7a2ae5beca74cb05c96e4a1e854274aeacd75"
+    },
+    {
+      "name": "S03-r1 inherited derivative unchanged",
+      "passed": true,
+      "detail": "02d10776035f94c4319228a59f0f5898bddc52c902794ab509f0b8a2529cc2d9"
+    },
+    {
+      "name": "S03-paired-reference inherited raw unchanged",
+      "passed": true,
+      "detail": "752c3435186be58c54ef1bd80ea7a2ae5beca74cb05c96e4a1e854274aeacd75"
+    },
+    {
+      "name": "S03-paired-reference inherited derivative unchanged",
+      "passed": true,
+      "detail": "e7c5cd85f47fb70c2dcd3b30d4f4b3f3ee132a8ea1f68a1b265d9fa4d842a625"
+    },
+    {
+      "name": "S03-reference-card inherited raw unchanged",
+      "passed": true,
+      "detail": "752c3435186be58c54ef1bd80ea7a2ae5beca74cb05c96e4a1e854274aeacd75"
+    },
+    {
+      "name": "S03-reference-card inherited derivative unchanged",
+      "passed": true,
+      "detail": "6b29887653b57f2c79c77a3160e92936a132914e06c34f8ae956b372c175855b"
+    },
+    {
+      "name": "S04 inherited raw unchanged",
+      "passed": true,
+      "detail": "1eb23d92d5fdaaedfea8ce5c241846d962a93982ee80528c598e92889718bd32"
+    },
+    {
+      "name": "S04 inherited derivative unchanged",
+      "passed": true,
+      "detail": "62c35af790c65801739330f12dd5c7cbff18f7611e13cd48b854c0101db3266e"
+    },
+    {
+      "name": "S05a inherited raw unchanged",
+      "passed": true,
+      "detail": "8992a5a6dcdb1856995fbbec4cdcddce600d2845cfea9e0caa84bd4a9cf29ed8"
+    },
+    {
+      "name": "S05a inherited derivative unchanged",
+      "passed": true,
+      "detail": "1f040d3c7a47c51801f7de2f2eeb126b67e626574d669aa22ecd7220256ee165"
+    },
+    {
+      "name": "S05b inherited raw unchanged",
+      "passed": true,
+      "detail": "45611f9876c3e53d519b75046536b82b510239036975f1aefc9facd95b1fea52"
+    },
+    {
+      "name": "S05b inherited derivative unchanged",
+      "passed": true,
+      "detail": "66214eb63fd50a2e7ed61821a6ace4b5922818d72b406fce82e8838b025e6cf5"
+    },
+    {
+      "name": "S05-question inherited raw unchanged",
+      "passed": true,
+      "detail": "354c8ab8644d6c7e7def668e6084d79c37b3005f47383bea5172e8e2aeba8523"
+    },
+    {
+      "name": "S05-question inherited derivative unchanged",
+      "passed": true,
+      "detail": "6af496d4915b97499634264f51af5f2483887519282c3013203144ef91e2b5ed"
+    },
+    {
+      "name": "S06-p36 inherited raw unchanged",
+      "passed": true,
+      "detail": "c2cba838473a83ad6c24de3821c5fe7bbda576a36b9d71ff8c9d05bfcd282ad2"
+    },
+    {
+      "name": "S06-p36 inherited derivative unchanged",
+      "passed": true,
+      "detail": "e9a2ebe8ec13d1ce0e1eb12572af9dc424a75c8e8227f71ed89eceec9e0e408c"
+    },
+    {
+      "name": "S06-p37 inherited raw unchanged",
+      "passed": true,
+      "detail": "330a093166859162220196918257f3fab187c39992fbc12692edd52539d7081d"
+    },
+    {
+      "name": "S06-p37 inherited derivative unchanged",
+      "passed": true,
+      "detail": "f3f9964cd2541c4b083643278c147b8c36ed8125bd9a2598d21450e4a68b360e"
+    },
+    {
+      "name": "S06-p34 inherited raw unchanged",
+      "passed": true,
+      "detail": "074ef150e90484bb28ecb721f967945e5e826a2f06e1cfa64389adab7bb5cb0b"
+    },
+    {
+      "name": "S06-p34 inherited derivative unchanged",
+      "passed": true,
+      "detail": "2186d6935ef288a312aa01abae99782463e9e73028bd25dd36c9ffd751fb9231"
+    },
+    {
+      "name": "S06-A4361 inherited raw unchanged",
+      "passed": true,
+      "detail": "c2cba838473a83ad6c24de3821c5fe7bbda576a36b9d71ff8c9d05bfcd282ad2"
+    },
+    {
+      "name": "S06-A4361 inherited derivative unchanged",
+      "passed": true,
+      "detail": "248945c27c5e3da47238c919a332c356cbfbc789d5859dc57ce432c4b1148c19"
+    },
+    {
+      "name": "S06-A4352 inherited raw unchanged",
+      "passed": true,
+      "detail": "074ef150e90484bb28ecb721f967945e5e826a2f06e1cfa64389adab7bb5cb0b"
+    },
+    {
+      "name": "S06-A4352 inherited derivative unchanged",
+      "passed": true,
+      "detail": "c802b341e034d302543936a55b44e2d74c0e4ab76ac449b5fc8736d38ad4cbff"
+    },
+    {
+      "name": "S07a-r1 inherited raw unchanged",
+      "passed": true,
+      "detail": "927634838824911b5b41c5f46d00baea8e528dcbcd21ba7f06c64791431b06bc"
+    },
+    {
+      "name": "S07a-r1 inherited derivative unchanged",
+      "passed": true,
+      "detail": "a3e484b29d819a7d52904e3b2269ecc29ba2b3b1e991665d8a79653a20eccf99"
+    },
+    {
+      "name": "S07b-r1 inherited raw unchanged",
+      "passed": true,
+      "detail": "d14f2ee56df649203a17404bb3f2feb6da3ccb97e18d3f071cd1756f91c248ee"
+    },
+    {
+      "name": "S07b-r1 inherited derivative unchanged",
+      "passed": true,
+      "detail": "603593b6574fe3e23a888f219c64f56b48d228790063b330ba6813a744edf416"
+    },
+    {
+      "name": "S07c-r1 inherited raw unchanged",
+      "passed": true,
+      "detail": "1d4e01f6c7a324a3d813aef9e164d2d4a9682d1e6415e66e0d026d80bdacdf9d"
+    },
+    {
+      "name": "S07c-r1 inherited derivative unchanged",
+      "passed": true,
+      "detail": "87a90a89025fd3a181e5a6d693cf5e0b2a5b5296e43e86dcee32370c5885f88f"
+    },
+    {
+      "name": "S08a inherited raw unchanged",
+      "passed": true,
+      "detail": "6144bd9ddcb88b1eafd085f169a6a4eaa84179eeceddf86fbb663335bf400747"
+    },
+    {
+      "name": "S08a inherited derivative unchanged",
+      "passed": true,
+      "detail": "06e70831aea96a3adc0ce6c70b2196a44097c8558b1cb7239f9539f14b8c36c5"
+    },
+    {
+      "name": "S08b inherited raw unchanged",
+      "passed": true,
+      "detail": "95c556c7768d099990213786fb6b78fac7628ffce3da3a7ec99ba0c5a672a5c8"
+    },
+    {
+      "name": "S08b inherited derivative unchanged",
+      "passed": true,
+      "detail": "c116b1db321f182876df5137a3c67b1c318149471ea7670daa40d029ab49d82c"
+    },
+    {
+      "name": "S09a inherited raw unchanged",
+      "passed": true,
+      "detail": "d1ae31e1121b361307e06b2cb29fab64f5ee52fdbec4c56feca7a3ef60ea7c71"
+    },
+    {
+      "name": "S09a inherited derivative unchanged",
+      "passed": true,
+      "detail": "40b9fc30126f55fa916e9f3ab87b5e614c6cd872dca153735f23a8e671e980f1"
+    },
+    {
+      "name": "S09b inherited raw unchanged",
+      "passed": true,
+      "detail": "f99983a9ff806a190546b05f2e52fd66022e940543be77e07fcc5e58c522adc9"
+    },
+    {
+      "name": "S09b inherited derivative unchanged",
+      "passed": true,
+      "detail": "0a306a27af09a724a5f3a13cea928022cf467c4e2f0ccb66d86195cd6aaa8911"
+    },
+    {
+      "name": "S09-connection inherited raw unchanged",
+      "passed": true,
+      "detail": "d1ae31e1121b361307e06b2cb29fab64f5ee52fdbec4c56feca7a3ef60ea7c71"
+    },
+    {
+      "name": "S09-connection inherited derivative unchanged",
+      "passed": true,
+      "detail": "f136bd92902b449dc5aa877f191d6452d8768574fb3e407d19848e97a7a60b97"
+    },
+    {
+      "name": "S09-requirement inherited raw unchanged",
+      "passed": true,
+      "detail": "f99983a9ff806a190546b05f2e52fd66022e940543be77e07fcc5e58c522adc9"
+    },
+    {
+      "name": "S09-requirement inherited derivative unchanged",
+      "passed": true,
+      "detail": "cd4da3659456aff50ab9fcd519e6a199bb7de34ca411d8cba9e15d5efb3d5b35"
+    },
+    {
+      "name": "S10 inherited raw unchanged",
+      "passed": true,
+      "detail": "179ae352bfc23a1c7e7c8c5b856187605cae1ec86959b3a6bc7bedd98a436e59"
+    },
+    {
+      "name": "S10 inherited derivative unchanged",
+      "passed": true,
+      "detail": "c04acb9029481880a34b813630bba7aae47bf3e5faf14db545ef0ee0812c1adf"
+    },
+    {
+      "name": "S10-stages inherited raw unchanged",
+      "passed": true,
+      "detail": "179ae352bfc23a1c7e7c8c5b856187605cae1ec86959b3a6bc7bedd98a436e59"
+    },
+    {
+      "name": "S10-stages inherited derivative unchanged",
+      "passed": true,
+      "detail": "53e577b4eeeb0c93b152cae19f6e32601ca219d729609a76637899fe0208378d"
+    },
+    {
+      "name": "S11 inherited raw unchanged",
+      "passed": true,
+      "detail": "bcddb784e40e57297fa412c9ffaef0bbdf4b919c0c35906b42ab1f85554b59c3"
+    },
+    {
+      "name": "S11 inherited derivative unchanged",
+      "passed": true,
+      "detail": "64f8e80b1b12c33f372ec84b2adbbbfd70ab7c8902c247ac52c48d667d8580ec"
+    },
+    {
+      "name": "S11-directions inherited raw unchanged",
+      "passed": true,
+      "detail": "bcddb784e40e57297fa412c9ffaef0bbdf4b919c0c35906b42ab1f85554b59c3"
+    },
+    {
+      "name": "S11-directions inherited derivative unchanged",
+      "passed": true,
+      "detail": "87551928df844b42315e0bf2ac6fa0c7f3f67a2d9899c71357202dd61c3ff290"
+    },
+    {
+      "name": "S13-r1 inherited raw unchanged",
+      "passed": true,
+      "detail": "48eb00225865b7c8726dfdec26b29dce2dc0b193b136c3ec97c17f0361729cd8"
+    },
+    {
+      "name": "S13-r1 inherited derivative unchanged",
+      "passed": true,
+      "detail": "a4e69bb75c92c6bcb31d47edf6a5feedce6a87368a3cade601bb43f17b6dc5be"
+    },
+    {
+      "name": "S14-report inherited raw unchanged",
+      "passed": true,
+      "detail": "a8d941b61752e020496fa5c22f6546afb1e7ba7541250934a36ad8e6f10bc833"
+    },
+    {
+      "name": "S14-report inherited derivative unchanged",
+      "passed": true,
+      "detail": "5e6b49703c93fdae8e3ae3e50f3f2f2caef83ed3a5d4dc7c840a3f698d1491b1"
+    },
+    {
+      "name": "S15a-r1 inherited raw unchanged",
+      "passed": true,
+      "detail": "9363036db252e7910e8b02cb86cfb309b0370694ff6ead8a5525393ec765beb8"
+    },
+    {
+      "name": "S15a-r1 inherited derivative unchanged",
+      "passed": true,
+      "detail": "7545ac2d5c4a9943e2a11d0aac010ef1100abcef039b48d4008ad50270566e5f"
+    },
+    {
+      "name": "S15b-r1 inherited raw unchanged",
+      "passed": true,
+      "detail": "84861b636aa0d556cd198a321d4b9a2b298bd187b2bbe8cda0c14daf0134f821"
+    },
+    {
+      "name": "S15b-r1 inherited derivative unchanged",
+      "passed": true,
+      "detail": "bd982b931c6641f9be0baf2f96109a89eaf011797d9c58d34b375cec5717c6e6"
+    },
+    {
+      "name": "S16 inherited raw unchanged",
+      "passed": true,
+      "detail": "822b544b4ca10a10cd350cb49a43e19c33f6e204aded925a4ce23cc6db3c7269"
+    },
+    {
+      "name": "S16 inherited derivative unchanged",
+      "passed": true,
+      "detail": "1b9b1ade4cd97af92a128180618644639029ae34e9c384bda6278b359311daca"
+    },
+    {
+      "name": "original ZIP preserved",
+      "passed": true,
+      "detail": "1a06a057fd7f8746f6683792d5852cdf811804ed1e404ffdcef05979096d6235"
+    },
+    {
+      "name": "original S12 receipt preserved",
+      "passed": true,
+      "detail": "byte-identical original receipt"
+    },
+    {
+      "name": "reported snapshot matches retained manifest",
+      "passed": true,
+      "detail": "sha256:294c665de0060769fe05c8e4774d864c540f9b24678791771ee9ed5054b3a65f"
+    },
+    {
+      "name": "sidebar permission exact origin only",
+      "passed": true,
+      "detail": {
+        "origin": "https://chris-page-gov.github.io",
+        "owner_explicitly_authorised": true,
+        "owner_confirmation": "I authorise the permission change",
+        "scope": "Capture-controller access to the one public origin only; no profile, extension setting or other permission changes.",
+        "receipt": "receipts/S12-permission-exception.json",
+        "persistence": "not independently established"
+      }
+    },
+    {
+      "name": "sidebar attempts within expanded ceiling",
+      "passed": true,
+      "detail": {
+        "attempts": 6,
+        "ceiling": 10
+      }
+    },
+    {
+      "name": "sidebar outcome not misrepresented",
+      "passed": true,
+      "detail": {
+        "status": "blocked",
+        "transition": {
+          "requested": {
+            "case_id": "staff-039",
+            "view": "interactions"
+          },
+          "before": {
+            "case_id": "staff-016",
+            "view": "requirements"
+          },
+          "after": {
+            "case_id": "staff-016",
+            "view": "requirements"
+          },
+          "verified": false,
+          "same_public_tab": "849758829",
+          "reason": "Both completed sidebar responses report developer-connection attachment failure; the native window still contains staff-016 Requirements. No manual case/view click was used to simulate the transition."
+        }
+      }
+    },
+    {
+      "name": "sidebar native masters privacy-redacted",
+      "passed": true,
+      "detail": [
+        "raw/S12-before-top-privacy-redacted.png",
+        "raw/S12-before-qualifications-privacy-redacted.png",
+        "raw/S12-follow-up-1-failure-privacy-redacted.png",
+        "raw/S12-follow-up-2-failure-privacy-redacted.png",
+        "raw/S12-follow-up-2-failure-privacy-redacted.png"
+      ]
+    },
+    {
+      "name": "S12-before-top original outside pack",
+      "passed": true,
+      "detail": "b8815669ec4a9276d63c5ce93bec42d244c4091ae68d6ef624ed3018e3012be9"
+    },
+    {
+      "name": "S12-before-overview HTML contains only redacted pixels",
+      "passed": true,
+      "detail": "c76e3850aad414d60385fa119ce5ec1ac396922f7268afa0fe18e94fca6d797a"
+    },
+    {
+      "name": "S12-before-qualifications original outside pack",
+      "passed": true,
+      "detail": "7017d123f6055b8b1d829154109126a544eab8124c6c66309e51ee24586f777a"
+    },
+    {
+      "name": "S12-before-qualifications HTML contains only redacted pixels",
+      "passed": true,
+      "detail": "f1c13dcdf95f108e45d2b07ab859737cf4a013ef04d4fb57113e2e7c3084ce12"
+    },
+    {
+      "name": "S12-follow-up-1-failure original outside pack",
+      "passed": true,
+      "detail": "207933d6f9f1fc5d9e82e6824bbefa2ddd3434a04411a35183e67fc79a96c27b"
+    },
+    {
+      "name": "S12-failure-1 HTML contains only redacted pixels",
+      "passed": true,
+      "detail": "81bc7ea152422d938769cc50faf1b2f8fcfe83f0df113f63a1656e619d0b107a"
+    },
+    {
+      "name": "S12-follow-up-2-failure original outside pack",
+      "passed": true,
+      "detail": "442b0aa0ef59eb2ed4fb6df15d7b0f0c6f1d78850b961e4ccd48fdec4eb429f7"
+    },
+    {
+      "name": "S12-failure-overview HTML contains only redacted pixels",
+      "passed": true,
+      "detail": "add15d1112f18153826d8e771ef0868129e9e834fb4e44b5250c671f38cc0401"
+    },
+    {
+      "name": "S12-failure-2 HTML contains only redacted pixels",
+      "passed": true,
+      "detail": "add15d1112f18153826d8e771ef0868129e9e834fb4e44b5250c671f38cc0401"
+    }
+  ],
+  "passed": true
+}

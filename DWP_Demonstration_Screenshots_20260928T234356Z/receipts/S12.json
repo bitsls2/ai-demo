@@ -1,0 +1,646 @@
+{
+  "id": "S12",
+  "title": "The assistant changes an inspectable page view",
+  "priority": "main",
+  "presentation_act": "C — Inspecting and challenging the system",
+  "entry_key": "tools_workbench",
+  "entry_url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&tab=requirements",
+  "steps": [
+    "Use an already authorised compatible sidebar session; first show staff-016 Requirements.",
+    "Capture the whole browser window including the real assistant panel and page.",
+    "Run the bounded follow-up to show staff-039 Interactions and capture the after state.",
+    "Record actual tool route, schemas, snapshot IDs, revisions, result IDs and visible state changes."
+  ],
+  "must_be_visible": [
+    "real sidebar prompt and response",
+    "same visible workbench page",
+    "before staff-016 Requirements",
+    "after staff-039 Interactions",
+    "returned limitations"
+  ],
+  "permitted_claim": "A genuine browser-owned sidebar, the retained staff-016 Requirements view and two failed follow-ups were observed. The scoped approval cleared this capture controller's origin gate, not the separate sidebar attachment problem.",
+  "does_not_establish": "No verified Requirements-to-Interactions registered-tool transition. First-turn native-CDP invocation is reported retrospectively; raw historical tool calls and schemas were not captured. No dedicated WebMCP, universal client support, legal assurance or award calculation is established.",
+  "fallback": "Mark sidebar capture BLOCKED with its exact reason; provide manually navigated S10/S11 as UI-only fallbacks, never as proof of agent action.",
+  "repository_evidence": [
+    "docs/workbench-sidebar-demo.md",
+    "docs/workbench-model-inspection.md"
+  ],
+  "planned_frames": [
+    "S12a",
+    "S12b"
+  ],
+  "capture_status": "not-run",
+  "actual_url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcalculation&tab=requirements",
+  "actual_source_commit": null,
+  "actual_explorer_identity": null,
+  "captured_at": "2026-09-28T23:59:14.556Z",
+  "receipt_path": "receipts/S12.json",
+  "output_files": [],
+  "status": "blocked",
+  "classification": "real sidebar before/failure evidence; requested tool-led transition blocked",
+  "timezone": "Europe/London",
+  "dwp_checkout_commit": "77ef16047415ee48dcb93b80adf1ba057ea00d9b",
+  "explorer_identity": {
+    "url": "https://chris-page-gov.github.io/okf-explorer/okf-publication-identity.json",
+    "path": "receipts/explorer-public-identity.json",
+    "bytes": 1138,
+    "sha256": "d75aa3ad0e4fdcdd06db673f39d996ac346ad1646a629fdafcdfabd926d7e4bc",
+    "hash_verified": false,
+    "declared": {
+      "commit": "b633038c6173f1405199df9f08e8d8aa2ff51c0b",
+      "materials": [
+        {
+          "bytes": 33186,
+          "path": "okf.publication.json",
+          "sha256": "331c021c3a9104c26f00205d88fe42fae382908f2b38183e7649ad812b0fde0d"
+        },
+        {
+          "bytes": 33428,
+          "path": "okf-estate-registry.json",
+          "sha256": "fa9de8396731206a0005b0c4acf6de4e2403dce6cf94a267ed6203ad8936e742"
+        },
+        {
+          "bytes": 8937,
+          "path": "okf-registry.json",
+          "sha256": "27018c67a14af9a943a74ba65a174010fc6f0e2133c2e6871eb2b10f19602909"
+        },
+        {
+          "bytes": 29614,
+          "path": "registry/estate/index.html",
+          "sha256": "d020c468132daf155945fe80c5d6b40c2e72e7b7bc0c37cca7ec931a5d7677d4"
+        }
+      ],
+      "publication_boundary": "This identity is authoritative only when the Site candidate was assembled from a clean checkout of this commit and promoted without rebuild.",
+      "repository": {
+        "lifecycle": "active",
+        "name": "okf-explorer",
+        "role": "profile-and-consumer",
+        "root_index": "index.md",
+        "url": "https://github.com/chris-page-gov/okf-explorer"
+      },
+      "schema": "okf-publication-deployment-identity.v1"
+    }
+  },
+  "browser": {
+    "surface": "real Microsoft Edge whole window with browser-owned ChatGPT sidebar",
+    "profile": "existing managed work profile; private identity not reproduced",
+    "version": null,
+    "version_status": "running browser version not independently read",
+    "native_zoom_percent": 110,
+    "viewport_css": null,
+    "window_point_dimensions": null,
+    "pixel_dimensions": {
+      "width": 3024,
+      "height": 1898
+    },
+    "dimensions_status": "PNG dimensions measured; no headless CSS viewport or device-scale factor is attributed to native captures",
+    "observed_sidebar_model_label": "6 Sol Medium",
+    "model_label_note": "Visible product label only; internal model/version and cost unknown"
+  },
+  "actions": [
+    {
+      "action": "Retain parent blocked run and owner-supplied first-turn report separately"
+    },
+    {
+      "action": "Retry same public-tab binding only after explicit scoped permission approval",
+      "outcome": "public Requirements accessibility returned"
+    },
+    {
+      "action": "Save native before whole-window PNG",
+      "captured_at": "2026-09-28T23:50:06.943Z"
+    },
+    {
+      "action": "Manual presentation scroll only, without changing case or view",
+      "purpose": "bring Requirements authority and limitations into the captured window"
+    },
+    {
+      "action": "Save native before qualification PNG",
+      "captured_at": "2026-09-28T23:50:26.395Z"
+    },
+    {
+      "action": "Paste timeout; confirm empty input; recover through supported native setValue"
+    },
+    {
+      "action": "Submit exact Turn 2 once",
+      "submitted_at": "2026-09-28T23:51:19.301Z",
+      "outcome": "completed with attachment failure and no returned Interactions rows"
+    },
+    {
+      "action": "Save actual failed follow-up",
+      "captured_at": "2026-09-28T23:56:12.802Z"
+    },
+    {
+      "action": "One technical retry of exact same Turn 2, no question/budget/settings change",
+      "submitted_at": "2026-09-28T23:56:27.523Z",
+      "outcome": "same attachment failure"
+    },
+    {
+      "action": "Save actual repeated failure",
+      "captured_at": "2026-09-28T23:59:14.556Z"
+    },
+    {
+      "action": "Stop further repeats after persistent same failure; 10 is a ceiling, not a requirement to repeat unchanged attempts"
+    },
+    {
+      "action": "Offline opaque privacy redaction and uniform real-pixel derivatives; no live browser control through offline renderer"
+    }
+  ],
+  "assertions": [
+    {
+      "rendered_text": "real browser-owned ChatGPT panel",
+      "passed": true
+    },
+    {
+      "rendered_text": "staff-016 → Requirements before and after",
+      "passed": true
+    },
+    {
+      "rendered_text": "Requirements authority retained evidence projection; unknown dates; rows 1–3 of 6; insufficient",
+      "passed": true
+    },
+    {
+      "rendered_text": "both completed follow-up responses admit no verified page change or returned staff-039 rows",
+      "passed": true
+    },
+    {
+      "assertion": "requested registered-tool transition",
+      "passed": false,
+      "purpose": "shot acceptance failure, not a pack identity-verification failure"
+    }
+  ],
+  "errors": [
+    {
+      "kind": "parent-run-blockers-preserved",
+      "receipt": "receipts/S12-original-pack-receipt.json"
+    },
+    {
+      "kind": "resumption-origin-access-denied-before-approval",
+      "reason": "Original brief prohibited the new origin grant; repeated same operation only after explicit scoped approval."
+    },
+    {
+      "kind": "native-paste-timeout",
+      "reason": "Clipboard operation timed out. Empty input was verified; supported native setValue entered the exact prompt once."
+    },
+    {
+      "kind": "sidebar-developer-connection-detached",
+      "attempt": 1,
+      "reason": "Completed sidebar response: control stopped attaching, existing staff-039 read did not return, no verified page change."
+    },
+    {
+      "kind": "sidebar-developer-connection-detached",
+      "attempt": 2,
+      "reason": "Completed retry reports the same attachment failure. Page remains staff-016 Requirements; no returned staff-039 rows."
+    }
+  ],
+  "frames": [
+    {
+      "id": "S12-before-overview",
+      "label": "Real sidebar before state · staff-016 · transition not verified",
+      "caption": "Before overview: real page and sidebar. Insufficient evidence; first-turn tool use is reported, not a retained raw invocation.",
+      "source_label": "Native Edge whole-window capture; private browser chrome redacted.",
+      "actual_url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcalculation&tab=requirements",
+      "captured_at": "2026-09-28T23:50:06.943Z",
+      "css_width": 3024,
+      "css_width_note": "Pixel-coordinate reference only, not a claimed CSS viewport width.",
+      "raw": {
+        "path": "raw/S12-before-top-privacy-redacted.png",
+        "bytes": 3217168,
+        "sha256": "c76e3850aad414d60385fa119ce5ec1ac396922f7268afa0fe18e94fca6d797a",
+        "pixels": {
+          "width": 3024,
+          "height": 1898
+        }
+      },
+      "derivative": {
+        "path": "slide-ready/S12-before-overview.png",
+        "bytes": 736507,
+        "sha256": "4ecd33b72eb0a46018d1b7159d1ee96157a3ac6cdc63585a888593dc71cfa773",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "annotation_layer": "slide-ready/S12-before-overview.html",
+      "crop": {
+        "raw_pixels": {
+          "x": 0,
+          "y": 0,
+          "width": 3024,
+          "height": 1898
+        },
+        "fit_scale": 0.458377239199157,
+        "method": "Uniform scaling and letterboxing of real privacy-redacted pixels, separate caption strip."
+      }
+    },
+    {
+      "id": "S12-before-qualifications",
+      "label": "Before · Requirements authority and partial delivery",
+      "caption": "Actual Requirements and real sidebar: rows 1–3 of 6, dates unknown, retained projection, insufficient. Not legal assurance.",
+      "source_label": "Native Edge whole-window capture; private browser chrome redacted.",
+      "actual_url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcalculation&tab=requirements",
+      "captured_at": "2026-09-28T23:50:26.395Z",
+      "css_width": 3024,
+      "css_width_note": "Pixel-coordinate reference only, not a claimed CSS viewport width.",
+      "raw": {
+        "path": "raw/S12-before-qualifications-privacy-redacted.png",
+        "bytes": 1907595,
+        "sha256": "f1c13dcdf95f108e45d2b07ab859737cf4a013ef04d4fb57113e2e7c3084ce12",
+        "pixels": {
+          "width": 3024,
+          "height": 1898
+        }
+      },
+      "derivative": {
+        "path": "slide-ready/S12-before-qualifications.png",
+        "bytes": 577597,
+        "sha256": "0adc9479ecd685756d75818df1b7c3fc3a585863c482fe0b3a455ed5af36be82",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "annotation_layer": "slide-ready/S12-before-qualifications.html",
+      "crop": {
+        "raw_pixels": {
+          "x": 1428,
+          "y": 321,
+          "width": 1596,
+          "height": 1355
+        },
+        "fit_scale": 0.6420664206642066,
+        "method": "Uniform scaling and letterboxing of real privacy-redacted pixels, separate caption strip."
+      }
+    },
+    {
+      "id": "S12-failure-1",
+      "label": "First follow-up · real failure, no returned Interactions rows",
+      "caption": "The sidebar admits no verified page change. Actual failure evidence, not a placeholder or a completed tool-control demonstration.",
+      "source_label": "Native Edge whole-window capture; private browser chrome redacted.",
+      "actual_url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcalculation&tab=requirements",
+      "captured_at": "2026-09-28T23:56:12.802Z",
+      "css_width": 3024,
+      "css_width_note": "Pixel-coordinate reference only, not a claimed CSS viewport width.",
+      "raw": {
+        "path": "raw/S12-follow-up-1-failure-privacy-redacted.png",
+        "bytes": 1644135,
+        "sha256": "81bc7ea152422d938769cc50faf1b2f8fcfe83f0df113f63a1656e619d0b107a",
+        "pixels": {
+          "width": 3024,
+          "height": 1898
+        }
+      },
+      "derivative": {
+        "path": "slide-ready/S12-failure-1.png",
+        "bytes": 521837,
+        "sha256": "abe660e0b015df7edfb417d441b58a693c12760add975146cda3b8533b360b90",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "annotation_layer": "slide-ready/S12-failure-1.html",
+      "crop": {
+        "raw_pixels": {
+          "x": 2260,
+          "y": 1140,
+          "width": 745,
+          "height": 470
+        },
+        "fit_scale": 1.851063829787234,
+        "method": "Uniform scaling and letterboxing of real privacy-redacted pixels, separate caption strip."
+      }
+    },
+    {
+      "id": "S12-failure-overview",
+      "label": "After retry · still Requirements · transition blocked",
+      "caption": "Same visible Requirements view; the real sidebar reports a second attachment failure. No staff-039 result was delivered.",
+      "source_label": "Native Edge whole-window capture; private browser chrome redacted.",
+      "actual_url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcalculation&tab=requirements",
+      "captured_at": "2026-09-28T23:59:14.556Z",
+      "css_width": 3024,
+      "css_width_note": "Pixel-coordinate reference only, not a claimed CSS viewport width.",
+      "raw": {
+        "path": "raw/S12-follow-up-2-failure-privacy-redacted.png",
+        "bytes": 1616911,
+        "sha256": "add15d1112f18153826d8e771ef0868129e9e834fb4e44b5250c671f38cc0401",
+        "pixels": {
+          "width": 3024,
+          "height": 1898
+        }
+      },
+      "derivative": {
+        "path": "slide-ready/S12-failure-overview.png",
+        "bytes": 467604,
+        "sha256": "201605d9f3eb379197ad9689a2c460db44bd1dca7c9479b0b9c69f0a7bd5aa56",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "annotation_layer": "slide-ready/S12-failure-overview.html",
+      "crop": {
+        "raw_pixels": {
+          "x": 1428,
+          "y": 321,
+          "width": 1596,
+          "height": 1355
+        },
+        "fit_scale": 0.6420664206642066,
+        "method": "Uniform scaling and letterboxing of real privacy-redacted pixels, separate caption strip."
+      }
+    },
+    {
+      "id": "S12-failure-2",
+      "label": "Retry outcome · developer connection detached again",
+      "caption": "Real sidebar excerpt: requested transition unverified, no returned Interactions entries, no award calculated.",
+      "source_label": "Native Edge whole-window capture; private browser chrome redacted.",
+      "actual_url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcalculation&tab=requirements",
+      "captured_at": "2026-09-28T23:59:14.556Z",
+      "css_width": 3024,
+      "css_width_note": "Pixel-coordinate reference only, not a claimed CSS viewport width.",
+      "raw": {
+        "path": "raw/S12-follow-up-2-failure-privacy-redacted.png",
+        "bytes": 1616911,
+        "sha256": "add15d1112f18153826d8e771ef0868129e9e834fb4e44b5250c671f38cc0401",
+        "pixels": {
+          "width": 3024,
+          "height": 1898
+        }
+      },
+      "derivative": {
+        "path": "slide-ready/S12-failure-2.png",
+        "bytes": 483246,
+        "sha256": "86a22bfd0f2e5f90cb915d7968bc1c1fb1e1484aba991869de58c0ec5a995ee7",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "annotation_layer": "slide-ready/S12-failure-2.html",
+      "crop": {
+        "raw_pixels": {
+          "x": 2260,
+          "y": 1190,
+          "width": 745,
+          "height": 445
+        },
+        "fit_scale": 1.9550561797752808,
+        "method": "Uniform scaling and letterboxing of real privacy-redacted pixels, separate caption strip."
+      }
+    }
+  ],
+  "identities": [],
+  "redactions": [
+    {
+      "capture_id": "S12-before-top",
+      "source_sha256": "b8815669ec4a9276d63c5ce93bec42d244c4091ae68d6ef624ed3018e3012be9",
+      "source_bytes": 1079684,
+      "source_encoding": "image/jpeg",
+      "original_outside_pack": true,
+      "method": "Native JPEG bytes decoded and saved as PNG; opaque pixel replacement of private browser chrome only, baked into every delivered master before annotation; original bytes never embedded in delivered HTML.",
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 155,
+          "width": 3024,
+          "height": 73,
+          "purpose": "private favourites bar"
+        },
+        {
+          "x": 2720,
+          "y": 85,
+          "width": 75,
+          "height": 70,
+          "purpose": "private profile avatar"
+        },
+        {
+          "x": 15,
+          "y": 17,
+          "width": 140,
+          "height": 50,
+          "colour": "#e9e5e2",
+          "purpose": "profile control"
+        }
+      ],
+      "redacted_master": {
+        "path": "raw/S12-before-top-privacy-redacted.png",
+        "bytes": 3217168,
+        "sha256": "c76e3850aad414d60385fa119ce5ec1ac396922f7268afa0fe18e94fca6d797a",
+        "pixels": {
+          "width": 3024,
+          "height": 1898
+        }
+      }
+    },
+    {
+      "capture_id": "S12-before-qualifications",
+      "source_sha256": "7017d123f6055b8b1d829154109126a544eab8124c6c66309e51ee24586f777a",
+      "source_bytes": 726056,
+      "source_encoding": "image/jpeg",
+      "original_outside_pack": true,
+      "method": "Native JPEG bytes decoded and saved as PNG; opaque pixel replacement of private browser chrome only, baked into every delivered master before annotation; original bytes never embedded in delivered HTML.",
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 155,
+          "width": 3024,
+          "height": 73,
+          "purpose": "private favourites bar"
+        },
+        {
+          "x": 2720,
+          "y": 85,
+          "width": 75,
+          "height": 70,
+          "purpose": "private profile avatar"
+        },
+        {
+          "x": 15,
+          "y": 17,
+          "width": 140,
+          "height": 50,
+          "colour": "#e9e5e2",
+          "purpose": "profile control"
+        }
+      ],
+      "redacted_master": {
+        "path": "raw/S12-before-qualifications-privacy-redacted.png",
+        "bytes": 1907595,
+        "sha256": "f1c13dcdf95f108e45d2b07ab859737cf4a013ef04d4fb57113e2e7c3084ce12",
+        "pixels": {
+          "width": 3024,
+          "height": 1898
+        }
+      }
+    },
+    {
+      "capture_id": "S12-follow-up-1-failure",
+      "source_sha256": "207933d6f9f1fc5d9e82e6824bbefa2ddd3434a04411a35183e67fc79a96c27b",
+      "source_bytes": 637984,
+      "source_encoding": "image/jpeg",
+      "original_outside_pack": true,
+      "method": "Native JPEG bytes decoded and saved as PNG; opaque pixel replacement of private browser chrome only, baked into every delivered master before annotation; original bytes never embedded in delivered HTML.",
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 155,
+          "width": 3024,
+          "height": 73,
+          "purpose": "private favourites bar"
+        },
+        {
+          "x": 2720,
+          "y": 85,
+          "width": 75,
+          "height": 70,
+          "purpose": "private profile avatar"
+        },
+        {
+          "x": 15,
+          "y": 17,
+          "width": 140,
+          "height": 50,
+          "colour": "#e9e5e2",
+          "purpose": "profile control"
+        }
+      ],
+      "redacted_master": {
+        "path": "raw/S12-follow-up-1-failure-privacy-redacted.png",
+        "bytes": 1644135,
+        "sha256": "81bc7ea152422d938769cc50faf1b2f8fcfe83f0df113f63a1656e619d0b107a",
+        "pixels": {
+          "width": 3024,
+          "height": 1898
+        }
+      }
+    },
+    {
+      "capture_id": "S12-follow-up-2-failure",
+      "source_sha256": "442b0aa0ef59eb2ed4fb6df15d7b0f0c6f1d78850b961e4ccd48fdec4eb429f7",
+      "source_bytes": 628363,
+      "source_encoding": "image/jpeg",
+      "original_outside_pack": true,
+      "method": "Native JPEG bytes decoded and saved as PNG; opaque pixel replacement of private browser chrome only, baked into every delivered master before annotation; original bytes never embedded in delivered HTML.",
+      "rectangles": [
+        {
+          "x": 0,
+          "y": 155,
+          "width": 3024,
+          "height": 73,
+          "purpose": "private favourites bar"
+        },
+        {
+          "x": 2720,
+          "y": 85,
+          "width": 75,
+          "height": 70,
+          "purpose": "private profile avatar"
+        },
+        {
+          "x": 15,
+          "y": 17,
+          "width": 140,
+          "height": 50,
+          "colour": "#e9e5e2",
+          "purpose": "profile control"
+        }
+      ],
+      "redacted_master": {
+        "path": "raw/S12-follow-up-2-failure-privacy-redacted.png",
+        "bytes": 1616911,
+        "sha256": "add15d1112f18153826d8e771ef0868129e9e834fb4e44b5250c671f38cc0401",
+        "pixels": {
+          "width": 3024,
+          "height": 1898
+        }
+      }
+    }
+  ],
+  "observed_host_capabilities": [
+    "pageAssets",
+    "cdp"
+  ],
+  "tool_schemas": null,
+  "actual_tool_calls": [],
+  "sidebar_turns_sent": 3,
+  "host_route": "Before response reports authorised CDP native page tools, not dedicated WebMCP. Both new follow-ups report a detached developer connection and return no staff-039 table. Controller native accessibility/screenshot access succeeded after the scoped origin approval.",
+  "manual_capture_steps": [
+    "Open the supplied tools_workbench URL in a clean already-authorised browser window. Do not show unrelated tabs, account identifiers or chat history.",
+    "Through the already-authorised sidebar, send turn 1 exactly as printed in specification/01-codex-screenshot-instructions.md. Stop if new permission is requested.",
+    "Save genuine whole-window Requirements capture, actual tool schemas/arguments/outputs and snapshot/result/revision identities.",
+    "Send turn 2 exactly once; capture the actual staff-039 Interactions transition, including 1–3 of 4/partial status if returned.",
+    "Keep native CDP use distinct from dedicated WebMCP. Without a permitted route, retain this blocked status."
+  ],
+  "initial_attempt_receipt": "receipts/S12-initial-privacy-blocker.json",
+  "resume_receipt": "receipts/S12-resume-observation.json",
+  "technical_retries": 1,
+  "actual_tool_calls_note": "No raw registered-tool invocation was independently captured. Empty is not proof that the earlier owner-run first turn made no calls.",
+  "snapshot_result_revision_identities": {
+    "source": "retrospective first-turn response visible in the real sidebar",
+    "snapshot_id": "sha256:294c665de0060769fe05c8e4774d864c540f9b24678791771ee9ed5054b3a65f",
+    "result_id": "v-3309dad0-d6bb-4539-a105-158028742457",
+    "revision": 3,
+    "snapshot_matches_retained_manifest_digest": true,
+    "result_and_revision_independently_verified": false,
+    "raw_outputs_available": false
+  },
+  "data_bindings": [],
+  "observed_application_assets": [],
+  "source_commits": [],
+  "case_id": "staff-016",
+  "record_id": "https://chris-page-gov.github.io/okf-dwp/id/staff-domain/calculation",
+  "actual_evidence_status": "insufficient on the retained staff-016 Requirements page; no returned staff-039 evidence from either new follow-up",
+  "native_failure_evidence": true,
+  "successful_transition_claim": false,
+  "resumption_attempts": 6,
+  "resumption_attempt_definition": "Three controller binding checks (stale, refused, authorised success), one failed clipboard input operation, and two substantive sidebar follow-up submissions. Observation, successful input recovery and offline rendering are not substantive retries.",
+  "sidebar_turn_accounting": {
+    "current_conversation_owner_first_turn": 1,
+    "current_resumption_controller_follow_ups": 2,
+    "parent_run_separate_prompt": 1,
+    "current_conversation_total": 3,
+    "parent_prompt_preserved_in": "receipts/S12-original-pack-receipt.json",
+    "note": "The owner started a new conversation after the parent attempt. These counts describe visible submitted turns, not underlying model calls or usage."
+  },
+  "permission_exception": {
+    "origin": "https://chris-page-gov.github.io",
+    "owner_explicitly_authorised": true,
+    "owner_confirmation": "I authorise the permission change",
+    "scope": "Capture-controller access to the one public origin only; no profile, extension setting or other permission changes.",
+    "receipt": "receipts/S12-permission-exception.json",
+    "persistence": "not independently established"
+  },
+  "tool_schemas_note": "No completed raw sidebar schema-discovery output was retained. Tool names in the before response are self-reported, not a captured invocation transcript.",
+  "reported_before_tool_names": [
+    "okf_get_state",
+    "okf_get_view_data",
+    "okf_show_view"
+  ],
+  "reported_before_tool_arguments": null,
+  "shown_rows": {
+    "start": 1,
+    "end": 3,
+    "total": 6,
+    "complete": false,
+    "case_id": "staff-016",
+    "view": "requirements"
+  },
+  "state_transition": {
+    "requested": {
+      "case_id": "staff-039",
+      "view": "interactions"
+    },
+    "before": {
+      "case_id": "staff-016",
+      "view": "requirements"
+    },
+    "after": {
+      "case_id": "staff-016",
+      "view": "requirements"
+    },
+    "verified": false,
+    "same_public_tab": "849758829",
+    "reason": "Both completed sidebar responses report developer-connection attachment failure; the native window still contains staff-016 Requirements. No manual case/view click was used to simulate the transition."
+  },
+  "setup_guide": "SIDEBAR-SETUP-AND-TROUBLESHOOTING.md"
+}

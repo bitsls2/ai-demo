@@ -1,0 +1,1390 @@
+{
+  "id": "S07",
+  "title": "Ask a fresh question against pinned evidence",
+  "priority": "main",
+  "presentation_act": "B — Investigating evidence",
+  "entry_key": "fresh_ask",
+  "entry_url": "https://chris-page-gov.github.io/okf-explorer/explore/?bundle=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F7eeded763042ddd0070f4fed834c6074149e8e2f%2Fstructured-context%2Fevidence-connect-explorer.json",
+  "steps": [
+    "Open Ask OKF and enter the exact capital question specified in the instructions.",
+    "Use 64 records, 128 relationships, depth 6 and 524288 bytes.",
+    "Capture the completed result and save its actual receipt; do not call an answer model."
+  ],
+  "must_be_visible": [
+    "exact question",
+    "actual selected evidence",
+    "insufficient/truncation status where returned",
+    "source/budget identity"
+  ],
+  "permitted_claim": "This is a new evidence assembly, with explicit selection and budget limits.",
+  "does_not_establish": "A retrieval improvement does not establish an accurate AI answer or legal completeness.",
+  "fallback": "Use the original retained observation, labelled historical; do not report a failed or unavailable fresh run as successful.",
+  "repository_evidence": [
+    "docs/evidence-workbench-handover.md",
+    "docs/evidence-workbench.md"
+  ],
+  "planned_frames": [
+    "S07"
+  ],
+  "capture_status": "not-run",
+  "actual_url": "https://chris-page-gov.github.io/okf-explorer/explore/?bundle=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F7eeded763042ddd0070f4fed834c6074149e8e2f%2Fstructured-context%2Fevidence-connect-explorer.json#overview",
+  "actual_source_commit": null,
+  "actual_explorer_identity": null,
+  "captured_at": "2026-09-28T22:25:19.025Z",
+  "receipt_path": null,
+  "output_files": [],
+  "status": "captured",
+  "classification": "fresh deterministic evidence assembly; no AI answer",
+  "timezone": "Europe/London",
+  "dwp_checkout_commit": "77ef16047415ee48dcb93b80adf1ba057ea00d9b",
+  "explorer_identity": {
+    "url": "https://chris-page-gov.github.io/okf-explorer/okf-publication-identity.json",
+    "path": "receipts/explorer-public-identity.json",
+    "bytes": 1138,
+    "sha256": "d75aa3ad0e4fdcdd06db673f39d996ac346ad1646a629fdafcdfabd926d7e4bc",
+    "hash_verified": false,
+    "declared": {
+      "commit": "b633038c6173f1405199df9f08e8d8aa2ff51c0b",
+      "materials": [
+        {
+          "bytes": 33186,
+          "path": "okf.publication.json",
+          "sha256": "331c021c3a9104c26f00205d88fe42fae382908f2b38183e7649ad812b0fde0d"
+        },
+        {
+          "bytes": 33428,
+          "path": "okf-estate-registry.json",
+          "sha256": "fa9de8396731206a0005b0c4acf6de4e2403dce6cf94a267ed6203ad8936e742"
+        },
+        {
+          "bytes": 8937,
+          "path": "okf-registry.json",
+          "sha256": "27018c67a14af9a943a74ba65a174010fc6f0e2133c2e6871eb2b10f19602909"
+        },
+        {
+          "bytes": 29614,
+          "path": "registry/estate/index.html",
+          "sha256": "d020c468132daf155945fe80c5d6b40c2e72e7b7bc0c37cca7ec931a5d7677d4"
+        }
+      ],
+      "publication_boundary": "This identity is authoritative only when the Site candidate was assembled from a clean checkout of this commit and promoted without rebuild.",
+      "repository": {
+        "lifecycle": "active",
+        "name": "okf-explorer",
+        "role": "profile-and-consumer",
+        "root_index": "index.md",
+        "url": "https://github.com/chris-page-gov/okf-explorer"
+      },
+      "schema": "okf-publication-deployment-identity.v1"
+    }
+  },
+  "browser": {
+    "version": "154.0.8037.57",
+    "channel": "chrome",
+    "headless": true,
+    "viewport_css": {
+      "width": 1920,
+      "height": 1080
+    },
+    "device_scale_factor": 2,
+    "zoom": 1,
+    "locale": "en-GB",
+    "timezone": "Europe/London",
+    "clean_public_context": true
+  },
+  "actions": [
+    {
+      "action": "navigate",
+      "url": "https://chris-page-gov.github.io/okf-explorer/explore/?bundle=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F7eeded763042ddd0070f4fed834c6074149e8e2f%2Fstructured-context%2Fevidence-connect-explorer.json"
+    },
+    {
+      "action": "fresh assembly form submit",
+      "question": "Can Pension Credit treat capital as still held after someone has got rid of it, and are there exceptions?",
+      "budget": {
+        "max_nodes": 64,
+        "max_relationships": 128,
+        "max_depth": 6,
+        "max_bytes": 524288
+      },
+      "transport_part_bytes": 32768
+    }
+  ],
+  "assertions": [
+    {
+      "rendered_text": "Can Pension Credit treat capital as still held after someone has got rid of it, and are there exceptions?",
+      "passed": true
+    },
+    {
+      "rendered_text": "Insufficient evidence",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "frames": [
+    {
+      "id": "S07a",
+      "label": "Fresh Ask OKF assembly · exact capital question",
+      "caption": "Fresh assembly, not an AI answer. Insufficient and bounded; no claim of legal completeness.",
+      "actual_url": "https://chris-page-gov.github.io/okf-explorer/explore/?bundle=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F7eeded763042ddd0070f4fed834c6074149e8e2f%2Fstructured-context%2Fevidence-connect-explorer.json#overview",
+      "captured_at": "2026-09-28T22:25:18.416Z",
+      "css_width": 1920,
+      "raw": {
+        "path": "raw/S07a.png",
+        "bytes": 847313,
+        "sha256": "e7d19d52e1842e9dbc3e94b047ee8889f230ee309e7d401ce9ee5ee377449380",
+        "pixels": {
+          "width": 3840,
+          "height": 2160
+        }
+      },
+      "derivative": {
+        "path": "slide-ready/S07a.png",
+        "bytes": 473571,
+        "sha256": "652494fe516eb8c4318f32f88d38b783d173cae8f7275010f80009a68ec4b1b7",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "annotation_layer": "slide-ready/S07a.html",
+      "crop": {
+        "raw_pixels": {
+          "x": 1082,
+          "y": 0,
+          "width": 2227,
+          "height": 1640
+        },
+        "fit_scale": 0.5304878048780488,
+        "method": "Uniform scale and letterbox; separate caption strip. Substantive pixels unedited."
+      }
+    },
+    {
+      "id": "S07b",
+      "label": "The capital source selected in this fresh assembly",
+      "caption": "DMG 84861 selection is observed now; it does not establish that every exception was retrieved.",
+      "actual_url": "https://chris-page-gov.github.io/okf-explorer/explore/?bundle=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F7eeded763042ddd0070f4fed834c6074149e8e2f%2Fstructured-context%2Fevidence-connect-explorer.json#overview",
+      "captured_at": "2026-09-28T22:25:18.757Z",
+      "css_width": 1920,
+      "raw": {
+        "path": "raw/S07b.png",
+        "bytes": 459991,
+        "sha256": "29f223617873cd9faa5830278cee510c2f0b3f41561ee675fca6e765d279a52a",
+        "pixels": {
+          "width": 3840,
+          "height": 2160
+        }
+      },
+      "derivative": {
+        "path": "slide-ready/S07b.png",
+        "bytes": 262866,
+        "sha256": "afaff509db5abb87c3e3b0fa4c7e42d06d054141bc72dee2fbfd2cdf267e2a55",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "annotation_layer": "slide-ready/S07b.html",
+      "crop": {
+        "raw_pixels": {
+          "x": 1082,
+          "y": 737,
+          "width": 2227,
+          "height": 1358
+        },
+        "fit_scale": 0.6406480117820325,
+        "method": "Uniform scale and letterbox; separate caption strip. Substantive pixels unedited."
+      }
+    },
+    {
+      "id": "S07c",
+      "label": "Assembly budgets and remaining limitations",
+      "caption": "32,768-byte delivery parts are separate from the 524,288-byte assembly budget.",
+      "actual_url": "https://chris-page-gov.github.io/okf-explorer/explore/?bundle=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F7eeded763042ddd0070f4fed834c6074149e8e2f%2Fstructured-context%2Fevidence-connect-explorer.json#overview",
+      "captured_at": "2026-09-28T22:25:19.025Z",
+      "css_width": 1920,
+      "raw": {
+        "path": "raw/S07c.png",
+        "bytes": 459991,
+        "sha256": "29f223617873cd9faa5830278cee510c2f0b3f41561ee675fca6e765d279a52a",
+        "pixels": {
+          "width": 3840,
+          "height": 2160
+        }
+      },
+      "derivative": {
+        "path": "slide-ready/S07c.png",
+        "bytes": 46107,
+        "sha256": "01cc47b23a6919c60959e4db2951c24e24042fafc365fd0b3c676bb6196821bd",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "annotation_layer": "slide-ready/S07c.html",
+      "crop": {
+        "raw_pixels": {
+          "x": 1082,
+          "y": 32427,
+          "width": 2227,
+          "height": -30267
+        },
+        "fit_scale": -0.028744176826246408,
+        "method": "Uniform scale and letterbox; separate caption strip. Substantive pixels unedited."
+      }
+    }
+  ],
+  "identities": [
+    {
+      "path": "receipts/S07-fresh-package.json",
+      "bytes": 618188,
+      "sha256": "b802ae0c742190ab5e058083e67c7211662644bd0d019b8d20fcdd0746ec07b7"
+    }
+  ],
+  "redactions": [],
+  "network": [
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/explore/?bundle=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F7eeded763042ddd0070f4fed834c6074149e8e2f%2Fstructured-context%2Fevidence-connect-explorer.json",
+      "status": 200,
+      "bytes": 2238,
+      "sha256": "372f789c2237c8361c4b51a87861cf590eb75917a8e5cde731ac73e62b111a8d"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/_app/immutable/entry/start.BGQBuB7x.js",
+      "status": 200,
+      "bytes": 82,
+      "sha256": "6400a4d1827de86cb75d0e350e2845bdbd052c04318105f7853635dc9dca7729"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/_app/immutable/chunks/xihTtKlq.js",
+      "status": 200,
+      "bytes": 65,
+      "sha256": "0214edcff77242079f540507a53803aa22d857b6ad673e60e39748b6c7aa08c1"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/_app/immutable/nodes/0.DSQV_b3a.js",
+      "status": 200,
+      "bytes": 146,
+      "sha256": "66401aa1d977a4db50b3205b61b56f9bdf5ae5f4ce8c23ae016d492751efb34f"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/_app/immutable/chunks/uBIymjUX.js",
+      "status": 200,
+      "bytes": 1233,
+      "sha256": "e1a22f3f73566f21ff932e058d32243e4a118f3491b91e96893aa5ab7eb49a00"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/_app/immutable/chunks/CLNn816V.js",
+      "status": 200,
+      "bytes": 152,
+      "sha256": "53fcc98df16f4ca32113c9dd0d23580b6c19c0a91c066a0e0b5957912cbe46b7"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/_app/immutable/entry/app.DknEP8E3.js",
+      "status": 200,
+      "bytes": 5328,
+      "sha256": "f6840391270667d7c38d82188cbac51438903b94b40d80c5bd141b933323e865"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/_app/immutable/chunks/prOePLLl.js",
+      "status": 200,
+      "bytes": 29270,
+      "sha256": "de4c2516a80b206c69ff6531462d6ea014e180e09825ff9c87ae3e62870f97d2"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/_app/immutable/chunks/AlwHAjQD.js",
+      "status": 200,
+      "bytes": 51270,
+      "sha256": "d52d37930f7548a2041e9a83e302d87cd497f98af4c25f838f152895059f71f1"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/_app/immutable/chunks/dvbtP5nc.js",
+      "status": 200,
+      "bytes": 63885,
+      "sha256": "cd4b7d71f8f2887c60a5b67adc2636fd21fdd1ab219eca68c8cf26f539bc54cd"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/_app/immutable/nodes/4.Dyrl2qj0.js",
+      "status": 200,
+      "bytes": 188,
+      "sha256": "a9dc2817fdce640db463bc25dd163dfa3d08116aed8b50af171c58f30e733c4c"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/_app/immutable/nodes/9.BlcE7kGJ.js",
+      "status": 200,
+      "bytes": 763160,
+      "sha256": "24fc28dfcbdf372c86a8b210bf5c5d1708e9cf60006f7de920bbf751579bb7e1"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/_app/immutable/assets/9.DqwH0wdQ.css",
+      "status": 200,
+      "bytes": 104863,
+      "sha256": "57c02b6ba68947fadc2ba553d9e8bfee583893bd2bc43c033828b8590d3a514a"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/_app/immutable/nodes/1.B81wntNV.js",
+      "status": 200,
+      "bytes": 578,
+      "sha256": "98d42cbef3ac9a585d2bee1b000906493a5a967346ae49c4b30265ae7b0303ab"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/okf-registry.json",
+      "status": 200,
+      "bytes": 8937,
+      "sha256": "27018c67a14af9a943a74ba65a174010fc6f0e2133c2e6871eb2b10f19602909"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chris-page-gov/okf-dwp/7eeded763042ddd0070f4fed834c6074149e8e2f/structured-context/evidence-connect-explorer.json",
+      "status": 200,
+      "bytes": 8280,
+      "sha256": "749c19b034df38e6d7b745f38d743ba688a79ca782de2e25eb3060717d272f68"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chris-page-gov/okf-dwp/7eeded763042ddd0070f4fed834c6074149e8e2f/structured-context/data/manifest.json",
+      "status": 200,
+      "bytes": 122138,
+      "sha256": "73d17b0c72d51f80aebd626dd968a2f59731df46add4a1528ac2e585e110e0eb"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chris-page-gov/okf-dwp/7eeded763042ddd0070f4fed834c6074149e8e2f/structured-context/data/overview.json",
+      "status": 200,
+      "bytes": 17240,
+      "sha256": "ee93f97c82e12b96525b3129cc75e0ad34258d552273bade8bb6d5f270408248"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chris-page-gov/okf-dwp/7eeded763042ddd0070f4fed834c6074149e8e2f/structured-context/data/analysis.json",
+      "status": 200,
+      "bytes": 106,
+      "sha256": "791691f510621ef4b1ee0e4ef7650a781c2530b946da90630977bc0585a67485"
+    },
+    {
+      "url": "https://chris-page-gov.github.io/okf-explorer/_app/immutable/workers/largeSearch.worker-DXfO4p3x.js",
+      "status": 200,
+      "bytes": 72408,
+      "sha256": "6ed6259ea76a77d570abe429804326b16b7de85585d9d45a2b8671c6b9698b2c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chris-page-gov/okf-dwp/7eeded763042ddd0070f4fed834c6074149e8e2f/structured-context/data/facets.json",
+      "status": 200,
+      "bytes": 720693,
+      "sha256": "47eb8054aadffcf79aa956a16de5e377bc45933be1cbf14bc19ccf4a06530961"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chris-page-gov/okf-dwp/7eeded763042ddd0070f4fed834c6074149e8e2f/structured-context/data/search/manifest.json",
+      "status": 200,
+      "bytes": 118147,
+      "sha256": "28667c3fa3c87632e3b89ace29e4f7be9a42d9b228bee57b30a057cca93375d1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chris-page-gov/okf-dwp/7eeded763042ddd0070f4fed834c6074149e8e2f/structured-context/evidence-connect-manifest.json",
+      "status": 200,
+      "bytes": 494115,
+      "sha256": "4e65253f72b2d771164d5ddd64374ed8142cf66b4a249f193a1fe44d5679f519"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chris-page-gov/okf-dwp/7eeded763042ddd0070f4fed834c6074149e8e2f/structured-context/data/search/shards.json",
+      "status": 200,
+      "bytes": 572176,
+      "sha256": "38f008e395179602bc440343466282e65e2728145893bbd457e815ab028c23ea"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chris-page-gov/okf-dwp/7eeded763042ddd0070f4fed834c6074149e8e2f/structured-context/evidence-connect/base-index.json",
+      "status": 200,
+      "bytes": 1180946,
+      "sha256": "79c17cb04079e128f192c21ea65a1e8d4383dcdd0d5551e633c1d4c22dee8066"
+    }
+  ],
+  "assembly": {
+    "context_id": "urn:sha256:bd0b9f7af358d61ec5e9d47009cadd1e04e76c47740fc901b08acd94a42ace28",
+    "evidence_status": "insufficient",
+    "budget": {
+      "max_nodes": 64,
+      "max_relationships": 128,
+      "max_depth": 6,
+      "max_bytes": 524288,
+      "used_nodes": 44,
+      "used_relationships": 68,
+      "used_bytes": 522995,
+      "reached_depth": 3,
+      "truncated": true,
+      "omissions": [
+        {
+          "code": "retrieval_candidate_budget",
+          "message": "Only the highest-ranked source-bound units fit the fixed lexical candidate limit.",
+          "ids": []
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "relationships/0b.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "relationships/4c.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "relationships/50.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "relationships/9b.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0115.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "relationships/e0.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "relationships/aa.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "evidence-connect/relationships/b4.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "relationships/fd.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0114.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0114.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0312.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0312.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0414.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0414.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0196.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0196.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0033.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0033.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0032.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0032.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0195.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0195.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0314.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0314.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0416.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0416.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0398.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0398.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0037.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0037.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0239.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0239.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0375.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0375.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0307.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0307.json.gz"
+          ]
+        },
+        {
+          "code": "relationship_byte_budget",
+          "message": "An assertion outside the retained paths was omitted whole to preserve source evidence within the byte budget. Its exact incident metadata remains source-bound.",
+          "ids": [
+            "https://chris-page-gov.github.io/okf-dwp/id/assertion/source-reference/b00b68920502572bdbf9f9f993d72c67e8645eb62df4f1daa635b271f2cd6e5b",
+            "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077001-16a64dc4da2d",
+            "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol1-ch4/v1-edb8bd0e46e5d94b/spc-supersession-04642-ff882bce33d6"
+          ]
+        },
+        {
+          "code": "relationship_byte_budget",
+          "message": "An assertion outside the retained paths was omitted whole to preserve source evidence within the byte budget. Its exact incident metadata remains source-bound.",
+          "ids": [
+            "https://chris-page-gov.github.io/okf-dwp/id/assertion/logical-unit/b42f1cb24d6bbc36dacf59939646976f93b61ce88b187f0a904c2d68ca083986",
+            "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077001-16a64dc4da2d",
+            "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol1-ch4/v1-edb8bd0e46e5d94b/spc-supersession-04642-ff882bce33d6"
+          ]
+        },
+        {
+          "code": "byte_budget",
+          "message": "A whole item was omitted to meet the package byte budget.",
+          "ids": [
+            "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-qyp-077008-014-870ddab241ae",
+            "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch85/manual-structure-v1/source-0000036852-000-422a97253cf5"
+          ]
+        }
+      ]
+    },
+    "retrieval": {
+      "method": "source-bound-discovery-bm25.v1",
+      "corpus_records": 53737,
+      "corpus_pages": 19090,
+      "empty_pages": 893,
+      "query_tokens": [
+        "pension",
+        "credit",
+        "treat",
+        "capital",
+        "still",
+        "held",
+        "after",
+        "someone",
+        "got",
+        "rid",
+        "there",
+        "exceptions"
+      ],
+      "omitted_query_tokens": [],
+      "candidate_count": 20503,
+      "candidates": [
+        {
+          "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/zz-evidence-connect/pc-capital-u07",
+          "score": 61187734,
+          "matched": [
+            "capital",
+            "still",
+            "held",
+            "after",
+            "someone",
+            "exceptions"
+          ]
+        }
+      ],
+      "fetched_files": 64,
+      "fetched_bytes": 4558011,
+      "decoded_bytes": 23358523,
+      "limits": {
+        "query_tokens": 24,
+        "candidates": 16,
+        "files": 64,
+        "fetched_bytes": 16777216,
+        "decoded_bytes": 33554432
+      },
+      "truncated": true,
+      "omissions": [
+        {
+          "code": "retrieval_candidate_budget",
+          "message": "Only the highest-ranked source-bound units fit the fixed lexical candidate limit.",
+          "ids": []
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "relationships/0b.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "relationships/4c.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "relationships/50.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "relationships/9b.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0115.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "relationships/e0.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "relationships/aa.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "evidence-connect/relationships/b4.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "relationships/fd.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0114.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0114.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0312.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0312.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0414.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0414.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0196.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0196.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0033.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0033.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0032.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0032.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0195.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0195.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0314.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0314.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0416.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0416.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0398.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0398.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0037.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0037.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0239.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0239.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0375.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0375.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "records/0307.json.gz"
+          ]
+        },
+        {
+          "code": "retrieval_resource_budget",
+          "message": "A bound discovery, evidence or relationship file exceeded the retrieval resource limit.",
+          "ids": [
+            "discovery/0307.json.gz"
+          ]
+        }
+      ],
+      "units": {
+        "corpus_schema": "okf-context-corpus.v3",
+        "referenced_records": [
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000200424-000-606242ace072",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/zz-evidence-connect/pc-capital-u08",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-abbreviations-0db6c476b0/manual-structure-v1/source-0000000000-000-3c355ba67515",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-si-abbreviations-eeb52291df/manual-structure-v1/source-0000000000-000-3713ba7ee8eb",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-statutes-23bca4e6a8/manual-structure-v1/source-0000000000-000-e052e5c18dfb",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/zz-evidence-connect/pc-capital-u09",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000001157-000-d863e5f8aafb",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000042259-000-c25126f4261f",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000047234-000-df59e6dbee9e",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000045735-000-a2a67a2738ff",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000001429-000-390ba1fbbda0",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000208235-000-1183f4811155",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000042621-000-046d6e90e25d",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000041956-000-a9d2633390ef",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000013997-000-2a724f8ec070",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000041577-000-7884db0c6371",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000208571-000-6fe9f31aa7b5",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000209140-000-c3e6c3ae6f00",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000208554-000-de9ba27ef924",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000043008-000-18e46a4539bf",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000043462-000-7b9429c3d15e",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077001-16a64dc4da2d",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077005-5b4f3253600a",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077015-713fb342e91d",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077025-dca70606462d",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077026-7db7c8b4e1f5",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000015362-000-35776c37fae7",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000043640-000-c7636e58013c",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000044788-000-e3ef493c0484",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch85/manual-structure-v1/source-0000036852-000-422a97253cf5",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000031647-000-bf25d7eccd00",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000007057-000-2d15bc718c74",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000049278-000-58b9bb36987b",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077002-a95302f1b741",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077003-2800d8b1eb35",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077006-548d1921d419",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077007-d5260f5f58e4",
+          "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-qyp-077008-014-870ddab241ae"
+        ],
+        "examined_relationships": 103,
+        "limits": {
+          "referenced_records": 200,
+          "examined_relationships": 2000
+        }
+      },
+      "discovery": {
+        "ranking": {
+          "b": 0.75,
+          "fields": [
+            "source",
+            "discovery"
+          ],
+          "k1": 1.2,
+          "schema": "okf-bm25-weighted.v2",
+          "score_scale": 1000000,
+          "weights": {
+            "discovery": 2,
+            "source": 1
+          }
+        },
+        "candidates": [
+          {
+            "card": {
+              "schema": "okf-discovery-card-reference.v1",
+              "id": "https://chris-page-gov.github.io/okf-dwp/id/discovery/cc4ca65ba0e3e08e5354deb1837f695ed959e6a5ca9479f3005097965392da02",
+              "evidence_id": "https://chris-page-gov.github.io/okf-dwp/id/unit/zz-evidence-connect/pc-capital-u07",
+              "card_sha256": "97607e2988fe7f1baec6d11afb40f0bac318c3cb84e3078bdb3a65f1bb991e35",
+              "ordinal": 53733
+            },
+            "source_score": 7214802,
+            "discovery_score": 26986466,
+            "matched_source": [
+              "capital",
+              "after",
+              "someone"
+            ],
+            "matched_discovery": [
+              "capital",
+              "still",
+              "held",
+              "after",
+              "someone",
+              "exceptions"
+            ]
+          }
+        ],
+        "adjacency": [
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/zz-evidence-connect/pc-capital-u07",
+            "incident_sha256": "0fcbef75ddf4b7e065fb03b3a2237074d76186a76c333990c13be1d4167f8472",
+            "outgoing_count": 2,
+            "incoming_count": 4
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000200424-000-606242ace072",
+            "incident_sha256": "7c1778faf519054a6cabeb26e12fd7290ce8db723e690d1471e6a2f41c3dcf61",
+            "outgoing_count": 0,
+            "incoming_count": 2
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/zz-evidence-connect/pc-capital-u08",
+            "incident_sha256": "d5c0235a96ec68c6d47a83d7ba31fe6bd4d195d0d67b4f40bac1cca047f588e9",
+            "outgoing_count": 4,
+            "incoming_count": 2
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-abbreviations-0db6c476b0/manual-structure-v1/source-0000000000-000-3c355ba67515",
+            "incident_sha256": "2c71c4ed9e660ccfb0bb05665af169c743cc3c0f268ed13c77fefa44b50824b8",
+            "outgoing_count": 0,
+            "incoming_count": 6
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-si-abbreviations-eeb52291df/manual-structure-v1/source-0000000000-000-3713ba7ee8eb",
+            "incident_sha256": "5fa6bd39c9d95728f687c0e1250f423b39be1e16154d995a9a8b0127ef0bf8fc",
+            "outgoing_count": 0,
+            "incoming_count": 6
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-statutes-23bca4e6a8/manual-structure-v1/source-0000000000-000-e052e5c18dfb",
+            "incident_sha256": "8d3de32219665cfba2cf4ba83f74bfac5c63750298eb9c69e1add2332a0162b3",
+            "outgoing_count": 0,
+            "incoming_count": 6
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/zz-evidence-connect/pc-capital-u09",
+            "incident_sha256": "615b359030b60f732a38ee2eac52f13ff05bc1ea984905ce09f1f963f0976368",
+            "outgoing_count": 3,
+            "incoming_count": 2
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/term/capital",
+            "incident_sha256": "133aaf2870eb80eb2b3f35b9321f163590f716a654ada806cc58aeecc64be213",
+            "outgoing_count": 16,
+            "incoming_count": 2
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/term/pension-credit",
+            "incident_sha256": "4b00b63134158147cf2d99994fc9ecc8ccd94fc8fb8cc247a7969beef7d6274f",
+            "outgoing_count": 45,
+            "incoming_count": 13
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000001157-000-d863e5f8aafb",
+            "incident_sha256": "7f4ddb2357acc1f069406cf934733da0a8e7f02690077f34514cbc98bd936d0b",
+            "outgoing_count": 0,
+            "incoming_count": 2
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000042259-000-c25126f4261f",
+            "incident_sha256": "d9a01feb9742e3b50516d0dc792a20ddac0ca8a663d7fa8e645f1b5e24c00bbb",
+            "outgoing_count": 0,
+            "incoming_count": 3
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000047234-000-df59e6dbee9e",
+            "incident_sha256": "e0009fada71a5acaa01958b7722346e6f2c6f25b9d055884af8033c0f5361ac5",
+            "outgoing_count": 1,
+            "incoming_count": 5
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000045735-000-a2a67a2738ff",
+            "incident_sha256": "a4c1abfbdfeff43d2bcb7a7a5807cb99f928237a12b0f7c32746ad9b8fb0e9c1",
+            "outgoing_count": 0,
+            "incoming_count": 6
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000001429-000-390ba1fbbda0",
+            "incident_sha256": "12ecfe792a01fa1b3e629d27e6f5f3772f3df4788d42d1b3eca4797dac539100",
+            "outgoing_count": 0,
+            "incoming_count": 2
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000208235-000-1183f4811155",
+            "incident_sha256": "e087cfa8fda00dd9e3373a4d7dfdc045bfbdd5df9934f0e2f62f589d376aef24",
+            "outgoing_count": 0,
+            "incoming_count": 16
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000042621-000-046d6e90e25d",
+            "incident_sha256": "4af4e223f552e88d2da92ee0f55a1c8c6af27d740f64b0f495610646c92c369d",
+            "outgoing_count": 1,
+            "incoming_count": 13
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/term/savings-credit",
+            "incident_sha256": "521b653744550dc4ce686d919f8d16952adf2a50c7746ae52025b176f1b323ae",
+            "outgoing_count": 3,
+            "incoming_count": 2
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/term/income-other-than-earnings",
+            "incident_sha256": "afcf7bd3900679f43c0f283d514ba6b9f03c79ce00d2044bcfc776d1e37b7756",
+            "outgoing_count": 4,
+            "incoming_count": 4
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000041956-000-a9d2633390ef",
+            "incident_sha256": "6d5d2d90e128ec5e2b423c3be7a53a07874f503b339bcb9d06e7c718d5809b40",
+            "outgoing_count": 1,
+            "incoming_count": 3
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000013997-000-2a724f8ec070",
+            "incident_sha256": "33e903aaa698ffe4ce055426db6eaba92f4643dd30753f2a5b9d06630a43a28f",
+            "outgoing_count": 3,
+            "incoming_count": 13
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000041577-000-7884db0c6371",
+            "incident_sha256": "d34d30e4619092b582f89f7154caea70bba096455613d1c77218b21ab9dfd723",
+            "outgoing_count": 0,
+            "incoming_count": 1
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/term/beneficial-ownership",
+            "incident_sha256": "272397c99a5e2bfc60a4247de8f3328480eb4760ed03e4dc987a48cec4af9e69",
+            "outgoing_count": 1,
+            "incoming_count": 3
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000208571-000-6fe9f31aa7b5",
+            "incident_sha256": "bd5aea088b3daca6c9128943627a7bc9df18050f47bbdce9c457e5b557f5c295",
+            "outgoing_count": 0,
+            "incoming_count": 7
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000209140-000-c3e6c3ae6f00",
+            "incident_sha256": "3dbd1eda42792b509fcda78f7ceb4ad484be75a631a60382d9bc122225a5a768",
+            "outgoing_count": 0,
+            "incoming_count": 8
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000208554-000-de9ba27ef924",
+            "incident_sha256": "e20420995eb18b1c7364d5baccd21ea735174acf82ea6b35640d7238f3cd6ab4",
+            "outgoing_count": 0,
+            "incoming_count": 7
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/term/guarantee-credit",
+            "incident_sha256": "29de971f3ae97c164b70a3f8773635105cc9834503b1312d23b31d3646aa825d",
+            "outgoing_count": 1,
+            "incoming_count": 4
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000043008-000-18e46a4539bf",
+            "incident_sha256": "e82492e28c954f754a2b02770f56f6d31241e124b898c7d48c892f56133c1a98",
+            "outgoing_count": 1,
+            "incoming_count": 11
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000043462-000-7b9429c3d15e",
+            "incident_sha256": "1ef7ca6b39136fa33cd12cee99728d1c2f9ec2e20e998ccd18a1b58a4fe8db84",
+            "outgoing_count": 0,
+            "incoming_count": 10
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077001-16a64dc4da2d",
+            "incident_sha256": "cc588d06e9db74b9a43cf05e0e13ecfe787180a5a3a5cd9242f09ad734e5e3ad",
+            "outgoing_count": 7,
+            "incoming_count": 5
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077005-5b4f3253600a",
+            "incident_sha256": "db261ce9d398182e02adba5a9ad09713489b9ee14efa8e96fb3fef3b3f891126",
+            "outgoing_count": 4,
+            "incoming_count": 3
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077015-713fb342e91d",
+            "incident_sha256": "b04828015b82c948efd79a610eea4cc7cb550975cd49185b84653c6525aac6cc",
+            "outgoing_count": 0,
+            "incoming_count": 3
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077025-dca70606462d",
+            "incident_sha256": "8e7999890c33500bd3d0d664c543a0fbcef1dde4d6cd69ed9cb004db75235629",
+            "outgoing_count": 0,
+            "incoming_count": 2
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077026-7db7c8b4e1f5",
+            "incident_sha256": "7b5e3948c1d41f5a96b9a8575d06efcabf3e7b1311d9c35087f06a6015eeaec0",
+            "outgoing_count": 0,
+            "incoming_count": 2
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/staff-domain/mixed-age-pension-credit",
+            "incident_sha256": "cc33696c40139920a5a4f2e1c891cfb91b84a8c41c09cd47a5066b6522a993d4",
+            "outgoing_count": 4,
+            "incoming_count": 2
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000015362-000-35776c37fae7",
+            "incident_sha256": "dd00b0193a60b3ff072d96530d7c1a298de670ba0512f139e2137eb791612b57",
+            "outgoing_count": 1,
+            "incoming_count": 13
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000043640-000-c7636e58013c",
+            "incident_sha256": "59d7cf57aead95452bc9860bfefc4655745f2a5b1095f7fa0f139a895149936c",
+            "outgoing_count": 0,
+            "incoming_count": 4
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol13-ch77/manual-structure-v1/source-0000044788-000-e3ef493c0484",
+            "incident_sha256": "c08e19ade029fe81fb67bab52e6e3346727bbf57a6ddec12f9a1eef8dbdf7558",
+            "outgoing_count": 0,
+            "incoming_count": 6
+          },
+          {
+            "schema": "okf-discovery-incident-reference.v1",
+            "id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol2-ch7-part6/v1-6856ae01407984fc/spc-077002-a95302f1b741",
+            "incident_sha256": "b08fe6afecb02ced7f1c274455baa89420dd230f028b08d4342dea2c92488d4e",
+            "outgoing_count": 1,
+            "incoming_count": 3
+          }
+        ],
+        "limits": {
+          "posting_rows": 2000000,
+          "ranking_records": 200000,
+          "path_prefixes": 2000,
+          "alias_routes": 2000,
+          "pattern_routes": 128,
+          "alias_query_tokens": 64,
+          "matched_alias_routes": 4
+        },
+        "admission_order": "lexical-anchor-dependencies-before-concept-paths.v2"
+      }
+    },
+    "binding": {
+      "index_url": "https://raw.githubusercontent.com/chris-page-gov/okf-dwp/7eeded763042ddd0070f4fed834c6074149e8e2f/structured-context/evidence-connect-manifest.json",
+      "index_sha256": "4e65253f72b2d771164d5ddd64374ed8142cf66b4a249f193a1fe44d5679f519"
+    },
+    "selected_U07": true,
+    "selected_84861": true
+  }
+}

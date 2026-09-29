@@ -1,0 +1,13 @@
+{
+  "schema": "okf-evidence-review-proposal.v1",
+  "question_id": "staff-006",
+  "context_id": "urn:sha256:88fe2cba3792174a4fb1202fbe55586b62b3dfdc31da87b4c378df9d78aa5e39",
+  "bundle_snapshot": "evidence-connect-754be67f82c82e31d17c",
+  "context_binding_sha256": "4e65253f72b2d771164d5ddd64374ed8142cf66b4a249f193a1fe44d5679f519",
+  "record_id": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000001157-000-d863e5f8aafb",
+  "proposal": {
+    "status": "needs-specialist-review",
+    "comment": "Presentation rehearsal only — non-specialist, unreviewed proposal. Check the complete source passage, applicable date and capital exceptions before accepting any interpretation. No source or corpus change is requested by this capture."
+  },
+  "authority": "local-unreviewed-proposal"
+}

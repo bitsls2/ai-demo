@@ -1,0 +1,411 @@
+- link "Skip to content":
+  - /url: "#start-of-content"
+- banner:
+  - heading "Navigation Menu" [level=2]
+  - link "Homepage":
+    - /url: /
+  - navigation "Global":
+    - list:
+      - listitem:
+        - button "Platform"
+      - listitem:
+        - button "Solutions"
+      - listitem:
+        - button "Resources"
+      - listitem:
+        - button "Open Source"
+      - listitem:
+        - button "Enterprise"
+      - listitem:
+        - link "Pricing":
+          - /url: https://github.com/pricing
+  - button "Search or jump to, type / to search": Search
+  - link "Sign in":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fchris-page-gov%2Fokf-dwp%2Fblob%2F77ef16047415ee48dcb93b80adf1ba057ea00d9b%2Fdocs%2Freading-help-release-2026-09-27.md
+  - link "Sign up":
+    - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=chris-page-gov%2Fokf-dwp
+  - button "Appearance settings"
+- main:
+  - link "chris-page-gov":
+    - /url: /chris-page-gov
+  - text: /
+  - strong:
+    - link "okf-dwp":
+      - /url: /chris-page-gov/okf-dwp
+  - text: Public
+  - list:
+    - listitem:
+      - link "You must be signed in to change notification settings":
+        - /url: /login?return_to=%2Fchris-page-gov%2Fokf-dwp
+        - text: Notifications
+    - listitem:
+      - link "Fork 0":
+        - /url: /login?return_to=%2Fchris-page-gov%2Fokf-dwp
+    - listitem:
+      - link "You must be signed in to star a repository":
+        - /url: /login?return_to=%2Fchris-page-gov%2Fokf-dwp
+        - text: Star 0
+  - navigation "Repository":
+    - list:
+      - listitem:
+        - link "Code":
+          - /url: /chris-page-gov/okf-dwp
+      - listitem:
+        - link "Issues 3":
+          - /url: /chris-page-gov/okf-dwp/issues
+      - listitem:
+        - link "Pull requests":
+          - /url: /chris-page-gov/okf-dwp/pulls
+      - listitem:
+        - link "Actions":
+          - /url: /chris-page-gov/okf-dwp/actions
+      - listitem:
+        - link "Projects":
+          - /url: /chris-page-gov/okf-dwp/projects
+      - listitem:
+        - link "Security and quality":
+          - /url: /chris-page-gov/okf-dwp/security
+      - listitem:
+        - link "Insights":
+          - /url: /chris-page-gov/okf-dwp/pulse
+  - heading "Collapse file tree" [level=2]:
+    - button "Collapse file tree" [expanded]
+  - heading "Files" [level=2]
+  - link "View file on default branch":
+    - /url: /chris-page-gov/okf-dwp/blob/main/docs/reading-help-release-2026-09-27.md
+  - button "77ef160 branch": 77ef160
+  - button "Search this repository (forward slash)"
+  - combobox "Go to file"
+  - navigation "File Tree Navigation":
+    - tree "Files":
+      - treeitem ".github" [level=1]
+      - treeitem "bundle" [level=1]
+      - treeitem "capital-pilot" [level=1]
+      - treeitem "combined" [level=1]
+      - treeitem "context" [level=1]
+      - treeitem "docs" [expanded] [level=1]:
+        - text: docs
+        - group "docs":
+          - treeitem "evidence" [level=2]
+          - treeitem "learning" [level=2]
+          - treeitem "next-stage" [level=2]
+          - treeitem "templates" [level=2]
+          - treeitem "abroad-semantic-audit.md" [level=2]
+          - treeitem "adm-acquisition.md" [level=2]
+          - treeitem "backlog-work-packages.md" [level=2]
+          - treeitem "backlog.md" [level=2]
+          - treeitem "carehome-component-dependency-review.md" [level=2]
+          - treeitem "chatgpt-connection.md" [level=2]
+          - treeitem "combined-reader.md" [level=2]
+          - treeitem "compact-evidence-demo.md" [level=2]
+          - treeitem "context-assembly-demo.md" [level=2]
+          - treeitem "context-corpus.md" [level=2]
+          - treeitem "context-discovery.md" [level=2]
+          - treeitem "context-performance.md" [level=2]
+          - treeitem "cpag-handbook.md" [level=2]
+          - treeitem "cpag-permission-request-draft.md" [level=2]
+          - treeitem "data-agent-semantic-review.md" [level=2]
+          - treeitem "demo-one-freeze-2026-09-23.md" [level=2]
+          - treeitem "demo-one-pair-protocol.md" [level=2]
+          - treeitem "demo-one-pair-results.md" [level=2]
+          - treeitem "demo-one-question-ledger.md" [level=2]
+          - treeitem "disability-addition-qualification-review.md" [level=2]
+          - treeitem "discovery-cards-experiment.md" [level=2]
+          - treeitem "discovery.md" [level=2]
+          - treeitem "evidence-connect-profile.md" [level=2]
+          - treeitem "evidence-delivery-learning.md" [level=2]
+          - treeitem "evidence-workbench-handover.md" [level=2]
+          - treeitem "evidence-workbench-work-log.md" [level=2]
+          - treeitem "evidence-workbench.md" [level=2]
+          - treeitem "full-dmg-walkthrough.md" [level=2]
+          - treeitem "future-sources.md" [level=2]
+          - treeitem "glossary.md" [level=2]
+          - treeitem "household-evidence-expansion.md" [level=2]
+          - treeitem "household-qualification-budget-review.md" [level=2]
+          - treeitem "household-reader-public-verification.md" [level=2]
+          - treeitem "household-reader-verification.md" [level=2]
+          - treeitem "household-service-verification.md" [level=2]
+          - treeitem "ignored-person-qualification-review.md" [level=2]
+          - treeitem "learning-pages-regressions.md" [level=2]
+          - treeitem "learning-path.md" [level=2]
+          - treeitem "learning-website.md" [level=2]
+          - treeitem "legal-body-evidence.md" [level=2]
+          - treeitem "legal-reconciliation.md" [level=2]
+          - treeitem "liteparse-pilot.md" [level=2]
+          - treeitem "logical-evidence-units.md" [level=2]
+          - treeitem "logical-units-work-log.md" [level=2]
+          - treeitem "manual-structure-evaluation.md" [level=2]
+          - treeitem "manual-structure-process.md" [level=2]
+          - treeitem "meeting-walkthrough.md" [level=2]
+          - treeitem "methodology.md" [level=2]
+          - treeitem "monday-delivery-work-log.md" [level=2]
+          - treeitem "monday-demo-2026-09-21.md" [level=2]
+          - treeitem "monday-direct-trial-protocol.md" [level=2]
+          - treeitem "monday-direct-v4-trial-protocol.md" [level=2]
+          - treeitem "monday-handover-2026-09-21.md" [level=2]
+          - treeitem "monday-model-trials.md" [level=2]
+          - treeitem "ontology-use.md" [level=2]
+          - treeitem "original-acceptance-restoration.md" [level=2]
+          - treeitem "partner-addition-qualification-review.md" [level=2]
+          - treeitem "passage-boundary-review.md" [level=2]
+          - treeitem "pc-capital-bounded-repair.md" [level=2]
+          - treeitem "pip-transition-source-review.md" [level=2]
+          - treeitem "publication-contract-details.json" [level=2]
+          - treeitem "reading-help-ch60.md" [level=2]
+          - treeitem "reading-help-corpus-contract.md" [level=2]
+          - treeitem "reading-help-demo-2026-09-30.md" [level=2]
+          - treeitem "reading-help-legislation-bridge.md" [level=2]
+          - treeitem "reading-help-release-2026-09-27.md" [level=2]
+          - treeitem "reading-help-rollout-work-log.md" [level=2]
+          - treeitem "reading-help-rollout.md" [level=2]
+          - treeitem "relationship-audit.md" [level=2]
+          - treeitem "remaining-work.md" [level=2]
+          - treeitem "remote-mcp-demo.md" [level=2]
+          - treeitem "remote-mcp-hospital-coverage.md" [level=2]
+          - treeitem "repository-governance.md" [level=2]
+          - treeitem "research-index.md" [level=2]
+          - treeitem "retained-evidence-browser-verification.md" [level=2]
+          - treeitem "retained-evidence-examples.md" [level=2]
+          - treeitem "retained-evidence-publication.md" [level=2]
+          - treeitem "retrospective.md" [level=2]
+          - treeitem "semantic-closure-and-compact-delivery.md" [level=2]
+          - treeitem "semantic-expansion.md" [level=2]
+          - treeitem "service-publication.md" [level=2]
+          - treeitem "source-led-demonstration.md" [level=2]
+          - treeitem "source-led-manual-guide.md" [level=2]
+          - treeitem "source-led-results.md" [level=2]
+          - treeitem "source-refresh.md" [level=2]
+          - treeitem "source-roles-diagram.svg" [level=2]
+          - treeitem "staff-model-trials.md" [level=2]
+          - treeitem "staff-service-browser-verification.md" [level=2]
+          - treeitem "team-handover-2026-09-20.md" [level=2]
+          - treeitem "uc-disabled-child-supersession-follow-up.md" [level=2]
+          - treeitem "unmerged-work-review-2026-09-24.md" [level=2]
+          - treeitem "voice-rehearsal.md" [level=2]
+          - treeitem "work-log-2026-09-19.md" [level=2]
+          - treeitem "work-log-2026-09-20.md" [level=2]
+          - treeitem "workbench-model-inspection.md" [level=2]
+          - treeitem "workbench-sidebar-demo.md" [level=2]
+      - treeitem "domain-profile" [level=1]
+      - treeitem "evaluation" [level=1]
+      - treeitem "evidence-examples" [level=1]
+      - treeitem "full-dmg" [level=1]
+      - treeitem "knowledge" [level=1]
+      - treeitem "logical-context" [level=1]
+      - treeitem "logical-units" [level=1]
+      - treeitem "manual-guide" [level=1]
+      - treeitem "pdf-structure" [level=1]
+      - treeitem "profiles" [level=1]
+      - treeitem "reading-help-corpus" [level=1]
+      - treeitem "research" [level=1]
+      - treeitem "scripts" [level=1]
+      - treeitem "source" [level=1]
+      - treeitem "structured-context" [level=1]
+      - treeitem "structured-units" [level=1]
+      - treeitem "tools" [level=1]
+      - treeitem "validation" [level=1]
+      - treeitem ".gitattributes" [level=1]
+      - treeitem ".gitignore" [level=1]
+      - treeitem ".python-version" [level=1]
+      - treeitem "AGENTS.md" [level=1]
+      - treeitem "AI_USAGE.md" [level=1]
+      - treeitem "CHANGELOG.md" [level=1]
+      - treeitem "LICENSE" [level=1]
+      - treeitem "LICENSE_DECISIONS.md" [level=1]
+      - treeitem "NOTICE.md" [level=1]
+      - treeitem "README.md" [level=1]
+      - treeitem "REPOSITORY_STATUS.md" [level=1]
+      - treeitem "SECURITY.md" [level=1]
+      - treeitem "okf.delivery.json" [level=1]
+      - treeitem "okf.publication.json" [level=1]
+      - treeitem "okf.semantic.json" [level=1]
+      - treeitem "pyproject.toml" [level=1]
+      - treeitem "reading-help-ch60-law.json" [level=1]
+      - treeitem "reading-help-ch60-references.json" [level=1]
+      - treeitem "reading-help-ch60.json" [level=1]
+      - treeitem "uv.lock" [level=1]
+  - slider "Draggable pane splitter"
+  - navigation "Breadcrumbs":
+    - heading "Breadcrumbs" [level=2]
+    - list:
+      - listitem:
+        - link "okf-dwp":
+          - /url: /chris-page-gov/okf-dwp/tree/77ef16047415ee48dcb93b80adf1ba057ea00d9b
+      - listitem:
+        - link "docs":
+          - /url: /chris-page-gov/okf-dwp/tree/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs
+  - heading "reading-help-release-2026-09-27.md" [level=1]
+  - button "Copy path"
+  - button "More file actions"
+  - heading "Latest commit" [level=2]
+  - link "chris-page-gov":
+    - /url: /chris-page-gov
+    - img "chris-page-gov"
+  - link "commits by chris-page-gov":
+    - /url: /chris-page-gov/okf-dwp/commits?author=chris-page-gov
+    - text: chris-page-gov
+  - link "Bind passing public reading-help checks and final demonstration record":
+    - /url: /chris-page-gov/okf-dwp/commit/b6d051fc1c9576c4954ed1f73b56279c75340679
+  - button "failure"
+  - link "Commit b6d051f":
+    - /url: /chris-page-gov/okf-dwp/commit/b6d051fc1c9576c4954ed1f73b56279c75340679
+    - text: b6d051f
+  - text: · Sep 27, 20262 days ago
+  - heading "History" [level=2]
+  - link "History":
+    - /url: /chris-page-gov/okf-dwp/commits/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/reading-help-release-2026-09-27.md
+  - heading "File metadata and controls" [level=2]
+  - list "File view":
+    - listitem:
+      - button "Preview" [pressed]
+    - listitem:
+      - button "Code"
+    - listitem:
+      - button "Blame"
+  - text: 60 lines (44 loc) · 7.31 KB
+  - link "Raw":
+    - /url: https://github.com/chris-page-gov/okf-dwp/raw/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/reading-help-release-2026-09-27.md
+  - button "Copy raw file"
+  - button "Download raw file"
+  - button "Outline"
+  - region "reading-help-release-2026-09-27.md":
+    - article:
+      - heading "Reading-help release record — 27 September 2026" [level=1]
+      - 'link "Permalink: Reading-help release record — 27 September 2026"':
+        - /url: "#reading-help-release-record--27-september-2026"
+      - paragraph:
+        - strong: "Status: technically verified; specialist review remains open."
+        - text: This is an independent experimental publication, not official DWP guidance or an entitlement decision. Explorer
+        - link "PR 159":
+          - /url: https://github.com/chris-page-gov/okf-explorer/pull/159
+        - text: merged as
+        - code: b633038c6173f1405199df9f08e8d8aa2ff51c0b
+        - text: ; its exact public Pages deployment and all
+        - strong: 16 public browser checks
+        - text: passed. Earlier failed attempts are retained. The final demonstration tag and its release assets bind the subsequent publication of these release notes.
+      - heading "What is implemented" [level=2]
+      - 'link "Permalink: What is implemented"':
+        - /url: "#what-is-implemented"
+      - list:
+        - listitem:
+          - text: The deterministic corpus accounts for
+          - strong: 513 DMG and ADM documents
+          - text: ","
+          - strong: 19,090 pages
+          - text: ","
+          - strong: 53,727 adopted structured units
+          - text: and
+          - strong: 893 pages without usable extracted text
+          - text: . It publishes 54,299 bounded passage segments in 1,455 compressed leaves, with 197,564 delivered occurrence candidates. Processing coverage records gaps; it does not mean complete explanations. The later 54,577-unit amendment candidate remains separate.
+        - listitem:
+          - text: The catalogue has SHA-256
+          - code: 6c53b659b519aa4cbf7529e7e10eb4ad3bfe8efcac18055ec2a5ade724998b46
+          - text: at data commit
+          - code: cbada7bf544106bdceb2445fc379c8b3e5b73ee4
+          - text: ; corpus PR 50 merged as
+          - code: 239f974c6cba23a2a37182af722ebba0803504b6
+          - text: . The additive workbench integration is recorded at
+          - code: 2ad33add6d8660fec98bf34fb98480a9d0de9e27
+          - text: and DWP PR 49 merged as
+          - code: f61d41b689427c27275ae3b7e64b612925b6321e
+          - text: ; seven public documentation resources matched that exact Pages artefact.
+        - listitem:
+          - text: Exact unit and source identity links cover
+          - strong: 401 of 403
+          - text: distinct retained workbench records across all
+          - strong: "40"
+          - text: cases. The two unmatched capital composites, U06 and U10, remain unlinked. The workbench does not rewrite their packages or evidence requirements.
+        - listitem:
+          - text: The original Chapter 60 v1 reading aid remains unchanged at fallback tag
+          - code: demo-2026-09-30-reading-help-v1
+          - text: (pinned manifest commit
+          - code: 46a85142e0fe3a73b686b91029d357770b68591d
+          - text: ). Separate v1-compatible manifests add 20 body-to-footer occurrence pairs and dated candidate statutory links.
+      - heading "Checks and retained results" [level=2]
+      - 'link "Permalink: Checks and retained results"':
+        - /url: "#checks-and-retained-results"
+      - list:
+        - listitem:
+          - text: A source-led 12-case gate and a separately frozen fresh 24-case gate passed their stated structural controls. The first held-out attempt remains
+          - strong: 23 passed and one failed
+          - text: ": H05 expected only DMG 070831 while the frozen source prints a range to 070834, which the producer correctly retained unresolved. A further pre-execution fixture was rejected over"
+          - code: et seq
+          - text: and coverage. Later producer regressions replayed unchanged expectations; none is specialist legal review.
+        - listitem:
+          - text: The full consumer compatibility audit found zero shape/size violations across 513 indexes and 1,455 leaves, including the printed 166-abbreviation table. The integrated focused reading-help suite recorded 50 passing controls. The 28-case passage review recheck reproduces all 55 files and passes four controls. The nine previously reviewed substantive chapters retain exact PDF/extraction hashes and every recorded source span. This is a non-regression check of the retained review;
+          - strong: case 014 remains unresolved
+          - text: .
+        - listitem:
+          - text: Cold and warm equal-budget replay passed
+          - strong: 40/40 package-integrity checks
+          - text: ", with all 40 still"
+          - strong: insufficient
+          - text: and exact retained packages unchanged. The fixed limits were 512 KiB, 64 records, 128 relationships and depth six. Cold fetches totalled 158,837,842 bytes; warm fetches totalled zero bytes. This is a non-regression result, not improved retrieval or answer quality. There were
+          - strong: zero content-processing or answer-model calls
+          - text: for this increment.
+        - listitem:
+          - text: The optional legal bridge reuses the existing
+          - strong: 20 statutory units, 16 provisions and 43 navigation relationships
+          - text: . It requested three new provision targets and retained four observed bodies because section 70 has distinct England and Wales and Scotland variants. Four source-span-bound full-title mappings and 16 citation bindings passed structural admission; five unsupported citation cards remain unresolved. The optional context adds 10 records and 51 relationships while preserving all 40 original evidence requirements. The unchanged ordinary natural-language probe still misses the bridge at its fixed budget; it is not the default service.
+      - heading "Boundaries and remaining work" [level=2]
+      - 'link "Permalink: Boundaries and remaining work"':
+        - /url: "#boundaries-and-remaining-work"
+      - paragraph:
+        - text: The catalogue is machine-proposed and unreviewed. The 893 extraction gaps are not blank-page findings. Mixed-case abbreviations such as
+        - code: WDisP
+        - text: may remain unrecognised, and repeated-phrase proposals are capped at 100 per document. A source-verified literal proves its location and bytes, not the correctness of an expansion, a citation or legal applicability. No new statutory request, OCR, content model or answer model is needed to reproduce these deterministic artefacts.
+      - paragraph:
+        - text: The
+        - link "public browser receipt":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/reading-help-rollout/release-20260927/public-attempt-03/receipt.json
+        - text: "binds the exact consumer and frozen data. The previous Chapter 60 fallback tag and every failed control are preserved. Specialist review of candidate meanings, territorial and date variants, unresolved references and case 014 remains open. The separate legislation format migration is not release-ready: current release contracts bind historical consumer versions, and locked reproduction found a documentation ownership defect. Its candidate remains independent; the DWP demonstration uses only the validated bounded citation bridge."
+      - heading "Evidence pointers" [level=2]
+      - 'link "Permalink: Evidence pointers"':
+        - /url: "#evidence-pointers"
+      - list:
+        - listitem:
+          - code: reading-help-corpus/manifest.json
+          - text: — catalogue and processing ledger.
+        - listitem:
+          - code: evaluation/reading-help-rollout/heldout-gate-02.json
+          - text: and
+          - code: heldout-03-producer-replay-03.json
+          - text: — retained failure and current unchanged-expectation controls.
+        - listitem:
+          - code: evaluation/reading-help-rollout/consumer-compatibility-01.json
+          - text: — complete leaf/index contract audit.
+        - listitem:
+          - code: evaluation/reading-help-rollout/replays/reading-help-20260927-01/report.json
+          - text: — fixed-budget cold/warm non-regression.
+        - listitem:
+          - code: evaluation/reading-help-rollout/workbench-link-report.json
+          - text: — 401/403 exact target mapping.
+        - listitem:
+          - code: domain-profile/reading-help-law/admission.json
+          - text: and
+          - code: evaluation/reading-help-rollout/law-context-probe.json
+          - text: — optional legal admission and failed ordinary selection.
+        - listitem:
+          - link "Release manifest":
+            - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/reading-help-rollout/release-20260927/manifest.json
+          - text: — exact hashes, observed identities and explicit remaining gates.
+      - heading "Verify the retained release evidence" [level=2]
+      - 'link "Permalink: Verify the retained release evidence"':
+        - /url: "#verify-the-retained-release-evidence"
+      - paragraph: "Run this offline check from the repository root:"
+      - text: uv run --locked python scripts/check_reading_help_release.py \ --root . \ --manifest evaluation/reading-help-rollout/release-20260927/manifest.json
+      - button "Copy code to clipboard"
+      - paragraph: CI runs the same check. It verifies the bound artefacts, the separate 12/24 controls, all 40 unchanged insufficient packages and the exact public verifier. A candidate can be structurally valid while public verification remains false. A technically verified status requires the complete passing public receipt, matching consumer and data identities, and the exact verifier script hash. These checks do not establish legal completeness or specialist acceptance.
+      - heading "Final publication identity" [level=2]
+      - 'link "Permalink: Final publication identity"':
+        - /url: "#final-publication-identity"
+      - paragraph:
+        - text: The intended paired tag is
+        - code: demo-2026-09-30-reading-help-v2
+        - text: . After the normal release-record PR and Pages checks pass, its GitHub release assets retain the final documentation observation and paired commit identities. This avoids an impossible self-reference in which committing a receipt changes the commit being observed. Until the tag exists, use the pinned links in the
+        - link "walkthrough":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/reading-help-demo-2026-09-30.md
+        - text: ; the earlier
+        - code: demo-2026-09-30-reading-help-v1
+        - text: remains the tested fallback.
+- alert

@@ -1,0 +1,91 @@
+# PresePresentation structure
+
+Timings  
+- 5 mins - Introduction
+- 30 mins - Technology & Demo
+- 10 mins - Questions 
+
+#### Approach - Ideas for Incorporating Aristotle’s Rhetorical Triangle :)
+
+**ethos** - Chris history & present - OpenAI blue team etc.
+**pathos** - Life is messy. We all have complicated lives. For the most part we can be resilient to change, However sometimes we need a safety net (Health, income, home, relationships ). In theory we have the welfare state to provide a safety net for people. However live is messy, it is hard to have clear legislation and guidance to reflect this. The DWP decision Makers guide is a perfect example of efforts to provide guidance for our complicated lives. Can AI be used to make sense of this.
+**logos**  - The experiments/demos, the problem the technology, the how & the results.
+
+
+## Working Title - From Horizon Scanning to Horizon Walking 
+
+I (Nick) have been horizon scanning but Chris has been horizon walking.
+
+
+## Ideas & Structure
+
+- Context 
+  - DSIT AI Engineer lab - What is it about ?  What did it involve?
+  - How I met Chris at the AI Champions day (June) cross government meet up.
+  - A bit about Chris - History , his role & interests
+
+- The demo
+  - Why we decided on a demo.  Making it relevant to the DWP. We also wanted to allow time for questions.
+  - The three demo ideas & two technologies.  OKF and webMCP.
+  - Demo restriction - only using information that is publicly available.
+
+## Demo Context 
+
+The Welfare Benefits in the UK are supposed to provide a safety net for UK citizens.
+
+Legislation  is draft in parliament  and the DWP interpret legislation  and turn it into policy and guidance. DWP Decision Makers guidance is used to show that decision makers can responsibly act on behalf of the secretary of state.
+
+It's a corpus of information to explicitly tell us how to operate benefits.
+
+What I think makes this demo interesting is it's not about using AI at the coding level. It's  about how decision makers apply the guidance to implement benefits. It's how business analysts explore what the business does.
+
+How do we make a corpus of knowledge AI agent friendly? 
+
+What is Open Knowledge formation? What problem is it trying to solve?
+
+What is MCP? What is webMCP ? how is it different from MCP? What problem is it trying to solve? How might it be used in the future? How could it be applied to the DWP? (Applying for a benefit, reporting a change of circumstance, find out about my benefits & payments)
+
+## The demo/ The experiment
+
+### The Problem
+Context of the problem to solve. The size and complexity of the problem.
+
+### The Processs
+The process of how the corpus was created.
+
+#### The Theory (existing slide)
+
+The governed AI stack -6 layers 
+
+OKF-MCP: trust meets execution
+
+### The Evaluation
+The evaluation process.
+
+Zoom in on an example (Late reporting or Supersession).
+
+Question 1. Ask OKF: where a child is awarded the highest-rate care component of DLA from 26 January 2025, but the change is reported to Universal Credit on 28 March 2026, what's the effective date of the higher disabled-child addition, and from which assessment period should it be paid?
+
+Answer 1.
+
+Reference [ADM A4](https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf)
+
+*UC and award of other benefits
+A4361 In the case of UC where the claimant or a member of their family becomes entitled to another
+relevant benefit, ceases to be entitled or the rate of another such benefit alters then the superseding
+decision takes effect1 from the first day of the assessment period in which entitlement to the other
+benefit or an alteration in its rate arises or entitlement ends.
+1 SS Act 98, s 8(3); DAWAP(S)Regs, reg 2; DACYP (S)Regs, reg 2; UC, PIP, JSA & ESA (D&A) Regs, Sch 1,
+Part 4, para 31(1) & 31(2)(a)*
+
+
+### Demo
+
+- Using Voice to ask a question ?
+- Where to find the demo (QR Code to instructions?).
+- How people could use the lab OKF to ask a question ?
+- How people could use webMCP (dev mode)? 
+
+### Questions
+
+Ask the audience if they have any questions?

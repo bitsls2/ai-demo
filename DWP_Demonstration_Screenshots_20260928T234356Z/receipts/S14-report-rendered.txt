@@ -1,0 +1,257 @@
+Skip to content
+Navigation Menu
+Platform
+Solutions
+Resources
+Open Source
+Enterprise
+Pricing
+Search
+/
+Sign in
+Sign up
+chris-page-gov
+/
+okf-dwp
+Public
+Notifications
+Fork 0
+ Star 0
+Code
+Issues
+3
+Pull requests
+Actions
+Projects
+Security and quality
+Insights
+Files
+77ef160
+capital-pilot
+combined
+context
+docs
+evidence
+learning
+next-stage
+templates
+abroad-semantic-audit.md
+adm-acquisition.md
+backlog-work-packages.md
+backlog.md
+carehome-component-dependency-review.md
+chatgpt-connection.md
+combined-reader.md
+compact-evidence-demo.md
+context-assembly-demo.md
+context-corpus.md
+context-discovery.md
+context-performance.md
+cpag-handbook.md
+cpag-permission-request-draft.md
+data-agent-semantic-review.md
+demo-one-freeze-2026-09-23.md
+demo-one-pair-protocol.md
+demo-one-pair-results.md
+demo-one-question-ledger.md
+disability-addition-qualification-review.md
+discovery-cards-experiment.md
+discovery.md
+evidence-connect-profile.md
+evidence-delivery-learning.md
+evidence-workbench-handover.md
+evidence-workbench-work-log.md
+evidence-workbench.md
+full-dmg-walkthrough.md
+future-sources.md
+glossary.md
+household-evidence-expansion.md
+household-qualification-budget-review.md
+household-reader-public-verification.md
+household-reader-verification.md
+household-service-verification.md
+ignored-person-qualification-review.md
+learning-pages-regressions.md
+learning-path.md
+learning-website.md
+legal-body-evidence.md
+legal-reconciliation.md
+liteparse-pilot.md
+logical-evidence-units.md
+logical-units-work-log.md
+manual-structure-evaluation.md
+manual-structure-process.md
+meeting-walkthrough.md
+methodology.md
+monday-delivery-work-log.md
+monday-demo-2026-09-21.md
+monday-direct-trial-protocol.md
+monday-direct-v4-trial-protocol.md
+monday-handover-2026-09-21.md
+monday-model-trials.md
+ontology-use.md
+original-acceptance-restoration.md
+partner-addition-qualification-review.md
+passage-boundary-review.md
+pc-capital-bounded-repair.md
+pip-transition-source-review.md
+publication-contract-details.json
+reading-help-ch60.md
+reading-help-corpus-contract.md
+reading-help-demo-2026-09-30.md
+reading-help-legislation-bridge.md
+reading-help-release-2026-09-27.md
+reading-help-rollout-work-log.md
+reading-help-rollout.md
+relationship-audit.md
+remaining-work.md
+remote-mcp-demo.md
+remote-mcp-hospital-coverage.md
+repository-governance.md
+research-index.md
+retained-evidence-browser-verification.md
+retained-evidence-examples.md
+retained-evidence-publication.md
+retrospective.md
+semantic-closure-and-compact-delivery.md
+semantic-expansion.md
+service-publication.md
+source-led-demonstration.md
+source-led-manual-guide.md
+source-led-results.md
+source-refresh.md
+source-roles-diagram.svg
+staff-model-trials.md
+staff-service-browser-verification.md
+team-handover-2026-09-20.md
+uc-disabled-child-supersession-follow-up.md
+unmerged-work-review-2026-09-24.md
+voice-rehearsal.md
+work-log-2026-09-19.md
+work-log-2026-09-20.md
+workbench-model-inspection.md
+workbench-sidebar-demo.md
+domain-profile
+evaluation
+evidence-examples
+full-dmg
+knowledge
+logical-context
+logical-units
+manual-guide
+pdf-structure
+profiles
+reading-help-corpus
+research
+scripts
+source
+structured-context
+structured-units
+tools
+validation
+.gitattributes
+.gitignore
+.python-version
+AGENTS.md
+Breadcrumbs
+okf-dwp/docs
+/passage-boundary-review.md
+Latest commit
+chris-page-gov
+Record verified passage workbench release and remaining source gaps (#45
+873d2ed
+ · 
+History
+History
+File metadata and controls
+Preview
+Code
+Blame
+183 lines (154 loc) · 10.6 KB
+Raw
+Review how a passage was built
+
+A passage is a piece of guidance that belongs together. A PDF page is a place to find it. A passage may cross a page boundary, and a single page can contain several different things: a rule, an example, a contents list and a note about an amendment. Mixing those things can make an evidence search less useful even when every source byte has been captured.
+
+The passage-boundary workbench lets a reviewer examine those decisions. It is an independent experimental tool, not an official Department for Work and Pensions (DWP) service or a benefits decision.
+
+Start with the 28 known cases
+
+The review queue contains 28 previously identified large passages in historical amendments to the Decision makers' guide (DMG). These were selected because their structure looked suspicious. They are not a random sample and cannot tell us the error rate of the whole corpus. Advice for decision making (ADM) is the other DWP manual in the wider corpus; its chapters are included in the separate parser impact checks.
+
+Open the 28-case passage review. This link pins the DWP review data to 65924955 and opens Explorer's Evidence workbench → Passage boundaries view. The generic route is published and verified at Explorer commit 4d76cddb. The release record retains all 28 public case checks, exact application-file hashes and review export. The review manifest is also available for local inspection. The manifest is the small catalogue of cases and their fingerprints. The viewer loads a case and its extraction only when selected. The original findings and frozen source observations remain available.
+
+Choose a case. Read its finding and uncertainty before deciding whether to change the passage.
+Select a source page. The original PDF and exact extracted text use the same page locator. Compare the before and proposed after passages, including examples, qualifications, references and unfinished fragments.
+Open How this passage was built. A parser is the program that recognises document structure. Its version, rules, recorded settings, settings fingerprint and source evidence explain the proposal. A hash (SHA-256) is a fingerprint of exact bytes; matching hashes do not establish that the interpretation is correct.
+Use Isolated correction preview to inspect a proposed split, join or structural-role change. The JSON editor accepts structured data, not commands. A successful preview checks identities and source-byte accounting; it does not establish a correct legal interpretation.
+Read the impact and missing information. A change can affect the passage, other units in its document, identifiers and dependencies, and evidence selected for questions. Unknown downstream effects remain unknown.
+Enter a reviewer, date and reason, then download the review JSON. This file records a reproducible suggestion for a separate reviewed producer change. It does not modify published evidence.
+What to look for
+False split: a sentence, example or qualification is cut in two.
+False join: unrelated material, such as an amendment letter and a rule, appears as one passage.
+Structural role: a heading, contents entry or administrative note is mistaken for substantive guidance.
+Reference: a paragraph number or cited appendix loses its destination.
+Incomplete fragment: the preserved source really ends mid-sentence. Keep that uncertainty visible; do not invent a continuation from another edition.
+Identifier migration: when an old passage becomes several new ones, record each proposed connection. Shared source bytes do not prove that two passages mean the same thing.
+
+The initial review queue preserves the parked parser's proposal. Its status is pending independent review. It remains an auditable comparison even when a later, narrower parser change rejects part of that proposal. Read the recorded parser and source identities before comparing results from different runs.
+
+What the parser review found
+
+The earlier broad proposal treated a standalone word Appendix as a new section everywhere. In DMG Chapter 5, PDF page 152, that word is the wrapped end of a sentence. Splitting there would damage the passage. The nine-chapter source review therefore rejected that broad rule for substantive chapters.
+
+The successor confines the new navigation and bare-Appendix rules to historical amendment documents. Its full census accounts for all 513 documents, 35,143,443 extracted source bytes and 75 authored units. It produces 54,577 units, compared with the frozen baseline's 53,727. It changes 125 historical amendment documents and leaves every substantive chapter's records unchanged. The parked proposal's 54,581 units are a different, preserved experiment.
+
+The 28 case records distinguish the target boundary from remaining structure and legal completeness: 15 target boundaries are corrected, 12 are partly corrected, and case 014 remains unresolved. For example, the successor also separates case 019's overlap reference table from paragraph 070594. Case 014's extracted text does not support a confident new boundary. Abbreviation continuations, unlabelled fragments and some trailing number markers remain explicit residuals. These figures are an engineering assessment of selected known defects, not specialist acceptance or an estimate of corpus accuracy.
+
+The parser first passed four source cases, then eight. Separate controls cover an unseen amendment replacement sheet and two genuine cross-page passages: DMG 01013's example and ADM A2022's conditions and examples. Independent PDF inspection confirmed both continuations. Source-byte preservation alone would not have established that those passages stayed together.
+
+What changed in the 40-question replay
+
+The retained comparison uses the same 40 questions, source scope, assembler and delivery code. Both arms have a 512 KiB package budget, 64 records, 128 relationships and traversal depth six. It uses no answer-model calls. The exact candidate packages and their hashes are retained, so verification does not depend on temporary local files.
+
+Observation	Result
+Questions whose selected evidence identifiers changed	21 of 40
+Questions whose evidence order changed	22 of 40
+Questions whose selected traversal paths changed	4 of 40
+Text or source-span changes for an identifier retained in both arms	None
+Changes in matched declared candidate pages	None
+Changes to evidence requirements	None
+Packages whose byte size changed	34 of 40; 2,709 bytes larger in total
+Complete answers established	None; all 40 remain insufficient
+
+The new structural units affect selection and omission reports, but this replay does not demonstrate improved retrieval of the declared expected pages. Page overlap is a limited coverage measure, not a claim-level answer score. The report preserves gains, losses, order and traversal changes, and both kinds of omission: candidates outside retrieval limits and records outside assembly limits. The earlier 54,576-unit replay remains separately archived.
+
+Separate the three decisions
+Decision	What would support it?
+Is the structure sound?	Exact source comparison, qualifications retained, suitable roles, valid references and no lost or duplicated source bytes.
+Does retrieval improve?	The same questions, expected evidence and budgets tested against baseline and candidate, with gains and losses recorded.
+Can we give a complete legal answer?	Applicable, complete and current evidence, reconciled legal versions and the required specialist review.
+
+Passing the first test does not pass the other two. All 40 staff-question occurrences must remain in the replay, including insufficient results. No answer-model comparison or optional automated defect detector is needed to inspect the cases.
+
+Reproduce the review data
+
+From the DWP repository, using its locked environment:
+
+uv sync --locked
+uv run --locked python scripts/build_passage_boundary_review.py
+uv run --locked python scripts/build_passage_boundary_review.py --check
+uv run --locked python -m unittest discover -s scripts -p 'test_passage_boundary_review.py'
+uv run --locked python -m unittest discover -s scripts -p 'test_passage_boundary*.py'
+uv run --locked python scripts/build_passage_boundary_units.py --profile passage-boundary-v1
+uv run --locked python scripts/build_passage_boundary_units.py --profile passage-boundary-v1 --check
+uv run --locked python scripts/compare_passage_boundary_replay.py --candidate-root evaluation/passage-boundary-candidate/replay-projection --check
+
+The producer checks the original PDF, extracted text, baseline passages and proposed spans before generating the review projection. It does not rewrite frozen sources or earlier evidence packages.
+
+The successor parser is explicitly selected by passage-boundary-v1. Its output lives under evaluation/passage-boundary-candidate/structured-units/. The original scripts/build_structured_units.py --check still checks the frozen baseline. This makes the before/after comparison repeatable.
+
+The versioned replay protocol explains how to regenerate the candidate in a disposable checkout. It substitutes only the explicitly identified parser and navigation module, checks their hashes and the resulting structural catalogue, and retains the exact 40 packages. Normal surplus-output guards stay enabled. The scratch rerun initially found an unrelated .DS_Store and older generated projection files; those were moved aside only in the disposable copy before the unchanged producer passed.
+
+The offline comparison above validates the retained receipt, exact packages, questions, source and implementation identities. It does not rerun an AI or change the normal published evidence selection.
+
+See the 40-question workbench guide, authored delivery register and generated work-package status.
+
+ 

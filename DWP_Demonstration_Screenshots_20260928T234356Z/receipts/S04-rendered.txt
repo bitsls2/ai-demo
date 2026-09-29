@@ -1,0 +1,140 @@
+← Bounded reading aid
+
+Reading-help corpus
+
+Select a document and passage from a governed catalogue. Source text and candidate help remain separate. This independent demonstration is not official DWP guidance and does not decide entitlement.
+
+Reading-help catalogue URL
+Load catalogue
+
+513 processed documents · 893 extraction-blocked pages. Catalogue status: machine-proposed-unreviewed.
+
+Catalogue identity and limits
+Choose a document
+Family
+All families
+ADM
+DMG
+Document ID
+
+Showing 1 matching documents at most.
+
+ADM · adm-chapter-a2 · 158 passages
+adm-chapter-a2
+
+158 ordered passage segments · 3 extraction-blocked pages. Specialist acceptance: not recorded.
+
+Machine-extraction gaps (3)
+
+These pages have no usable machine text in the frozen extraction. The PDF pages may contain content; no OCR or legal meaning is inferred.
+
+Open source PDF at page 10
+Open source PDF at page 56
+Open source PDF at page 64
+Find a paragraph or declared label
+Exact abbreviation occurrence in this document
+
+Showing up to 100 matching passages. Abbreviation search uses source-verified occurrence literals in the index.
+
+unresolved fragment · page 1, 2 · unresolved-fragment
+A2001 — Introduction · page 3 · paragraph
+A2002 — Introduction · page 3, 4 · paragraph
+A2003 — Appropriate Office · page 4 · paragraph
+A2004 — Assessment Period · page 4 · paragraph
+A2005 — Benefit · page 4, 5 · paragraph
+reserved · page 5 · reserved
+A2008 — Claimant · page 5 · paragraph
+A2009 — Couple · page 5 · paragraph
+A2010 — Earned income · page 5 · paragraph
+A2011 — Electronic communications · page 5, 6 · paragraph
+A2013 — Partner · page 6 · paragraph
+reserved · page 6 · reserved
+A2016 — Writing · page 6, 7 · paragraph
+A2017 — General Requirement to make a claim · page 7 · paragraph
+A2018 — General Requirement to make a claim · page 7 · paragraph
+A2019 — Making a claim · page 7 · paragraph
+A2020 — Making a claim · page 7, 8 · paragraph
+A2021 — Making a claim · page 8 · paragraph
+A2022 — Making a claim · page 8, 9 · paragraph
+A2023 — Making a claim · page 9 · paragraph
+A2024 — Making a claim · page 9 · paragraph
+A2025 — Making a claim for UC · page 11 · paragraph
+A2026 — Making a claim for UC · page 11 · paragraph
+A2027 — Making a claim for UC · page 11 · paragraph
+A2028 — Making a claim for UC · page 11, 12 · paragraph
+A2029 — Claims to UC by members of a couple · page 13 · paragraph
+A2030 — Claims to UC by members of a couple · page 13 · paragraph
+A2031 — Claims to UC by members of a couple · page 13 · paragraph
+A2032 — Claims to UC by members of a couple · page 13, 14 · paragraph
+A2033 — Claims to UC by members of a couple · page 14 · paragraph
+A2034 — Claims to UC by members of a couple · page 14, 15 · paragraph
+A2035 — Claims to UC by members of a couple · page 15 · paragraph
+A2036 — Claims to UC by members of a couple · page 15, 16 · paragraph
+A2037 — Claims to UC by members of a couple · page 16, 17 · paragraph
+A2038 — Date of claim for UC · page 17 · paragraph
+A2039 — Date of claim for UC · page 17, 18 · paragraph
+A2040 — Date of claim for UC · page 18 · paragraph
+A2041 — Date of claim for UC · page 18 · paragraph
+A2042 — Date of claim for UC · page 18, 19 · paragraph
+A2043 — Date of claim for UC · page 19 · paragraph
+A2044 — Date of claim for UC · page 19, 20 · paragraph
+A2045 — Date of claim for UC · page 20, 21 · paragraph
+A2046 — Date of claim for UC · page 21 · paragraph
+A2047 — Date of claim for UC · page 21 · paragraph
+A2048 — Date of claim for UC · page 21, 22 · paragraph
+A2049 — Date of claim for UC · page 22 · paragraph
+A2050 — Date of claim for UC · page 22, 23, 24 · paragraph
+A2051 — Making a claim for PIP · page 24 · paragraph
+A2052 — Making a claim for PIP · page 24 · paragraph
+A2053 — Making a claim for PIP · page 24 · paragraph
+A2054 — Making a claim for PIP · page 24, 25 · paragraph
+A2055 — Making a claim for PIP · page 25 · paragraph
+A2056 — Making a claim for PIP · page 25, 26 · paragraph
+A2057 — Making a claim for PIP · page 26 · paragraph
+A2058 — Making a claim for PIP · page 26 · paragraph
+A2059 — Making a claim for PIP · page 26 · paragraph
+A2060 — Making a claim for PIP · page 26 · paragraph
+A2061 — Making a claim for PIP · page 27 · paragraph
+A2062 — Making a claim for PIP · page 27 · paragraph
+A2063 — Making a claim for PIP · page 27 · paragraph
+A2064 — Making a claim for PIP · page 27 · paragraph
+A2065 — Making a claim for PIP · page 27, 28, 29 · paragraph
+A2066 — Making a claim for ESA · page 29 · paragraph
+A2067 — Making a claim for ESA · page 29 · paragraph
+A2068 — Making a claim for ESA · page 29 · paragraph
+A2069 — Making a claim for ESA · page 30 · paragraph
+A2070 — Making a claim for ESA · page 30 · paragraph
+A2071 — Making a claim for ESA · page 30 · paragraph
+A2072 — Making a claim for ESA · page 30 · paragraph
+A2073 — Making a claim for ESA · page 30, 31 · paragraph
+A2074 — Making a claim for ESA · page 31 · paragraph
+A2075 — Making a claim for ESA · page 31 · paragraph
+A2076 — Making a claim for ESA · page 31 · paragraph
+A2077 — Making a claim for ESA · page 31, 32 · paragraph
+A2078 — Making a claim for ESA · page 32 · paragraph
+A2079 — Making a claim for ESA · page 32 · paragraph
+A2080 — Making a claim for ESA · page 32 · paragraph
+A2081 — Making a claim for ESA · page 32, 33 · paragraph
+A2082 — Making a claim to JSA · page 33 · paragraph
+A2083 — Making a claim to JSA · page 33 · paragraph
+A2084 — Making a claim to JSA · page 33, 34 · paragraph
+A2085 — Making a claim to JSA · page 34 · paragraph
+A2086 — Making a claim to JSA · page 34 · paragraph
+A2087 — Making a claim to JSA · page 34 · paragraph
+A2088 — Making a claim to JSA · page 34 · paragraph
+A2089 — Making a claim to JSA · page 34 · paragraph
+A2090 — Making a claim to JSA · page 34, 35 · paragraph
+A2091 — Making a claim to JSA · page 35 · paragraph
+A2092 — Making a claim to JSA · page 35 · paragraph
+A2093 — Making a claim to JSA · page 35 · paragraph
+A2094 — Making a claim to JSA · page 35 · paragraph
+A2095 — Making a claim to JSA · page 35, 36 · paragraph
+A2096 — Making a claim to JSA · page 36 · paragraph
+A2097 — Making a claim to JSA · page 36 · paragraph
+A2098 — Making a claim to JSA · page 36, 37 · paragraph
+A2099 — Making a claim to JSA · page 37 · paragraph
+A2100 — Making a claim to JSA · page 37, 38 · paragraph
+A2102 — Interchange with claims for other benefits · page 39 · paragraph
+A2103 — Interchange with claims for other benefits · page 39 · paragraph
+Repeated phrase proposals (46)
+Reading-help corpus | OKF Explorer

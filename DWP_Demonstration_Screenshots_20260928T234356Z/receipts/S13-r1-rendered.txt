@@ -1,0 +1,220 @@
+Skip to evidence
+← Explorer
+Evidence workbench
+
+Trace a staff question back to source pages, passages and declared evidence needs.
+
+Review passage boundaries → · Open reading help →
+
+Review manifest URL
+Load
+
+Page tools are unavailable in this browser. The workbench remains available.
+
+DWP staff evidence workbench: 40 frozen questions
+
+40 questions · Independent experimental DWP research across frozen DMG and ADM source snapshots
+
+Find a question
+staff-001: General
+What happens to your benefits if you go abroad?
+staff-002: State Pension
+If your birthday is 30th May 1960, what is the first date you will be entitled to State Pension?
+staff-003: State Pension
+How does State Pension interact with PIP?
+staff-004: State Pension
+What are the components which make up State Pension and how do you qualify for them?
+staff-005: State Pension
+What other benefits could you receive in addition to State Pension, and under what circumstances would you be entitled to them?
+staff-006: Pension Credit
+What is the maximum you can have in savings to still qualify for Pension Credit?
+staff-007: Pension Credit
+What were the Pension Credit weekly rates over the last five years?
+staff-008: Pension Credit
+What was the SDA amount over the last five years?
+staff-009: Pension Credit
+Besides SDA, what are the other additional payments which you can receive in addition to basic Pension Credit, and what have been their rates over the last five years?
+staff-010: Pension Credit
+What is used in the Pension Credit calculation to assess eligibility and what is the threshold for each element?
+staff-011: Pension Credit
+How does Housing Benefit impact Pension Credit?
+staff-012: Pension Credit
+Does Pension Credit stop is a citizen moves into a care home permanently if they are self-funding?
+staff-013: Pension Credit
+Does Pension Credit stop is a citizen moves into a care home permanently if they are not self-funding?
+staff-014: Pension Credit
+What is the impact of someone’s partner on their Pension Credit?
+staff-015: Pension Credit
+What inputs are required for the Pension Credit calculation?
+staff-016: Pension Credit
+Given these inputs what is the formula for calculating Pension Credit?
+staff-017: Pension Credit
+What difference to Pension Credit does having a partner make?
+staff-018: Pension Credit
+What happens if someone with a partner goes permanently into a Care Home (please give all scenarios)?
+staff-019: Pension Credit
+How does Pension Credit work?
+staff-020: Pension Credit
+How does a citizen qualify for Pension Credit?
+staff-021: Pension Credit
+What are the eligibility rules and entitlement rate for PC?
+staff-022: Pension Credit
+How do State Pension and Pension Credit fit together. For example: If someone receives State Pension, could they also be entitled to Pension Credit?
+staff-023: Pension Credit
+What happens to Pension Credit if someone moves abroad?
+staff-024: Industrial Injuries Benefits
+What additional benefits would you be entitled to if you are entitled to IIDB?
+staff-025: Industrial Injuries Benefits
+What happens if you are on IIDB when you reach State Pension Age?
+staff-026: Industrial Injuries Benefits
+What is the interaction between Child DLA and PIP?
+staff-027: Industrial Injuries Benefits
+Can you receive both IIDB and JSA?
+staff-028: Industrial Injuries Benefits
+Can you receive both IIDB and ESA?
+staff-029: Industrial Injuries Benefits
+What is the relationship between IIDB, PIP, Attendance Allowance and DLA?
+staff-030: Industrial Injuries Benefits
+How does IIDB relate to PIP?
+staff-031: Personal Independence Payment
+What additional benefits would you be entitled to if you are entitled to PIP?
+staff-032: Personal Independence Payment
+What happens if you are on PIP when you reach State Pension Age?
+staff-033: Personal Independence Payment
+What is the interaction between Child DLA and PIP?
+staff-034: Personal Independence Payment
+Can you receive both PIP and JSA?
+staff-035: Personal Independence Payment
+Can you receive both PIP and ESA?
+staff-036: Personal Independence Payment
+What is the relationship between PIP, Attendance Allowance and DLA?
+staff-037: Personal Independence Payment
+If you receive PIP and War Pensions Constant Allowance, how much would you get each week (please provide all variations)?
+staff-038: Carers Allowance
+Under what circumstances can a Citizen claim Carers Allowance?
+staff-039: Carers Allowance
+What impact does Carers Allowance have on other benefits which are being claimed?
+staff-040: Carers Allowance
+What happens to Carers Allowance if someone is caring for two or more people?
+
+QUESTION STAFF-006
+
+What is the maximum you can have in savings to still qualify for Pension Credit?
+
+Declared evidence status: insufficient. This is an assembly result within the declared scope, not an answer or legal decision.
+
+Scope: Complete frozen DMG and ADM source-led unit discovery with separately authored task profiles. Additive capital discovery groups over the full DMG and ADM structured corpus.
+
+Snapshot evidence-connect-754be67f82c82e31d17c · Context urn:sha256:88fe2cba3792174a4fb1202fbe55586b62b3dfdc31da87b4c378df9d78aa5e39 · Index 4e65253f72b2d771164d5ddd64374ed8142cf66b4a249f193a1fe44d5679f519
+
+Open full machine-readable evidence package ↗
+
+Manifest source date: Not supplied · Manifest capture date: Not supplied
+
+Original question review brief
+
+These notes came with the question catalogue. They describe the intended review and its recorded gaps; they are separate from the current context package's requirements and retrieval findings.
+
+Recorded ambiguities
+Savings may refer to cash savings or all capital; disregards, notional capital and partner ownership matter.
+The question presupposes a universal maximum; that premise needs source testing.
+Evidence identified for review
+Capital valuation/disregard and deemed-income rules combined with Guarantee Credit/Savings Credit conditions.
+Recorded scope gaps
+No governed topic-specific context profile or independently complete evidence requirement in the approved immutable Ask index.
+Selected records (30)
+Conditions of entitlement
+concept · model-derived
+Capital
+concept · model-derived
+State Pension Credit
+concept · model-derived
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77032 — Entitlement to State Pension Credit
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit
+evidence · normalized
+DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit
+evidence · normalized
+DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction
+evidence · normalized
+DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — unresolved fragment
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77352 — Savings credit
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77363 — Savings credit
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77351 — Savings credit
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77053 — Entitlement to State Pension Credit
+evidence · normalized
+DMG memo 4/2024: Closure of Tax Credits for State Pension Age Claimants and Transfer to Universal Credit and Pension Credit — Transfers to Universal Credit
+evidence · normalized
+DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — Appendix 1 - Amounts to be used in the calculation of entitlement
+evidence · normalized
+DMG Memo 02/26: Rates for Income Tax, Benefit Rates and Social Security Contributions from April 2026 — 02-26: Rates for income Tax, Benefit Rates and Social Security Contributions from April 2026
+evidence · normalized
+Chapter P1: Conditions of entitlement — PIP primary qualifying conditions
+evidence · normalized
+Beneficial ownership of capital
+concept · model-derived
+DMG Vol 14 Ch 84: Deemed weekly income from capital — 84921 — Deemed weekly income from capital
+evidence · normalized
+
+EVIDENCE · NORMALIZED
+
+DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction
+
+Exact frozen source spans; logical boundary proposal; applicability unreviewed · unreviewed-specialist-review-required
+
+Original source
+Extracted text and structure
+Complete passage
+Concepts and relationships
+Definitions and exceptions
+Retrieval trace
+Review proposal
+Graph
+Interactions
+Requirements
+Rates
+Calculation stages
+Review and change proposal
+
+Write a local proposal for a specialist to assess. Downloading it does not edit the original document, extraction, semantic source or published package.
+
+Proposed review outcome
+Needs specialist review
+Passage boundary correction
+Relationship correction
+Source or locator check
+No change proposed
+Evidence and suggested change
+Download review proposal
+
+Proposal downloaded locally. It has not changed the source or publication.
+
+Evidence workbench | OKF Explorer

@@ -1,0 +1,34 @@
+{
+  "schema": "dwp-sidebar-permission-exception.v1",
+  "origin": "https://chris-page-gov.github.io",
+  "owner_explicitly_authorised": true,
+  "confirmation_question": "Do you authorise a new browser-controller access grant for https://chris-page-gov.github.io only, overriding the brief's no-permission-change rule for this origin? This lets the controller read and operate pages on that public origin in the existing Edge profile; no other site permissions, settings or profiles would be changed.",
+  "owner_confirmation": "I authorise the permission change",
+  "approval_timestamp": null,
+  "approval_timestamp_note": "Confirmation is recorded in the conversation; an exact UTC timestamp was not returned and is not invented.",
+  "prior_failure": "Safety review refused a new origin-access operation while the original execution brief forbade permission changes. No alternate route was used to bypass it.",
+  "operation_repeated_after_approval": "Bind the same existing public Edge workbench tab with the same selected browser connection.",
+  "observed_result": "The public tab returned staff-016 Requirements accessibility content. A native whole-window capture followed at 2026-09-28T23:50:06.943Z.",
+  "scope_note": "An origin is broader than a single URL path. The authorised work remains limited to this public demonstration. The lifetime and persistence of the access grant were not independently read.",
+  "permission_changed": "Browser-controller access to the one public origin",
+  "not_changed": [
+    "Edge profile or organisation policy",
+    "extension installation or site-access settings",
+    "Edge Extensions Developer mode",
+    "ChatGPT Enable full CDP access setting",
+    "other origin permissions",
+    "microphone, camera or OS recording permissions"
+  ],
+  "already_enabled_owner_evidence": [
+    "ChatGPT Computer use Microsoft Edge connection enabled and extension reported installed",
+    "owner reported Edge always allowed",
+    "ChatGPT Browser Enable full CDP access shown on",
+    "extension public-site access shown allowed"
+  ],
+  "causal_boundary": "This approval cleared the capture-controller origin gate. It does not establish that Edge or ChatGPT updates caused the earlier problem, that any settings toggle repaired it, or that the independent sidebar can attach or complete the requested page-tool transition.",
+  "expanded_attempt_authority": {
+    "owner_text": "Yes I approve up to 10 attempts. You are now working unattended, I have remote",
+    "ceiling": 10,
+    "scope": "Bounded S12 capture and existing sidebar attempts, not broader site access, publishing, new functionality or model comparisons."
+  }
+}

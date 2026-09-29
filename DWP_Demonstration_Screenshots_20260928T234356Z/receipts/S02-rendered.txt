@@ -1,0 +1,191 @@
+← Bounded reading aid
+
+Reading-help corpus
+
+Select a document and passage from a governed catalogue. Source text and candidate help remain separate. This independent demonstration is not official DWP guidance and does not decide entitlement.
+
+Reading-help catalogue URL
+Load catalogue
+
+513 processed documents · 893 extraction-blocked pages. Catalogue status: machine-proposed-unreviewed.
+
+Catalogue identity and limits
+Choose a document
+Family
+All families
+ADM
+DMG
+Document ID
+
+Showing 1 matching documents at most.
+
+DMG · dmg-vol10-ch60 · 85 passages
+dmg-vol10-ch60
+
+85 ordered passage segments · 2 extraction-blocked pages. Specialist acceptance: not recorded.
+
+Machine-extraction gaps (2)
+Find a paragraph or declared label
+Exact abbreviation occurrence in this document
+
+Showing up to 100 matching passages. Abbreviation search uses source-verified occurrence literals in the index.
+
+unresolved fragment · page 1 · unresolved-fragment
+60001 — Introduction · page 2 · paragraph
+60002 — Introduction · page 2 · paragraph
+60003 — Introduction · page 2 · paragraph
+60004 — Introduction · page 2 · paragraph
+reserved · page 2 · reserved
+unresolved fragment · page 3 · unresolved-fragment
+60025 — Conditions for entitlement to Carer’s Allowance · page 3, 4 · paragraph
+60026 — Conditions for entitlement to Carer’s Allowance · page 4 · paragraph
+reserved · page 4 · reserved
+60033 — Conditions for entitlement to Carer’s Allowance · page 4, 5 · paragraph
+60035 — Conditions for entitlement to Carer’s Allowance · page 5 · paragraph
+60036 — Conditions for entitlement to Carer’s Allowance · page 5 · paragraph
+60037 — Conditions for entitlement to Carer’s Allowance · page 5 · paragraph
+60038 — Conditions for entitlement to Carer’s Allowance · page 5, 6 · paragraph
+60039 — Conditions for entitlement to Carer’s Allowance · page 6 · paragraph
+60040 — Conditions for entitlement to Carer’s Allowance · page 6 · paragraph
+60041 — Conditions for entitlement to Carer’s Allowance · page 6 · paragraph
+60042 — Conditions for entitlement to Carer’s Allowance · page 6 · paragraph
+60043 — Conditions for entitlement to Carer’s Allowance · page 6, 7 · paragraph
+60044 — Conditions for entitlement to Carer’s Allowance · page 7 · paragraph
+60045 — Conditions for entitlement to Carer’s Allowance · page 7 · paragraph
+60046 — Conditions for entitlement to Carer’s Allowance · page 7, 8 · paragraph
+60047 — Conditions for entitlement to Carer’s Allowance · page 8 · paragraph
+60049 — Conditions for entitlement to Carer’s Allowance · page 8 · paragraph
+60050 — Conditions for entitlement to Carer’s Allowance · page 8 · paragraph
+60051 — Conditions for entitlement to Carer’s Allowance · page 8, 9 · paragraph
+60052 — Conditions for entitlement to Carer’s Allowance · page 9 · paragraph
+60053 — Conditions for entitlement to Carer’s Allowance · page 9 · paragraph
+60054 — Conditions for entitlement to Carer’s Allowance · page 9 · paragraph
+60055 — Conditions for entitlement to Carer’s Allowance · page 9 · paragraph
+60056 — Conditions for entitlement to Carer’s Allowance · page 9 · paragraph
+60057 — Conditions for entitlement to Carer’s Allowance · page 10 · paragraph
+60058 — Conditions for entitlement to Carer’s Allowance · page 10 · paragraph
+60059 — Conditions for entitlement to Carer’s Allowance · page 10 · paragraph
+60060 — Conditions for entitlement to Carer’s Allowance · page 10 · paragraph
+60061 — Conditions for entitlement to Carer’s Allowance · page 10, 11 · paragraph
+60062 — Conditions for entitlement to Carer’s Allowance · page 11 · paragraph
+60063 — Conditions for entitlement to Carer’s Allowance · page 11 · paragraph
+60064 — Conditions for entitlement to Carer’s Allowance · page 12 · paragraph
+60065 — Conditions for entitlement to Carer’s Allowance · page 12 · paragraph
+60066 — Conditions for entitlement to Carer’s Allowance · page 12 · paragraph
+60067 — Conditions for entitlement to Carer’s Allowance · page 12 · paragraph
+60068 — Conditions for entitlement to Carer’s Allowance · page 12, 13 · paragraph
+60069 — Conditions for entitlement to Carer’s Allowance · page 13 · paragraph
+60070 — Conditions for entitlement to Carer’s Allowance · page 13, 14 · paragraph
+60071 — Conditions for entitlement to Carer’s Allowance · page 14 · paragraph
+60072 — Conditions for entitlement to Carer’s Allowance · page 14 · paragraph
+60073 — Conditions for entitlement to Carer’s Allowance · page 15 · paragraph
+60074 — Conditions for entitlement to Carer’s Allowance · page 15 · paragraph
+60075 — Conditions for entitlement to Carer’s Allowance · page 15 · paragraph
+60076 — Conditions for entitlement to Carer’s Allowance · page 15, 16 · paragraph
+60077 — Conditions for entitlement to Carer’s Allowance · page 16 · paragraph
+60078 — Conditions for entitlement to Carer’s Allowance · page 16 · paragraph
+60079 — Conditions for entitlement to Carer’s Allowance · page 16 · paragraph
+60080 — Conditions for entitlement to Carer’s Allowance · page 17 · paragraph
+60081 — Conditions for entitlement to Carer’s Allowance · page 17 · paragraph
+60082 — Increase for children (CDI) · page 17 · paragraph
+60083 — Increase for children (CDI) · page 17, 19 · paragraph
+60082 — Increase for children (CDI) · page 19 · paragraph
+60083 — Increase for children (CDI) · page 19 · paragraph
+60084 — Increase for children (CDI) · page 19 · paragraph
+60085 — Increase for children (CDI) · page 19, 20 · paragraph
+60087 — Increase for children (CDI) · page 20 · paragraph
+60088 — Increase for children (CDI) · page 20 · paragraph
+60089 — Increase for children (CDI) · page 20 · paragraph
+60090 — Increase for children (CDI) · page 21 · paragraph
+reserved · page 21 · reserved
+unresolved fragment · page 22 · unresolved-fragment
+60098 — Increase for adults (ADI) · page 22 · paragraph
+60099 — Increase for adults (ADI) · page 22 · paragraph
+60100 — Increase for adults (ADI) · page 22, 23 · paragraph
+60101 — Increase for adults (ADI) · page 23 · paragraph
+60102 — Increase for adults (ADI) · page 23, 24 · paragraph
+60103 — Increase for adults (ADI) · page 24 · paragraph
+60104 — Increase for adults (ADI) · page 24 · paragraph
+reserved · page 24 · reserved
+60109 — Overlapping benefits · page 26 · paragraph
+reserved · page 26 · reserved
+unresolved fragment · page 27 · unresolved-fragment
+60121 — Imprisonment or detention in legal custody · page 27 · paragraph
+60122 — Imprisonment or detention in legal custody · page 27 · paragraph
+60123 — Imprisonment or detention in legal custody · page 28 · paragraph
+reserved · page 28 · reserved
+Appendix 1 - Earnings limit for gainful employment · page 29, 30 · section
+Repeated phrase proposals (12)
+Selected source passage
+
+Exact unit ID: https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol10-ch60/manual-structure-v1/source-0000002117-000-5fac0d6d5c5e. 1 bound leaf file loaded. The complete text joins 1 verified segment.
+
+Selected load: 2 files and 87,978 bytes fetched; 0 verified cache hits. The cache is limited to this browser session.
+
+Declared paragraph label: 60025.
+
+Ordered segment receipts
+
+Open source PDF at page 3 · Page 3, UTF-8 bytes 529–1093
+
+Introduction
+
+60025 [See DMG memo 12/23] [See DMG memo 12-25] The conditions for entitlement are that the
+claimant
+
+
+1. is engaged in caring for a severely disabled person for any day1 (see DMG 60035 - 60042) and
+
+
+2. is regularly and substantially engaged in caring for that person 2 (see DMG 60035 - 60042) and
+
+
+3. is not gainfully employed3 (see DMG 60051 - 60052) and
+
+
+4. is aged 16 or over4 (see DMG 60058) and
+
+
+5. is not in FTE5 (see DMG 60068 - 60081) and
+
+
+6. satisfies prescribed conditions of residence or presence in GB6 (see DMG Chapter 07 Part 2).
+
+
+Open source PDF at page 4 · Page 4, UTF-8 bytes 0–273
+
+Note 1: The claimant does not have to be related to the severely disabled person 7.
+
+
+Note 2: See DMG 60033 for the meaning of severely disabled person.
+
+
+       1 SS CB Act 92, s 70(1); 2 s 70(1)(a); 3 s 70(1)(b); 4 s 70(3); 5 s 70(3); 6 s 70(4); 7 SS (ICA) Regs, reg 6
+
+
+
+
+The displayed source spans and occurrence literals match the frozen page extraction and joined passage hash. Candidate meanings and legal applicability remain unreviewed.
+
+There is no exact cross-document occurrence target in this passage. Similar numbers or words are not linked by inference.
+
+Printed reference rows
+
+These rows are unresolved unless an exact bound body occurrence is named. Matching digits alone do not establish a link.
+
+1 SS CB Act 92, s 70(1); 2 s 70(1)(a); 3 s 70(1)(b); 4 s 70(3); 5 s 70(3); 6 s 70(4); 7 SS (ICA) Regs, reg 6 · page 4
+Occurrence-scoped reading help
+
+FTE · source page 3 · abbreviation. Literal status: source_verified.
+
+Close reading help
+expansion
+
+Candidate status: proposed. This is not reviewed guidance.
+
+Proposed scope: dmg-vol10-ch60; printed abbreviation source: dmg-abbreviations-0db6c476b0.
+
+Proposed expansion from the named printed table: Full-Time Education. This meaning remains a candidate for the declared document scope.
+
+Proposed printed-table support
+Reading-help corpus | OKF Explorer

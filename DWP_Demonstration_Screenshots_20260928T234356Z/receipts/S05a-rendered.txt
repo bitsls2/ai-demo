@@ -1,0 +1,194 @@
+Skip to content
+Navigation Menu
+Platform
+Solutions
+Resources
+Open Source
+Enterprise
+Pricing
+Search
+/
+Sign in
+Sign up
+chris-page-gov
+/
+okf-dwp
+Public
+Notifications
+Fork 0
+ Star 0
+Code
+Issues
+3
+Pull requests
+Actions
+Projects
+Security and quality
+Insights
+Files
+77ef160
+evidence-workbench-handover.md
+evidence-workbench-work-log.md
+evidence-workbench.md
+full-dmg-walkthrough.md
+future-sources.md
+glossary.md
+household-evidence-expansion.md
+household-qualification-budget-review.md
+household-reader-public-verification.md
+household-reader-verification.md
+household-service-verification.md
+ignored-person-qualification-review.md
+learning-pages-regressions.md
+learning-path.md
+learning-website.md
+legal-body-evidence.md
+legal-reconciliation.md
+liteparse-pilot.md
+logical-evidence-units.md
+logical-units-work-log.md
+manual-structure-evaluation.md
+manual-structure-process.md
+meeting-walkthrough.md
+methodology.md
+monday-delivery-work-log.md
+monday-demo-2026-09-21.md
+monday-direct-trial-protocol.md
+monday-direct-v4-trial-protocol.md
+monday-handover-2026-09-21.md
+monday-model-trials.md
+ontology-use.md
+original-acceptance-restoration.md
+partner-addition-qualification-review.md
+passage-boundary-review.md
+pc-capital-bounded-repair.md
+pip-transition-source-review.md
+publication-contract-details.json
+reading-help-ch60.md
+reading-help-corpus-contract.md
+reading-help-demo-2026-09-30.md
+reading-help-legislation-bridge.md
+reading-help-release-2026-09-27.md
+reading-help-rollout-work-log.md
+reading-help-rollout.md
+relationship-audit.md
+remaining-work.md
+remote-mcp-demo.md
+remote-mcp-hospital-coverage.md
+repository-governance.md
+research-index.md
+retained-evidence-browser-verification.md
+retained-evidence-examples.md
+retained-evidence-publication.md
+retrospective.md
+semantic-closure-and-compact-delivery.md
+semantic-expansion.md
+service-publication.md
+source-led-demonstration.md
+source-led-manual-guide.md
+source-led-results.md
+source-refresh.md
+source-roles-diagram.svg
+staff-model-trials.md
+staff-service-browser-verification.md
+team-handover-2026-09-20.md
+uc-disabled-child-supersession-follow-up.md
+unmerged-work-review-2026-09-24.md
+voice-rehearsal.md
+work-log-2026-09-19.md
+work-log-2026-09-20.md
+workbench-model-inspection.md
+workbench-sidebar-demo.md
+domain-profile
+evaluation
+evidence-examples
+full-dmg
+knowledge
+logical-context
+logical-units
+manual-guide
+pdf-structure
+profiles
+reading-help-corpus
+research
+scripts
+source
+structured-context
+structured-units
+tools
+validation
+.gitattributes
+.gitignore
+.python-version
+AGENTS.md
+AI_USAGE.md
+CHANGELOG.md
+LICENSE
+LICENSE_DECISIONS.md
+NOTICE.md
+README.md
+REPOSITORY_STATUS.md
+SECURITY.md
+okf.delivery.json
+okf.publication.json
+okf.semantic.json
+pyproject.toml
+reading-help-ch60-law.json
+reading-help-ch60-references.json
+reading-help-ch60.json
+uv.lock
+Breadcrumbs
+okf-dwp/docs
+/uc-disabled-child-supersession-follow-up.md
+Latest commit
+chris-page-gov
+Add workbench model inspection, source-role guide and UC follow-up (#39)
+d31f16f
+ · 
+History
+History
+File metadata and controls
+Preview
+Code
+Blame
+43 lines (25 loc) · 7.23 KB
+Raw
+A new UC question: finding the rule is not deciding the award
+
+This is an anonymised, out-of-sample follow-up to the 40-question Evidence workbench. The case and observed replay are separate from its frozen registry and packages. No claimant details, model answer or new source acquisition were used.
+
+What the question asks
+
+A child is said to have the highest care rate of Disability Living Allowance (DLA) from 26 January 2025. Universal Credit (UC) is told on 28 March 2026. The question asks when the higher disabled-child addition takes effect and which UC assessment period should include it. An assessment period is the monthly window used for a UC award. The question does not give that window's start and end dates.
+
+ADM means Advice for decision making, DWP's staff guidance. Its codes identify numbered paragraphs: A4361 is in Chapter A4. Supersession means replacing an existing benefit decision because a relevant ground for changing it applies; the applicable rule determines when the replacement takes effect. Everyday terms such as “backdating” do not identify that rule by themselves.
+
+The retained ADM F1, F1123, PDF page 18 says the highest DLA care rate is a condition for the higher addition. ADM A4, A4361, PDF page 36 gives a distinct UC effective-date branch where a claimant or family member becomes entitled to another relevant benefit or its rate changes: the first day of the assessment period containing that other-benefit change. A4352, PDF page 34 expressly points from the ordinary late-notification branch to A4361 as an exception. A4361's DLA example concerns the carer element, so it is an analogy, not a decision about this addition.
+
+Conditional reading: if the highest-rate DLA entitlement legally starts on 26 January 2025, the child qualifies within the claimant's UC family, and A4361 governs this change, the effective date would be the first day of the assessment period containing 26 January 2025. The higher addition would be considered from that assessment period. Without its boundaries, an exact calendar start date or named payment period is unknown. Whether the award and any retrospective payment should actually change needs the governing legislation, facts and specialist review; this page does not decide it.
+
+What the current system did
+
+The retained 19 September ADM A4 PDF has SHA-256 4933d66a…58a8e8; F1 has 124b7e41…5b8731. Their exact local pages and stable passage IDs are in the case record. The A4 text was also checked against the official PDF on 24 September 2026. The F1 web URL could not be opened in that check; its retained PDF was available locally. These are official guidance sources, while the extracted text and passage boundaries are unreviewed project projections.
+
+One file-backed, hash-checked replay of the unchanged source and Explorer engine used the same 512 KiB/64-record/128-relationship/depth-6 limits as the workbench. It selected F1123 but missed A4361, A4352 and F1120. It returned insufficient, used 522,141 bytes and reported query, candidate and resource budget omissions. It also attached the unrelated frozen Staff 008 requirement about a different benefit. This measures retrieval and task routing, not whether an AI could give a correct legal answer.
+
+To repeat that historical observation with a local Explorer checkout whose context-engine hashes match the case record, run:
+
+node scripts/replay_uc_supersession_case.mjs --explorer-root /path/to/pinned-okf-explorer
+
+The script reads only declared local source shards, verifies their bytes and hashes, makes no model or network calls, and checks the retained result. A later repair should have a new comparison receipt; it should not rewrite this failed baseline.
+
+The question still needs the UC assessment-period dates, the actual start of the highest DLA care entitlement, responsibility for the child, any earlier notifications and intervening decisions, jurisdiction and applicable legal version. ADM A4361 cites the 2013 Decisions and Appeals Regulations, Schedule 1 paragraph 31; F1123 cites UC regulation 24. Those statutory bodies were not in the retained local legal-body set, and the live legislation.gov.uk requests returned HTTP 429 in this investigation. They remain a verification task rather than a silently supplied rule.
+
+Next evaluation gate
+
+Keep this observed miss intact. Add a versioned source-led route only after reviewing the statutory and guidance dependencies; then replay this case and separately frozen new phrasings with wrong-rate, wrong-family, changed DLA date and ordinary-late-rule controls. Measure passage selection, exact source spans, exception delivery, unknown dates and unrelated task activation separately. Keep insufficient and no individual award claim until a specialist accepts the full rule and applicable facts. The BL007 evidence-profile work, BL006 legal reconciliation and BL025 workbench review remain the appropriate open gates.
+
+Separate leads: Demo 2 and hospital coverage
+
+A separate public Demo 2 overview describes a Pension Credit application concept with CASA and eventual submission through tools. The current workbench only inspects evidence and exports an unreviewed local proposal. A small next demonstration would use fictional form details to link a few PC1/PC1H questions to their source passages in a local preview. It would not collect details or submit a claim.
+
+The four-benefit hospital question is another, separate lead. It is outside the 40-case catalogue and has a retained remote Ask OKF case. The hospital coverage review records hospital source candidates beyond that tested index. Its existing result was insufficient with no answer. The cited ESA Regulations 2013, regulation 21 has not been acquired into the frozen legal-body evidence; regime, version and application remain unverified. The retained remote context was 444,815 bytes and reported truncated: false. A report that a browser tool response looked truncated is a different claim: no exact WebMCP call, cursor, page count or browser receipt was available to verify it. Inspect source coverage and delivery independently before changing either.
+
+ 

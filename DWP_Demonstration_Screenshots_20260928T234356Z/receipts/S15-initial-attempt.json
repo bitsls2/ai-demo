@@ -1,0 +1,1014 @@
+{
+  "id": "S15",
+  "title": "Show what the checks actually measured",
+  "priority": "reserve",
+  "presentation_act": "Evaluation appendix",
+  "entry_key": "release_record",
+  "entry_url": "https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/reading-help-release-2026-09-27.md",
+  "steps": [
+    "Capture the original release record and relevant bound report rather than inventing a dashboard.",
+    "Show the technical checks with their denominators and the adjacent answerability limitations."
+  ],
+  "must_be_visible": [
+    "16 public browser checks, if reproduced from the original report",
+    "40/40 byte-identical packages",
+    "all insufficient",
+    "dated identities",
+    "zero new answer-model calls for the stated increment"
+  ],
+  "permitted_claim": "Recorded technical checks measure delivery, navigation and non-regression within their stated scope.",
+  "does_not_establish": "They do not measure improved answer accuracy; no percentage success chart should mix these denominators.",
+  "fallback": "Use the original report view with readable crops and source URL/date captions.",
+  "repository_evidence": [
+    "docs/reading-help-release-2026-09-27.md"
+  ],
+  "planned_frames": [
+    "S15"
+  ],
+  "capture_status": "not-run",
+  "actual_url": "https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/reading-help-release-2026-09-27.md",
+  "actual_source_commit": null,
+  "actual_explorer_identity": null,
+  "captured_at": "2026-09-28T22:26:44.812Z",
+  "receipt_path": null,
+  "output_files": [],
+  "status": "fallback",
+  "classification": "fresh capture of historical release report",
+  "timezone": "Europe/London",
+  "dwp_checkout_commit": "77ef16047415ee48dcb93b80adf1ba057ea00d9b",
+  "explorer_identity": {
+    "url": "https://chris-page-gov.github.io/okf-explorer/okf-publication-identity.json",
+    "path": "receipts/explorer-public-identity.json",
+    "bytes": 1138,
+    "sha256": "d75aa3ad0e4fdcdd06db673f39d996ac346ad1646a629fdafcdfabd926d7e4bc",
+    "hash_verified": false,
+    "declared": {
+      "commit": "b633038c6173f1405199df9f08e8d8aa2ff51c0b",
+      "materials": [
+        {
+          "bytes": 33186,
+          "path": "okf.publication.json",
+          "sha256": "331c021c3a9104c26f00205d88fe42fae382908f2b38183e7649ad812b0fde0d"
+        },
+        {
+          "bytes": 33428,
+          "path": "okf-estate-registry.json",
+          "sha256": "fa9de8396731206a0005b0c4acf6de4e2403dce6cf94a267ed6203ad8936e742"
+        },
+        {
+          "bytes": 8937,
+          "path": "okf-registry.json",
+          "sha256": "27018c67a14af9a943a74ba65a174010fc6f0e2133c2e6871eb2b10f19602909"
+        },
+        {
+          "bytes": 29614,
+          "path": "registry/estate/index.html",
+          "sha256": "d020c468132daf155945fe80c5d6b40c2e72e7b7bc0c37cca7ec931a5d7677d4"
+        }
+      ],
+      "publication_boundary": "This identity is authoritative only when the Site candidate was assembled from a clean checkout of this commit and promoted without rebuild.",
+      "repository": {
+        "lifecycle": "active",
+        "name": "okf-explorer",
+        "role": "profile-and-consumer",
+        "root_index": "index.md",
+        "url": "https://github.com/chris-page-gov/okf-explorer"
+      },
+      "schema": "okf-publication-deployment-identity.v1"
+    }
+  },
+  "browser": {
+    "version": "154.0.8037.57",
+    "channel": "chrome",
+    "headless": true,
+    "viewport_css": {
+      "width": 1920,
+      "height": 1080
+    },
+    "device_scale_factor": 2,
+    "zoom": 1,
+    "locale": "en-GB",
+    "timezone": "Europe/London",
+    "clean_public_context": true
+  },
+  "actions": [
+    {
+      "action": "navigate",
+      "url": "https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/reading-help-release-2026-09-27.md"
+    }
+  ],
+  "assertions": [
+    {
+      "rendered_text": "16 public browser checks",
+      "passed": true
+    },
+    {
+      "rendered_text": "40/40",
+      "passed": true
+    },
+    {
+      "rendered_text": "insufficient",
+      "passed": true
+    },
+    {
+      "rendered_text": "zero content-processing or answer-model calls",
+      "passed": true
+    }
+  ],
+  "errors": [
+    {
+      "kind": "capture-error",
+      "message": "TimeoutError: locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('heading', { name: 'What was checked', exact: true })\u001b[22m\n"
+    }
+  ],
+  "frames": [
+    {
+      "id": "S15a",
+      "label": "The recorded technical release checks",
+      "caption": "Dated delivery/navigation/non-regression evidence; not measured improvement in answer accuracy.",
+      "actual_url": "https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/reading-help-release-2026-09-27.md",
+      "captured_at": "2026-09-28T22:26:44.812Z",
+      "css_width": 1920,
+      "raw": {
+        "path": "raw/S15a.png",
+        "bytes": 1818147,
+        "sha256": "9363036db252e7910e8b02cb86cfb309b0370694ff6ead8a5525393ec765beb8",
+        "pixels": {
+          "width": 3840,
+          "height": 5308
+        }
+      },
+      "derivative": {
+        "path": "slide-ready/S15a.png",
+        "bytes": 537625,
+        "sha256": "7545ac2d5c4a9943e2a11d0aac010ef1100abcef039b48d4008ad50270566e5f",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "annotation_layer": "slide-ready/S15a.html",
+      "crop": {
+        "raw_pixels": {
+          "x": 1229,
+          "y": 772,
+          "width": 2024,
+          "height": 2000
+        },
+        "fit_scale": 0.435,
+        "method": "Uniform scale and letterbox; separate caption strip. Substantive pixels unedited."
+      }
+    }
+  ],
+  "identities": [],
+  "redactions": [],
+  "network": [
+    {
+      "url": "https://github.githubassets.com/assets/light-99f877e9ddfc0e51.css",
+      "status": 200,
+      "bytes": 87305,
+      "sha256": "6a557de3a7c508eaa6b9b15bfac2a9e6dfdd057e07bf2220dd8c74bbfc9dde52"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/light_high_contrast-48fdd0811afbab3c.css",
+      "status": 200,
+      "bytes": 87975,
+      "sha256": "d5bb08702f5b54cdb176b536e43d1b1d4ba00af2e5973128cc653319a6a75fa5"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/dark-79ad2ace604703b3.css",
+      "status": 200,
+      "bytes": 87137,
+      "sha256": "3c713a81d8ee00c8a2ad20444eda12a379c4d356128b7f5e341f62760763c1f7"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/dark_high_contrast-24484a076f02295f.css",
+      "status": 200,
+      "bytes": 87869,
+      "sha256": "256912b92c2844a376ccddf7651ee6af81516e5ba39a622b081d07eea48134ce"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/primer-primitives-ed9ca172356fd545.css",
+      "status": 200,
+      "bytes": 11008,
+      "sha256": "8cacee1416907bcd693367981b93987d8da22246f1b5f96d08ad9951e11d7679"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/primer-1d2c7f7b52a6068b.css",
+      "status": 200,
+      "bytes": 411519,
+      "sha256": "cadbbda81aba7b6943fe4e2d3196412a96f44804c3467d329204f22da53922ea"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/global-54ba76e934a49d7c.css",
+      "status": 200,
+      "bytes": 297019,
+      "sha256": "01dd0bd50e08af8f77a09c04eb13533dc9d3e280a34f7e042a06dc0a3e1ab6c5"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/github-456bd5deb85c7ecd.css",
+      "status": 200,
+      "bytes": 125945,
+      "sha256": "f1404187ce6e34c0dbd39d5467c25b3276910199d8fafd48be8274b769885bba"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/repository-11ee8a031c040c1a.css",
+      "status": 200,
+      "bytes": 31169,
+      "sha256": "beb66429256f82033589adbac37c3e8a6aa824bc2d8322c1bbd4e0274441831d"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/code-2d56bdb0166c0238.css",
+      "status": 200,
+      "bytes": 27072,
+      "sha256": "de1becd3398f75060ffde54f5a5f98268676194a69440b1f647c1f6d6dc2cae2"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/app-runtime.89f4c89cd3c647a9.module.css",
+      "status": 200,
+      "bytes": 4448,
+      "sha256": "04b38fc1218e13fe07f3add1bf850912835d1b98655d08e6feefcaa7fcd4f2b2"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js",
+      "status": 200,
+      "bytes": 644,
+      "sha256": "eb527868e967acb6e37e4d0a426cd273ede374d1e7c20a2cd8a30b75f1b61aaa"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js",
+      "status": 200,
+      "bytes": 4925,
+      "sha256": "7c5f43c4e4bc19b20279918acc44f5b259419b46e5cb18fad9b0a8c8708f1551"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js",
+      "status": 200,
+      "bytes": 5006,
+      "sha256": "ed746860a8574818f4306b4c9f5084578ebb54553ca7aa0ef98553e114e5694f"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/react-e27d1b3e03961e68.js",
+      "status": 200,
+      "bytes": 10195,
+      "sha256": "8ff24571c77272df398f896c50171cb55493869e2a7c9dfa544896c27a5a312f"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js",
+      "status": 200,
+      "bytes": 865,
+      "sha256": "85b40d050ba6616311d7a744d0ebbd28e644bf4621aac25ab543b751e4d5f86f"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js",
+      "status": 200,
+      "bytes": 3257,
+      "sha256": "df3e771da4eb533987de50867a923a4659ba91fd9f66bf7f2875eb84bef43522"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js",
+      "status": 200,
+      "bytes": 129035,
+      "sha256": "4ce244e24ab5c13d7085aed58caba6ae652e0d765834e290c3a216839beb60b3"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/high-contrast-cookie-e3d808ee18eb9784.js",
+      "status": 200,
+      "bytes": 1097,
+      "sha256": "df1f7b4a25438b2ba918a4604b2bcfc6fd55f3854747e0324a27085615f48e0e"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/app-foundation-74e9766bd696d26a.js",
+      "status": 200,
+      "bytes": 4712,
+      "sha256": "74b4d6defd587b26087e5665d6cb65d0cb98d31663f880cc8c2caa83ee80551b"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js",
+      "status": 200,
+      "bytes": 204064,
+      "sha256": "806c7cefa5d8c7ac605feb7a98a07e58cb2f87900d1d21ecb1b6cd9df1aaf64b"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/fetch-utilities-9a5c31efd5313aa8.js",
+      "status": 200,
+      "bytes": 9390,
+      "sha256": "9601b4ef7760a9fdbb4fb37796824be936ac13d7b0ce9d4749ccc4e9ae1e79a2"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/wp-runtime-7c7ac9d6d71f0d79.js",
+      "status": 200,
+      "bytes": 87752,
+      "sha256": "b9cd97181a576ef6cffca64b190a077d1ec46f6c7a12d855bab745a8f1e19f00"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/environment-65c745d8d443d81a.js",
+      "status": 200,
+      "bytes": 6719,
+      "sha256": "fe5dc52825747fa14b99d0eae401aa25f4c759f274e194244aa881483c240be6"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/ser-cd1b421ad0ad7ed5.js",
+      "status": 200,
+      "bytes": 29356,
+      "sha256": "a9207cf69ffb1fe077137a579ead0c438136bd1477fb3cbd11a4dd1db5e5b4ab"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/catalyst-86a8f5de995615f8.js",
+      "status": 200,
+      "bytes": 6403,
+      "sha256": "76352ad65afe4153ef29320bb0c47d2ba25b338975da6fe3e68f76fc8020dd19"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/selector-observer-e88088f989b27670.js",
+      "status": 200,
+      "bytes": 3952,
+      "sha256": "ddbea4508232fd60b706296078538e3b8e22db638dca9491b9a3137acf7d7ef1"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/app-runtime-95f2af013e6505cb.js",
+      "status": 200,
+      "bytes": 91186,
+      "sha256": "18be73aaa4aaf8313df57c3678895ad5bd7bf17d670edcea8784de09ac49160f"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/relative-time-element-7cdf4e0db98b997c.js",
+      "status": 200,
+      "bytes": 20305,
+      "sha256": "d1b3ee64fd0e760c097f76a5a8b9db8d598407a70321e572c872f0a504790eb3"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/by-6b3c07383371bf58.js",
+      "status": 200,
+      "bytes": 20237,
+      "sha256": "ab3f5c6b7e17643ef941ffd62b8d91268f96bcbb50e480ca7c0833eb3d49b8f6"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/ja9-36f036c13c2e3a4c.js",
+      "status": 200,
+      "bytes": 14027,
+      "sha256": "a68fdab794fc28c6f7c3e9582269d129def223e9e360bf521a2ffc3fa01dde93"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/kwb-985b266c34021458.js",
+      "status": 200,
+      "bytes": 18103,
+      "sha256": "002d88c270be12557b8a450114031a61d05b93df73f1d47ef366d658a1e1a217"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/react-core.cba30f6fd4cc6be3.module.css",
+      "status": 200,
+      "bytes": 446,
+      "sha256": "58c207793dd46c00df4510c5afff0764b7dd8b6c05bdfbf31afb9bff75c70c6e"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/r1-b075aab3204f32f9.js",
+      "status": 200,
+      "bytes": 18680,
+      "sha256": "884b107aef2e9ef07b0534970db1452e65cc2d5d53d594b807452bd8d27cd074"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/jz5-7c5d1669717041f8.js",
+      "status": 200,
+      "bytes": 16915,
+      "sha256": "7b447b84406b7b664eaf2e11f8689fe4bfb1f8f53c362079483baf667e109e4f"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/hj-5126390ff433704d.js",
+      "status": 200,
+      "bytes": 12258,
+      "sha256": "c2ced4b6bcf9b40f9226cf7fdaed8f631ef398be05ff2e8f234990c74cb73df6"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/github-elements-481b055a38aa5613.js",
+      "status": 200,
+      "bytes": 7662,
+      "sha256": "40a50a5c17d79d0d2ee01262906ffe11e095130c85b3032f673a4e88c4dc2444"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/runtime-helpers-2b437fe146e9028f.js",
+      "status": 200,
+      "bytes": 1005,
+      "sha256": "a6d788c2b187dc1e5e9925adf512e726040847f4d353990b411ae59ebde52e3a"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/aria-live-76b18916d0c8ec4d.js",
+      "status": 200,
+      "bytes": 539,
+      "sha256": "bca4595c3ba590a6fd99cfb0f004377882f3f2e1aaf3fe05aed17877cbc92677"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/hotkey-5109c77d7ac61078.js",
+      "status": 200,
+      "bytes": 5311,
+      "sha256": "aa1945c0acc8eb55fe0a9213262c2e2cc44185c532aa972d003a0321078b3039"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/element-registry-f2818999d7460eeb.js",
+      "status": 200,
+      "bytes": 82338,
+      "sha256": "5f5e3c9a528e1fc53a4cea03febfb0a165dc152155f3c59f6039ea2ce8734326"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/j05-1b324859b9512e2d.js",
+      "status": 200,
+      "bytes": 132301,
+      "sha256": "9ca95ab46e23414a52c5b5d5112ebbc1417a386d976e14d03425e2192b0d8481"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/04-b4570e9cc17d8b62.js",
+      "status": 200,
+      "bytes": 10216,
+      "sha256": "57c0b2188c950ab27f979a8deada4ab8e70d97e2e0fe15a48e3b3a8e9c6d5828"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/ur-024971cb63acad59.js",
+      "status": 200,
+      "bytes": 15944,
+      "sha256": "c500e4cc66e4198a3e60ad4c10d2c6ce51aeb3959ed7bbbc7f54d6cc926e6626"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/4t-364e19c63d726e9a.js",
+      "status": 200,
+      "bytes": 9859,
+      "sha256": "d05df9efc263cd53f3c73cd9fe0a6e2ea8f0656da6a288995eb75e63b716b104"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/primer-react-css.76a197f9dce25e3c.module.css",
+      "status": 200,
+      "bytes": 302820,
+      "sha256": "bbcc773c9cf1a92c39d863ee397dabf3d340aed91d623ef9ac013161fd7d086b"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/ql0.bdd6be015c087bbc.module.css",
+      "status": 200,
+      "bytes": 24242,
+      "sha256": "723ed19ff2d9a0637136b38f2a00201a6b4093dbc6cb261f1108c1f05ad88a88"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/0s.287abf9270a28106.module.css",
+      "status": 200,
+      "bytes": 14138,
+      "sha256": "801ca32449ef2169e6f907268cc2ade0905caf66bd5b797945f2d788d860374b"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/xc.877a51df9233c9c4.module.css",
+      "status": 200,
+      "bytes": 26338,
+      "sha256": "fdd4451af9023156e695e398db5cfacce645f2b75d370091406a59e6da14cf7a"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/w.e589e85353cdd08b.module.css",
+      "status": 200,
+      "bytes": 16333,
+      "sha256": "bc08fa990cccb1d7e4981328354d40656d74e4f46135d349d644de7703a3e796"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/code-view.da6e35a434197a0c.module.css",
+      "status": 200,
+      "bytes": 95269,
+      "sha256": "d5520c514d08252ca9863731fa333d7347af349123ea2e5ce0a9328ace17a2e2"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/notifications-subscriptions-menu.86b90798d6229811.module.css",
+      "status": 200,
+      "bytes": 3382,
+      "sha256": "8d4cbd98d0676b0330dc983a16967bb61fb37a09e6169d213629c0142bc2045c"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/yhq-3a209035a30b1a09.js",
+      "status": 200,
+      "bytes": 10001,
+      "sha256": "31b71d4e7ecdd3426ef5b73a40ebb12bf42dae30dc64f266c044611c29a8baae"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/6ny-c969fbae697a356f.js",
+      "status": 200,
+      "bytes": 75173,
+      "sha256": "af8ff8bdb0d3e7d94928382bd05d10a21fcee3bb094e24788bba4f77a6aac102"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/wo-f3e3b96584d99034.js",
+      "status": 200,
+      "bytes": 36564,
+      "sha256": "78925422f3afc30c43a83d1bef29f4fa7f92703a68657a0059942c9811ed1376"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/z1v-da5b33b877bfa358.js",
+      "status": 200,
+      "bytes": 41606,
+      "sha256": "5f364e90ef0e87605ca78868ea37b50cea79fc3a0343ac60d4366b53e709cfc8"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/j0-41a4cf04cbd99503.js",
+      "status": 200,
+      "bytes": 15807,
+      "sha256": "0540e834c8e071a9566f3f48587d01d27d4bb8527b1512c717b8cce384bbc028"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/0p-81491ed0d9d666e2.js",
+      "status": 200,
+      "bytes": 11859,
+      "sha256": "364c3a62ee57227ab1406a45436497af966a30ae77546a976fe6765e9ce05e0e"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/9y-cd2a0ff87351e9aa.js",
+      "status": 200,
+      "bytes": 34771,
+      "sha256": "601d76c5b48ff048e46b4c2f319234fe6684b1132edde91f2bb5441e7ff83168"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/code-menu-62ac9b89439b4674.js",
+      "status": 200,
+      "bytes": 317,
+      "sha256": "61c456462448523ce13cb98fe0328d1e37f04544dca590ad37ba4f5eb22f855a"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/react-core-27cf1f72587bfe25.js",
+      "status": 200,
+      "bytes": 271569,
+      "sha256": "135b3746cba6c829f0c4cecda3f98224c8b239f96d3ff953abcde94f9c870930"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/ncx-9a860680a5f230b9.js",
+      "status": 200,
+      "bytes": 25743,
+      "sha256": "c1fd0f16f7501a4236fbbad336fca7c9017e711b0de905c101d6d4058ca19e7c"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/j6-363f0ebf4f62f310.js",
+      "status": 200,
+      "bytes": 24161,
+      "sha256": "c6b17550e879ebcb5b9b18540643a432188a94d50a5ddabd2b75744adc2a730b"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/t7l-bf6f21d7e7a43c35.js",
+      "status": 200,
+      "bytes": 17656,
+      "sha256": "bc7127f637e3c985ce44791dd145fd2c705a88309ce28daf080645c3e7da65d7"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/4u-27f74cfc703e1977.js",
+      "status": 200,
+      "bytes": 67550,
+      "sha256": "e7bfd564844c10f6b4f3d3354642cef3a71ed4dfd3e52b128199fc4daff8af12"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/s07-3fae157786a7acb1.js",
+      "status": 200,
+      "bytes": 13798,
+      "sha256": "b31df13ed4865a4f2ab8521beeb900fc4da5a748cec7e9c5f5beafa5d17d430e"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/ws-f1530f278b2b86e5.js",
+      "status": 200,
+      "bytes": 28294,
+      "sha256": "966840075cb3202e13a3280db2e3686482d288e74ec246088c6990092e728260"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/behaviors-08bf9584f7a45c68.js",
+      "status": 200,
+      "bytes": 251246,
+      "sha256": "47cf4e9e8a57b8231387cd7e88366b1c92be41fecdd512417af175379f247a26"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/la-d2cd96f070e6b52a.js",
+      "status": 200,
+      "bytes": 11995,
+      "sha256": "776be687d9d4379b398657643d0a01772af9436dea794b1e57005f5945d5721b"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/n4u-6317ce1c31aed1db.js",
+      "status": 200,
+      "bytes": 34795,
+      "sha256": "0effb6a79f886bc67fb133ef4a8dfb7db1237fd69aa15a0c2d7d13b72a231fd6"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/q61-80cd2b936a4f27b6.js",
+      "status": 200,
+      "bytes": 23115,
+      "sha256": "431db79081be166e5bdeef52cb99454de0fff75ac0c62a415a9e0a4a34fb6a1c"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/7l-fa7490fba21d1122.js",
+      "status": 200,
+      "bytes": 27557,
+      "sha256": "20a3a4a768b5bf9f31436877a91d8c0138e8aa41aa47716345a50a15d38c22ce"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/w4-9ebe167796a7b68f.js",
+      "status": 200,
+      "bytes": 43729,
+      "sha256": "b0c3cb979935877b0d3a7bf6251b870265c5bf230f93cadf6b7aa5a0676c46a9"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/j8s-7712b3dd24d5f13c.js",
+      "status": 200,
+      "bytes": 75314,
+      "sha256": "a33dc252dbcc567bd05135b26ccc5a484ae9e4863499bf9ece1cd7ea20dcaa1a"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/ojg-6604ac9ae112ae6a.js",
+      "status": 200,
+      "bytes": 58518,
+      "sha256": "20bab0efa8f50d70fb718ed6ea63f6a59a46e71d9adc9b8d3858c0bd4de5387d"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/gzu-a1c918f049c6302d.js",
+      "status": 200,
+      "bytes": 6382,
+      "sha256": "f9ac1f0512547db7faba757b01f41590d7cc3f476e1d2297ec0511284b9ea940"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/on-864de56673dc70dd.js",
+      "status": 200,
+      "bytes": 5674,
+      "sha256": "4e1450a7609cfa03ddc607ac4b779d6e686735cb4e471e080a83d67db444412b"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/bi0-a78ba744687848c2.js",
+      "status": 200,
+      "bytes": 45889,
+      "sha256": "c5951d0c2635c917a174d45119805b34246112f878cdb37997f0a60301fca163"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/b1-ddee25d94441be77.js",
+      "status": 200,
+      "bytes": 25161,
+      "sha256": "b0b4d2f9f61d962472aaaa9e6d499643dbbd5372478e52d75dc59f58eaf3d250"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/c2z-c92998400310b94b.js",
+      "status": 200,
+      "bytes": 12090,
+      "sha256": "462edee8894c1b3e2d0feadd51bc6ffb5b80eae58db88ccc68fdb32b446388ab"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/0l5-ff65210c0318d88e.js",
+      "status": 200,
+      "bytes": 33643,
+      "sha256": "eec79ea5d624cef150983a295e8efa69c6ca155f1d4c68abebcafe4f7cb0108b"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/f9-038758dcbfe08dab.js",
+      "status": 200,
+      "bytes": 16862,
+      "sha256": "f198b7826fedb3bc46b42a814768ae867e71a0a1ff44383c9ff9159880c8f8a1"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/primer-react-3ca70c6e707ba409.js",
+      "status": 200,
+      "bytes": 405851,
+      "sha256": "36020b71c153dac4d005f056a6994390218408aa357566ba71cb972d6e518820"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/sp-352b18edf58f7022.js",
+      "status": 200,
+      "bytes": 20659,
+      "sha256": "1a29b073032338efdac00a1dd283ff482eb63db22cbc2a6a8f31f2bc2e4f47d8"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/0k-b7df0a74912a42bf.js",
+      "status": 200,
+      "bytes": 57322,
+      "sha256": "47a794dc487e72dd2896db9397164eee1694b945ac02900e5cff2688fc35c389"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/og-72a377e4a14147a1.js",
+      "status": 200,
+      "bytes": 12054,
+      "sha256": "5d6732182fadec39cf3677b584bfdb4f3f6ff683498c95b392dfda520c32eabc"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/b9-4fd36ab02c30bf52.js",
+      "status": 200,
+      "bytes": 5844,
+      "sha256": "207e15b69dfa7afdb8677021587ee04d47033d12ceee7d5f3fbc97b7c9bc7a4c"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/ec-cbba6ef3015afe55.js",
+      "status": 200,
+      "bytes": 10588,
+      "sha256": "21b6159593167b68e63c340cd01af512e28317ec3c9bea73760aa0ba7b0249ee"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/dsj-cb1e4ddbce4f007b.js",
+      "status": 200,
+      "bytes": 19074,
+      "sha256": "43f780b8e265b18f2808a27179831548b5e1bd15bfec8bdb3353e8aa19c45aa4"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/du-fee6a27cf2b1eb08.js",
+      "status": 200,
+      "bytes": 15386,
+      "sha256": "50bbedb18cc2c1cfa2082eba221861dee077aa454ef8dcbd53d891397e2a7512"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/20x-0accf1379e91ba86.js",
+      "status": 200,
+      "bytes": 24121,
+      "sha256": "22cf3c67037df94b268beb632111fee54c7e123a446a74650bbf1bdd81b72e63"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/wp-9f5235d335ab624b.js",
+      "status": 200,
+      "bytes": 15609,
+      "sha256": "fc38f18703454423bf66dbae325f3674ca9bd61f77e884806ff190bd3c5f55aa"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/gc4-2487b0aac2401bb1.js",
+      "status": 200,
+      "bytes": 16654,
+      "sha256": "8b5653ff9a17ae6df08945a8a032026a8d5ee4157c1eba90acd08a1c9c4e68ce"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/ql0-d154b9935a526802.js",
+      "status": 200,
+      "bytes": 61800,
+      "sha256": "38f44034d6e9531af1e139461c227a37265c5f5e72f1914e12d5f1749033a0db"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/uw-67574a30a4da7537.js",
+      "status": 200,
+      "bytes": 17325,
+      "sha256": "7110aae7de554861c010023ceff5920c036c72c556a314cc4ca28d6aae39e05e"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/th-f300f592daf64638.js",
+      "status": 200,
+      "bytes": 12256,
+      "sha256": "be9a1d5eb3bbe7ff70f0a1143f77d95d94f15118c4730de0e4ee9f19eeb13345"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/7cw-3e82d4840187e34e.js",
+      "status": 200,
+      "bytes": 13378,
+      "sha256": "abc7e81a346924dded6f2e3f886c2c6df7f9a01f0f35ca3dd4cab133fafc68ba"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/hrn-218438b08ef01b91.js",
+      "status": 200,
+      "bytes": 25816,
+      "sha256": "a0f3e4040dda9b48676b0ba7cd387f5dbc910b1a20a1d20fe18128a2ec1219de"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/8u-60a1b724e3da8ce5.js",
+      "status": 200,
+      "bytes": 13922,
+      "sha256": "fd34855cee20ae1bcf047b84a1e1319c8058c3eec6fdb0b98711296f2e9c3643"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/0s-fdb4f59a1922a2cb.js",
+      "status": 200,
+      "bytes": 51160,
+      "sha256": "bd748e1c8d86d6479e954134b6612e7e65d373871b87099c5b0876d4924cf924"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/8g-4487bd4244a59e8e.js",
+      "status": 200,
+      "bytes": 11835,
+      "sha256": "aef6b3dc8af90c2daec25bbce3522af05ccb1370bc12392af154c2e8dd655f82"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/xc-065e7847e4da513d.js",
+      "status": 200,
+      "bytes": 285871,
+      "sha256": "29575653404f240dd635586fbe3714b77eb5e8f908d676e51792c4ac3ffa342f"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/y8-0c06a1f85ee92214.js",
+      "status": 200,
+      "bytes": 111321,
+      "sha256": "db9b56ae11657a4fa7647976f0e53b0c5708ac07164d6e68663c84b8102904f7"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/w-a3f6352f34743169.js",
+      "status": 200,
+      "bytes": 56213,
+      "sha256": "5691e7225d81531931f0307f37f209b209171469cd217cbea30fb2b8867c5a7c"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/notifications-subscriptions-menu-00f03a9e6446bfda.js",
+      "status": 200,
+      "bytes": 5166,
+      "sha256": "98243005c3a16f72cc866ed62b3160ffc954e7fc8de1797092a5aff04329a007"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/8p0n-73376bed45f677a1.js",
+      "status": 200,
+      "bytes": 13201,
+      "sha256": "ef5fbb395c0d54cb1e84aa08fbdea9efcb5af062551b3c597b3d5220c91cf4ce"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/0n-ecadb2ffe6b01ba2.js",
+      "status": 200,
+      "bytes": 15195,
+      "sha256": "3a2de58a3b13f251e8c9827a503b83161e7e013cf3b92273a4808d3a8b338f46"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/code-view-98bd7f6bf8f58687.js",
+      "status": 200,
+      "bytes": 579305,
+      "sha256": "5310e0bf557cebf240bf5ff2e455c114f03f4a7ac8c7f6baa20cdac11ac49061"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/keyboard-shortcuts-dialog.cb373cdd0a3e69b4.module.css",
+      "status": 200,
+      "bytes": 331,
+      "sha256": "43a91f318fcacf573e0e8ad63673b5676b33cf360859d192ed5c6e4640746b27"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/app-install-banner-partial.ae7ec058c35ed2fc.module.css",
+      "status": 200,
+      "bytes": 446,
+      "sha256": "539b0ab8e048a4a494588cf7a0a82cdbdac9ccd2c666c1bb333c095140c24588"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/primer-react-brand-css.6a01c236ff527e7e.module.css",
+      "status": 200,
+      "bytes": 701288,
+      "sha256": "6d84b2e448482d7d01fcccb50d2078cf271dd390659ef198d55d3442f2f0edf8"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/t1.2c9e83c78bbeb6bd.module.css",
+      "status": 200,
+      "bytes": 17365,
+      "sha256": "bc5a363d305327c420f20bfdcf8aba2c27157dc690e36ba5a45206855a0b8b5d"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/l7j-2ddd8b435dadae28.js",
+      "status": 200,
+      "bytes": 15485,
+      "sha256": "4be25ef295fcf3b7062b389c5fd53ef21b7a5e639b5cb73552c3e69f566253f4"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/app-install-banner-partial-cadf91024ac02485.js",
+      "status": 200,
+      "bytes": 5240,
+      "sha256": "a7f0b64154bf28d345e9fc959e51e627e19bad3bc980bc0eb1ea33608f5510e5"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/keyboard-shortcuts-dialog-97736c23bedab6f6.js",
+      "status": 200,
+      "bytes": 7332,
+      "sha256": "c3727a3400427c17fc8c710a169ddecba295be96ccaafecdc9a505d76b717237"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/pw-4f91498888595802.js",
+      "status": 200,
+      "bytes": 18272,
+      "sha256": "f4bc0a267069d003017a3632abc92d16376d9f820ae729547a75261b276336f6"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/fz5-23f28c0f388769c9.js",
+      "status": 200,
+      "bytes": 11400,
+      "sha256": "7812daf18df48d153d8b375463e108a593d7e86787568e48a3314e5aeee6f777"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/lht-dedd9949bed91081.js",
+      "status": 200,
+      "bytes": 35944,
+      "sha256": "80f83f2d7812831a6b987b9e6cf244cc0426d0377c5bd45f491967cf059e15bc"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/p1-76a75a6081059b19.js",
+      "status": 200,
+      "bytes": 12936,
+      "sha256": "ccb760f937e15777f0748a72fa95a195f14db5a68eb1d1b48cfe19a940d82afb"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/marketing-header-a18ca33dd11ddbbf.js",
+      "status": 200,
+      "bytes": 2118,
+      "sha256": "a9bc4c9d299c2eac18baf18226f8f035dd1343787825f780c25137f0e6ff1da4"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/t1-1b7e0da923b8dbe5.js",
+      "status": 200,
+      "bytes": 17584,
+      "sha256": "cb52e6f690cd84c4600e4a429f6975451f76f5479154e22236a4bf3953d39877"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/3d-82c347d20a13fb90.js",
+      "status": 200,
+      "bytes": 112960,
+      "sha256": "abba3d0770fbdbcfdfe28a453fa16c2b2ad8c5e02cf8749d7c8090eab538c528"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/tua-18c20c09a9dc80b9.js",
+      "status": 200,
+      "bytes": 17222,
+      "sha256": "3eac2da69e0ab4e66eadc5631908850e43623859aac3cf8e64db91ac9f34a431"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/2l-4955592c2215078b.js",
+      "status": 200,
+      "bytes": 193446,
+      "sha256": "75a0a1b5dee12e3cd1d8b592289ee3bb49dcd2b622f152da77a9626ad736582f"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/i2-e878ead70a26ebb7.js",
+      "status": 200,
+      "bytes": 287524,
+      "sha256": "68d269e353acdc0b37a3c7ee64ef1d08f4f18eaac916f796ceb77056e7a3eb0f"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/kq9.8ad2074125dec7f9.module.css",
+      "status": 200,
+      "bytes": 423,
+      "sha256": "ee201abdd030ab1f4e83d1390903c293350c704f14299eb0d1af9dcecf6b7450"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/u2l.ff0ae8126cef2c8d.module.css",
+      "status": 200,
+      "bytes": 309,
+      "sha256": "767666404e333b2a7782a6545f589907b61b705bac833691efddf415f7d7406c"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/chunk-xg-d2cdb11324370335.js",
+      "status": 200,
+      "bytes": 9523,
+      "sha256": "02963fd298bf18c3e77fedb41874fd4cd464dff8f64c0169ef7170856f15cf80"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/chunk-3m-bd8210ae7686885c.js",
+      "status": 200,
+      "bytes": 74841,
+      "sha256": "a0ab59ecb38bce8bb2a1b9bc906718296a06b14967a754868a08ba6fd908ae95"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/chunk-lazy-element-select-panel-c1e7af998a1d00c5.js",
+      "status": 200,
+      "bytes": 18177,
+      "sha256": "3f1183f56d282fd34587fe46dfaec3fb42f4e4bcc0c0c7265740d55dee17e799"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/chunk-lazy-element-toggle-switch-0b0e875a5b4f4f2e.js",
+      "status": 200,
+      "bytes": 915,
+      "sha256": "872576bd2cb77b3055c487c2526a20e759f27a7995fff2b3ca32a53773ee5b68"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/chunk-lazy-element-cookie-consent-link-0b3046383a14e4ce.js",
+      "status": 200,
+      "bytes": 454,
+      "sha256": "d67833d59012b48edfd61da399ae97186d901184f420ce2f366fa63f709fa635"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/js0-1b530647d576646a.js",
+      "status": 200,
+      "bytes": 32411,
+      "sha256": "24a47c8a342cad91664d8191dcc9f4e898dcad389c389ae95e15dd76fe555fbc"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/chunk-lazy-element-ghcc-consent-dbdc93d9ffc7498e.js",
+      "status": 200,
+      "bytes": 747,
+      "sha256": "e524aefff8c61c39db3d38fcb6788fce7cf8f42b974c00ce1da985e0c4bb45c7"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/chunk-lazy-element-webauthn-get-477300bea3112dfc.js",
+      "status": 200,
+      "bytes": 7951,
+      "sha256": "0c5f497edfd4429da6ec82bb84b1182b14c9c178615dac60f9e9111dbdbe20a0"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/chunk-lazy-react-partial-app-install-banner-partial-1ab7023dacdeedc9.js",
+      "status": 200,
+      "bytes": 4182,
+      "sha256": "1e7666fe1d4ce1e1a830d690116673da005cf60934cd7629c29f08b62b8f8ffa"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/chunk-lazy-react-partial-keyboard-shortcuts-dialog-3503df2397aa9315.js",
+      "status": 200,
+      "bytes": 6003,
+      "sha256": "aad25b1743b18b2f8a3278462a9ef9b7024f150522542f5f5254774f8fe5d161"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/chunk-lazy-react-partial-marketing-header-8be15e43176c6ca0.js",
+      "status": 200,
+      "bytes": 507,
+      "sha256": "7a5122a339a014327c60200d40631662a766fafe60e0a31f3122186a2c72ac33"
+    },
+    {
+      "url": "https://github.com/manifest.json",
+      "status": 200,
+      "bytes": 1464,
+      "sha256": "c75e05794d72230a695e880f1a6c83a474a033f8660eff0c9eeb5bf0329c2c8c"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/fg.2616179aabbabe22.module.css",
+      "status": 200,
+      "bytes": 1371,
+      "sha256": "f8f4d50b24492b6be342d627bc719dd5dbc20fa706e73ade3d879b765fa2b873"
+    },
+    {
+      "url": "https://github.githubassets.com/assets/chunk-fg-9cd11d60024b1b63.js",
+      "status": 200,
+      "bytes": 3789,
+      "sha256": "ac464c69e24eca651fc2d63ee0777a50ddaace652208fbb7dad3af4eae36fc51"
+    }
+  ],
+  "technical_retries": 0
+}

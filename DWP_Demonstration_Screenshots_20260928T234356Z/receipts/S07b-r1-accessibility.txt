@@ -1,0 +1,884 @@
+- banner:
+  - heading "OKF Explorer" [level=1]:
+    - link "Return to the OKF learning hub":
+      - /url: ../
+      - text: OKF Explorer
+  - paragraph: "DWP guidance: source-led evidence connect research"
+  - link "Explorer changes":
+    - /url: https://github.com/chris-page-gov/okf-explorer/blob/main/CHANGELOG.md
+  - link "Evidence workbench":
+    - /url: ../evidence/
+  - navigation "Views":
+    - button "Reader"
+    - button "Graph"
+    - button "Links"
+    - button "Timeline"
+    - button "Type"
+    - button "Resources"
+    - button "Map"
+    - button "Narrative"
+  - textbox "Bundle or descriptor URL": https://raw.githubusercontent.com/chris-page-gov/okf-dwp/7eeded763042ddd0070f4fed834c6074149e8e2f/structured-context/evidence-connect-explorer.json
+  - button "Load"
+  - text: File
+- note "Exploratory publication notice":
+  - strong: Exploratory
+  - paragraph: This is an incomplete research view, not an authoritative service or released data product. Content and links may change. Check the cited official source before making a decision.
+  - link "Give feedback about this exact view":
+    - /url: https://github.com/chris-page-gov/okf-dwp/issues/new?okf_review_url=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-explorer%2Fexplore%2F%3Fbundle%3Dhttps%253A%252F%252Fraw.githubusercontent.com%252Fchris-page-gov%252Fokf-dwp%252F7eeded763042ddd0070f4fed834c6074149e8e2f%252Fstructured-context%252Fevidence-connect-explorer.json%23overview&okf_bundle=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F7eeded763042ddd0070f4fed834c6074149e8e2f%2Fstructured-context%2Fevidence-connect-explorer.json&okf_view=reader&okf_query=&okf_route=overview
+  - group: Review boundaries
+- main:
+  - complementary "Search and facets":
+    - button "Toggle navigation" [expanded]: ‹
+    - group "Search or assemble evidence":
+      - button "Search"
+      - button "Ask OKF" [pressed]
+    - heading "Question evidence" [level=2]
+    - paragraph: Ask OKF uses this bundle’s declared context index. Your Search query and filters are retained separately.
+    - button "Open question form"
+  - separator "Resize navigation"
+  - region "Explorer content":
+    - region "Ask OKF":
+      - heading "Ask OKF" [level=2]
+      - paragraph:
+        - text: Build an evidence package for a question about
+        - strong: "DWP guidance: source-led evidence connect research"
+        - text: . The bundle declares the concepts, relationships and evidence requirements. This tool does not generate an AI answer.
+      - paragraph: The package uses the loaded bundle, independently of Search and its filters. Keep questions general; do not enter personal or confidential information.
+      - text: Question
+      - textbox "Question":
+        - /placeholder: Which evidence and qualifications are needed to investigate this question?
+        - text: Can Pension Credit treat capital as still held after someone has got rid of it, and are there exceptions?
+      - group:
+        - text: Evidence limits
+        - paragraph: Whole evidence items are retained or omitted. A smaller limit can leave required evidence out of the package.
+        - text: Records
+        - spinbutton "Records": "64"
+        - text: Relationships
+        - spinbutton "Relationships": "128"
+        - text: Traversal depth
+        - spinbutton "Traversal depth": "6"
+        - text: Package bytes
+        - spinbutton "Package bytes": "524288"
+      - button "Build evidence package"
+      - paragraph: Page tools are unavailable in this browser. Ask OKF still works here.
+      - region "Evidence package":
+        - heading "Evidence package" [level=3]
+        - button "Copy evidence package"
+        - button "Inspect package JSON"
+        - paragraph:
+          - strong: "Question:"
+          - text: Can Pension Credit treat capital as still held after someone has got rid of it, and are there exceptions?
+        - paragraph:
+          - strong: Insufficient evidence
+        - paragraph: Complete frozen DMG and ADM source-led unit discovery with separately authored task profiles. Additive capital discovery groups over the full DMG and ADM structured corpus.
+        - paragraph: This status applies only to the bundle’s declared requirements and scope. It does not establish a complete answer, current legal applicability or specialist approval.
+        - term: Bundle snapshot
+        - definition: evidence-connect-754be67f82c82e31d17c
+        - term: Context ID
+        - definition: urn:sha256:bd0b9f7af358d61ec5e9d47009cadd1e04e76c47740fc901b08acd94a42ace28
+        - term: Corpus manifest SHA-256
+        - definition: 4e65253f72b2d771164d5ddd64374ed8142cf66b4a249f193a1fe44d5679f519
+        - region "Corpus evidence discovery":
+          - heading "Corpus evidence discovery" [level=4]
+          - paragraph: Deterministic lexical discovery over 53,737 records and 19,090 source pages. 893 pages have no extracted text. Matching words identify candidates; they do not establish a concept, authority or a complete answer.
+          - paragraph: "20,503 candidates found. Tokens used: pension, credit, treat, capital, still, held, after, someone, got, rid, there, exceptions."
+          - paragraph: "64 of 64 files fetched; 4,558,011 of 16,777,216 transfer bytes; 23,358,523 of 33,554,432 decoded bytes. Candidate limit: 16; query-token limit: 24."
+          - paragraph:
+            - strong: Discovery was bounded. Further evidence may exist outside these candidates.
+          - list:
+            - listitem:
+              - strong: retrieval_candidate_budget
+              - text: ": Only the highest-ranked source-bound units fit the fixed lexical candidate limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+            - listitem:
+              - strong: retrieval_resource_budget
+              - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - group: Ranked candidates (1)
+        - heading "Concepts resolved" [level=4]
+        - list:
+          - listitem:
+            - strong: Capital
+            - text: — matched Capital (declared phrase)
+          - listitem:
+            - strong: State Pension Credit
+            - text: — matched Pension Credit (declared phrase)
+        - paragraph:
+          - strong: "Unresolved terms:"
+          - text: after, exceptions, got, held, rid, someone, still, there, treat
+        - heading "Gaps, conflicts and omissions" [level=4]
+        - list:
+          - listitem:
+            - strong: unresolved_unit_boundary
+            - text: ": The detected unit boundary or fallback does not establish a complete source passage."
+          - listitem:
+            - strong: missing_record
+            - text: ": A traversed destination is absent from this index."
+          - listitem:
+            - strong: unresolved_terms
+            - text: ": The question contains terms outside the declared concept vocabulary."
+          - listitem:
+            - strong: missing_required_evidence
+            - text: ": Evidence required by staff-006: Capital valuation/disregard and deemed-income rules combined with Guarantee Credit/Savings Credit conditions. was absent, omitted or lacked governance."
+          - listitem:
+            - strong: missing_required_evidence
+            - text: ": Evidence required by staff-019: A bounded source-backed overview and key definitions/routes, with clear omissions and no personal award decision. was absent, omitted or lacked governance."
+          - listitem:
+            - strong: missing_required_evidence
+            - text: ": Evidence required by Pension Credit: capital assessment and deemed income was absent, omitted or lacked governance."
+          - listitem:
+            - strong: missing_required_evidence
+            - text: ": Evidence required by Pension Credit: introductory entitlement and component context was absent, omitted or lacked governance."
+          - listitem:
+            - strong: retrieval_candidate_budget
+            - text: ": Only the highest-ranked source-bound units fit the fixed lexical candidate limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: retrieval_resource_budget
+            - text: ": A bound discovery, evidence or relationship file exceeded the retrieval resource limit."
+          - listitem:
+            - strong: relationship_byte_budget
+            - text: ": An assertion outside the retained paths was omitted whole to preserve source evidence within the byte budget. Its exact incident metadata remains source-bound."
+          - listitem:
+            - strong: relationship_byte_budget
+            - text: ": An assertion outside the retained paths was omitted whole to preserve source evidence within the byte budget. Its exact incident metadata remains source-bound."
+          - listitem:
+            - strong: byte_budget
+            - text: ": A whole item was omitted to meet the package byte budget."
+        - heading "Declared requirements" [level=4]
+        - list:
+          - listitem:
+            - strong: "staff-006: Capital valuation/disregard and deemed-income rules combined with Guarantee Credit/Savings Credit conditions."
+            - text: — insufficient. Proposed review scope for staff-006. What is the maximum you can have in savings to still qualify for Pension Credit?
+            - paragraph: "Missing: https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/0fa1fc75cbbe293958bcc63eccd77aa92ae2f8601b4d48c9c6c4d6a57ac9ecdf; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/9048daf32323f17763953919fbceb9e7a5fb1ec502691054787e4d6de2c6ff4d; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/d9ceea4abbd2b57b5eb337b147bd99183a08295fb2c57d43056dc801a6da3e49; https://chris-page-gov.github.io/okf-dwp/id/obligation/staff/staff-006/applicability_unresolved/applicability; https://chris-page-gov.github.io/okf-dwp/id/obligation/staff/staff-006/evidence_closure_unverified/source-requirement-1; https://chris-page-gov.github.io/okf-dwp/id/obligation/staff/staff-006/independent_review_pending/meaning-review; https://chris-page-gov.github.io/okf-dwp/id/obligation/staff/staff-006/legal_version_unreconciled/legal-version; https://chris-page-gov.github.io/okf-dwp/id/obligation/staff/staff-006/question_scope_unresolved/question-scope; https://chris-page-gov.github.io/okf-dwp/id/page/77/0014; https://chris-page-gov.github.io/okf-dwp/id/page/77/0033; https://chris-page-gov.github.io/okf-dwp/id/page/84/0128"
+          - listitem:
+            - strong: "staff-019: A bounded source-backed overview and key definitions/routes, with clear omissions and no personal award decision."
+            - text: — insufficient. Proposed review scope for staff-019. How does Pension Credit work?
+            - paragraph: "Missing: https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/0fa1fc75cbbe293958bcc63eccd77aa92ae2f8601b4d48c9c6c4d6a57ac9ecdf; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/5f8602922e245576506fe408a5658c4eb7a58927cc64b645924dfd38d955795b; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/74bd5bb42a0709f1f278ae763619c98851bd8a3d253a2c4771258ae05db9d241; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/9048daf32323f17763953919fbceb9e7a5fb1ec502691054787e4d6de2c6ff4d; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/d9ceea4abbd2b57b5eb337b147bd99183a08295fb2c57d43056dc801a6da3e49; https://chris-page-gov.github.io/okf-dwp/id/obligation/staff/staff-019/applicability_unresolved/applicability; https://chris-page-gov.github.io/okf-dwp/id/obligation/staff/staff-019/evidence_closure_unverified/source-requirement-1; https://chris-page-gov.github.io/okf-dwp/id/obligation/staff/staff-019/independent_review_pending/meaning-review; https://chris-page-gov.github.io/okf-dwp/id/obligation/staff/staff-019/legal_version_unreconciled/legal-version; https://chris-page-gov.github.io/okf-dwp/id/obligation/staff/staff-019/question_scope_unresolved/question-scope; https://chris-page-gov.github.io/okf-dwp/id/page/77/0014; https://chris-page-gov.github.io/okf-dwp/id/page/77/0033; https://chris-page-gov.github.io/okf-dwp/id/page/77/0035; https://chris-page-gov.github.io/okf-dwp/id/page/84/0128; https://chris-page-gov.github.io/okf-dwp/id/page/85/0030"
+          - listitem:
+            - strong: "Pension Credit: capital assessment and deemed income"
+            - text: — insufficient. Capital research only. The source distinguishes actual/notional capital, resource classification, ownership, disregards and valuation before deemed weekly income. A deemed-income threshold is not a universal maximum-savings entitlement rule.
+            - paragraph: "Missing: https://chris-page-gov.github.io/okf-dwp/id/obligation/structured/pc-capital/applicability; https://chris-page-gov.github.io/okf-dwp/id/obligation/structured/pc-capital/award-conditions; https://chris-page-gov.github.io/okf-dwp/id/obligation/structured/pc-capital/capital-closure; https://chris-page-gov.github.io/okf-dwp/id/obligation/structured/pc-capital/legal-version; https://chris-page-gov.github.io/okf-dwp/id/obligation/structured/pc-capital/specialist-review; DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable; DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable; DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit; DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit; DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction; DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction; DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"
+          - listitem:
+            - strong: "Pension Credit: introductory entitlement and component context"
+            - text: "— insufficient. An introductory foundation only: entitlement gates, normal-amount scope, GC/SC distinction and dated Savings Credit restrictions. This profile may accompany another PC task but does not cover its absence, care-home, disability, housing or interaction branch. Its selected normal-amount guidance explicitly routes special groups elsewhere."
+            - paragraph: "Missing: https://chris-page-gov.github.io/okf-dwp/id/obligation/structured/pc-foundation/applicability; https://chris-page-gov.github.io/okf-dwp/id/obligation/structured/pc-foundation/component-closure; https://chris-page-gov.github.io/okf-dwp/id/obligation/structured/pc-foundation/entitlement-dependencies; https://chris-page-gov.github.io/okf-dwp/id/obligation/structured/pc-foundation/legal-version; https://chris-page-gov.github.io/okf-dwp/id/obligation/structured/pc-foundation/specialist-review; https://chris-page-gov.github.io/okf-dwp/id/obligation/structured/pc-foundation/task-scope; DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit; DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable; DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable; DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"
+        - group: Directed relationships (68)
+        - group: How the evidence was reached
+        - heading "Selected evidence and interpretation" [level=4]
+        - article:
+          - 'heading "DMG Vol 14 Ch 84: Deemed weekly income from capital — Notional capital and the general deprivation rule" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol14-ch84; captured role: substantive. Boundary: agent-reviewed excerpt only. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source. This successor retains the source span and adds unreviewed navigation links."
+          - paragraph:
+            - 'link "View cited source: DMG Vol 14 Ch 84: Deemed weekly income from capital — Notional capital and the general deprivation rule"':
+              - /url: https://assets.publishing.service.gov.uk/media/6a5e38bb8b7e4fa537e693d5/dmg-ch84.pdf#page=110
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - heading "Capital" [level=5]
+          - paragraph: Staff-domain meaning proposal; specialist review required · model-derived · unreviewed-specialist-review-required
+          - paragraph: "Frozen-source staff-question research. Source text is not current-law assurance and proposed meaning is not an official interpretation. Concept role: dwp:AssessmentInput."
+          - 'button "Open record in new tab: Capital"'
+          - paragraph:
+            - 'link "View cited source: Capital"':
+              - /url: https://github.com/chris-page-gov/okf-dwp/blob/main/domain-profile/staff-semantic/concepts.yamlld
+          - group: Read project-authored context
+          - group: Selection reasons and provenance
+        - article:
+          - heading "State Pension Credit" [level=5]
+          - paragraph: Staff-domain meaning proposal; specialist review required · model-derived · unreviewed-specialist-review-required
+          - paragraph: "Frozen-source staff-question research. Source text is not current-law assurance and proposed meaning is not an official interpretation. Concept role: dwp:Benefit."
+          - 'button "Open record in new tab: State Pension Credit"'
+          - paragraph:
+            - 'link "View cited source: State Pension Credit"':
+              - /url: https://github.com/chris-page-gov/okf-dwp/blob/main/domain-profile/staff-semantic/concepts.yamlld
+          - group: Read project-authored context
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84861 — What is the amount of notional capital" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol14-ch84; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 14 Ch 84: Deemed weekly income from capital — 84861 — What is the amount of notional capital"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 14 Ch 84: Deemed weekly income from capital — 84861 — What is the amount of notional capital"':
+              - /url: https://assets.publishing.service.gov.uk/media/6a5e38bb8b7e4fa537e693d5/dmg-ch84.pdf#page=122
+          - group: Read whole source passage Diminishing notional capital rule The law 84861 There are special rules for 1. when capital a person is treated as having because of deprivation should be reduced and 2. how the amount of the reduction is worked out1. 1 reg 22
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 14 Ch 84: Deemed weekly income from capital — Significant purpose and evidence for deprivation" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol14-ch84; captured role: substantive. Boundary: agent-reviewed excerpt only. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source. This successor retains the source span and adds unreviewed navigation links."
+          - paragraph:
+            - 'link "View cited source: DMG Vol 14 Ch 84: Deemed weekly income from capital — Significant purpose and evidence for deprivation"':
+              - /url: https://assets.publishing.service.gov.uk/media/6a5e38bb8b7e4fa537e693d5/dmg-ch84.pdf#page=114
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - heading "Beneficial ownership of capital" [level=5]
+          - paragraph: Existing authored research concept; specialist review required · model-derived · unreviewed-specialist-review-required
+          - paragraph: Pension Credit; captured DMG guidance, not a finding about current law or a claimant. Specialist review required.
+          - 'button "Open record in new tab: Beneficial ownership of capital"'
+          - paragraph:
+            - 'link "View cited source: Beneficial ownership of capital"':
+              - /url: https://github.com/chris-page-gov/okf-dwp/blob/main/knowledge/concepts/beneficial-ownership.yamlld
+          - group: Read project-authored context
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84921 — Deemed weekly income from capital" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol14-ch84; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 14 Ch 84: Deemed weekly income from capital — 84921 — Deemed weekly income from capital"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 14 Ch 84: Deemed weekly income from capital — 84921 — Deemed weekly income from capital"':
+              - /url: https://assets.publishing.service.gov.uk/media/6a5e38bb8b7e4fa537e693d5/dmg-ch84.pdf#page=128
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol14-ch84; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"':
+              - /url: https://assets.publishing.service.gov.uk/media/6a5e38bb8b7e4fa537e693d5/dmg-ch84.pdf#page=128
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84922 — Deemed weekly income from capital" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol14-ch84; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 14 Ch 84: Deemed weekly income from capital — 84922 — Deemed weekly income from capital"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 14 Ch 84: Deemed weekly income from capital — 84922 — Deemed weekly income from capital"':
+              - /url: https://assets.publishing.service.gov.uk/media/6a5e38bb8b7e4fa537e693d5/dmg-ch84.pdf#page=128
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 14 Ch 84: Deemed weekly income from capital — reserved" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol14-ch84; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 14 Ch 84: Deemed weekly income from capital — reserved"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 14 Ch 84: Deemed weekly income from capital — reserved"':
+              - /url: https://assets.publishing.service.gov.uk/media/6a5e38bb8b7e4fa537e693d5/dmg-ch84.pdf#page=128
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol14-ch84; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction"':
+              - /url: https://assets.publishing.service.gov.uk/media/6a5e38bb8b7e4fa537e693d5/dmg-ch84.pdf#page=2
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=32
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=37
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=35
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol14-ch84; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction"':
+              - /url: https://assets.publishing.service.gov.uk/media/6a5e38bb8b7e4fa537e693d5/dmg-ch84.pdf#page=2
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=33
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - heading "Savings Credit" [level=5]
+          - paragraph: Staff-domain meaning proposal; specialist review required · model-derived · unreviewed-specialist-review-required
+          - paragraph: "Frozen-source staff-question research. Source text is not current-law assurance and proposed meaning is not an official interpretation. Concept role: dwp:BenefitComponent."
+          - 'button "Open record in new tab: Savings Credit"'
+          - paragraph:
+            - 'link "View cited source: Savings Credit"':
+              - /url: https://github.com/chris-page-gov/okf-dwp/blob/main/domain-profile/staff-semantic/concepts.yamlld
+          - group: Read project-authored context
+          - group: Selection reasons and provenance
+        - article:
+          - heading "Guarantee Credit" [level=5]
+          - paragraph: Staff-domain meaning proposal; specialist review required · model-derived · unreviewed-specialist-review-required
+          - paragraph: "Frozen-source staff-question research. Source text is not current-law assurance and proposed meaning is not an official interpretation. Concept role: dwp:BenefitComponent."
+          - 'button "Open record in new tab: Guarantee Credit"'
+          - paragraph:
+            - 'link "View cited source: Guarantee Credit"':
+              - /url: https://github.com/chris-page-gov/okf-dwp/blob/main/domain-profile/staff-semantic/concepts.yamlld
+          - group: Read project-authored context
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=33
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=14
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — reserved" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — reserved"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — reserved"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=33
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC claimant temporary absence: gateway and four-week examples" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol2-ch7-part6; captured role: substantive. Boundary: agent-reviewed excerpt only. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC claimant temporary absence: gateway and four-week examples"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC claimant temporary absence: gateway and four-week examples"':
+              - /url: https://assets.publishing.service.gov.uk/media/6426e57e7de82b000c3133eb/dmg-ch07-06.pdf#page=8
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC household membership during temporary absence" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol2-ch7-part6; captured role: substantive. Boundary: agent-reviewed excerpt only. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC household membership during temporary absence"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC household membership during temporary absence"':
+              - /url: https://assets.publishing.service.gov.uk/media/6426e57e7de82b000c3133eb/dmg-ch07-06.pdf#page=11
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC stated 28 July 2016 absence transition" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol2-ch7-part6; captured role: substantive. Boundary: agent-reviewed excerpt only. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC stated 28 July 2016 absence transition"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC stated 28 July 2016 absence transition"':
+              - /url: https://assets.publishing.service.gov.uk/media/6426e57e7de82b000c3133eb/dmg-ch07-06.pdf#page=13
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC non-export in the cited EC classification" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol2-ch7-part6; captured role: substantive. Boundary: agent-reviewed excerpt only. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC non-export in the cited EC classification"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC non-export in the cited EC classification"':
+              - /url: https://assets.publishing.service.gov.uk/media/6426e57e7de82b000c3133eb/dmg-ch07-06.pdf#page=13
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC reciprocal-agreement scope" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol2-ch7-part6; captured role: substantive. Boundary: agent-reviewed excerpt only. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC reciprocal-agreement scope"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC reciprocal-agreement scope"':
+              - /url: https://assets.publishing.service.gov.uk/media/6426e57e7de82b000c3133eb/dmg-ch07-06.pdf#page=14
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - heading "Income other than earnings" [level=5]
+          - paragraph: Staff-domain meaning proposal; specialist review required · model-derived · unreviewed-specialist-review-required
+          - paragraph: "Frozen-source staff-question research. Source text is not current-law assurance and proposed meaning is not an official interpretation. Concept role: dwp:AssessmentInput."
+          - 'button "Open record in new tab: Income other than earnings"'
+          - paragraph:
+            - 'link "View cited source: Income other than earnings"':
+              - /url: https://github.com/chris-page-gov/okf-dwp/blob/main/domain-profile/staff-semantic/concepts.yamlld
+          - group: Read project-authored context
+          - group: Selection reasons and provenance
+        - article:
+          - heading "Pension Credit mixed-age couple conditions and protections" [level=5]
+          - paragraph: Staff-domain meaning proposal; specialist review required · model-derived · unreviewed-specialist-review-required
+          - paragraph: "Frozen-source staff-question research. Source text is not current-law assurance and proposed meaning is not an official interpretation. Concept role: dwp:Applicability."
+          - 'button "Open record in new tab: Pension Credit mixed-age couple conditions and protections"'
+          - paragraph:
+            - 'link "View cited source: Pension Credit mixed-age couple conditions and protections"':
+              - /url: https://github.com/chris-page-gov/okf-dwp/blob/main/domain-profile/staff-semantic/concepts.yamlld
+          - group: Read project-authored context
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=32
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=32
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - heading "DMG abbreviations — DMG abbreviations" [level=5]
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-abbreviations-0db6c476b0; captured role: reference. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG abbreviations — DMG abbreviations"'
+          - paragraph:
+            - 'link "View cited source: DMG abbreviations — DMG abbreviations"':
+              - /url: https://assets.publishing.service.gov.uk/media/67ffac49b73354468d13553f/dmg-abbreviations.pdf#page=1
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - heading "DMG abbreviations for statutory instruments — reference material" [level=5]
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-si-abbreviations-eeb52291df; captured role: reference-not-legislation-text. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG abbreviations for statutory instruments — reference material"'
+          - paragraph:
+            - 'link "View cited source: DMG abbreviations for statutory instruments — reference material"':
+              - /url: https://assets.publishing.service.gov.uk/media/68d6a9b8dadf7616351e4b1a/dmg-si-abbreviations.pdf#page=1
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - heading "DMG abbreviations for statutes — reference material" [level=5]
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-statutes-23bca4e6a8; captured role: reference-not-legislation-text. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG abbreviations for statutes — reference material"'
+          - paragraph:
+            - 'link "View cited source: DMG abbreviations for statutes — reference material"':
+              - /url: https://assets.publishing.service.gov.uk/media/66e18c8f951c1776394a0007/dmg-statutes.pdf#page=1
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 14 Ch 84: Deemed weekly income from capital — Further factors bearing on the purpose of deprivation" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol14-ch84; captured role: substantive. Boundary: agent-reviewed excerpt only. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source. This successor retains the source span and adds unreviewed navigation links."
+          - paragraph:
+            - 'link "View cited source: DMG Vol 14 Ch 84: Deemed weekly income from capital — Further factors bearing on the purpose of deprivation"':
+              - /url: https://assets.publishing.service.gov.uk/media/6a5e38bb8b7e4fa537e693d5/dmg-ch84.pdf#page=116
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=15
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77330 — Guarantee credit" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77330 — Guarantee credit"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77330 — Guarantee credit"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=34
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77333 — Guarantee credit" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77333 — Guarantee credit"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77333 — Guarantee credit"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=35
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=38
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=26
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77016 — Polygamous marriages" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol13-ch77; captured role: substantive. Boundary: machine candidate, unresolved. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77016 — Polygamous marriages"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77016 — Polygamous marriages"':
+              - /url: https://assets.publishing.service.gov.uk/media/68401a731d85c6606009cce4/dmgch77.pdf#page=8
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC claimant death-related absence: eight-week branch" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol2-ch7-part6; captured role: substantive. Boundary: agent-reviewed excerpt only. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC claimant death-related absence: eight-week branch"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC claimant death-related absence: eight-week branch"':
+              - /url: https://assets.publishing.service.gov.uk/media/6426e57e7de82b000c3133eb/dmg-ch07-06.pdf#page=9
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC claimant medical absence: twenty-six-week branch and examples" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol2-ch7-part6; captured role: substantive. Boundary: agent-reviewed excerpt only. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC claimant medical absence: twenty-six-week branch and examples"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC claimant medical absence: twenty-six-week branch and examples"':
+              - /url: https://assets.publishing.service.gov.uk/media/6426e57e7de82b000c3133eb/dmg-ch07-06.pdf#page=9
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC household-member death-related absence" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol2-ch7-part6; captured role: substantive. Boundary: agent-reviewed excerpt only. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC household-member death-related absence"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC household-member death-related absence"':
+              - /url: https://assets.publishing.service.gov.uk/media/6426e57e7de82b000c3133eb/dmg-ch07-06.pdf#page=11
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - article:
+          - 'heading "DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC household-member medical absence" [level=5]'
+          - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · normalized · unreviewed-specialist-review-required
+          - paragraph: "Frozen DMG dmg-vol2-ch7-part6; captured role: substantive. Boundary: agent-reviewed excerpt only. A structural unit is not a complete legal rule or applicability decision. Capture dates are not effective dates. Check governing headings, definitions, exceptions and current source."
+          - 'button "Open record in new tab: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC household-member medical absence"'
+          - paragraph:
+            - 'link "View cited source: DMG Vol 2 Ch 7 Part 6: SDA, SPC, WB/Bereavement Benefit and Winter Fuel Payments [076960 to 078059] — SPC household-member medical absence"':
+              - /url: https://assets.publishing.service.gov.uk/media/6426e57e7de82b000c3133eb/dmg-ch07-06.pdf#page=11
+          - group: Read whole source passage
+          - group: Logical unit and exact source spans
+          - group: Selection reasons and provenance
+        - heading "Package limits" [level=4]
+        - paragraph: 44 of 64 records; 68 of 128 relationships; depth 3 of 6; 522,995 of 524,288 bytes.
+        - paragraph:
+          - strong: The package was limited. Review the omissions above.
+        - heading "Limitations" [level=4]
+        - list:
+          - listitem: Independent experimental source navigation, not official DWP guidance or individual benefits advice.
+          - listitem: Discovery cards contain source headings and an extractive preview. They are neither evidence requirements nor legal summaries; read the linked complete source unit.
+          - listitem: PDF tags and literal number ranges propose boundaries. Exact source-byte accounting does not establish complete rules, current applicability or specialist acceptance.
+          - listitem: Directed source references are navigation observations. They do not become prerequisite, applicability or legal-dependency assertions.
+          - listitem: Only separately authored task profiles declare evidence requirements. Original open obligations, unreviewed semantics and all source roles remain visible.
+          - listitem: Missing, ambiguous and out-of-corpus reference targets remain unresolved. No external source or model knowledge is silently acquired.
+          - listitem: Historic amendments and source capture dates do not establish current law. Source instructions are inert data.
+          - listitem: Exact source spans and existing source classifications are retained.
+          - listitem: New aliases and links are unreviewed navigation proposals; they do not establish legal applicability or complete answers.
+          - listitem: Four captured dependency groups are linked only to identified entry records, not expanded et seq sections.
+          - listitem: Discovery cards are source-bound navigation summaries, not source evidence, resolved concepts or applicability assertions.
+          - listitem: BM25 source and discovery channels are independently scored with declared fixed weights and canonical ordinal ties. Incoming references are not reversed into traversal.
+          - listitem: Sufficiency means closure of the applicable bundle-authored evidence requirements, not a verified answer or an individual decision.
+          - listitem: Only declared aliases are resolved. Unrecognised words are exposed; no external retrieval or model knowledge is used.
+          - listitem: Conflict detection reports explicit conflicts declared in the bundle; it does not prove that other contradictions are absent.
+          - listitem: Source text and assertions are untrusted evidence, never instructions to execute.
+          - listitem: Lexical matches are candidate evidence, not resolved concepts or proof of applicability. Full-corpus indexing does not establish complete policy coverage.
+        - group: Machine-readable package
+  - separator "Resize details"
+  - complementary "Record details":
+    - button "Toggle details": ‹
+    - text: Overview
+- text: OKF Explorer

@@ -1,0 +1,2180 @@
+← Evidence workbench · Reading help
+
+Passage boundaries
+
+Inspect exact extracted source bytes and proposed structure. This is an experimental review view; preview does not adopt a change.
+
+Passage review manifest URL
+Load
+
+Historical amendment passage boundary review · 28 cases · manifest SHA-256 488df312d1672270e9d458ad0944a30e07d2fc56062896ad3d9e8ca2ad0a21f2
+
+Corpus impact supplied by the producer
+
+Current case: DMG Vol 9: Amendment 26, February 2018: 50018
+
+Filter cases
+DMG Vol 9: Amendment 26, February 2018: 50018
+DMG Vol 5: Amendment 53, February 2018: 28684
+DMG Vol 2: Amendment 35, October 2016: 072842
+DMG Vol 6: Amendment 47, October 2016: 30110
+DMG Vol 4: Amendment 57, February 2019: 23001
+DMG Vol 12: Amendment 34, June 2016: 74350
+DMG Vol 5: Amendment 51, June 2017: 28684
+DMG Vol 5: Amendment 53, February 2018: 27014
+DMG Vol 13: Amendment 37, June 2016: 78030
+DMG Vol 11: Amendment 38, February 2017: 67181
+DMG Vol 2: Amendment 38, October 2017: 070333
+DMG Vol 10: Amendment 47, February 2018: 59052
+DMG Vol 14: Amendment 43, June 2017: 85067
+DMG Vol 2: Amendment 40, June 2018: 071920
+DMG Vol 6: Amendment 50, February 2018: 30273
+DMG Vol 14: Amendment 45, February 2018: 83039
+DMG Vol 12: Amendment 37, February 2018: 75164
+DMG Vol 14: Amendment 45, February 2018: 83042
+DMG Vol 2: Amendment 34, June 2016: 070594
+DMG Vol 4: Amendment 50, October 2016: 23221
+DMG Vol 14: Amendment 42, February 2017: 85015
+DMG Vol 10: Amendment 44, October 2016: 61332
+DMG Vol 1: Amendment 55, October 2017: 06078
+DMG Vol 4: Amendment 59, October 2019: 20917
+DMG Vol 2: Amendment 34, June 2016: 070020
+DMG Vol 5: Amendment 48, June 2016: 25001
+DMG Vol 14: Amendment 40, June 2016: 83000
+DMG Vol 14: Amendment 41, October 2016: 86011
+DMG Vol 9: Amendment 26, February 2018: 50018
+
+missed-contents-boundary · parked proposal review: pending-independent-review
+
+Successor target boundary: corrected. The observed front-matter or contents boundary is separated from the paragraph in the successor projection.
+
+Other technical findings and answerability
+
+50018 ends on page 16; pages 17–30 are contents for later income sections. The new heading on page 31 is also wrongly carried by 50018.
+
+Uncertainty: Add source-bound positive and negative boundary controls before any parser change; preserve original bytes, role distinctions, fragment uncertainty and existing authored-unit identities.
+
+Source PDF
+Source page
+Page 1
+Page 2
+Page 3
+Page 4
+Page 5
+Page 6
+Page 7
+Page 8
+Page 9
+Page 10
+Page 11
+Page 12
+Page 13
+Page 14
+Page 15
+Page 16
+Page 17
+Page 18
+Page 19
+Page 20
+Page 21
+Page 22
+Page 23
+Page 24
+Page 25
+Page 26
+Page 27
+Page 28
+Page 29
+Page 30
+Page 31
+Page 32
+Page 33
+Page 34
+Page 35
+Page 36
+Page 37
+Page 38
+Page 39
+Page 40
+Page 41
+Page 42
+Page 43
+Page 44
+Page 45
+Page 46
+Page 47
+Page 48
+Page 49
+Page 50
+Page 51
+Page 52
+Page 53
+Page 54
+Page 55
+Page 56
+Page 57
+Page 58
+Page 59
+Page 60
+Page 61
+Page 62
+Page 63
+Page 64
+Page 65
+Page 66
+Page 67
+Page 68
+Page 69
+Page 70
+Page 71
+Page 72
+Page 73
+Page 74
+Page 75
+Page 76
+Page 77
+Page 78
+Page 79
+Page 80
+Page 81
+Page 82
+Page 83
+Page 84
+Page 85
+Page 86
+Page 87
+Page 88
+Page 89
+Page 90
+Page 91
+Page 92
+Page 93
+Page 94
+Page 95
+Page 96
+Page 97
+Page 98
+Page 99
+Page 100
+Page 101
+Page 102
+Page 103
+Page 104
+Page 105
+Page 106
+Page 107
+Page 108
+Page 109
+Page 110
+Page 111
+Page 112
+Page 113
+Page 114
+Page 115
+Page 116
+Page 117
+Page 118
+Page 119
+Page 120
+Page 121
+Page 122
+Page 123
+Page 124
+Page 125
+Page 126
+Page 127
+Page 128
+Page 129
+Page 130
+Page 131
+Page 132
+Page 133
+Page 134
+
+Open source-declared PDF at page 16
+
+PDF SHA-256 verified against frozen source evidence.
+
+Verified PDF page 16 rendered.
+
+Open verified PDF copy at page 16
+
+PDF SHA-256: c013e3ec9f7c4263120c25fd39874dba3d4d1e66794f9b205b59194ce2931c53. The page locator is synchronised; word-level highlighting is unavailable.
+
+Exact extracted text
+
+Page 16, UTF-8 bytes 29554–32487
+
+50014   If the S/E earner has ceased self-employment the DM should with respect to
+        ESA(IR) consider if
+
+        1.    there are any capital assets from the business and
+
+        2.    any capital assets from the business should be disregarded (see DMG 50032
+              and DMG Chapter 52).
+
+
+        Directors of limited companies
+                                             1
+50015   A limited company is a legal person and is different from a sole trader or
+        partnership because
+
+        1.    the company belongs to its shareholders, who share in any distributed profits
+              according to the size of their individual holding and
+
+        2.    the liability of each shareholder is limited to the number of shares taken, or the
+              amount that the shareholder has stood as personal guarantor for. The
+              shareholder is not liable for any amount above the amount unpaid on shares
+              (if any) or the amount guaranteed and
+
+        3.    if 2. does not apply, liability for debts is limited to the company’s capital.
+
+        Note: see DMG Chapter 52 when considering the effect of a director’s capital
+                                                                                               1 R(SB) 57/83
+
+
+50016   A limited company, of whatever size, is separate from its employees, officers and
+                     1
+        shareholders . This means that the profits of the company do not belong to the
+                                                                                                2
+        directors. A director of a limited company is an office holder in the company and is
+        an employed earner (see DMG Chapter 49).
+                                                          1 R(SB) 57/83; 2 McMillan v Guest 1942, AC 561
+
+
+
+        Earnings of self-employed earners
+                                                                                                           1
+50017   In S/E cases, earnings are the gross receipts (see DMG 50125) of the employment .
+                                                                                       1 ESA Regs, reg 97(1)
+
+                                      1
+50018   S/E earnings do not include
+
+        1.    charges paid to the S/E earner in return for providing BL accommodation (see
+              DMG 50019) or
+
+        2.    any of the payments in DMG 51255 et seq (fostering allowances and
+              payments for people temporarily in the claimant’s care, including continuing
+              care & kinship care in Scotland)
+                                2
+        3.    any sports award (see DMG 41499).
+                                                                                      1 ESA Regs, reg 97(2);
+                                                           2 reg 2(1), National Lottery etc. Act 1993, s 23(2)
+
+
+
+
+Vol 9 Amendment 26 February 2018
+
+
+Verified extraction SHA-256: 0da5fdbd830792cef2e59e85b3460a6f5850aa105204a80df6304782530b6caa
+
+Before: current units
+50018 · paragraph
+Full unit ID
+
+page 16, bytes 31771–32487; page 17, bytes 32488–35588; page 18, bytes 35589–38515; page 19, bytes 38516–41826; page 20, bytes 41827–45277; page 21, bytes 45278–48387; page 22, bytes 48388–51649; page 23, bytes 51650–55062; page 24, bytes 55063–58206; page 25, bytes 58207–61440; page 26, bytes 61441–64577; page 27, bytes 64578–68081; page 28, bytes 68082–71520; page 29, bytes 71521–75342; page 30, bytes 75343–78084; page 31, bytes 78085–78164
+
+50018   S/E earnings do not include
+
+        1.    charges paid to the S/E earner in return for providing BL accommodation (see
+              DMG 50019) or
+
+        2.    any of the payments in DMG 51255 et seq (fostering allowances and
+              payments for people temporarily in the claimant’s care, including continuing
+              care & kinship care in Scotland)
+                                2
+        3.    any sports award (see DMG 41499).
+                                                                                      1 ESA Regs, reg 97(2);
+                                                           2 reg 2(1), National Lottery etc. Act 1993, s 23(2)
+
+
+
+
+Vol 9 Amendment 26 February 2018
+
+        Residence orders
+
+            Northern Ireland Children Order .............................................................. 51216
+
+            Local authority payments for children subject to a residence order ........ 51217
+
+        Credit insurance policies .............................................................................. 51218
+
+            Disregard for credit insurance policies .................................................... 51219
+
+            Amount of disregard - credit insurance payments made
+              direct to the claimant ............................................................................ 51224
+
+            Credit insurance payments made to third parties .................................... 51225
+
+            Credit insurance payments made direct to the creditor........................... 51226
+
+        Jurors or witnesses court attendance allowance.......................................... 51229
+
+        Benefits fully disregarded
+
+        Attendance allowances................................................................................. 51230
+
+        The meaning of attendance allowance......................................................... 51231
+
+        The Bereavement Support Payment . ………………………………………….51232
+
+        Disability living allowance, personal independence payment and armed
+            forces independence payment ................................................................ 51233
+
+        CHB, CTC and child dependant increases................................................... 51234
+
+        Christmas bonus ......................................................................................... 51235
+
+        Compensation for loss of housing benefit .................................................... 51236
+
+        Council tax benefit ........................................................................................ 51237
+
+        Discretionary housing payments .................................................................. 51238
+
+        Guardians allowance .................................................................................... 51239
+
+        Housing benefit ............................................................................................ 51240
+
+        Increases in Social Security benefits and Service Pensions for
+          absent dependants .................................................................................... 51241
+
+        Mobility supplement ...................................................................................... 51243
+
+        Payments from the Social Fund under Social Security
+          legislation ................................................................................................... 51244
+
+        Concessionary payments
+
+        Types of concessionary payments that should be disregarded ................... 51245
+
+        What are concessionary payments .............................................................. 51246
+
+
+
+
+Vol 9 Amendment 26 February 2018
+
+        Local welfare provision
+
+        Disregard of local welfare provision ............................................................. 51247
+
+        Meaning of local welfare provision ............................................................... 51248
+
+        Payments under the Supporting People programme ............................. 51250
+
+        Payments for children and people living temporarily with the claimant
+
+        Foster children .............................................................................................. 51254
+
+            Kinship care............................................................................................. 51255
+
+        Payments for the welfare of children
+
+        and those formerly looked after by the LA .................................................... 51256
+
+        Payments for people temporarily in the claimant’s care ............................... 51259
+
+        Payments of expenses
+
+        Payment of expenses in the MWA Schemes and schemes for assisting
+             persons to obtain employment ................................................................ 51262
+
+        Payment by an employer of employee’s expenses ...................................... 51263
+
+        Payment of a voluntary worker’s expenses .................................................. 51265
+
+            Time-exchange schemes ........................................................................ 51268
+
+        Service users ................................................................................................ 51270
+
+        War widow’s, widower’s or surviving civil partner’s supplementary
+          pensions ................................................................................................... 51274
+
+        Other types of income fully disregarded
+
+        Certain payments due before the date of claim............................................ 51275
+
+        Payments for a reduction in council tax ........................................................ 51276
+
+        Dependant’s or non dependant’s contributions to
+          accommodation and living costs ............................................................... 51277
+
+        Education maintenance allowance and the 16 - 19 Bursary Fund ............... 51278
+
+        Other payments to assist with non-advanced education .............................. 51279
+
+        Special guardianship payments.................................................................... 51280
+
+        Repayment of teacher’s student loans scheme ........................................... 51282
+
+        Employment retention and advancement scheme ....................................... 51290
+
+            Disregard ................................................................................................. 51291
+
+
+
+
+Vol 9 Amendment 26 February 2018
+
+        Employment zones and self-employed route
+
+            Discretionary payments in employment zones ........................................ 51292
+
+            Subsistence allowance ............................................................................ 51293
+
+            Self-employment route ............................................................................ 51294
+
+        Cost of conversion of foreign money ............................................................ 51295
+
+        Gallantry awards ........................................................................................... 51296
+
+        Income frozen abroad .................................................................................. 51297
+
+        Income in kind .............................................................................................. 51298
+
+        Income treated as capital ............................................................................. 51310
+
+        Jurors or witnesses court attendance allowance.......................................... 51311
+
+        Payments in lieu of community care services and payments
+          in lieu of health care ................................................................................... 51312
+
+        Payments made under employment and training law ................................. 51313
+
+            Living expenses....................................................................................... 51315
+
+        Payments to help disabled people get or keep employment ........................ 51316
+
+        Return to work credit scheme ...................................................................... 51317
+
+        Discretionary payments for special needs .................................................... 51318
+
+        Special educational needs payments and budgets ...................................... 51325
+
+        Vouchers (including child care cheques) ...................................................... 51330
+
+        Welfare foods, NHS supplies, travelling expenses and
+          assisted prison visits .................................................................................. 51332
+
+        Work-related activity ..................................................................................... 51333
+
+        The child maintenance disregard ................................................................. 51334
+
+            Meaning of child maintenance ................................................................ 51335
+
+            Applying the disregard ............................................................................. 51336
+
+        Child or young person attending educational establishment ............... 51338
+
+        Infected Blood Schemes,
+          the Fund and other specific Trusts
+
+        Payments from Infected Blood Schemes, the Fund and other specific Trusts
+
+            Infected Blood Schemes ......................................................................... 51341
+
+            Income from the Infected Blood Schemes .............................................. 51342
+
+            What is the Fund ..................................................................................... 51343
+
+
+Vol 9 Amendment 26 February 2018
+
+           Income from the Fund ............................................................................. 51344
+
+           The Scottish Infected Blood Support Scheme ........................................ 51345
+
+           Income from the Scottish Infected Blood Support Scheme .................... 51346
+
+           Previous Infected Blood Schemes .......................................................... 51347
+
+           The Eileen Trust ...................................................................................... 51348
+
+           The Macfarlane Trusts ............................................................................ 51349
+
+           MFET Limited .......................................................................................... 51351
+
+           The Caxton Foundation ........................................................................... 51352
+
+           Income from the Eileen Trust, Macfarlane Trusts and the Caxton Foundation
+             .............................................................................................................. 51353
+
+           The Skipton Fund .................................................................................... 51354
+
+           The London Emergencies Trust .............................................................. 51355
+
+           Income from the London Emergencies Trust .......................................... 51356
+
+           The We Love Manchester Emergency Fund .......................................... 51357
+
+           Income from the We Love Manchester Emergency Fund ...................... 51358
+
+           The Independent Living Fund (2006)………………………….…………….51359
+
+           Income from the Independent Living Fund (2006)                                   ……………………51360
+
+           The London Bombings Relief Charitable Fund                                …………………………51361
+
+        Payments from money which came from the Trusts
+
+           Meaning of the Trusts ............................................................................. 51362
+
+           What payments should be disregarded .................................................. 51363
+
+           Person with HIV....................................................................................... 51364
+
+           Qualifying person ................................................................................... 51365
+
+           Payments by a qualifying person or person with HIV to partners,
+             children and young people .................................................................... 51366
+
+           Payments by the partner or former partner of the qualifying person
+             or person with HIV ................................................................................ 51367
+
+           Payments by a qualifying person or person with HIV to parents,
+             step parents or guardians ..................................................................... 51369
+
+           Payments from the estate of a qualifying person or person with HIV
+             to a parent, step parent or guardian ..................................................... 51375
+
+        For how long should the payment be disregarded
+
+           Payments to a qualifying person or person with HIV and partners ......... 51377
+
+
+Vol 9 Amendment 26 February 2018
+
+            Payments to children and young people ................................................. 51378
+
+            Payments to parents and guardians from a qualifying person or
+              person with HIV .................................................................................... 51379
+
+            Payments to parents and guardians from the estate of a qualifying
+              person or person with HIV .................................................................... 51380
+
+        Deciding if a disregard applies ..................................................................... 51381
+
+        Trust payments invested with other money .................................................. 51383
+
+        Qualifying person or person with HIV’s relationship with former
+          partners ...................................................................................................... 51384
+
+        Social fund funeral payments ....................................................................... 51385
+
+
+        Payments with special rules
+
+        Charitable and voluntary payments
+
+        What are charitable payments ..................................................................... 51390
+
+        What are voluntary payments ....................................................................... 51393
+
+        Meaning of relevant payment ....................................................................... 51396
+
+        Certain types of payments
+
+            Cash in lieu of concessionary coal .......................................................... 51397
+
+            Civil list pensions ..................................................................................... 51398
+
+            Payments from trust funds ...................................................................... 51405
+
+            Structured settlements ............................................................................ 51407
+
+            Children’s Memorial Trust ....................................................................... 51408
+
+        Regular charitable or voluntary payments
+
+            What are regular payments ..................................................................... 51413
+
+            When is a payment due to be made ....................................................... 51415
+
+        Disregard for relevant payments .................................................................. 51416
+
+            Relevant payments that should be taken fully into account .................... 51417
+
+            Relevant payments paid in kind .............................................................. 51418
+
+        Capital treated as income
+
+        Capital payable by instalments ..................................................................... 51425
+
+        When is an instalment treated as capital ..................................................... 51430
+
+        Annuity payments ......................................................................................... 51431
+
+
+
+
+Vol 9 Amendment 26 February 2018
+
+        Career development loans
+
+        What is a career development loan .............................................................. 51440
+
+          Amount to be disregarded ......................................................................... 51441
+
+            Living expenses....................................................................................... 51442
+
+            Ordinary clothing and footwear ............................................................... 51446
+
+        Period over which a career development loan should
+          be taken into account................................................................................. 51447
+
+        Notional income
+
+        Notional income - general
+
+        What is notional income ............................................................................... 51456
+
+        Types of notional income ............................................................................. 51457
+
+        Actual and notional income .......................................................................... 51458
+
+        Treatment of notional income ....................................................................... 51459
+
+        Notional income - tasters.............................................................................. 51460
+
+        Liable relative payments ............................................................................... 51461
+
+        Service users ................................................................................................ 51462
+
+        Deprivation of income................................................................................ 51469
+
+        Meaning of deprive ....................................................................................... 51470
+
+        Questions for consideration.......................................................................... 51474
+
+            Was it the claimant’s income .................................................................. 51475
+
+            Has a deprivation of income happened ................................................... 51482
+
+            Was the purpose of the deprivation to get or increase the
+               amount of ESA(IR), IS or JSA(IB) ........................................................ 51484
+
+            Timing of the disposal of income ............................................................ 51488
+
+        Income available on application
+
+        General ......................................................................................................... 51496
+
+        What types of income should not be treated as notional income
+          available on application.............................................................................. 51497
+
+        What types of income should be taken into account .................................... 51500
+
+        Date from which income should be taken into account ................................ 51501
+
+        Income from an unadministered estate ........................................................ 51506
+
+        Notional income - carer’s allowance ....................................................... 51516
+
+Vol 9 Amendment 26 February 2018
+
+        Deprivation of income................................................................................... 51517
+
+        Income available on application ................................................................... 51525
+
+        Income due but not paid ............................................................................... 51527
+
+        Notional income and changes in circumstances .......................................... 51528
+
+        Personal and occupational pensions
+
+        General ......................................................................................................... 51535
+
+            What is a personal pension ..................................................................... 51537
+
+            What is an occupational pension ............................................................ 51538
+
+            Pension Protection Fund ......................................................................... 51539
+
+            What is a pension fund holder ................................................................ 51540
+
+            Who is a person who derives entitlement ............................................... 51541
+
+            Lump sums on retirement ....................................................................... 51542
+
+        Pension Flexibilities ……………………………………………………………….51543
+
+        Income and Capital Drawdowns………………………………………………….51544
+
+        Information and evidence ............................................................................. 51537
+
+        Notional income - schemes where income withdrawal is allowed
+
+            When should a person be treated as having notional income ................ 51551
+
+            Amount of notional income...................................................................... 51552
+
+            From what date should the DM take notional income into account ........ 51553
+
+        Notional income - schemes where income withdrawal is not allowed
+
+            When should a person be treated as having notional income ................ 51554
+
+            Amount of notional income...................................................................... 51555
+
+            From what date should the DM take notional income
+               into account .......................................................................................... 51556
+
+            Actual income .......................................................................................... 51557
+
+        Income due but not yet paid...................................................................... 51563
+
+        Income that should not be taken into account if due but not paid ................ 51564
+
+        Types of income that may be due but not paid ............................................ 51569
+
+            Evidence required ................................................................................... 51570
+
+        Payments of income to third parties ........................................................ 51576
+
+        What is a third party ..................................................................................... 51578
+
+        Meaning of payment in respect of a person ................................................. 51580
+
+Vol 9 Amendment 26 February 2018
+
+        Income paid to the claimant or partner for the other person ........................ 51585
+
+        Income paid to a third party for the claimant or partner
+
+            Benefit paid to a third party ..................................................................... 51586
+
+            Training and Employment Programme payments to third parties ........... 51587
+
+          Third party payments for participants in the MWA Scheme and
+            Schemes for assisting persons to obtain employment............................ 51588
+
+            Other payments to a third party ............................................................... 51589
+
+            Meaning of ordinary clothing or footwear ................................................ 51599
+
+        Payments by a third party for care home, Abbeyfield Home
+          or independent hospital charges ................................................................ 51601
+
+        Third party payments for care homes, Abbeyfield Homes or
+          independent hospital and National Health maintenance .......................... 51604
+
+        Income paid to the claimant or partner for a third party................................ 51606
+
+        Employment zones subsistence allowance ............................................ 51613
+
+        Liable relative payments
+
+        Liability to maintain.................................................................................... 51617
+
+        Husbands, wives and civil partners .............................................................. 51618
+
+        Children ........................................................................................................ 51619
+
+        Sponsored immigrants ................................................................................. 51620
+
+        Action by the DM in the courts...................................................................... 51621
+        Liable relative payments - general
+
+        Treatment as income ................................................................................... 51625
+
+        Meaning of liable relative payment ............................................................... 51627
+
+        Identification of liable relative payments ....................................................... 51628
+
+        Liable relative payments from discretionary trusts ....................................... 51632
+
+        Payments made before the date of claim ..................................................... 51633
+
+        When the DM should not take payments into account as income ............... 51641
+
+        Meaning of liable relative .............................................................................. 51642
+
+        Meaning of parent ........................................................................................ 51643
+
+        People who can be treated as parents ......................................................... 51644
+
+        Meaning of young claimant........................................................................... 51646
+
+
+
+
+Vol 9 Amendment 26 February 2018
+
+        Liable relative payments and income tax
+
+             Liable relative payments subject to income tax ....................................... 51647
+
+             What should the DM do if the claimant receives a tax refund ................. 51648
+
+        Payments not treated as liable relative payments
+
+        Which payments should not be treated as liable relative payments............. 51656
+
+        Payments made because of divorce or separation ...................................... 51657
+
+        Payments made after the death of a liable relative ...................................... 51662
+
+        Gifts made by liable relatives........................................................................ 51663
+
+        More than one gift made during a 52 week period ....................................... 51667
+
+        Payments made to or for third parties .......................................................... 51671
+
+       Types of payments made to third parties ........................................................ 51673
+
+             What is a third party ................................................................................ 51674
+
+             What should the DM do if a payment to a third party is
+               treated as a liable relative payment ...................................................... 51682
+
+             What should the DM do if a payment to a third party is
+               not treated as a liable relative payment ................................................ 51683
+
+        Payments made for a third party
+
+             Types of payments made for third parties ............................................... 51688
+
+             Should the DM treat a payment for a third party as a liable
+               relative payment ................................................................................... 51689
+
+             What should the DM do if the payment is not treated as a
+               liable relative payment .......................................................................... 51691
+
+        Payments in kind .......................................................................................... 51693
+
+        Payments for people who are not members of the household ..................... 51695
+
+        Payments already taken into account........................................................... 51696
+
+        Payments being recovered ........................................................................... 51697
+
+        Payments that have been used .................................................................... 51698
+
+        Child maintenance ........................................................................................ 51700
+
+         Liable relative payments - periodical payments
+
+        Introduction ................................................................................................... 51710
+
+        What is a periodical payment ....................................................................... 51711
+
+        Calculation of weekly amount
+
+             Periodical payment made at weekly intervals ......................................... 51714
+
+Vol 9 Amendment 26 February 2018
+
+            Periodical payment made at monthly intervals ........................................ 51715
+
+            Periodical payments made other than weekly or monthly ....................... 51716
+
+            Payment made up of more than one periodical payment........................ 51717
+
+        Period over which a periodical payment should be taken into account
+
+            Periodical payments made at regular intervals ....................................... 51723
+
+            Periodical payments due to be made regularly but made irregularly ...... 51724
+
+            Periodical payments not due to be made regularly ................................. 51725
+
+            When should the period start over which a periodical payment
+              is taken into account ............................................................................. 51727
+
+        On what date should a periodical payment be treated as paid
+
+            Periodical payments made before the first benefit week of entitlement .. 51728
+
+            Periodical payments made during the course of an award of ESA(IR) ... 51729
+
+            Payments under agreements or court orders ......................................... 51730
+        Liable relative payments - non-periodical payments
+
+        What is a non-periodical payment ................................................................ 51736
+
+        Should all of a payment be taken into account as a non-periodical
+          payment ..................................................................................................... 51738
+
+        Periodical payments and any other payment made by a liable relative
+
+            Period when non-periodical liable relative payment
+              taken into account ................................................................................ 51746
+
+            The weekly amount of the non-periodical payment ................................. 51748
+
+            When should the DM start taking a non-periodical payment into
+              account ................................................................................................. 51749
+
+            Periodical payments change while a non-periodical payment is
+              being taken into account ....................................................................... 51750
+
+            Periodical payments cease while a non-periodical payment is
+              being taken into account ....................................................................... 51752
+
+        Periodical payments not being made when a non-periodical payment
+          is received
+
+            Weekly amount of non-periodical payment for claimants ....................... 51756
+
+        Period over which a non-periodical payment is taken into account
+
+            Non-periodical payments made for the claimant ..................................... 51757
+
+            When should the DM start to take the non-periodical payment
+              into account ........................................................................................ 51758
+
+
+Vol 9 Amendment 26 February 2018
+
+         Date a non-periodical payment is treated as paid
+
+             Non-periodical payment made before the first benefit week of
+                the claim ............................................................................................... 51760
+
+             Non-periodical payment made during the course of an award of
+                ESA(IR)................................................................................................. 51761
+
+             Non-periodical payment made during a period where a previous
+                non-periodical payment is already being taken into account ................ 51762
+
+         Students
+         Students - general ..................................................................................... 51796
+         Definitions and meaning of terms ............................................................ 51800
+
+       ESA(IR) - income and capital.......................................................................... 51801
+
+         Meaning of course and modular course ....................................................... 51803
+
+         Course of advanced education..................................................................... 51804
+
+         Full-time course of advanced education
+
+             England and Wales ................................................................................. 51805
+
+             Scotland .................................................................................................. 51806
+
+         Course of study ............................................................................................ 51807
+
+         Full-time course of study
+
+             England and Wales ................................................................................. 51811
+
+             Scotland .................................................................................................. 51812
+
+         Sandwich course .......................................................................................... 51813
+
+             Periods of experience and work experience ........................................... 51814
+
+             Student unable to find placement ............................................................ 51817
+
+         Meaning of educational establishment ......................................................... 51821
+
+         Academic year .............................................................................................. 51822
+
+         Terms used in Scotland................................................................................ 51823
+
+         Meaning of guided learning hours ................................................................ 51824
+
+         Student loan ................................................................................................. 51825
+
+         Grant ............................................................................................................ 51826
+
+         Access funds ................................................................................................ 51827
+
+         Education maintenance allowance ............................................................... 51831
+
+         Grant income ................................................................................................ 51832
+
+         Standard maintenance grant and allowances .............................................. 51833
+
+Vol 9 Amendment 26 February 2018
+
+        Contribution .................................................................................................. 51834
+
+        Education authority ....................................................................................... 51836
+
+        Meaning of student and full-time student
+
+        General ......................................................................................................... 51841
+
+        NHS funded students
+
+            Healthcare professionals ......................................................................... 51842
+
+            Return to practice courses ...................................................................... 51843
+
+        New entrepreneur scholarships .................................................................... 51844
+
+        General Social Care Council bursaries ........................................................ 51845
+
+            Social work bursary ................................................................................. 51846
+
+            Additional graduate bursary .................................................................... 51847
+
+        Teacher training ........................................................................................... 51853
+
+        Open University students ............................................................................. 51854
+
+        Community Orders ....................................................................................... 51855
+
+            General.................................................................................................... 51856
+
+            Full-time student ...................................................................................... 51857
+
+            Treatment of modular courses ................................................................ 51859
+
+            Modular course ....................................................................................... 51861
+        Meaning of full-time
+
+        General ......................................................................................................... 51866
+
+        Evidence from educational establishment .................................................... 51873
+
+        Other evidence ............................................................................................. 51874
+
+        Number of hours involved ............................................................................ 51875
+
+        Courses funded by the Secretary of State for Education, the Chief
+          Executive of Education and Skills Funding for England, Welsh Ministers or the
+          Scottish Ministers ....................................................................................... 51876
+
+        Eligibility
+
+        General ......................................................................................................... 51880
+
+        Partner only is a full-time student ................................................................. 51881
+
+            ESA(Cont) ............................................................................................... 51882
+
+            ESA(IR) .................................................................................................. 51883
+
+        Financial support available to students - loans and grants ................ 51887
+
+
+Vol 9 Amendment 26 February 2018
+
+         Loans - eligibility ........................................................................................... 51888
+
+              Designated courses ................................................................................ 51889
+
+              Personal eligibility             ............................................................................. 51893
+
+              Residence conditions .............................................................................. 51894
+
+              European Economic Area Nationals ....................................................... 51895
+
+              Refugees ................................................................................................. 51896
+
+         Student loans treated as income .................................................................. 51900
+
+         Amount of loan ............................................................................................. 51901
+
+         Postgraduate Master’s Degree Loan……………………………………………51903
+
+         Disregards .................................................................................................... 51905
+
+              Disregard for fee loans ............................................................................ 51906
+
+         Assessed contribution .................................................................................. 51907
+
+       Calculation of weekly income
+
+              Course duration is for one academic year or less ................................... 51908
+
+              Course duration more than one academic year, any year except
+                final academic year ............................................................................... 51909
+              Final academic year, other than a course of one academic
+                year or less ............................................................................................ 51911
+              Disregard ................................................................................................. 51913
+       Student from Northern Ireland ........................................................................ 51914
+       Grants ............................................................................................................. 51915
+
+       Amount of grant income
+
+              Initial disregard ........................................................................................ 51916
+
+              Higher education grant ............................................................................ 51918
+
+              Special support grant .............................................................................. 51919
+
+              Special Support Loan (England)……………………………………………..51921
+
+              Disregards for students with child care responsibilities ........................... 51922
+
+              Extra disregards ...................................................................................... 51923
+
+       Period over which grant income taken into account ....................................... 51926
+
+              Dependant and lone parent grants .......................................................... 51927
+
+              NHS dependant grants ............................................................................ 51928
+
+              Other grant income ................................................................................. 51929
+
+              Period of study for grant income purposes ............................................. 51930
+
+              Grant payable for period of study ............................................................ 51932
+
+
+Vol 9 Amendment 26 February 2018
+
+            Sandwich course ..................................................................................... 51933
+
+            Grant not payable for period of study ...................................................... 51934
+
+        Access funds ................................................................................................ 51935
+
+            Regular payments ................................................................................... 51937
+
+            Lump sum payments ............................................................................... 51938
+
+        Overall limit to income disregard ............................................................. 51943
+
+        Income for necessary course expenses ....................................................... 51944
+
+        Disregard of partner’s contribution ............................................................... 51948
+
+        Disregard of student’s contribution ............................................................... 51949
+
+        Covenant income and other income and capital .................................... 51951
+
+        Covenant income ......................................................................................... 51952
+
+        Student’s tax refund ..................................................................................... 51954
+
+        Other types of loan ....................................................................................... 51955
+        Income of former students ........................................................................ 51961
+
+        Course completed ........................................................................................ 51963
+
+        Course not completed - treatment of grant income ...................................... 51964
+
+        Period income is taken into account............................................................. 51965
+
+        Calculation of weekly income ....................................................................... 51976
+
+        Course not completed, treatment of loan and dependant grant income
+
+            Relevant payment ................................................................................... 51977
+
+            Calculation of weekly income .................................................................. 51978
+
+        Calculation of weekly income when loan is paid by two or more
+          instalments ................................................................................................. 51982
+
+        War Pensions ......................................................................................Appendix 1
+
+
+
+
+Vol 9 Amendment 26 February 2018
+
+        Other payments for housing costs
+        Types of payment disregarded
+
+
+After: parked proposal
+50018 · paragraph
+Full unit ID
+
+page 16, bytes 31771–32487
+
+50018   S/E earnings do not include
+
+        1.    charges paid to the S/E earner in return for providing BL accommodation (see
+              DMG 50019) or
+
+        2.    any of the payments in DMG 51255 et seq (fostering allowances and
+              payments for people temporarily in the claimant’s care, including continuing
+              care & kinship care in Scotland)
+                                2
+        3.    any sports award (see DMG 41499).
+                                                                                      1 ESA Regs, reg 97(2);
+                                                           2 reg 2(1), National Lottery etc. Act 1993, s 23(2)
+
+
+
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · contents
+Full unit ID
+
+page 17, bytes 32488–35588
+
+        Residence orders
+
+            Northern Ireland Children Order .............................................................. 51216
+
+            Local authority payments for children subject to a residence order ........ 51217
+
+        Credit insurance policies .............................................................................. 51218
+
+            Disregard for credit insurance policies .................................................... 51219
+
+            Amount of disregard - credit insurance payments made
+              direct to the claimant ............................................................................ 51224
+
+            Credit insurance payments made to third parties .................................... 51225
+
+            Credit insurance payments made direct to the creditor........................... 51226
+
+        Jurors or witnesses court attendance allowance.......................................... 51229
+
+        Benefits fully disregarded
+
+        Attendance allowances................................................................................. 51230
+
+        The meaning of attendance allowance......................................................... 51231
+
+        The Bereavement Support Payment . ………………………………………….51232
+
+        Disability living allowance, personal independence payment and armed
+            forces independence payment ................................................................ 51233
+
+        CHB, CTC and child dependant increases................................................... 51234
+
+        Christmas bonus ......................................................................................... 51235
+
+        Compensation for loss of housing benefit .................................................... 51236
+
+        Council tax benefit ........................................................................................ 51237
+
+        Discretionary housing payments .................................................................. 51238
+
+        Guardians allowance .................................................................................... 51239
+
+        Housing benefit ............................................................................................ 51240
+
+        Increases in Social Security benefits and Service Pensions for
+          absent dependants .................................................................................... 51241
+
+        Mobility supplement ...................................................................................... 51243
+
+        Payments from the Social Fund under Social Security
+          legislation ................................................................................................... 51244
+
+        Concessionary payments
+
+        Types of concessionary payments that should be disregarded ................... 51245
+
+        What are concessionary payments .............................................................. 51246
+
+
+
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · contents
+Full unit ID
+
+page 18, bytes 35589–38515
+
+        Local welfare provision
+
+        Disregard of local welfare provision ............................................................. 51247
+
+        Meaning of local welfare provision ............................................................... 51248
+
+        Payments under the Supporting People programme ............................. 51250
+
+        Payments for children and people living temporarily with the claimant
+
+        Foster children .............................................................................................. 51254
+
+            Kinship care............................................................................................. 51255
+
+        Payments for the welfare of children
+
+        and those formerly looked after by the LA .................................................... 51256
+
+        Payments for people temporarily in the claimant’s care ............................... 51259
+
+        Payments of expenses
+
+        Payment of expenses in the MWA Schemes and schemes for assisting
+             persons to obtain employment ................................................................ 51262
+
+        Payment by an employer of employee’s expenses ...................................... 51263
+
+        Payment of a voluntary worker’s expenses .................................................. 51265
+
+            Time-exchange schemes ........................................................................ 51268
+
+        Service users ................................................................................................ 51270
+
+        War widow’s, widower’s or surviving civil partner’s supplementary
+          pensions ................................................................................................... 51274
+
+        Other types of income fully disregarded
+
+        Certain payments due before the date of claim............................................ 51275
+
+        Payments for a reduction in council tax ........................................................ 51276
+
+        Dependant’s or non dependant’s contributions to
+          accommodation and living costs ............................................................... 51277
+
+        Education maintenance allowance and the 16 - 19 Bursary Fund ............... 51278
+
+        Other payments to assist with non-advanced education .............................. 51279
+
+        Special guardianship payments.................................................................... 51280
+
+        Repayment of teacher’s student loans scheme ........................................... 51282
+
+        Employment retention and advancement scheme ....................................... 51290
+
+            Disregard ................................................................................................. 51291
+
+
+
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · contents
+Full unit ID
+
+page 19, bytes 38516–41826
+
+        Employment zones and self-employed route
+
+            Discretionary payments in employment zones ........................................ 51292
+
+            Subsistence allowance ............................................................................ 51293
+
+            Self-employment route ............................................................................ 51294
+
+        Cost of conversion of foreign money ............................................................ 51295
+
+        Gallantry awards ........................................................................................... 51296
+
+        Income frozen abroad .................................................................................. 51297
+
+        Income in kind .............................................................................................. 51298
+
+        Income treated as capital ............................................................................. 51310
+
+        Jurors or witnesses court attendance allowance.......................................... 51311
+
+        Payments in lieu of community care services and payments
+          in lieu of health care ................................................................................... 51312
+
+        Payments made under employment and training law ................................. 51313
+
+            Living expenses....................................................................................... 51315
+
+        Payments to help disabled people get or keep employment ........................ 51316
+
+        Return to work credit scheme ...................................................................... 51317
+
+        Discretionary payments for special needs .................................................... 51318
+
+        Special educational needs payments and budgets ...................................... 51325
+
+        Vouchers (including child care cheques) ...................................................... 51330
+
+        Welfare foods, NHS supplies, travelling expenses and
+          assisted prison visits .................................................................................. 51332
+
+        Work-related activity ..................................................................................... 51333
+
+        The child maintenance disregard ................................................................. 51334
+
+            Meaning of child maintenance ................................................................ 51335
+
+            Applying the disregard ............................................................................. 51336
+
+        Child or young person attending educational establishment ............... 51338
+
+        Infected Blood Schemes,
+          the Fund and other specific Trusts
+
+        Payments from Infected Blood Schemes, the Fund and other specific Trusts
+
+            Infected Blood Schemes ......................................................................... 51341
+
+            Income from the Infected Blood Schemes .............................................. 51342
+
+            What is the Fund ..................................................................................... 51343
+
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · contents
+Full unit ID
+
+page 20, bytes 41827–45277
+
+           Income from the Fund ............................................................................. 51344
+
+           The Scottish Infected Blood Support Scheme ........................................ 51345
+
+           Income from the Scottish Infected Blood Support Scheme .................... 51346
+
+           Previous Infected Blood Schemes .......................................................... 51347
+
+           The Eileen Trust ...................................................................................... 51348
+
+           The Macfarlane Trusts ............................................................................ 51349
+
+           MFET Limited .......................................................................................... 51351
+
+           The Caxton Foundation ........................................................................... 51352
+
+           Income from the Eileen Trust, Macfarlane Trusts and the Caxton Foundation
+             .............................................................................................................. 51353
+
+           The Skipton Fund .................................................................................... 51354
+
+           The London Emergencies Trust .............................................................. 51355
+
+           Income from the London Emergencies Trust .......................................... 51356
+
+           The We Love Manchester Emergency Fund .......................................... 51357
+
+           Income from the We Love Manchester Emergency Fund ...................... 51358
+
+           The Independent Living Fund (2006)………………………….…………….51359
+
+           Income from the Independent Living Fund (2006)                                   ……………………51360
+
+           The London Bombings Relief Charitable Fund                                …………………………51361
+
+        Payments from money which came from the Trusts
+
+           Meaning of the Trusts ............................................................................. 51362
+
+           What payments should be disregarded .................................................. 51363
+
+           Person with HIV....................................................................................... 51364
+
+           Qualifying person ................................................................................... 51365
+
+           Payments by a qualifying person or person with HIV to partners,
+             children and young people .................................................................... 51366
+
+           Payments by the partner or former partner of the qualifying person
+             or person with HIV ................................................................................ 51367
+
+           Payments by a qualifying person or person with HIV to parents,
+             step parents or guardians ..................................................................... 51369
+
+           Payments from the estate of a qualifying person or person with HIV
+             to a parent, step parent or guardian ..................................................... 51375
+
+        For how long should the payment be disregarded
+
+           Payments to a qualifying person or person with HIV and partners ......... 51377
+
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · contents
+Full unit ID
+
+page 21, bytes 45278–48387
+
+            Payments to children and young people ................................................. 51378
+
+            Payments to parents and guardians from a qualifying person or
+              person with HIV .................................................................................... 51379
+
+            Payments to parents and guardians from the estate of a qualifying
+              person or person with HIV .................................................................... 51380
+
+        Deciding if a disregard applies ..................................................................... 51381
+
+        Trust payments invested with other money .................................................. 51383
+
+        Qualifying person or person with HIV’s relationship with former
+          partners ...................................................................................................... 51384
+
+        Social fund funeral payments ....................................................................... 51385
+
+
+        Payments with special rules
+
+        Charitable and voluntary payments
+
+        What are charitable payments ..................................................................... 51390
+
+        What are voluntary payments ....................................................................... 51393
+
+        Meaning of relevant payment ....................................................................... 51396
+
+        Certain types of payments
+
+            Cash in lieu of concessionary coal .......................................................... 51397
+
+            Civil list pensions ..................................................................................... 51398
+
+            Payments from trust funds ...................................................................... 51405
+
+            Structured settlements ............................................................................ 51407
+
+            Children’s Memorial Trust ....................................................................... 51408
+
+        Regular charitable or voluntary payments
+
+            What are regular payments ..................................................................... 51413
+
+            When is a payment due to be made ....................................................... 51415
+
+        Disregard for relevant payments .................................................................. 51416
+
+            Relevant payments that should be taken fully into account .................... 51417
+
+            Relevant payments paid in kind .............................................................. 51418
+
+        Capital treated as income
+
+        Capital payable by instalments ..................................................................... 51425
+
+        When is an instalment treated as capital ..................................................... 51430
+
+        Annuity payments ......................................................................................... 51431
+
+
+
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · contents
+Full unit ID
+
+page 22, bytes 48388–51649
+
+        Career development loans
+
+        What is a career development loan .............................................................. 51440
+
+          Amount to be disregarded ......................................................................... 51441
+
+            Living expenses....................................................................................... 51442
+
+            Ordinary clothing and footwear ............................................................... 51446
+
+        Period over which a career development loan should
+          be taken into account................................................................................. 51447
+
+        Notional income
+
+        Notional income - general
+
+        What is notional income ............................................................................... 51456
+
+        Types of notional income ............................................................................. 51457
+
+        Actual and notional income .......................................................................... 51458
+
+        Treatment of notional income ....................................................................... 51459
+
+        Notional income - tasters.............................................................................. 51460
+
+        Liable relative payments ............................................................................... 51461
+
+        Service users ................................................................................................ 51462
+
+        Deprivation of income................................................................................ 51469
+
+        Meaning of deprive ....................................................................................... 51470
+
+        Questions for consideration.......................................................................... 51474
+
+            Was it the claimant’s income .................................................................. 51475
+
+            Has a deprivation of income happened ................................................... 51482
+
+            Was the purpose of the deprivation to get or increase the
+               amount of ESA(IR), IS or JSA(IB) ........................................................ 51484
+
+            Timing of the disposal of income ............................................................ 51488
+
+        Income available on application
+
+        General ......................................................................................................... 51496
+
+        What types of income should not be treated as notional income
+          available on application.............................................................................. 51497
+
+        What types of income should be taken into account .................................... 51500
+
+        Date from which income should be taken into account ................................ 51501
+
+        Income from an unadministered estate ........................................................ 51506
+
+        Notional income - carer’s allowance ....................................................... 51516
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · contents
+Full unit ID
+
+page 23, bytes 51650–55062
+
+        Deprivation of income................................................................................... 51517
+
+        Income available on application ................................................................... 51525
+
+        Income due but not paid ............................................................................... 51527
+
+        Notional income and changes in circumstances .......................................... 51528
+
+        Personal and occupational pensions
+
+        General ......................................................................................................... 51535
+
+            What is a personal pension ..................................................................... 51537
+
+            What is an occupational pension ............................................................ 51538
+
+            Pension Protection Fund ......................................................................... 51539
+
+            What is a pension fund holder ................................................................ 51540
+
+            Who is a person who derives entitlement ............................................... 51541
+
+            Lump sums on retirement ....................................................................... 51542
+
+        Pension Flexibilities ……………………………………………………………….51543
+
+        Income and Capital Drawdowns………………………………………………….51544
+
+        Information and evidence ............................................................................. 51537
+
+        Notional income - schemes where income withdrawal is allowed
+
+            When should a person be treated as having notional income ................ 51551
+
+            Amount of notional income...................................................................... 51552
+
+            From what date should the DM take notional income into account ........ 51553
+
+        Notional income - schemes where income withdrawal is not allowed
+
+            When should a person be treated as having notional income ................ 51554
+
+            Amount of notional income...................................................................... 51555
+
+            From what date should the DM take notional income
+               into account .......................................................................................... 51556
+
+            Actual income .......................................................................................... 51557
+
+        Income due but not yet paid...................................................................... 51563
+
+        Income that should not be taken into account if due but not paid ................ 51564
+
+        Types of income that may be due but not paid ............................................ 51569
+
+            Evidence required ................................................................................... 51570
+
+        Payments of income to third parties ........................................................ 51576
+
+        What is a third party ..................................................................................... 51578
+
+        Meaning of payment in respect of a person ................................................. 51580
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · contents
+Full unit ID
+
+page 24, bytes 55063–58206
+
+        Income paid to the claimant or partner for the other person ........................ 51585
+
+        Income paid to a third party for the claimant or partner
+
+            Benefit paid to a third party ..................................................................... 51586
+
+            Training and Employment Programme payments to third parties ........... 51587
+
+          Third party payments for participants in the MWA Scheme and
+            Schemes for assisting persons to obtain employment............................ 51588
+
+            Other payments to a third party ............................................................... 51589
+
+            Meaning of ordinary clothing or footwear ................................................ 51599
+
+        Payments by a third party for care home, Abbeyfield Home
+          or independent hospital charges ................................................................ 51601
+
+        Third party payments for care homes, Abbeyfield Homes or
+          independent hospital and National Health maintenance .......................... 51604
+
+        Income paid to the claimant or partner for a third party................................ 51606
+
+        Employment zones subsistence allowance ............................................ 51613
+
+        Liable relative payments
+
+        Liability to maintain.................................................................................... 51617
+
+        Husbands, wives and civil partners .............................................................. 51618
+
+        Children ........................................................................................................ 51619
+
+        Sponsored immigrants ................................................................................. 51620
+
+        Action by the DM in the courts...................................................................... 51621
+        Liable relative payments - general
+
+        Treatment as income ................................................................................... 51625
+
+        Meaning of liable relative payment ............................................................... 51627
+
+        Identification of liable relative payments ....................................................... 51628
+
+        Liable relative payments from discretionary trusts ....................................... 51632
+
+        Payments made before the date of claim ..................................................... 51633
+
+        When the DM should not take payments into account as income ............... 51641
+
+        Meaning of liable relative .............................................................................. 51642
+
+        Meaning of parent ........................................................................................ 51643
+
+        People who can be treated as parents ......................................................... 51644
+
+        Meaning of young claimant........................................................................... 51646
+
+
+
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · contents
+Full unit ID
+
+page 25, bytes 58207–61440
+
+        Liable relative payments and income tax
+
+             Liable relative payments subject to income tax ....................................... 51647
+
+             What should the DM do if the claimant receives a tax refund ................. 51648
+
+        Payments not treated as liable relative payments
+
+        Which payments should not be treated as liable relative payments............. 51656
+
+        Payments made because of divorce or separation ...................................... 51657
+
+        Payments made after the death of a liable relative ...................................... 51662
+
+        Gifts made by liable relatives........................................................................ 51663
+
+        More than one gift made during a 52 week period ....................................... 51667
+
+        Payments made to or for third parties .......................................................... 51671
+
+       Types of payments made to third parties ........................................................ 51673
+
+             What is a third party ................................................................................ 51674
+
+             What should the DM do if a payment to a third party is
+               treated as a liable relative payment ...................................................... 51682
+
+             What should the DM do if a payment to a third party is
+               not treated as a liable relative payment ................................................ 51683
+
+        Payments made for a third party
+
+             Types of payments made for third parties ............................................... 51688
+
+             Should the DM treat a payment for a third party as a liable
+               relative payment ................................................................................... 51689
+
+             What should the DM do if the payment is not treated as a
+               liable relative payment .......................................................................... 51691
+
+        Payments in kind .......................................................................................... 51693
+
+        Payments for people who are not members of the household ..................... 51695
+
+        Payments already taken into account........................................................... 51696
+
+        Payments being recovered ........................................................................... 51697
+
+        Payments that have been used .................................................................... 51698
+
+        Child maintenance ........................................................................................ 51700
+
+         Liable relative payments - periodical payments
+
+        Introduction ................................................................................................... 51710
+
+        What is a periodical payment ....................................................................... 51711
+
+        Calculation of weekly amount
+
+             Periodical payment made at weekly intervals ......................................... 51714
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · contents
+Full unit ID
+
+page 26, bytes 61441–64577
+
+            Periodical payment made at monthly intervals ........................................ 51715
+
+            Periodical payments made other than weekly or monthly ....................... 51716
+
+            Payment made up of more than one periodical payment........................ 51717
+
+        Period over which a periodical payment should be taken into account
+
+            Periodical payments made at regular intervals ....................................... 51723
+
+            Periodical payments due to be made regularly but made irregularly ...... 51724
+
+            Periodical payments not due to be made regularly ................................. 51725
+
+            When should the period start over which a periodical payment
+              is taken into account ............................................................................. 51727
+
+        On what date should a periodical payment be treated as paid
+
+            Periodical payments made before the first benefit week of entitlement .. 51728
+
+            Periodical payments made during the course of an award of ESA(IR) ... 51729
+
+            Payments under agreements or court orders ......................................... 51730
+        Liable relative payments - non-periodical payments
+
+        What is a non-periodical payment ................................................................ 51736
+
+        Should all of a payment be taken into account as a non-periodical
+          payment ..................................................................................................... 51738
+
+        Periodical payments and any other payment made by a liable relative
+
+            Period when non-periodical liable relative payment
+              taken into account ................................................................................ 51746
+
+            The weekly amount of the non-periodical payment ................................. 51748
+
+            When should the DM start taking a non-periodical payment into
+              account ................................................................................................. 51749
+
+            Periodical payments change while a non-periodical payment is
+              being taken into account ....................................................................... 51750
+
+            Periodical payments cease while a non-periodical payment is
+              being taken into account ....................................................................... 51752
+
+        Periodical payments not being made when a non-periodical payment
+          is received
+
+            Weekly amount of non-periodical payment for claimants ....................... 51756
+
+        Period over which a non-periodical payment is taken into account
+
+            Non-periodical payments made for the claimant ..................................... 51757
+
+            When should the DM start to take the non-periodical payment
+              into account ........................................................................................ 51758
+
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · contents
+Full unit ID
+
+page 27, bytes 64578–68081
+
+         Date a non-periodical payment is treated as paid
+
+             Non-periodical payment made before the first benefit week of
+                the claim ............................................................................................... 51760
+
+             Non-periodical payment made during the course of an award of
+                ESA(IR)................................................................................................. 51761
+
+             Non-periodical payment made during a period where a previous
+                non-periodical payment is already being taken into account ................ 51762
+
+         Students
+         Students - general ..................................................................................... 51796
+         Definitions and meaning of terms ............................................................ 51800
+
+       ESA(IR) - income and capital.......................................................................... 51801
+
+         Meaning of course and modular course ....................................................... 51803
+
+         Course of advanced education..................................................................... 51804
+
+         Full-time course of advanced education
+
+             England and Wales ................................................................................. 51805
+
+             Scotland .................................................................................................. 51806
+
+         Course of study ............................................................................................ 51807
+
+         Full-time course of study
+
+             England and Wales ................................................................................. 51811
+
+             Scotland .................................................................................................. 51812
+
+         Sandwich course .......................................................................................... 51813
+
+             Periods of experience and work experience ........................................... 51814
+
+             Student unable to find placement ............................................................ 51817
+
+         Meaning of educational establishment ......................................................... 51821
+
+         Academic year .............................................................................................. 51822
+
+         Terms used in Scotland................................................................................ 51823
+
+         Meaning of guided learning hours ................................................................ 51824
+
+         Student loan ................................................................................................. 51825
+
+         Grant ............................................................................................................ 51826
+
+         Access funds ................................................................................................ 51827
+
+         Education maintenance allowance ............................................................... 51831
+
+         Grant income ................................................................................................ 51832
+
+         Standard maintenance grant and allowances .............................................. 51833
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · contents
+Full unit ID
+
+page 28, bytes 68082–71520
+
+        Contribution .................................................................................................. 51834
+
+        Education authority ....................................................................................... 51836
+
+        Meaning of student and full-time student
+
+        General ......................................................................................................... 51841
+
+        NHS funded students
+
+            Healthcare professionals ......................................................................... 51842
+
+            Return to practice courses ...................................................................... 51843
+
+        New entrepreneur scholarships .................................................................... 51844
+
+        General Social Care Council bursaries ........................................................ 51845
+
+            Social work bursary ................................................................................. 51846
+
+            Additional graduate bursary .................................................................... 51847
+
+        Teacher training ........................................................................................... 51853
+
+        Open University students ............................................................................. 51854
+
+        Community Orders ....................................................................................... 51855
+
+            General.................................................................................................... 51856
+
+            Full-time student ...................................................................................... 51857
+
+            Treatment of modular courses ................................................................ 51859
+
+            Modular course ....................................................................................... 51861
+        Meaning of full-time
+
+        General ......................................................................................................... 51866
+
+        Evidence from educational establishment .................................................... 51873
+
+        Other evidence ............................................................................................. 51874
+
+        Number of hours involved ............................................................................ 51875
+
+        Courses funded by the Secretary of State for Education, the Chief
+          Executive of Education and Skills Funding for England, Welsh Ministers or the
+          Scottish Ministers ....................................................................................... 51876
+
+        Eligibility
+
+        General ......................................................................................................... 51880
+
+        Partner only is a full-time student ................................................................. 51881
+
+            ESA(Cont) ............................................................................................... 51882
+
+            ESA(IR) .................................................................................................. 51883
+
+        Financial support available to students - loans and grants ................ 51887
+
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · contents
+Full unit ID
+
+page 29, bytes 71521–75342
+
+         Loans - eligibility ........................................................................................... 51888
+
+              Designated courses ................................................................................ 51889
+
+              Personal eligibility             ............................................................................. 51893
+
+              Residence conditions .............................................................................. 51894
+
+              European Economic Area Nationals ....................................................... 51895
+
+              Refugees ................................................................................................. 51896
+
+         Student loans treated as income .................................................................. 51900
+
+         Amount of loan ............................................................................................. 51901
+
+         Postgraduate Master’s Degree Loan……………………………………………51903
+
+         Disregards .................................................................................................... 51905
+
+              Disregard for fee loans ............................................................................ 51906
+
+         Assessed contribution .................................................................................. 51907
+
+       Calculation of weekly income
+
+              Course duration is for one academic year or less ................................... 51908
+
+              Course duration more than one academic year, any year except
+                final academic year ............................................................................... 51909
+              Final academic year, other than a course of one academic
+                year or less ............................................................................................ 51911
+              Disregard ................................................................................................. 51913
+       Student from Northern Ireland ........................................................................ 51914
+       Grants ............................................................................................................. 51915
+
+       Amount of grant income
+
+              Initial disregard ........................................................................................ 51916
+
+              Higher education grant ............................................................................ 51918
+
+              Special support grant .............................................................................. 51919
+
+              Special Support Loan (England)……………………………………………..51921
+
+              Disregards for students with child care responsibilities ........................... 51922
+
+              Extra disregards ...................................................................................... 51923
+
+       Period over which grant income taken into account ....................................... 51926
+
+              Dependant and lone parent grants .......................................................... 51927
+
+              NHS dependant grants ............................................................................ 51928
+
+              Other grant income ................................................................................. 51929
+
+              Period of study for grant income purposes ............................................. 51930
+
+              Grant payable for period of study ............................................................ 51932
+
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · contents
+Full unit ID
+
+page 30, bytes 75343–78084
+
+            Sandwich course ..................................................................................... 51933
+
+            Grant not payable for period of study ...................................................... 51934
+
+        Access funds ................................................................................................ 51935
+
+            Regular payments ................................................................................... 51937
+
+            Lump sum payments ............................................................................... 51938
+
+        Overall limit to income disregard ............................................................. 51943
+
+        Income for necessary course expenses ....................................................... 51944
+
+        Disregard of partner’s contribution ............................................................... 51948
+
+        Disregard of student’s contribution ............................................................... 51949
+
+        Covenant income and other income and capital .................................... 51951
+
+        Covenant income ......................................................................................... 51952
+
+        Student’s tax refund ..................................................................................... 51954
+
+        Other types of loan ....................................................................................... 51955
+        Income of former students ........................................................................ 51961
+
+        Course completed ........................................................................................ 51963
+
+        Course not completed - treatment of grant income ...................................... 51964
+
+        Period income is taken into account............................................................. 51965
+
+        Calculation of weekly income ....................................................................... 51976
+
+        Course not completed, treatment of loan and dependant grant income
+
+            Relevant payment ................................................................................... 51977
+
+            Calculation of weekly income .................................................................. 51978
+
+        Calculation of weekly income when loan is paid by two or more
+          instalments ................................................................................................. 51982
+
+        War Pensions ......................................................................................Appendix 1
+
+
+
+
+Vol 9 Amendment 26 February 2018
+
+Unlabelled passage · unresolved-fragment
+Full unit ID
+
+page 31, bytes 78085–78164
+
+        Other payments for housing costs
+        Types of payment disregarded
+
+
+How this passage was built
+Isolated correction preview
+
+Edit this closed JSON proposal to split, join or change a role. Preview validates exact source and baseline identities, text hashes and byte coverage.
+
+Correction JSON
+Preview correction
+Local review record
+
+This export records a suggestion or decision for separate producer review. It does not change the corpus or grant legal acceptance.
+
+Reviewer
+Review date
+Decision
+Needs independent review
+Suggest change
+Reject change
+Accept for producer review
+Reason
+Download review JSON
+Passage boundaries | Evidence workbench

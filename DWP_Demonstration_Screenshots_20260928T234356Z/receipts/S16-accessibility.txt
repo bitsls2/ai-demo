@@ -1,0 +1,664 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - strong: OKF-DWP
+  - navigation "Main":
+    - link "Start learning":
+      - /url: /okf-dwp/index.html
+    - link "Glossary":
+      - /url: /okf-dwp/docs/glossary.html
+    - link "Try the demonstration":
+      - /url: /okf-dwp/docs/monday-demo-2026-09-21.html
+    - link "Remaining work":
+      - /url: /okf-dwp/docs/backlog.html
+    - link "Ask OKF":
+      - /url: https://ask-okf.crpage.chatgpt.site/
+- main:
+  - paragraph: Independent experimental publication. Not an official DWP service, benefits advice or an entitlement calculator.
+  - paragraph:
+    - link "View this version’s Markdown source":
+      - /url: https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/learning-path.md
+  - group: On this page
+  - article:
+    - heading "Learn OKF-DWP by using it" [level=1]
+    - paragraph:
+      - link "About the web edition":
+        - /url: /okf-dwp/docs/learning-website.html
+      - text: ·
+      - link "Markdown source and project":
+        - /url: /okf-dwp/README.html
+    - paragraph:
+      - link "What changed":
+        - /url: /okf-dwp/CHANGELOG.html
+      - text: ·
+      - link "Work in progress":
+        - /url: /okf-dwp/docs/evidence-workbench-work-log.html
+      - text: ·
+      - link "Remaining work":
+        - /url: /okf-dwp/docs/backlog.html
+    - paragraph:
+      - text: To practise reading a difficult source passage, use the
+      - link "bounded Chapter 60 reading aid":
+        - /url: /okf-dwp/docs/reading-help-ch60.html
+      - text: . It separates an abbreviation, a numbered condition and a raised source marker in paragraphs 60025 and 60033, with exact source locations and visible unresolved references.
+    - paragraph:
+      - text: For the broader reading help, use the
+      - link "source-linked walkthrough":
+        - /url: /okf-dwp/docs/reading-help-demo-2026-09-30.html
+      - text: . It keeps source text, proposed explanations, extraction gaps and publication status separate. Check the
+      - link "release record":
+        - /url: /okf-dwp/docs/reading-help-release-2026-09-27.html
+      - text: for the exact tested version and remaining gates.
+    - paragraph:
+      - text: For a practical introduction to source preparation, follow
+      - link "Review how a passage was built":
+        - /url: /okf-dwp/docs/passage-boundary-review.html
+      - text: . It explains the 28-case inspection queue, source fingerprints and the difference between a structural correction and a complete benefits answer. The
+      - link "LiteParse comparison":
+        - /url: /okf-dwp/docs/liteparse-pilot.html
+      - text: explains how we test whether another PDF reader preserves text and table structure before building passages.
+    - paragraph: OKF-DWP is an independent experiment in making published benefits guidance easier to find, connect and inspect. It is not a DWP service, an entitlement decision or a benefits calculator. You do not need to understand the technology before trying it.
+    - paragraph:
+      - text: Follow the stages in order, or start with the task you need. Each stage explains new terms when they become useful. The
+      - link "glossary":
+        - /url: /okf-dwp/docs/glossary.html
+      - text: is a reference to return to, not required reading first.
+    - paragraph:
+      - text: The
+      - link "retrospective":
+        - /url: /okf-dwp/docs/retrospective.html
+      - text: explains what this experiment established. The
+      - link "methodology":
+        - /url: /okf-dwp/docs/methodology.html
+      - text: shows how another department can begin with source, terminology, legal and ontology discovery before building its own bundle.
+    - paragraph:
+      - text: For a guided group session, use the
+      - link "Monday handover and ten-minute demonstration":
+        - /url: /okf-dwp/docs/monday-handover-2026-09-21.html
+      - text: . It connects the combined Reader, small evidence deliveries and separately recorded model trials. For a short explanation of manifests, exact parts, hashes and AI checks, follow
+      - link "Learn by opening one retained evidence package":
+        - /url: /okf-dwp/docs/evidence-delivery-learning.html
+      - text: ", then try the"
+      - link "three recorded examples":
+        - /url: /okf-dwp/docs/retained-evidence-examples.html
+      - text: .
+    - paragraph:
+      - text: To ask through ChatGPT, use
+      - link "the connection and client-check guide":
+        - /url: /okf-dwp/docs/chatgpt-connection.html
+      - text: . It explains plugins and tool inputs at the point you need them, includes a copyable evidence-only prompt, and distinguishes a missing tool from missing source evidence.
+    - paragraph:
+      - text: Use the
+      - link "shared service status":
+        - /url: /okf-dwp/docs/service-publication.html
+      - text: for the latest recorded publication. The
+      - link "0.6.0 public verification report":
+        - /url: https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/validation/compact-delivery/v0.6.0/README.md
+      - text: records 121 requests checking 11 evidence cases, including current, historical and empty results. Both client libraries returned matching tool definitions. The first failed verification remains recorded. These are delivery checks, not evidence of complete benefits answers or AI accuracy.
+    - paragraph:
+      - text: The earlier
+      - link "0.5.0 browser observations":
+        - /url: https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/validation/compact-delivery/v0.5.0/README.md
+      - text: retain their own sources and results, including Firefox hosting-cookie warnings. The
+      - link "full public Reader check":
+        - /url: /okf-dwp/docs/household-reader-public-verification.html
+      - text: separately verified conceptual filters, a statutory relationship graph and source/audit dates in Chrome. No new 0.6.0 public browser or Voice acceptance is implied.
+    - paragraph:
+      - text: For shortened legal citations, see the
+      - link "legislation bridge":
+        - /url: /okf-dwp/docs/reading-help-legislation-bridge.html
+      - text: . It explains work titles, dated provisions and geographical versions, and why a source link does not prove applicability.
+    - heading "How law, guidance and people fit together" [level=3]
+    - paragraph:
+      - text: This map shows where different kinds of material come from and who uses them. An arrow means “may inform” or “is used by”; it does
+      - strong: not
+      - text: mean that one publication updates another automatically or has the same legal authority.
+    - paragraph:
+      - img "How legislation, tribunal decisions, staff guidance, independent advice and people connect"
+    - table:
+      - rowgroup:
+        - row "Part of the map What it means Where to check":
+          - columnheader "Part of the map"
+          - columnheader "What it means"
+          - columnheader "Where to check"
+      - rowgroup:
+        - row "Law Acts and regulations are made by Parliament, devolved legislatures or authorised rule-makers. The National Archives publishes enacted and revised legislation; check the relevant version, area and date. How legislation works":
+          - cell "Law"
+          - cell "Acts and regulations are made by Parliament, devolved legislatures or authorised rule-makers. The National Archives publishes enacted and revised legislation; check the relevant version, area and date."
+          - cell "How legislation works":
+            - link "How legislation works":
+              - /url: https://www.legislation.gov.uk/understanding-legislation
+        - row "Tribunal decisions A relevant Upper Tribunal decision can clarify a legal point. A person normally challenges a benefit decision through reconsideration and then the First-tier Tribunal; an Upper Tribunal appeal concerns a legal error in a tribunal decision. Administrative Appeals Chamber decisions · appeal route":
+          - cell "Tribunal decisions"
+          - cell "A relevant Upper Tribunal decision can clarify a legal point. A person normally challenges a benefit decision through reconsideration and then the First-tier Tribunal; an Upper Tribunal appeal concerns a legal error in a tribunal decision."
+          - cell "Administrative Appeals Chamber decisions · appeal route":
+            - link "Administrative Appeals Chamber decisions":
+              - /url: https://caselaw.nationalarchives.gov.uk/courts-and-tribunals/ukut/aac
+            - text: ·
+            - link "appeal route":
+              - /url: https://www.gov.uk/appeal-benefit-decision
+        - row "DWP guidance The DMG and ADM are staff guidance for different benefit decisions. They help decision makers apply law but are not the legislation itself. Open the numbered paragraph and its cited law.":
+          - cell "DWP guidance"
+          - cell "The DMG and ADM are staff guidance for different benefit decisions. They help decision makers apply law but are not the legislation itself.":
+            - text: The
+            - link "DMG":
+              - /url: https://www.gov.uk/government/collections/decision-makers-guide-staff-guide
+            - text: and
+            - link "ADM":
+              - /url: https://www.gov.uk/government/publications/advice-for-decision-making-staff-guide
+            - text: are staff guidance for different benefit decisions. They help decision makers apply law but are not the legislation itself.
+          - cell "Open the numbered paragraph and its cited law."
+        - row "Independent adviser resource CPAG's Welfare Benefits Handbook is a separately maintained resource for advisers. It is not DWP guidance or legislation. This project links to its description only; it does not reproduce handbook text. Check the edition and its own source references.":
+          - cell "Independent adviser resource"
+          - cell "CPAG's Welfare Benefits Handbook is a separately maintained resource for advisers. It is not DWP guidance or legislation. This project links to its description only; it does not reproduce handbook text.":
+            - text: CPAG's
+            - link "Welfare Benefits Handbook":
+              - /url: https://cpag.org.uk/welfare-rights
+            - text: is a separately maintained resource for advisers. It is not DWP guidance or legislation. This project links to its description only; it does not reproduce handbook text.
+          - cell "Check the edition and its own source references."
+        - row "People The claimant supplies facts or asks for a decision; the DWP decision maker decides the claim; a welfare rights adviser can help the person understand evidence and challenge a decision. These are separate roles. Benefit appeal steps":
+          - cell "People"
+          - cell "The claimant supplies facts or asks for a decision; the DWP decision maker decides the claim; a welfare rights adviser can help the person understand evidence and challenge a decision. These are separate roles."
+          - cell "Benefit appeal steps":
+            - link "Benefit appeal steps":
+              - /url: https://www.gov.uk/appeal-benefit-decision
+    - paragraph:
+      - text: In this project, always follow a citation back to its
+      - strong: own
+      - text: source, paragraph, version and scope. A link from guidance or a handbook to law or case law is a lead for checking, not proof that the current wording applies to a particular person.
+      - link "Source and legal-reference review":
+        - /url: /okf-dwp/docs/legal-reconciliation.html
+      - text: keeps these boundaries visible.
+    - heading "Inspect any of the 40 staff questions" [level=3]
+    - paragraph:
+      - text: Use the
+      - link "Evidence workbench guide":
+        - /url: /okf-dwp/docs/evidence-workbench.html
+      - text: to compare a question’s original evidence needs with the selected passages and remaining gaps. Its tabs show source locations, extraction, complete passages, concepts and relationships, dependencies, selection reasons and a local review proposal. A PDF source may require opening in a separate tab because its publisher blocks embedding. The 40-question catalogue is an inspection surface, not a claim that 40 benefits answers have been completed. The
+      - link "24 September handover":
+        - /url: /okf-dwp/docs/evidence-workbench-handover.html
+      - text: gives the verified release and a short meeting walkthrough.
+    - 'heading "New route: follow a supplied staff question" [level=3]'
+    - paragraph:
+      - text: Start with the
+      - link "question and journey matrix":
+        - /url: /okf-dwp/evaluation/staff-needs/README.html
+      - text: . A
+      - strong: persona
+      - text: is a proposed role, such as a welfare rights adviser. A
+      - strong: journey
+      - text: groups the steps that role needs to take. These are design proposals, not findings from interviews. Choose a question, open its evidence pack, then use the
+      - link "combined-manual walkthrough":
+        - /url: /okf-dwp/docs/combined-reader.html
+      - text: to inspect DMG and ADM together.
+    - paragraph:
+      - text: Ask OKF resolves words to
+      - strong: concepts
+      - text: ": named meanings such as Pension Credit or capital. A"
+      - strong: task profile
+      - text: lists the evidence needed for a type of question. An
+      - strong: open obligation
+      - text: "is a named requirement that has not been established, such as checking which date or benefit variant applies. Seeing it in the package is useful: it tells a reviewer what to check next. It is not source evidence. See the"
+      - link "semantic guide":
+        - /url: /okf-dwp/docs/semantic-expansion.html
+      - text: for examples and the measured before/after retrieval results.
+    - 'heading "New route: understand why evidence crosses pages" [level=3]'
+    - paragraph:
+      - text: A
+      - strong: page locator
+      - text: says where to check the original PDF. A
+      - strong: logical evidence unit
+      - text: keeps a passage together, including an example or citation that continues onto the next page. A
+      - strong: dependency
+      - text: names a separate definition or exception that must accompany it. The
+      - link "earlier source-review and compact-delivery report":
+        - /url: /okf-dwp/docs/semantic-closure-and-compact-delivery.html
+      - text: explains its frozen baseline, unresolved gaps and how a client reads a larger package through small responses. The
+      - link "source-led demonstration":
+        - /url: /okf-dwp/docs/source-led-demonstration.html
+      - text: explains the newer candidate and its separate acceptance gates. Follow
+      - link "logical evidence units":
+        - /url: /okf-dwp/docs/logical-evidence-units.html
+      - text: to see the implementation, its source checks and remaining uncertainty. The earlier page-based evidence and recorded service versions remain separately available; a newly generated unit is not specialist acceptance.
+    - 'heading "New route: learn how the manuals organise their guidance" [level=3]'
+    - paragraph:
+      - text: Follow the
+      - link "source-led manual guide":
+        - /url: /okf-dwp/docs/source-led-manual-guide.html
+      - text: to see how a chapter, heading, numbered paragraph, example, note and citation fit together. A
+      - strong: manual convention
+      - text: is a pattern the publisher uses, such as a numbering scheme. The guide shows exact supporting passages and which documents each observation covers. A pattern found in one chapter need not apply everywhere.
+    - paragraph:
+      - text: Some PDFs also declare headings and lists inside the file. These
+      - strong: structure tags
+      - text: help propose a passage boundary, but can be absent, incomplete or wrong. The original text, page locations and uncertainty stay available for checking. A
+      - strong: discovery card
+      - text: then provides a short route to the whole proposed passage. It helps find evidence; it does not replace that evidence or decide which rule applies. The new guide separates this structural work from missing concepts, legal dependencies and the staff questions that still need review.
+    - paragraph:
+      - text: A
+      - strong: context guard
+      - text: keeps a source route conditional on all its declared concepts. For example, a route requiring both Pension Credit and a household topic should not apply merely because a question about another benefit mentions a partner. That controls evidence selection; it does not decide legal applicability.
+    - paragraph:
+      - text: A
+      - strong: location-migration ledger
+      - text: records where an earlier page excerpt falls inside newer source units. Finding that location can help a reader continue through the passage. It does not prove that the passage answers the question. The ledger distinguishes restored routes from newly inferred associations and keeps the 40 original staff requirements and 203 unresolved obligations intact.
+    - paragraph:
+      - text: Follow a legal citation only after reading its surrounding guidance. A verified provision identifier tells you which section or regulation was found; it does not prove how it applies. The
+      - link "legal-reference guide":
+        - /url: /okf-dwp/docs/legal-reconciliation.html
+      - text: explains this distinction. The household release also includes
+      - link "20 selected statutory units":
+        - /url: /okf-dwp/docs/legal-body-evidence.html
+      - text: ": sections, regulations or schedule paragraphs extracted with dated source links. They are not 20 complete Acts, complete legal coverage or specialist-approved interpretations. Finally, compare a"
+      - link "fresh listing observation":
+        - /url: /okf-dwp/docs/source-refresh.html
+      - text: "with the captured PDFs: a listing that looks unchanged does not prove that the documents' bytes or the applicable law are unchanged."
+    - heading "1. Find out what is in the collection" [level=2]
+    - paragraph: Imagine you are preparing a briefing about someone going abroad. You need to find guidance, establish which benefits it covers and notice missing facts.
+    - paragraph:
+      - text: The Department for Work and Pensions (
+      - link "DWP":
+        - /url: /okf-dwp/docs/glossary.html#dwp-dmg-and-adm
+      - text: ") publishes the Decision makers’ guide (DMG) for its staff. This project captured the declared full-DMG collection on 15 September 2026:"
+      - strong: 331 PDF documents and 14,743 measured pages
+      - text: . PDF means a document format that preserves page layout. The originals and machine-extracted page text are retained. Extraction can lose text, tables or reading order, so the original page remains important. See the
+      - link "DMG acquisition record":
+        - /url: /okf-dwp/docs/next-stage/full-dmg-acquisition.html
+      - text: .
+    - paragraph:
+      - text: "The separate ADM manual was acquired on 19 September:"
+      - strong: 182 PDFs and 4,347 measured pages
+      - text: . Together the manuals contain
+      - strong: 513 PDFs and 19,090 pages
+      - text: ", including 18,197 pages with nonempty extracted text and 893 with no extracted text. A page with no extracted text still has its original PDF link; a nonempty extraction can still contain errors. See the"
+      - link "ADM acquisition guide":
+        - /url: /okf-dwp/docs/adm-acquisition.html
+      - text: .
+    - paragraph:
+      - text: A
+      - strong:
+        - link "snapshot":
+          - /url: /okf-dwp/docs/glossary.html#snapshot-version-and-hash
+      - text: is a saved version of that collection. “Full capture” refers to this dated collection, including historical material. It does not mean every rule has been interpreted or that all current benefits law is represented. Advice for decision making (ADM) is a separate guidance family. DWP directs some benefit decisions to ADM rather than DMG; see the
+      - link "official explanation":
+        - /url: https://www.gov.uk/government/publications/decision-makers-guide-vol-1-decision-making-and-appeals-staff-guide
+      - text: .
+    - paragraph:
+      - strong: "Try:"
+      - text: open the
+      - link "full-DMG walkthrough":
+        - /url: /okf-dwp/docs/full-dmg-walkthrough.html
+      - text: . Find a chapter and open its original PDF. Notice the difference between a source document and the project's interpretation of it.
+    - heading "2. Use Search to find a starting point" [level=2]
+    - paragraph:
+      - text: Search answers
+      - strong: “Where might relevant knowledge be?”
+      - text: It returns matching records. A record might describe a document, a page, a term or a proposed relationship. Finding a page does not establish a complete answer.
+    - paragraph:
+      - text: "For example, “benefits abroad” leaves several questions open: which benefit, which country, temporary absence or permanent move, and which date? These are questions about"
+      - strong:
+        - link "scope":
+          - /url: /okf-dwp/docs/glossary.html#scope-and-applicability
+      - text: — the limits of what a statement covers.
+    - paragraph:
+      - strong: "Try:"
+      - text: search for
+      - code: imprisonment
+      - text: using the
+      - link "Ask OKF demonstration":
+        - /url: /okf-dwp/docs/context-assembly-demo.html
+      - text: . Open a result and follow its source link. Then consider whether a hospital-admission question needs different evidence, even if the same benefit names occur in both questions.
+    - paragraph:
+      - strong: "Learn when needed:"
+      - link "benefit names and variants":
+        - /url: /okf-dwp/docs/glossary.html#benefit-names
+      - text: ". Pension Credit and State Pension are separate benefits. “ESA” alone may be too broad: different Employment and Support Allowance variants need different guidance."
+    - heading "3. Use Ask OKF to assemble evidence" [level=2]
+    - paragraph:
+      - text: Ask OKF answers
+      - strong: “What evidence does this bundle provide for this task?”
+      - text: It identifies recognised concepts, follows declared relationships and collects evidence within an explicit size limit. It shows why each item was included.
+    - paragraph:
+      - text: A
+      - strong:
+        - link "concept":
+          - /url: /okf-dwp/docs/glossary.html#concept-ontology-and-graph
+      - text: is a named idea, such as imprisonment. A
+      - strong: relationship
+      - text: connects records, for example a guidance page referencing a benefit-specific chapter. Together these records and connections form a graph. You can inspect the connections rather than trusting a hidden selection process.
+    - code: "flowchart TD A[Published documents and recorded sources] --> B[Search: find possible evidence] A --> C[Governed concepts, relationships and evidence requirements] A --> G[Indexed words: select candidate whole pages] C --> D[Ask OKF: assemble bounded context] G --> D D --> E[Human inspection: sources, paths, scope and gaps] D --> F[Optional AI explanation with citations]"
+    - paragraph:
+      - text: The
+      - strong:
+        - link "context package":
+          - /url: /okf-dwp/docs/glossary.html#context-package-profile-and-budget
+      - text: "is the machine-readable result: selected records, source references, relationships, scope, reasons and gaps. An evidence"
+      - strong: profile
+      - text: declares what evidence is required for a supported task. It is more than a list of documents.
+    - heading "Choose the version being demonstrated" [level=3]
+    - paragraph:
+      - text: Read the
+      - link "generated service status":
+        - /url: /okf-dwp/docs/service-publication.html
+      - text: for the latest recorded deployment and its exact source and engine. Use the
+      - link "household handover":
+        - /url: /okf-dwp/docs/monday-handover-2026-09-21.html
+      - text: for the demonstration steps. The
+      - strong: 0.6.0 observation recorded on 21 September 2026
+      - text: used the partner-qualified source
+      - code: 723bcc5b015ab38a026625c2148edbd784edf7c7
+      - text: . Its
+      - link "public SDK check":
+        - /url: https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/validation/compact-delivery/v0.6.0/README.md
+      - text: reconstructed 11 cases in 121 requests. That recorded care-home example has 55 records and 115 relationships and remains insufficient.
+    - paragraph:
+      - text: The later ignored-person source
+      - code: c44bc3a111d18b6d4098a148a9a1b67c1411882b
+      - text: has 53 concepts, 106 selected source pages and 61 support dependencies. It is separate from that service version. Its
+      - link "measured comparison":
+        - /url: https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/validation/ignored-person-context/2026-09-21/README.md
+      - text: retains 177/177 candidate occurrences at 512 KiB but only 647/765 required path occurrences. These counts describe selected evidence, not correct answers. All 40 tasks remain insufficient and all 203 obligations remain open.
+    - paragraph:
+      - text: The original 0.5.0 source
+      - code: 3ef0e786e9a18e76fa17c7d925ff509d6d6c9f84
+      - text: and its
+      - link "176/177 evaluation":
+        - /url: https://github.com/chris-page-gov/okf-dwp/blob/3ef0e786e9a18e76fa17c7d925ff509d6d6c9f84/evaluation/semantic-expansion/evaluation.json
+      - text: remain available with their earlier observations.
+    - paragraph:
+      - text: The earlier service 0.4.0 source,
+      - code: 9de52acf1db84b27f8933d80480eaa850e74fa33
+      - text: ", remains available as an explicit version. Its"
+      - link "original observations":
+        - /url: https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/validation/compact-delivery/v0.4.0/README.md
+      - text: retain their own scope; they are not substituted for checks of the new release.
+    - paragraph:
+      - text: The earlier full-corpus comparison uses version
+      - code: bf50ef8d91b9f1ccc2cbdb354198eae74c9ed752
+      - text: and the additive
+      - code: full-dmg/okf-corpus-context.json
+      - text: descriptor. Its
+      - link "five-minute walkthrough":
+        - /url: /okf-dwp/docs/remote-mcp-demo.html#five-minute-full-corpus-presentation
+      - text: starts with a staff question and inspects whole pages from both manuals. The 43-case remote evaluation and
+      - link "three live SDK cases":
+        - /url: /okf-dwp/docs/remote-mcp-demo.html#live-sdk-verification-19-september
+      - text: are recorded. ChatGPT inspected a bounded abroad package. The published Explorer and native browser tools also returned the same complete bounded package in the
+      - link "recorded public check":
+        - /url: /okf-dwp/docs/remote-mcp-demo.html#published-explorer-and-native-webmcp
+      - text: . The broad corpus does not yet have complete task-specific evidence profiles, so candidate evidence remains
+      - code: insufficient
+      - text: .
+    - paragraph:
+      - text: The preserved baseline at version
+      - code: efb05c66616a9cd4328a86cf412780fe7bc7cf0b
+      - text: has
+      - strong: 52 Ask context records focused on imprisonment and legal custody
+      - text: . The wider DMG collection is available for discovery, and the separately acquired ADM manual supplies further source pages. This particular Ask profile does not cover the whole collection. The
+      - link "staff-question registry":
+        - /url: https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/staff-questions/cases.json
+      - text: contains
+      - strong: 40 question occurrences, with 39 distinct wordings
+      - text: ", to test broader needs against that baseline. A later profile requires its own version and evaluation; it must not silently change what this baseline proved."
+    - paragraph: "The combined-corpus path can select whole pages from the nonempty DMG and ADM text. Its versions have separate recorded evaluations; transport, browser and actual AI-client acceptance have separate evidence. It ranks the words in the question, while concept resolution separately uses declared aliases. Existing aliases and relationships retain their original scopes: a custody-specific concept is not a complete model of every benefit. A matching page can be a useful starting point without proving that a rule applies to the question."
+    - paragraph:
+      - strong: "Try:"
+      - text: use the full-corpus walkthrough with “What happens to your benefits if you go abroad?”, set
+      - strong: Package bytes
+      - text: to
+      - strong: "32768"
+      - text: ", and inspect the six source pages and missing facts. That budget matches the recorded ChatGPT and browser-tool comparison. To compare with the original imprisonment acceptance case, explicitly open the preserved custody version. That version has a bounded imprisonment profile and lacks a hospital evidence profile. The"
+      - link "historical hospital review":
+        - /url: /okf-dwp/docs/remote-mcp-hospital-coverage.html
+      - text: explains that gap; it is not a claim that the wider corpus has no hospital text.
+    - heading "4. Read the result before asking an AI to explain it" [level=2]
+    - paragraph: Ask OKF and an AI answer have different jobs. Ask OKF selects inspectable evidence. An AI may then explain that evidence. Its explanation needs citations and must preserve the package's limits.
+    - table:
+      - rowgroup:
+        - row "What you see What to check":
+          - columnheader "What you see"
+          - columnheader "What to check"
+      - rowgroup:
+        - row "sufficient Sufficient for the declared evidence requirements and scope; this is not a legal decision or specialist approval.":
+          - cell "sufficient":
+            - code: sufficient
+          - cell "Sufficient for the declared evidence requirements and scope; this is not a legal decision or specialist approval."
+        - row "insufficient Identify missing evidence, unresolved wording or budget limits. Do not complete the answer from guesswork.":
+          - cell "insufficient":
+            - code: insufficient
+          - cell "Identify missing evidence, unresolved wording or budget limits. Do not complete the answer from guesswork."
+        - row "conflicting Inspect the conflicting evidence and its scope; do not silently choose a preferred result.":
+          - cell "conflicting":
+            - code: conflicting
+          - cell "Inspect the conflicting evidence and its scope; do not silently choose a preferred result."
+        - row "Source extract Follow the original document link and page locator. Machine extraction remains unreviewed.":
+          - cell "Source extract"
+          - cell "Follow the original document link and page locator. Machine extraction remains unreviewed."
+        - row "Authored concept or relationship Check who or what proposed it and what supports it. A model-authored term is not an official passage.":
+          - cell "Authored concept or relationship"
+          - cell "Check who or what proposed it and what supports it. A model-authored term is not an official passage."
+    - paragraph:
+      - text: Reporting a gap is called
+      - strong:
+        - link "failing closed":
+          - /url: /okf-dwp/docs/glossary.html#fail-closed
+      - text: ": the system withholds a completeness claim when it cannot establish the required evidence. The staff-question baseline tests this behaviour. Passing that test is useful, but is not the same as answering the benefits question."
+    - paragraph:
+      - strong: "Learn when needed:"
+      - link "provenance and authority":
+        - /url: /okf-dwp/docs/glossary.html#provenance-and-authority
+      - text: ","
+      - link "entitlement and payment":
+        - /url: /okf-dwp/docs/glossary.html#entitlement-payment-and-disqualification
+      - text: . Keep publication dates, capture dates and legal effective dates separate. A September capture does not turn an April publication into a September edition.
+    - heading "5. Connect an AI to the same evidence" [level=2]
+    - paragraph:
+      - strong:
+        - link "MCP":
+          - /url: /okf-dwp/docs/glossary.html#api-mcp-and-webmcp
+      - text: is a protocol through which an AI client can discover and call a service's tools. The remote Ask OKF tools include
+      - code: ask_okf
+      - text: for a full package,
+      - code: ask_okf_manifest
+      - text: for a small catalogue, and
+      - code: read_okf_evidence
+      - text: for exact text and metadata in smaller parts. They read an approved, pinned bundle; they do not write claimant records or search arbitrary websites.
+    - paragraph:
+      - text: For the tested ChatGPT setup, follow the
+      - link "connection instructions":
+        - /url: /okf-dwp/docs/remote-mcp-demo.html#connect-chatgpt
+      - text: ": enable Developer mode where available, create or select the Ask OKF connection, and use"
+      - code: https://ask-okf.crpage.chatgpt.site/okf/mcp
+      - text: with no authentication. The
+      - link "official OpenAI guide":
+        - /url: https://developers.openai.com/plugins/deploy/connect-chatgpt
+      - text: describes the connection flow; availability depends on the account and workspace.
+    - paragraph:
+      - text: Pasting that endpoint into a normal browser sends a
+      - strong: GET
+      - text: request and can show
+      - strong: 405 Method Not Allowed
+      - text: . The tool client uses
+      - strong: POST
+      - text: requests. A 405 for that browser visit does not mean the service has failed. The
+      - link "service information page":
+        - /url: https://ask-okf.crpage.chatgpt.site/
+      - text: is for ordinary browser visits. See
+      - link "HTTP and 405":
+        - /url: /okf-dwp/docs/glossary.html#http-get-post-and-405
+      - text: .
+    - paragraph:
+      - strong: WebMCP
+      - text: "exposes tools through a supporting browser page. Remote MCP connects to a service. Neither one proves that a particular AI client can use the other. In the earlier published Explorer check, the Codex in-app browser actually called the context build and explain tools. At the same version, question and 32,768-byte budget, their complete package matched Explorer's UI and the remote MCP result: six source pages and 31,312 bytes, still insufficient and truncated. Earlier text calls were tested in ChatGPT; the 0.5.0 SDK/browser results do not establish new ChatGPT acceptance."
+      - strong: Ask OKF invocation through ChatGPT Voice has not been verified
+      - text: . Rehearse the intended account and audio equipment separately.
+    - paragraph:
+      - text: There are also two size limits. Ask OKF can deliberately omit items to meet a
+      - strong: budget
+      - text: ", and reports that omission. An AI host can separately cut down the received tool output. In the recorded ChatGPT tests, a complete service response did not always remain completely accessible to the model. Use the"
+      - link "tested full-corpus prompt":
+        - /url: /okf-dwp/docs/remote-mcp-demo.html#full-corpus-chatgpt-rehearsal-prompt
+      - text: and keep its insufficient status and truncation visible. Earlier custody-version observations remain separately labelled.
+    - heading "6. Decide what an evaluation actually proves" [level=2]
+    - paragraph:
+      - text: An
+      - strong:
+        - link "evaluation":
+          - /url: /okf-dwp/docs/glossary.html#evaluation-ci-branch-and-pull-request
+      - text: is a defined test with evidence requirements. This project separates source coverage, semantic coverage, discovery, traversal, assembly, provenance, boundaries and answerability. A phrase appearing in a result is not an adequate success test.
+    - paragraph: "Ask four questions of a result:"
+    - list:
+      - listitem: Was the relevant source acquired, and can I open its exact page?
+      - listitem: Are the required concepts, qualifications and relationships represented?
+      - listitem: Did the tool return the correct evidence, with its scope and gaps intact?
+      - listitem: Could the receiving AI inspect it and produce a supported explanation?
+    - paragraph:
+      - text: Those are separate checks. The
+      - link "staff-question registry":
+        - /url: https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/staff-questions/cases.json
+      - text: keeps ambiguous wording visible, including “SDA” and the War Pensions question. Source candidates are research starting points, not complete answers. Existing model answer trials and new transport checks should not be combined into one unqualified success percentage.
+    - paragraph:
+      - text: The questions cover travel abroad, State Pension, Pension Credit, Industrial Injuries Benefits, Personal Independence Payment and Carer’s Allowance. Use them to identify missing evidence and design specialist review, rather than asking learners to memorise benefit acronyms. Follow the
+      - link "benefit glossary":
+        - /url: /okf-dwp/docs/glossary.html#benefit-names
+      - text: when a new name appears.
+    - paragraph:
+      - text: The
+      - link "recorded remote baseline run":
+        - /url: https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/validation/staff-questions/receipt.json
+      - text: on 19 September 2026 returned
+      - code: insufficient
+      - text: for all 40 occurrences. All 40 complete packages matched the shared Explorer engine, with no assembly-budget truncation; 42 source candidates were verified separately. That establishes repeatable gap reporting and source traceability. It leaves substantive answerability open. ChatGPT's handling of tool output has its
+      - link "separate observed tests":
+        - /url: /okf-dwp/docs/remote-mcp-demo.html#actual-chatgpt-pro-observation-19-september
+      - text: .
+    - paragraph:
+      - text: The historical
+      - link "19 September full-corpus remote run":
+        - /url: https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/validation/corpus-questions/receipt.json
+      - text: uses those same 40 questions plus three boundary controls. All 40 staff questions return candidate evidence, including ADM pages. Twelve packages retain an independently located candidate page; 21 retain a page from a candidate PDF. This measures retrieval against known research starting points. It does not score answers or establish that every selected page is relevant.
+    - paragraph:
+      - text: All 43 results remain
+      - code: insufficient
+      - text: ; none produces an AI answer or has specialist acceptance. The broad questions lack complete task-specific evidence profiles. The whole-page candidate limit can omit other matches, and the package reports that truncation. All 43 complete remote packages match the shared engine. Published-browser and actual ChatGPT checks have separate evidence. Three live SDK checks have separately confirmed exact engine agreement for current imprisonment and hospital queries and the explicitly selected historical imprisonment profile.
+    - paragraph:
+      - text: The
+      - link "published-browser check":
+        - /url: /okf-dwp/docs/remote-mcp-demo.html#published-explorer-and-native-webmcp
+      - text: also showed the default imprisonment task's eight resolved concepts, 64 records and 127 relationships, including visible routes to chapters 24, 53, 54 and 78. The 516,146-byte package remained insufficient and truncated. Visible routing helps inspection; it does not itself establish complete legal coverage.
+    - paragraph:
+      - text: The
+      - link "actual full-corpus ChatGPT rehearsal":
+        - /url: /okf-dwp/docs/remote-mcp-demo.html#actual-full-corpus-chatgpt-observation
+      - text: first exposed irrelevant page selection. A general filter for ordinary question wording was corrected; the same bounded question then returned six source pages about international issues. ChatGPT inspected those pages without reporting host truncation and kept the result insufficient. The repeat staff-question run changed the known-page overlap from 10 to 12 cases and document overlap from 19 to 21. That is a measured retrieval improvement, not a complete benefits answer or an answer-quality score. See the
+      - link "before-and-after results and Monday steps":
+        - /url: /okf-dwp/evaluation/staff-questions/results.html
+      - text: for a concise demonstration sequence.
+    - paragraph:
+      - text: Smaller packages might eventually reduce AI input, but bytes are not
+      - strong:
+        - link "tokens":
+          - /url: /okf-dwp/docs/glossary.html#llm-rag-and-token
+      - text: and fewer bytes do not prove lower cost or equal answer quality. Those claims need a separate measured comparison.
+    - heading "Why a natural question may still miss the right evidence" [level=3]
+    - paragraph:
+      - text: The
+      - link "abroad-question review":
+        - /url: /okf-dwp/docs/abroad-semantic-audit.html
+      - text: separates an older word-ranking bug from current gaps in concepts, connected passages and budget capacity. Follow the question from everyday wording to the source pages and check which conditions were actually retained.
+    - paragraph:
+      - text: The first
+      - link "Data Analytics proposal review":
+        - /url: /okf-dwp/docs/data-agent-semantic-review.html
+      - text: returned source-linked proposals from a frozen-file handoff. Read its tool and verification limits alongside the findings. It illustrates how an analysis workflow can help extend this modelling beyond connector access; it does not establish native Ask OKF access, specialist acceptance or improved answer accuracy. Full artefact import and independent verification remain pending.
+    - heading "7. Explore how the bundle is built" [level=2]
+    - paragraph:
+      - text: An
+      - strong:
+        - link "OKF+ bundle":
+          - /url: /okf-dwp/docs/glossary.html#okf-and-okf-plus
+      - text: packages knowledge with explicit structure, sources and additional semantic contracts. Authors use
+      - strong: YAML-LD
+      - text: ; build tools produce the formats consumed by Explorer.
+      - strong: JSON-LD
+      - text: and
+      - strong: RDF
+      - text: provide ways of expressing linked data. You can learn these formats after you have inspected a useful example; see the
+      - link "format glossary":
+        - /url: /okf-dwp/docs/glossary.html#yaml-ld-json-ld-and-rdf
+      - text: and
+      - link "semantic contract":
+        - /url: /okf-dwp/docs/next-stage/semantic-contract.html
+      - text: .
+    - paragraph:
+      - text: For a contribution, use a
+      - strong: branch
+      - text: to prepare changes and a
+      - strong: pull request
+      - text: to review them. Automated
+      - strong: CI
+      - text: checks run before merging. The
+      - link "governance guide":
+        - /url: /okf-dwp/docs/repository-governance.html
+      - text: explains the actual required checks and private-input protections. Passing structural checks establishes neither legal correctness nor specialist acceptance.
+    - paragraph:
+      - text: Return to the
+      - link "project overview":
+        - /url: /okf-dwp/README.html
+      - text: ", the"
+      - link "glossary":
+        - /url: /okf-dwp/docs/glossary.html
+      - text: or the
+      - link "presentation script":
+        - /url: /okf-dwp/docs/remote-mcp-demo.html
+      - text: according to your next task.
+    - heading "Read smaller pieces of the same evidence" [level=2]
+    - paragraph:
+      - text: The earlier
+      - link "0.5.0 public care-home observation":
+        - /url: https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/validation/compact-delivery/v0.5.0/README.md
+      - text: shows a 35-record, 50-relationship package delivered within a 262,144-byte budget. The three browsers read the same package verified by the SDK client, including the heading limiting DMG 78088 to claimants with no partner. Its status remains insufficient and its limits omit some evidence. Use the
+      - link "retained examples":
+        - /url: /okf-dwp/docs/retained-evidence-examples.html
+      - text: to compare its original bytes with the newer 0.6.0 package. The separate historical browser journeys were not rerun for 0.5.0; a passed SDK replay of earlier sources is a different check.
+    - paragraph:
+      - text: The earlier
+      - link "compact-evidence demonstration":
+        - /url: /okf-dwp/docs/compact-evidence-demo.html
+      - text: introduces a catalogue, exact reads and a human replay link. The catalogue tells you what was selected; it is not the source passage. Read diagnostics and provenance before using a passage. A complete delivery still cannot turn insufficient evidence into a complete answer. Public SDK checks and local Claude observations are recorded separately from specialist answer review and Voice support.
+    - heading "Compare answers against fixed evidence" [level=3]
+    - paragraph:
+      - text: A
+      - strong: qualification
+      - text: is a condition or exception that limits a statement. For example, a paragraph about people with no partner must not become a rule for every household. The
+      - link "disability-addition example":
+        - /url: /okf-dwp/docs/disability-addition-qualification-review.html
+      - text: shows why the surrounding heading, a continued paragraph and dated amendments may all be needed alongside one quotation.
+    - paragraph:
+      - text: The bundle can declare those pages as
+      - strong: required support
+      - text: . This helps Ask OKF keep them together, but a small size limit can still prevent them fitting. In that case the package names the missing support. A link to further evidence is useful only if the reader or AI actually opens it and checks its version; the link itself is not a substitute for reading the qualification.
+    - paragraph:
+      - text: Use the
+      - link "staff model trial guide":
+        - /url: /okf-dwp/docs/staff-model-trials.html
+      - text: to follow one question from its bounded evidence package to two original answers and a claim-by-claim critique. A correct quotation can still omit an important condition. Start with the care-home example and its missing household qualification; then inspect the unknown-term control, where both clients abstain.
+    - paragraph:
+      - text: The latest
+      - link "direct-v4 paired trial":
+        - /url: https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/validation/model-comparison/household-direct-v4/README.md
+      - text: "uses the exact complete 0.6.0 care-home package for both clients. Both pass the empty control and quotation checks; both decline a whole-award conclusion. Read the separate claim review too: exact quotations do not ensure that every additional qualification is correct or that all exceptions have been retained."
+- contentinfo:
+  - text: Published from commit
+  - link "77ef16047415":
+    - /url: https://github.com/chris-page-gov/okf-dwp/commit/77ef16047415ee48dcb93b80adf1ba057ea00d9b
+  - text: .
+  - link "Rights and limitations":
+    - /url: /okf-dwp/NOTICE.html
+  - text: ·
+  - link "Changelog":
+    - /url: /okf-dwp/CHANGELOG.html
+  - text: ·
+  - link "Publication identity":
+    - /url: /okf-dwp/site-manifest.json
+  - text: . Source dates and capture dates remain distinct. This page describes the project; it does not establish which benefit rules apply.

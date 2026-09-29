@@ -1,0 +1,19 @@
+{
+  "schema": "dwp-presentation-visual-review.v1",
+  "scope": "Actual rendered images inspected by the capture agent, alongside native text assertions and bound source/package bytes. This is a presentation-quality check, not specialist legal review.",
+  "reviewed_source_groups": ["S01 original PDF pages 3 and 4", "S06 original PDF pages 34, 36 and 37", "S02 occurrence and proposed help", "S03 paired marker and unreviewed reference card", "S05 original question and preserved diagnostic", "S07 exact fresh question, selected passage and limits", "S08 saved complete passage and source provenance", "S09 actual connection, requirement row and partial-view warning", "S10 blocked stages and limitations", "S11 directional rows and partial status", "S04 real extraction gap", "S13 actual local proposal export", "S14 preserved original report fallback", "S15 historical release checks", "S16 public learning page", "S12 five genuine native before/failure derivatives and privacy-redacted whole-window context"],
+  "preferred_detail_frames": ["S01-conditions", "S01-notes", "S02-occurrence", "S02-help", "S03-paired-reference", "S03-reference-card", "S05-question", "S05b", "S06-A4361", "S06-A4352", "S07a-r1", "S07b-r1", "S07c-r1", "S08a", "S08b", "S09-connection", "S09-requirement", "S10-stages", "S11-directions", "S16"],
+  "quality_findings": [
+    "PDF detail crops were widened to preserve the full clauses and printed citations; original page masters were not edited.",
+    "Citation/reference help is projected separately from the unchanged passage so both are readable; the overview is supporting context.",
+    "Saved native Requirements layout wraps narrow columns. Its first complete native row is retained without reformatting or inventing a replacement UI; review-scope wording remains readable.",
+    "Saved Original source exposes a locator and hashes. The embedded source frame is blank in this observation; it is not labelled as a rendered PDF. Source PDFs are independently shown in S01/S06 where applicable.",
+    "Dense full-view overviews and full PDF pages are supporting context, not intended for reading every word from a projection. Present the enlarged detail frames and keep overview warnings/source receipts available.",
+    "Rejected incomplete S14 canvas frames and obsolete technical drafts are recoverably retained outside the deliverable, with initial failure receipts inside it.",
+    "S12 has five actual before/failure frames, visually checked with the real native window observations. The blocked-status strip is fully visible; qualification and failure details are readable. There is no fabricated or placeholder image. Raw registered-tool invocation results and the requested transition remain unverified.",
+    "The updated contact sheet was visually inspected: S12 is a red blocked card with genuine negative evidence, while S08/S09/S14 remain explicit fallbacks. It is an overview; read the linked full-size detail frames for presentation.",
+    "No private native-window raw image, unrelated chat, account identifier or authentication token is included in the delivered image folders.",
+    "British English editorial check of the authored README, notes, merge hand-off and novice setup guide found no unintended US prose. Exact upstream source wording, identifiers, UI labels, quotations and code/CSS terms are intentionally preserved."
+  ],
+  "annotation_method": "Uniform crop and letterbox from captured pixels, with a separate authored HTML caption strip. No source or substantive UI text replacement, fabricated success state, AI imagery or image distortion."
+}

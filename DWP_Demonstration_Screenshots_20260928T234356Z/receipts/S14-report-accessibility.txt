@@ -1,0 +1,478 @@
+- link "Skip to content":
+  - /url: "#start-of-content"
+- banner:
+  - heading "Navigation Menu" [level=2]
+  - link "Homepage":
+    - /url: /
+  - navigation "Global":
+    - list:
+      - listitem:
+        - button "Platform"
+      - listitem:
+        - button "Solutions"
+      - listitem:
+        - button "Resources"
+      - listitem:
+        - button "Open Source"
+      - listitem:
+        - button "Enterprise"
+      - listitem:
+        - link "Pricing":
+          - /url: https://github.com/pricing
+  - button "Search or jump to, type / to search": Search
+  - link "Sign in":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fchris-page-gov%2Fokf-dwp%2Fblob%2F77ef16047415ee48dcb93b80adf1ba057ea00d9b%2Fdocs%2Fpassage-boundary-review.md
+  - link "Sign up":
+    - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=chris-page-gov%2Fokf-dwp
+  - button "Appearance settings"
+- main:
+  - link "chris-page-gov":
+    - /url: /chris-page-gov
+  - text: /
+  - strong:
+    - link "okf-dwp":
+      - /url: /chris-page-gov/okf-dwp
+  - text: Public
+  - list:
+    - listitem:
+      - link "You must be signed in to change notification settings":
+        - /url: /login?return_to=%2Fchris-page-gov%2Fokf-dwp
+        - text: Notifications
+    - listitem:
+      - link "Fork 0":
+        - /url: /login?return_to=%2Fchris-page-gov%2Fokf-dwp
+    - listitem:
+      - link "You must be signed in to star a repository":
+        - /url: /login?return_to=%2Fchris-page-gov%2Fokf-dwp
+        - text: Star 0
+  - navigation "Repository":
+    - list:
+      - listitem:
+        - link "Code":
+          - /url: /chris-page-gov/okf-dwp
+      - listitem:
+        - link "Issues 3":
+          - /url: /chris-page-gov/okf-dwp/issues
+      - listitem:
+        - link "Pull requests":
+          - /url: /chris-page-gov/okf-dwp/pulls
+      - listitem:
+        - link "Actions":
+          - /url: /chris-page-gov/okf-dwp/actions
+      - listitem:
+        - link "Projects":
+          - /url: /chris-page-gov/okf-dwp/projects
+      - listitem:
+        - link "Security and quality":
+          - /url: /chris-page-gov/okf-dwp/security
+      - listitem:
+        - link "Insights":
+          - /url: /chris-page-gov/okf-dwp/pulse
+  - heading "Collapse file tree" [level=2]:
+    - button "Collapse file tree" [expanded]
+  - heading "Files" [level=2]
+  - link "View file on default branch":
+    - /url: /chris-page-gov/okf-dwp/blob/main/docs/passage-boundary-review.md
+  - button "77ef160 branch": 77ef160
+  - button "Search this repository (forward slash)"
+  - combobox "Go to file"
+  - navigation "File Tree Navigation":
+    - tree "Files":
+      - treeitem ".github" [level=1]
+      - treeitem "bundle" [level=1]
+      - treeitem "capital-pilot" [level=1]
+      - treeitem "combined" [level=1]
+      - treeitem "context" [level=1]
+      - treeitem "docs" [expanded] [level=1]:
+        - text: docs
+        - group "docs":
+          - treeitem "evidence" [level=2]
+          - treeitem "learning" [level=2]
+          - treeitem "next-stage" [level=2]
+          - treeitem "templates" [level=2]
+          - treeitem "abroad-semantic-audit.md" [level=2]
+          - treeitem "adm-acquisition.md" [level=2]
+          - treeitem "backlog-work-packages.md" [level=2]
+          - treeitem "backlog.md" [level=2]
+          - treeitem "carehome-component-dependency-review.md" [level=2]
+          - treeitem "chatgpt-connection.md" [level=2]
+          - treeitem "combined-reader.md" [level=2]
+          - treeitem "compact-evidence-demo.md" [level=2]
+          - treeitem "context-assembly-demo.md" [level=2]
+          - treeitem "context-corpus.md" [level=2]
+          - treeitem "context-discovery.md" [level=2]
+          - treeitem "context-performance.md" [level=2]
+          - treeitem "cpag-handbook.md" [level=2]
+          - treeitem "cpag-permission-request-draft.md" [level=2]
+          - treeitem "data-agent-semantic-review.md" [level=2]
+          - treeitem "demo-one-freeze-2026-09-23.md" [level=2]
+          - treeitem "demo-one-pair-protocol.md" [level=2]
+          - treeitem "demo-one-pair-results.md" [level=2]
+          - treeitem "demo-one-question-ledger.md" [level=2]
+          - treeitem "disability-addition-qualification-review.md" [level=2]
+          - treeitem "discovery-cards-experiment.md" [level=2]
+          - treeitem "discovery.md" [level=2]
+          - treeitem "evidence-connect-profile.md" [level=2]
+          - treeitem "evidence-delivery-learning.md" [level=2]
+          - treeitem "evidence-workbench-handover.md" [level=2]
+          - treeitem "evidence-workbench-work-log.md" [level=2]
+          - treeitem "evidence-workbench.md" [level=2]
+          - treeitem "full-dmg-walkthrough.md" [level=2]
+          - treeitem "future-sources.md" [level=2]
+          - treeitem "glossary.md" [level=2]
+          - treeitem "household-evidence-expansion.md" [level=2]
+          - treeitem "household-qualification-budget-review.md" [level=2]
+          - treeitem "household-reader-public-verification.md" [level=2]
+          - treeitem "household-reader-verification.md" [level=2]
+          - treeitem "household-service-verification.md" [level=2]
+          - treeitem "ignored-person-qualification-review.md" [level=2]
+          - treeitem "learning-pages-regressions.md" [level=2]
+          - treeitem "learning-path.md" [level=2]
+          - treeitem "learning-website.md" [level=2]
+          - treeitem "legal-body-evidence.md" [level=2]
+          - treeitem "legal-reconciliation.md" [level=2]
+          - treeitem "liteparse-pilot.md" [level=2]
+          - treeitem "logical-evidence-units.md" [level=2]
+          - treeitem "logical-units-work-log.md" [level=2]
+          - treeitem "manual-structure-evaluation.md" [level=2]
+          - treeitem "manual-structure-process.md" [level=2]
+          - treeitem "meeting-walkthrough.md" [level=2]
+          - treeitem "methodology.md" [level=2]
+          - treeitem "monday-delivery-work-log.md" [level=2]
+          - treeitem "monday-demo-2026-09-21.md" [level=2]
+          - treeitem "monday-direct-trial-protocol.md" [level=2]
+          - treeitem "monday-direct-v4-trial-protocol.md" [level=2]
+          - treeitem "monday-handover-2026-09-21.md" [level=2]
+          - treeitem "monday-model-trials.md" [level=2]
+          - treeitem "ontology-use.md" [level=2]
+          - treeitem "original-acceptance-restoration.md" [level=2]
+          - treeitem "partner-addition-qualification-review.md" [level=2]
+          - treeitem "passage-boundary-review.md" [level=2]
+          - treeitem "pc-capital-bounded-repair.md" [level=2]
+          - treeitem "pip-transition-source-review.md" [level=2]
+          - treeitem "publication-contract-details.json" [level=2]
+          - treeitem "reading-help-ch60.md" [level=2]
+          - treeitem "reading-help-corpus-contract.md" [level=2]
+          - treeitem "reading-help-demo-2026-09-30.md" [level=2]
+          - treeitem "reading-help-legislation-bridge.md" [level=2]
+          - treeitem "reading-help-release-2026-09-27.md" [level=2]
+          - treeitem "reading-help-rollout-work-log.md" [level=2]
+          - treeitem "reading-help-rollout.md" [level=2]
+          - treeitem "relationship-audit.md" [level=2]
+          - treeitem "remaining-work.md" [level=2]
+          - treeitem "remote-mcp-demo.md" [level=2]
+          - treeitem "remote-mcp-hospital-coverage.md" [level=2]
+          - treeitem "repository-governance.md" [level=2]
+          - treeitem "research-index.md" [level=2]
+          - treeitem "retained-evidence-browser-verification.md" [level=2]
+          - treeitem "retained-evidence-examples.md" [level=2]
+          - treeitem "retained-evidence-publication.md" [level=2]
+          - treeitem "retrospective.md" [level=2]
+          - treeitem "semantic-closure-and-compact-delivery.md" [level=2]
+          - treeitem "semantic-expansion.md" [level=2]
+          - treeitem "service-publication.md" [level=2]
+          - treeitem "source-led-demonstration.md" [level=2]
+          - treeitem "source-led-manual-guide.md" [level=2]
+          - treeitem "source-led-results.md" [level=2]
+          - treeitem "source-refresh.md" [level=2]
+          - treeitem "source-roles-diagram.svg" [level=2]
+          - treeitem "staff-model-trials.md" [level=2]
+          - treeitem "staff-service-browser-verification.md" [level=2]
+          - treeitem "team-handover-2026-09-20.md" [level=2]
+          - treeitem "uc-disabled-child-supersession-follow-up.md" [level=2]
+          - treeitem "unmerged-work-review-2026-09-24.md" [level=2]
+          - treeitem "voice-rehearsal.md" [level=2]
+          - treeitem "work-log-2026-09-19.md" [level=2]
+          - treeitem "work-log-2026-09-20.md" [level=2]
+          - treeitem "workbench-model-inspection.md" [level=2]
+          - treeitem "workbench-sidebar-demo.md" [level=2]
+      - treeitem "domain-profile" [level=1]
+      - treeitem "evaluation" [level=1]
+      - treeitem "evidence-examples" [level=1]
+      - treeitem "full-dmg" [level=1]
+      - treeitem "knowledge" [level=1]
+      - treeitem "logical-context" [level=1]
+      - treeitem "logical-units" [level=1]
+      - treeitem "manual-guide" [level=1]
+      - treeitem "pdf-structure" [level=1]
+      - treeitem "profiles" [level=1]
+      - treeitem "reading-help-corpus" [level=1]
+      - treeitem "research" [level=1]
+      - treeitem "scripts" [level=1]
+      - treeitem "source" [level=1]
+      - treeitem "structured-context" [level=1]
+      - treeitem "structured-units" [level=1]
+      - treeitem "tools" [level=1]
+      - treeitem "validation" [level=1]
+      - treeitem ".gitattributes" [level=1]
+      - treeitem ".gitignore" [level=1]
+      - treeitem ".python-version" [level=1]
+      - treeitem "AGENTS.md" [level=1]
+      - treeitem "AI_USAGE.md" [level=1]
+      - treeitem "CHANGELOG.md" [level=1]
+      - treeitem "LICENSE" [level=1]
+      - treeitem "LICENSE_DECISIONS.md" [level=1]
+      - treeitem "NOTICE.md" [level=1]
+      - treeitem "README.md" [level=1]
+      - treeitem "REPOSITORY_STATUS.md" [level=1]
+      - treeitem "SECURITY.md" [level=1]
+      - treeitem "okf.delivery.json" [level=1]
+      - treeitem "okf.publication.json" [level=1]
+      - treeitem "okf.semantic.json" [level=1]
+      - treeitem "pyproject.toml" [level=1]
+      - treeitem "reading-help-ch60-law.json" [level=1]
+      - treeitem "reading-help-ch60-references.json" [level=1]
+      - treeitem "reading-help-ch60.json" [level=1]
+      - treeitem "uv.lock" [level=1]
+  - slider "Draggable pane splitter"
+  - navigation "Breadcrumbs":
+    - heading "Breadcrumbs" [level=2]
+    - list:
+      - listitem:
+        - link "okf-dwp":
+          - /url: /chris-page-gov/okf-dwp/tree/77ef16047415ee48dcb93b80adf1ba057ea00d9b
+      - listitem:
+        - link "docs":
+          - /url: /chris-page-gov/okf-dwp/tree/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs
+  - heading "passage-boundary-review.md" [level=1]
+  - button "Copy path"
+  - button "More file actions"
+  - heading "Latest commit" [level=2]
+  - link "chris-page-gov":
+    - /url: /chris-page-gov
+    - img "chris-page-gov"
+  - link "commits by chris-page-gov":
+    - /url: /chris-page-gov/okf-dwp/commits?author=chris-page-gov
+    - text: chris-page-gov
+  - link "Record verified passage workbench release and remaining source gaps (":
+    - /url: /chris-page-gov/okf-dwp/commit/873d2ed7867dc22307200b32ae49b2fdb779e28c
+  - link "#45":
+    - /url: https://github.com/chris-page-gov/okf-dwp/pull/45
+  - button "Open commit details"
+  - button "success"
+  - link "Commit 873d2ed":
+    - /url: /chris-page-gov/okf-dwp/commit/873d2ed7867dc22307200b32ae49b2fdb779e28c
+    - text: 873d2ed
+  - text: · Sep 25, 20263 days ago
+  - heading "History" [level=2]
+  - link "History":
+    - /url: /chris-page-gov/okf-dwp/commits/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/passage-boundary-review.md
+  - heading "File metadata and controls" [level=2]
+  - list "File view":
+    - listitem:
+      - button "Preview" [pressed]
+    - listitem:
+      - button "Code"
+    - listitem:
+      - button "Blame"
+  - text: 183 lines (154 loc) · 10.6 KB
+  - link "Raw":
+    - /url: https://github.com/chris-page-gov/okf-dwp/raw/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/passage-boundary-review.md
+  - button "Copy raw file"
+  - button "Download raw file"
+  - button "Outline"
+  - region "passage-boundary-review.md":
+    - article:
+      - heading "Review how a passage was built" [level=1]
+      - 'link "Permalink: Review how a passage was built"':
+        - /url: "#review-how-a-passage-was-built"
+      - paragraph:
+        - text: A
+        - strong: passage
+        - text: "is a piece of guidance that belongs together. A PDF page is a place to find it. A passage may cross a page boundary, and a single page can contain several different things: a rule, an example, a contents list and a note about an amendment. Mixing those things can make an evidence search less useful even when every source byte has been captured."
+      - paragraph: The passage-boundary workbench lets a reviewer examine those decisions. It is an independent experimental tool, not an official Department for Work and Pensions (DWP) service or a benefits decision.
+      - heading "Start with the 28 known cases" [level=2]
+      - 'link "Permalink: Start with the 28 known cases"':
+        - /url: "#start-with-the-28-known-cases"
+      - paragraph:
+        - text: The review queue contains 28 previously identified large passages in historical amendments to the
+        - strong: Decision makers' guide (DMG)
+        - text: . These were selected because their structure looked suspicious. They are not a random sample and cannot tell us the error rate of the whole corpus.
+        - strong: Advice for decision making (ADM)
+        - text: is the other DWP manual in the wider corpus; its chapters are included in the separate parser impact checks.
+      - paragraph:
+        - link "Open the 28-case passage review":
+          - /url: https://chris-page-gov.github.io/okf-explorer/evidence/passages/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F65924955745c4ed1b8ce66252c4748902b5403ba%2Fevaluation%2Fpassage-boundary-review%2Fmanifest.json&case=case-001
+        - text: . This link pins the DWP review data to
+        - code: "65924955"
+        - text: and opens Explorer's
+        - strong: Evidence workbench → Passage boundaries
+        - text: view. The generic route is published and verified at Explorer commit
+        - code: 4d76cddb
+        - text: . The
+        - link "release record":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/validation/passage-boundaries/2026-09-25/README.md
+        - text: retains all 28 public case checks, exact application-file hashes and review export. The
+        - link "review manifest":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/passage-boundary-review/manifest.json
+        - text: is also available for local inspection. The manifest is the small catalogue of cases and their fingerprints. The viewer loads a case and its extraction only when selected. The original
+        - link "findings":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/manual-structure/large-paragraph-review-2026-09-23/findings.json
+        - text: and frozen source observations remain available.
+      - list:
+        - listitem: Choose a case. Read its finding and uncertainty before deciding whether to change the passage.
+        - listitem: Select a source page. The original PDF and exact extracted text use the same page locator. Compare the before and proposed after passages, including examples, qualifications, references and unfinished fragments.
+        - listitem:
+          - text: Open
+          - strong: How this passage was built
+          - text: . A parser is the program that recognises document structure. Its version, rules, recorded settings, settings fingerprint and source evidence explain the proposal. A hash (SHA-256) is a fingerprint of exact bytes; matching hashes do not establish that the interpretation is correct.
+        - listitem:
+          - text: Use
+          - strong: Isolated correction preview
+          - text: to inspect a proposed split, join or structural-role change. The JSON editor accepts structured data, not commands. A successful preview checks identities and source-byte accounting; it does not establish a correct legal interpretation.
+        - listitem: Read the impact and missing information. A change can affect the passage, other units in its document, identifiers and dependencies, and evidence selected for questions. Unknown downstream effects remain unknown.
+        - listitem: Enter a reviewer, date and reason, then download the review JSON. This file records a reproducible suggestion for a separate reviewed producer change. It does not modify published evidence.
+      - heading "What to look for" [level=2]
+      - 'link "Permalink: What to look for"':
+        - /url: "#what-to-look-for"
+      - list:
+        - listitem:
+          - strong: "False split:"
+          - text: a sentence, example or qualification is cut in two.
+        - listitem:
+          - strong: "False join:"
+          - text: unrelated material, such as an amendment letter and a rule, appears as one passage.
+        - listitem:
+          - strong: "Structural role:"
+          - text: a heading, contents entry or administrative note is mistaken for substantive guidance.
+        - listitem:
+          - strong: "Reference:"
+          - text: a paragraph number or cited appendix loses its destination.
+        - listitem:
+          - strong: "Incomplete fragment:"
+          - text: the preserved source really ends mid-sentence. Keep that uncertainty visible; do not invent a continuation from another edition.
+        - listitem:
+          - strong: "Identifier migration:"
+          - text: when an old passage becomes several new ones, record each proposed connection. Shared source bytes do not prove that two passages mean the same thing.
+      - paragraph:
+        - text: The initial review queue preserves the parked parser's proposal. Its status is
+        - strong: pending independent review
+        - text: . It remains an auditable comparison even when a later, narrower parser change rejects part of that proposal. Read the recorded parser and source identities before comparing results from different runs.
+      - heading "What the parser review found" [level=2]
+      - 'link "Permalink: What the parser review found"':
+        - /url: "#what-the-parser-review-found"
+      - paragraph:
+        - text: The earlier broad proposal treated a standalone word
+        - strong: Appendix
+        - text: as a new section everywhere. In DMG Chapter 5, PDF page 152, that word is the wrapped end of a sentence. Splitting there would damage the passage. The
+        - link "nine-chapter source review":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/passage-boundary-candidate/substantive-scope-review.json
+        - text: therefore rejected that broad rule for substantive chapters.
+      - paragraph:
+        - text: The successor confines the new navigation and bare-Appendix rules to historical amendment documents. Its
+        - link "full census":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/passage-boundary-candidate/versioned-census-02/report.json
+        - text: accounts for all
+        - strong: 513 documents
+        - text: ","
+        - strong: 35,143,443 extracted source bytes
+        - text: and
+        - strong: 75 authored units
+        - text: . It produces
+        - strong: 54,577 units
+        - text: ", compared with the frozen baseline's"
+        - strong: 53,727
+        - text: . It changes 125 historical amendment documents and leaves every substantive chapter's records unchanged. The parked proposal's 54,581 units are a different, preserved experiment.
+      - paragraph:
+        - text: The 28 case records distinguish the
+        - strong: target boundary
+        - text: "from remaining structure and legal completeness: 15 target boundaries are corrected, 12 are partly corrected, and case 014 remains unresolved. For example, the successor also separates case 019's overlap reference table from paragraph 070594. Case 014's extracted text does not support a confident new boundary. Abbreviation continuations, unlabelled fragments and some trailing number markers remain explicit residuals. These figures are an engineering assessment of selected known defects, not specialist acceptance or an estimate of corpus accuracy."
+      - paragraph: "The parser first passed four source cases, then eight. Separate controls cover an unseen amendment replacement sheet and two genuine cross-page passages: DMG 01013's example and ADM A2022's conditions and examples. Independent PDF inspection confirmed both continuations. Source-byte preservation alone would not have established that those passages stayed together."
+      - heading "What changed in the 40-question replay" [level=2]
+      - 'link "Permalink: What changed in the 40-question replay"':
+        - /url: "#what-changed-in-the-40-question-replay"
+      - paragraph:
+        - text: The
+        - link "retained comparison":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/passage-boundary-candidate/question-replay.json
+        - text: uses the same 40 questions, source scope, assembler and delivery code. Both arms have a 512 KiB package budget, 64 records, 128 relationships and traversal depth six. It uses no answer-model calls. The exact candidate packages and their hashes are retained, so verification does not depend on temporary local files.
+      - table:
+        - rowgroup:
+          - row "Observation Result":
+            - columnheader "Observation"
+            - columnheader "Result"
+        - rowgroup:
+          - row "Questions whose selected evidence identifiers changed 21 of 40":
+            - cell "Questions whose selected evidence identifiers changed"
+            - cell "21 of 40"
+          - row "Questions whose evidence order changed 22 of 40":
+            - cell "Questions whose evidence order changed"
+            - cell "22 of 40"
+          - row "Questions whose selected traversal paths changed 4 of 40":
+            - cell "Questions whose selected traversal paths changed"
+            - cell "4 of 40"
+          - row "Text or source-span changes for an identifier retained in both arms None":
+            - cell "Text or source-span changes for an identifier retained in both arms"
+            - cell "None"
+          - row "Changes in matched declared candidate pages None":
+            - cell "Changes in matched declared candidate pages"
+            - cell "None"
+          - row "Changes to evidence requirements None":
+            - cell "Changes to evidence requirements"
+            - cell "None"
+          - row "Packages whose byte size changed 34 of 40; 2,709 bytes larger in total":
+            - cell "Packages whose byte size changed"
+            - cell "34 of 40; 2,709 bytes larger in total"
+          - row "Complete answers established None; all 40 remain insufficient":
+            - cell "Complete answers established"
+            - cell "None; all 40 remain insufficient":
+              - text: None; all 40 remain
+              - code: insufficient
+      - paragraph:
+        - text: The new structural units affect selection and omission reports, but this replay
+        - strong: does not demonstrate improved retrieval of the declared expected pages
+        - text: ". Page overlap is a limited coverage measure, not a claim-level answer score. The report preserves gains, losses, order and traversal changes, and both kinds of omission: candidates outside retrieval limits and records outside assembly limits. The earlier 54,576-unit replay remains separately archived."
+      - heading "Separate the three decisions" [level=2]
+      - 'link "Permalink: Separate the three decisions"':
+        - /url: "#separate-the-three-decisions"
+      - table:
+        - rowgroup:
+          - row "Decision What would support it?":
+            - columnheader "Decision"
+            - columnheader "What would support it?"
+        - rowgroup:
+          - row "Is the structure sound? Exact source comparison, qualifications retained, suitable roles, valid references and no lost or duplicated source bytes.":
+            - cell "Is the structure sound?"
+            - cell "Exact source comparison, qualifications retained, suitable roles, valid references and no lost or duplicated source bytes."
+          - row "Does retrieval improve? The same questions, expected evidence and budgets tested against baseline and candidate, with gains and losses recorded.":
+            - cell "Does retrieval improve?"
+            - cell "The same questions, expected evidence and budgets tested against baseline and candidate, with gains and losses recorded."
+          - row "Can we give a complete legal answer? Applicable, complete and current evidence, reconciled legal versions and the required specialist review.":
+            - cell "Can we give a complete legal answer?"
+            - cell "Applicable, complete and current evidence, reconciled legal versions and the required specialist review."
+      - paragraph: Passing the first test does not pass the other two. All 40 staff-question occurrences must remain in the replay, including insufficient results. No answer-model comparison or optional automated defect detector is needed to inspect the cases.
+      - heading "Reproduce the review data" [level=2]
+      - 'link "Permalink: Reproduce the review data"':
+        - /url: "#reproduce-the-review-data"
+      - paragraph: "From the DWP repository, using its locked environment:"
+      - text: uv sync --locked uv run --locked python scripts/build_passage_boundary_review.py uv run --locked python scripts/build_passage_boundary_review.py --check uv run --locked python -m unittest discover -s scripts -p 'test_passage_boundary_review.py' uv run --locked python -m unittest discover -s scripts -p 'test_passage_boundary*.py' uv run --locked python scripts/build_passage_boundary_units.py --profile passage-boundary-v1 uv run --locked python scripts/build_passage_boundary_units.py --profile passage-boundary-v1 --check uv run --locked python scripts/compare_passage_boundary_replay.py --candidate-root evaluation/passage-boundary-candidate/replay-projection --check
+      - button "Copy code to clipboard"
+      - paragraph: The producer checks the original PDF, extracted text, baseline passages and proposed spans before generating the review projection. It does not rewrite frozen sources or earlier evidence packages.
+      - paragraph:
+        - text: The successor parser is explicitly selected by
+        - code: passage-boundary-v1
+        - text: . Its output lives under
+        - code: evaluation/passage-boundary-candidate/structured-units/
+        - text: . The original
+        - code: scripts/build_structured_units.py --check
+        - text: still checks the frozen baseline. This makes the before/after comparison repeatable.
+      - paragraph:
+        - text: The
+        - link "versioned replay protocol":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/domain-profile/passage-boundary-review/replay-protocol.json
+        - text: explains how to regenerate the candidate in a disposable checkout. It substitutes only the explicitly identified parser and navigation module, checks their hashes and the resulting structural catalogue, and retains the exact 40 packages. Normal surplus-output guards stay enabled. The scratch rerun initially found an unrelated
+        - code: .DS_Store
+        - text: and older generated projection files; those were moved aside only in the disposable copy before the unchanged producer passed.
+      - paragraph: The offline comparison above validates the retained receipt, exact packages, questions, source and implementation identities. It does not rerun an AI or change the normal published evidence selection.
+      - paragraph:
+        - text: See the
+        - link "40-question workbench guide":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/evidence-workbench.md
+        - text: ","
+        - link "authored delivery register":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/backlog.json
+        - text: and
+        - link "generated work-package status":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/backlog-work-packages.md
+        - text: .
+- alert

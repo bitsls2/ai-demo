@@ -1,0 +1,92 @@
+- banner:
+  - paragraph:
+    - link "← Evidence workbench":
+      - /url: ../evidence/
+    - text: ·
+    - link "Browse a reading-help corpus":
+      - /url: corpus/
+  - heading "Reading help" [level=1]
+  - paragraph: Read the source wording, then select an underlined term or reference for help. This independent demonstration does not give official guidance or individual advice.
+- text: Reading-help manifest URL
+- textbox "Reading-help manifest URL":
+  - /placeholder: https://…/reading-help-ch60.json
+  - text: https://raw.githubusercontent.com/chris-page-gov/okf-dwp/2ad33add6d8660fec98bf34fb98480a9d0de9e27/reading-help-ch60-law.json
+- button "Load"
+- paragraph: Frozen DMG Chapter 60, paragraphs 60025 and 60033 only. Explanations are project-authored and unreviewed.
+- navigation "Source passages":
+  - heading "Source passages" [level=2]
+  - list:
+    - listitem:
+      - button "DMG 60025"
+    - listitem:
+      - button "DMG 60033"
+- main:
+  - heading "DMG 60025" [level=2]
+  - paragraph: This is the frozen machine extraction. Its wording and page boundaries are unchanged. Select an underlined occurrence to read help beside it.
+  - region "Source page 3":
+    - heading "Source PDF page 3" [level=3]
+    - paragraph:
+      - link "Open the source PDF at page 3":
+        - /url: https://assets.publishing.service.gov.uk/media/69e0fdcbb5e95ca5017ed9da/dmg-Chap-60.pdf#page=3
+    - text: Introduction 60025 [See DMG memo 12/23] [See DMG memo 12-25] The conditions for entitlement are that the claimant 1. is engaged in caring for a severely disabled person for any day
+    - 'button "Source reference: 1. Read help"': "1"
+    - text: (see DMG 60035 - 60042) and 2. is regularly and substantially engaged in caring for that person
+    - 'button "Source reference: 2. Read help"': "2"
+    - text: (see DMG 60035 - 60042) and 3. is not gainfully employed
+    - 'button "Source reference: 3. Read help"': "3"
+    - text: (see DMG 60051 - 60052) and 4. is aged 16 or over
+    - 'button "Source reference: 4. Read help"': "4"
+    - text: (see DMG 60058) and 5. is not in
+    - 'button "Abbreviation: FTE. Read help"': FTE
+    - 'button "Source reference: 5. Read help"': "5"
+    - text: (see DMG 60068 - 60081) and 6. satisfies
+    - 'button "Reading explanation: prescribed. Read help"': prescribed
+    - text: conditions of residence or presence in
+    - 'button "Abbreviation: GB. Read help"': GB
+    - 'button "Source reference: 6. Read help"': "6"
+    - text: (see DMG Chapter 07 Part 2).
+    - group: Source text identity
+  - region "Source page 4":
+    - heading "Source PDF page 4" [level=3]
+    - paragraph:
+      - link "Open the source PDF at page 4":
+        - /url: https://assets.publishing.service.gov.uk/media/69e0fdcbb5e95ca5017ed9da/dmg-Chap-60.pdf#page=4
+    - text: "Note 1: The claimant does not have to be related to the severely disabled person"
+    - 'button "Source reference: 7. Read help"': "7"
+    - text: ". Note 2:"
+    - 'button "Manual reference: See DMG 60033. Read help"': See DMG 60033
+    - text: for the meaning of severely disabled person.
+    - 'button "Source reference: 1 SS CB Act 92, s 70(1). Read help"': 1 SS CB Act 92, s 70(1)
+    - text: ;
+    - 'button "Source reference: 2 s 70(1)(a). Read help"': 2 s 70(1)(a)
+    - text: ;
+    - 'button "Source reference: 3 s 70(1)(b). Read help"': 3 s 70(1)(b)
+    - text: ;
+    - 'button "Source reference: 4 s 70(3). Read help"': 4 s 70(3)
+    - text: ;
+    - 'button "Source reference: 5 s 70(3). Read help" [expanded]': 5 s 70(3)
+    - text: ;
+    - 'button "Source reference: 6 s 70(4). Read help"': 6 s 70(4)
+    - text: ;
+    - 'button "Source reference: 7 SS (ICA) Regs, reg 6. Read help"': 7 SS (ICA) Regs, reg 6
+    - group: Source text identity
+  - heading "Reading help" [level=3]
+  - paragraph:
+    - strong: 5 s 70(3)
+    - text: · Source reference · source PDF page 4
+  - button "Close reading help"
+  - article:
+    - paragraph: Source reference
+    - heading "Source marker 5" [level=4]
+    - paragraph: The raised 5 after FTE refers to local reference 5, ‘s 70(3)’. It is separate from condition 5 and the manual pointer to 60068 to 60081. The provision text is not included. The statute list gives the full title “Social Security Contributions and Benefits Act 1992”. Carrying the earlier printed title into this shortened reference is a proposed navigation normalisation. The separately captured provision contains this structural locator. This resolves navigation only; legal applicability and dependency completeness remain unreviewed.
+    - paragraph: Project reading help · unreviewed. The source quotations below are reproduced separately.
+    - paragraph: "Other occurrences for this reference:"
+    - list:
+      - listitem:
+        - 'button "Source reference on source PDF page 3: 5"'
+    - paragraph:
+      - 'link "Open dated official provision: section/70"':
+        - /url: https://www.legislation.gov.uk/ukpga/1992/4/section/70/2026-09-20#section-70-3
+    - group: Show exact source support
+- group: About these sources and limits
+- text: Reading help | OKF Explorer

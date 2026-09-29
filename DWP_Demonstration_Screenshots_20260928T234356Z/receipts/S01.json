@@ -1,0 +1,284 @@
+{
+  "id": "S01",
+  "title": "The source a beginner must read",
+  "priority": "main",
+  "presentation_act": "A — Reading guidance",
+  "entry_key": "corpus_ch60",
+  "entry_url": "https://chris-page-gov.github.io/okf-explorer/reading-help/corpus/?catalogue=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fcbada7bf544106bdceb2445fc379c8b3e5b73ee4%2Freading-help-corpus%2Fmanifest.json&catalogue_sha256=6c53b659b519aa4cbf7529e7e10eb4ad3bfe8efcac18055ec2a5ade724998b46&catalogue_bytes=260797&family=dmg&document=dmg-vol10-ch60&unit=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000002117-000-5fac0d6d5c5e",
+  "steps": [
+    "Resolve paragraph 60025 to its retained original Chapter 60 PDF and exact page through the manifest/source link.",
+    "Open that page in a real PDF viewer; frame the paragraph, abbreviations and footnote context together."
+  ],
+  "must_be_visible": [
+    "DMG Chapter 60 identity",
+    "60025 and surrounding qualification/reference context",
+    "PDF page locator"
+  ],
+  "permitted_claim": "This is the source material to be understood, before adding reading assistance.",
+  "does_not_establish": "Not an example of AI failure, nor evidence that every reader finds the material difficult.",
+  "fallback": "Use the exact retained PDF in a local viewer, clearly labelled frozen source; never recreate the source as invented HTML.",
+  "repository_evidence": [
+    "docs/reading-help-demo-2026-09-30.md",
+    "docs/reading-help-ch60.md"
+  ],
+  "planned_frames": [
+    "S01"
+  ],
+  "capture_status": "not-run",
+  "actual_url": "https://assets.publishing.service.gov.uk/media/69e0fdcbb5e95ca5017ed9da/dmg-Chap-60.pdf#page=3",
+  "actual_source_commit": null,
+  "actual_explorer_identity": null,
+  "captured_at": "2026-09-28T22:24:55.280Z",
+  "receipt_path": null,
+  "output_files": [],
+  "status": "captured",
+  "classification": "human inspection of retained original PDF",
+  "timezone": "Europe/London",
+  "dwp_checkout_commit": "77ef16047415ee48dcb93b80adf1ba057ea00d9b",
+  "explorer_identity": {
+    "url": "https://chris-page-gov.github.io/okf-explorer/okf-publication-identity.json",
+    "path": "receipts/explorer-public-identity.json",
+    "bytes": 1138,
+    "sha256": "d75aa3ad0e4fdcdd06db673f39d996ac346ad1646a629fdafcdfabd926d7e4bc",
+    "hash_verified": false,
+    "declared": {
+      "commit": "b633038c6173f1405199df9f08e8d8aa2ff51c0b",
+      "materials": [
+        {
+          "bytes": 33186,
+          "path": "okf.publication.json",
+          "sha256": "331c021c3a9104c26f00205d88fe42fae382908f2b38183e7649ad812b0fde0d"
+        },
+        {
+          "bytes": 33428,
+          "path": "okf-estate-registry.json",
+          "sha256": "fa9de8396731206a0005b0c4acf6de4e2403dce6cf94a267ed6203ad8936e742"
+        },
+        {
+          "bytes": 8937,
+          "path": "okf-registry.json",
+          "sha256": "27018c67a14af9a943a74ba65a174010fc6f0e2133c2e6871eb2b10f19602909"
+        },
+        {
+          "bytes": 29614,
+          "path": "registry/estate/index.html",
+          "sha256": "d020c468132daf155945fe80c5d6b40c2e72e7b7bc0c37cca7ec931a5d7677d4"
+        }
+      ],
+      "publication_boundary": "This identity is authoritative only when the Site candidate was assembled from a clean checkout of this commit and promoted without rebuild.",
+      "repository": {
+        "lifecycle": "active",
+        "name": "okf-explorer",
+        "role": "profile-and-consumer",
+        "root_index": "index.md",
+        "url": "https://github.com/chris-page-gov/okf-explorer"
+      },
+      "schema": "okf-publication-deployment-identity.v1"
+    }
+  },
+  "browser": {
+    "version": "154.0.8037.57",
+    "channel": "chrome",
+    "headless": true,
+    "viewport_css": {
+      "width": 1920,
+      "height": 1080
+    },
+    "device_scale_factor": 2,
+    "zoom": 1,
+    "locale": "en-GB",
+    "timezone": "Europe/London",
+    "clean_public_context": true
+  },
+  "actions": [
+    {
+      "action": "render exact retained PDF",
+      "renderer": "pdftoppm",
+      "dpi": 200,
+      "pages": [
+        3,
+        4
+      ]
+    }
+  ],
+  "assertions": [
+    {
+      "retained_pdf_hash_verified": true,
+      "visual_review": "pending"
+    }
+  ],
+  "errors": [],
+  "frames": [
+    {
+      "id": "S01-p3",
+      "label": "Original Chapter 60 · PDF page 3",
+      "caption": "Original source typography, conditions and notes — before reading assistance.",
+      "source_label": "Retained PDF · SHA-256 ab9fed933c16… · page 3 · source unchanged",
+      "actual_url": "https://assets.publishing.service.gov.uk/media/69e0fdcbb5e95ca5017ed9da/dmg-Chap-60.pdf#page=3",
+      "captured_at": "2026-09-28T22:24:54.956Z",
+      "css_width": 1654,
+      "raw": {
+        "path": "raw/S01-p3.png",
+        "bytes": 279447,
+        "sha256": "fc6fa8017e8fda02db464002d03418f1d93e1a377e8a847f4cca955c3a3c90af",
+        "pixels": {
+          "width": 1654,
+          "height": 2339
+        }
+      },
+      "pdf_page": 3,
+      "derivative": {
+        "path": "slide-ready/S01-p3.png",
+        "bytes": 143352,
+        "sha256": "fb9ed6645b6bc67fce95d6c170afcadb2777060f79b4a8e8e1abdb6182fea510",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "annotation_layer": "slide-ready/S01-p3.html",
+      "crop": {
+        "raw_pixels": {
+          "x": 0,
+          "y": 0,
+          "width": 1654,
+          "height": 2339
+        },
+        "fit_scale": 0.3719538264215477,
+        "method": "Uniform scale and letterbox; separate caption strip. Substantive pixels unedited."
+      }
+    },
+    {
+      "id": "S01-p4",
+      "label": "Original Chapter 60 · PDF page 4",
+      "caption": "Original source typography, conditions and notes — before reading assistance.",
+      "source_label": "Retained PDF · SHA-256 ab9fed933c16… · page 4 · source unchanged",
+      "actual_url": "https://assets.publishing.service.gov.uk/media/69e0fdcbb5e95ca5017ed9da/dmg-Chap-60.pdf#page=4",
+      "captured_at": "2026-09-28T22:24:55.280Z",
+      "css_width": 1654,
+      "raw": {
+        "path": "raw/S01-p4.png",
+        "bytes": 334664,
+        "sha256": "a33f7d83d5f013d26f18e3597ce99b7eecb9d807c69be5ce6b7fc50d370eeb05",
+        "pixels": {
+          "width": 1654,
+          "height": 2339
+        }
+      },
+      "pdf_page": 4,
+      "derivative": {
+        "path": "slide-ready/S01-p4.png",
+        "bytes": 163863,
+        "sha256": "7d3d596cfb5e9abe11c6e54cb90609d140af3901bbb50dd0dc05c44d5162d2fb",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "annotation_layer": "slide-ready/S01-p4.html",
+      "crop": {
+        "raw_pixels": {
+          "x": 0,
+          "y": 0,
+          "width": 1654,
+          "height": 2339
+        },
+        "fit_scale": 0.3719538264215477,
+        "method": "Uniform scale and letterbox; separate caption strip. Substantive pixels unedited."
+      }
+    },
+    {
+      "id": "S01-conditions",
+      "label": "Original 60025 · all six conditions",
+      "caption": "Actual PDF crop, page 3. Read with the notes and printed references on page 4.",
+      "source_label": "Enlarged crop of raw/S01-p3.png · complete context and provenance retained",
+      "actual_url": "https://assets.publishing.service.gov.uk/media/69e0fdcbb5e95ca5017ed9da/dmg-Chap-60.pdf#page=3",
+      "captured_at": "2026-09-28T22:24:54.956Z",
+      "css_width": 1654,
+      "raw": {
+        "path": "raw/S01-p3.png",
+        "bytes": 279447,
+        "sha256": "fc6fa8017e8fda02db464002d03418f1d93e1a377e8a847f4cca955c3a3c90af",
+        "pixels": {
+          "width": 1654,
+          "height": 2339
+        }
+      },
+      "pdf_page": 3,
+      "annotation_layer": "slide-ready/S01-conditions.html",
+      "derived_from_frame": "S01-p3",
+      "derivative": {
+        "path": "slide-ready/S01-conditions.png",
+        "bytes": 223045,
+        "sha256": "1ff167a0ea9d0b5fcea3a57313f9a220adde3d6228d5ec7097c338aacf2ca603",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "crop": {
+        "raw_pixels": {
+          "x": 0,
+          "y": 1390,
+          "width": 1654,
+          "height": 820
+        },
+        "fit_scale": 1.0609756097560976,
+        "method": "Uniform scale and letterbox; separate caption strip. Substantive pixels unedited."
+      }
+    },
+    {
+      "id": "S01-notes",
+      "label": "Original 60025 · notes and reference row",
+      "caption": "Actual PDF crop, page 4. No substantive text has been changed.",
+      "source_label": "Enlarged crop of raw/S01-p4.png · complete context and provenance retained",
+      "actual_url": "https://assets.publishing.service.gov.uk/media/69e0fdcbb5e95ca5017ed9da/dmg-Chap-60.pdf#page=4",
+      "captured_at": "2026-09-28T22:24:55.280Z",
+      "css_width": 1654,
+      "raw": {
+        "path": "raw/S01-p4.png",
+        "bytes": 334664,
+        "sha256": "a33f7d83d5f013d26f18e3597ce99b7eecb9d807c69be5ce6b7fc50d370eeb05",
+        "pixels": {
+          "width": 1654,
+          "height": 2339
+        }
+      },
+      "pdf_page": 4,
+      "annotation_layer": "slide-ready/S01-notes.html",
+      "derived_from_frame": "S01-p4",
+      "derivative": {
+        "path": "slide-ready/S01-notes.png",
+        "bytes": 125709,
+        "sha256": "76ba3d6a2818790e2ef081c46cbe73d10d38b48c5f55dabcc3674274b76cf2b4",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "crop": {
+        "raw_pixels": {
+          "x": 0,
+          "y": 40,
+          "width": 1654,
+          "height": 300
+        },
+        "fit_scale": 1.1027811366384523,
+        "method": "Uniform scale and letterbox; separate caption strip. Substantive pixels unedited."
+      }
+    }
+  ],
+  "identities": [
+    {
+      "local_path": "/Users/crpage/repos/okf-dwp/source/full-dmg-2026-09-15/pdf/dmg-vol10-ch60.pdf",
+      "sha256": "ab9fed933c167b4ac18039204c3853c425731ffb4239022a11b41884caaee22a",
+      "bytes": 148286,
+      "verified_against": "Bound reading-help source / UC case record"
+    }
+  ],
+  "redactions": [],
+  "data_bindings": [],
+  "observed_application_assets": [],
+  "source_commits": [],
+  "actual_evidence_status": "not applicable: original retained PDF, not an assembled answer"
+}

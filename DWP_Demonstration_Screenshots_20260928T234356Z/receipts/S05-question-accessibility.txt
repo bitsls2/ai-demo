@@ -1,0 +1,217 @@
+- link "Skip to content":
+  - /url: "#start-of-content"
+- banner:
+  - heading "Navigation Menu" [level=2]
+  - link "Homepage":
+    - /url: /
+  - navigation "Global":
+    - list:
+      - listitem:
+        - button "Platform"
+      - listitem:
+        - button "Solutions"
+      - listitem:
+        - button "Resources"
+      - listitem:
+        - button "Open Source"
+      - listitem:
+        - button "Enterprise"
+      - listitem:
+        - link "Pricing":
+          - /url: https://github.com/pricing
+  - button "Search or jump to, type / to search": Search
+  - link "Sign in":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fbitsls2%2Fai-demo%2Fblob%2F301f1cce6b82e82233a1a801f941ebe143fc6249%2Fpresentation-structure.md
+  - link "Sign up":
+    - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=bitsls2%2Fai-demo
+  - button "Appearance settings"
+- main:
+  - link "bitsls2":
+    - /url: /bitsls2
+  - text: /
+  - strong:
+    - link "ai-demo":
+      - /url: /bitsls2/ai-demo
+  - text: Public
+  - list:
+    - listitem:
+      - link "You must be signed in to change notification settings":
+        - /url: /login?return_to=%2Fbitsls2%2Fai-demo
+        - text: Notifications
+    - listitem:
+      - link "Fork 0":
+        - /url: /login?return_to=%2Fbitsls2%2Fai-demo
+    - listitem:
+      - link "You must be signed in to star a repository":
+        - /url: /login?return_to=%2Fbitsls2%2Fai-demo
+        - text: Star 0
+  - navigation "Repository":
+    - list:
+      - listitem:
+        - link "Code":
+          - /url: /bitsls2/ai-demo
+      - listitem:
+        - link "Issues":
+          - /url: /bitsls2/ai-demo/issues
+      - listitem:
+        - link "Pull requests":
+          - /url: /bitsls2/ai-demo/pulls
+      - listitem:
+        - link "Actions":
+          - /url: /bitsls2/ai-demo/actions
+      - listitem:
+        - link "Projects":
+          - /url: /bitsls2/ai-demo/projects
+      - listitem:
+        - link "Security and quality":
+          - /url: /bitsls2/ai-demo/security
+      - listitem:
+        - link "Insights":
+          - /url: /bitsls2/ai-demo/pulse
+  - heading "Collapse file tree" [level=2]:
+    - button "Collapse file tree" [expanded]
+  - heading "Files" [level=2]
+  - link "View file on default branch":
+    - /url: /bitsls2/ai-demo/blob/main/presentation-structure.md
+  - button "301f1cc branch": 301f1cc
+  - button "Search this repository (forward slash)"
+  - combobox "Go to file"
+  - navigation "File Tree Navigation":
+    - tree "Files":
+      - treeitem "README.md" [level=1]
+      - treeitem "demo-1-notes.md" [level=1]
+      - treeitem "demo-1-overview.md" [level=1]
+      - treeitem "demo-2-overview.md" [level=1]
+      - treeitem "presentation-structure.md" [level=1]
+  - slider "Draggable pane splitter"
+  - navigation "Breadcrumbs":
+    - heading "Breadcrumbs" [level=2]
+    - list:
+      - listitem:
+        - link "ai-demo":
+          - /url: /bitsls2/ai-demo/tree/301f1cce6b82e82233a1a801f941ebe143fc6249
+  - heading "presentation-structure.md" [level=1]
+  - button "Copy path"
+  - button "More file actions"
+  - heading "Latest commit" [level=2]
+  - link "bitsls2":
+    - /url: /bitsls2
+    - img "bitsls2"
+  - link "commits by bitsls2":
+    - /url: /bitsls2/ai-demo/commits?author=bitsls2
+    - text: bitsls2
+  - link "presentation structure":
+    - /url: /bitsls2/ai-demo/commit/301f1cce6b82e82233a1a801f941ebe143fc6249
+  - link "Commit 301f1cc":
+    - /url: /bitsls2/ai-demo/commit/301f1cce6b82e82233a1a801f941ebe143fc6249
+    - text: 301f1cc
+  - text: · Sep 28, 20266 hours ago
+  - heading "History" [level=2]
+  - link "History":
+    - /url: /bitsls2/ai-demo/commits/301f1cce6b82e82233a1a801f941ebe143fc6249/presentation-structure.md
+  - heading "File metadata and controls" [level=2]
+  - list "File view":
+    - listitem:
+      - button "Preview" [pressed]
+    - listitem:
+      - button "Code"
+    - listitem:
+      - button "Blame"
+  - text: 91 lines (56 loc) · 3.99 KB
+  - link "Raw":
+    - /url: https://github.com/bitsls2/ai-demo/raw/301f1cce6b82e82233a1a801f941ebe143fc6249/presentation-structure.md
+  - button "Copy raw file"
+  - button "Download raw file"
+  - button "Outline"
+  - region "presentation-structure.md":
+    - article:
+      - heading "PresePresentation structure" [level=1]
+      - 'link "Permalink: PresePresentation structure"':
+        - /url: "#presepresentation-structure"
+      - paragraph: Timings
+      - list:
+        - listitem: 5 mins - Introduction
+        - listitem: 30 mins - Technology & Demo
+        - listitem: 10 mins - Questions
+      - heading "Approach - Ideas for Incorporating Aristotle’s Rhetorical Triangle :)" [level=4]
+      - 'link "Permalink: Approach - Ideas for Incorporating Aristotle’s Rhetorical Triangle :)"':
+        - /url: "#approach---ideas-for-incorporating-aristotles-rhetorical-triangle-"
+      - paragraph:
+        - strong: ethos
+        - text: "- Chris history & present - OpenAI blue team etc."
+        - strong: pathos
+        - text: "- Life is messy. We all have complicated lives. For the most part we can be resilient to change, However sometimes we need a safety net (Health, income, home, relationships ). In theory we have the welfare state to provide a safety net for people. However live is messy, it is hard to have clear legislation and guidance to reflect this. The DWP decision Makers guide is a perfect example of efforts to provide guidance for our complicated lives. Can AI be used to make sense of this."
+        - strong: logos
+        - text: "- The experiments/demos, the problem the technology, the how & the results."
+      - heading "Working Title - From Horizon Scanning to Horizon Walking" [level=2]
+      - 'link "Permalink: Working Title - From Horizon Scanning to Horizon Walking"':
+        - /url: "#working-title---from-horizon-scanning-to-horizon-walking"
+      - paragraph: I (Nick) have been horizon scanning but Chris has been horizon walking.
+      - heading "Ideas & Structure" [level=2]
+      - 'link "Permalink: Ideas & Structure"':
+        - /url: "#ideas--structure"
+      - list:
+        - listitem:
+          - paragraph: Context
+          - list:
+            - listitem: DSIT AI Engineer lab - What is it about ? What did it involve?
+            - listitem: How I met Chris at the AI Champions day (June) cross government meet up.
+            - listitem: A bit about Chris - History , his role & interests
+        - listitem:
+          - paragraph: The demo
+          - list:
+            - listitem: Why we decided on a demo. Making it relevant to the DWP. We also wanted to allow time for questions.
+            - listitem: The three demo ideas & two technologies. OKF and webMCP.
+            - listitem: Demo restriction - only using information that is publicly available.
+      - heading "Demo Context" [level=2]
+      - 'link "Permalink: Demo Context"':
+        - /url: "#demo-context"
+      - paragraph: The Welfare Benefits in the UK are supposed to provide a safety net for UK citizens.
+      - paragraph: Legislation is draft in parliament and the DWP interpret legislation and turn it into policy and guidance. DWP Decision Makers guidance is used to show that decision makers can responsibly act on behalf of the secretary of state.
+      - paragraph: It's a corpus of information to explicitly tell us how to operate benefits.
+      - paragraph: What I think makes this demo interesting is it's not about using AI at the coding level. It's about how decision makers apply the guidance to implement benefits. It's how business analysts explore what the business does.
+      - paragraph: How do we make a corpus of knowledge AI agent friendly?
+      - paragraph: What is Open Knowledge formation? What problem is it trying to solve?
+      - paragraph: What is MCP? What is webMCP ? how is it different from MCP? What problem is it trying to solve? How might it be used in the future? How could it be applied to the DWP? (Applying for a benefit, reporting a change of circumstance, find out about my benefits & payments)
+      - heading "The demo/ The experiment" [level=2]
+      - 'link "Permalink: The demo/ The experiment"':
+        - /url: "#the-demo-the-experiment"
+      - heading "The Problem" [level=3]
+      - 'link "Permalink: The Problem"':
+        - /url: "#the-problem"
+      - paragraph: Context of the problem to solve. The size and complexity of the problem.
+      - heading "The Processs" [level=3]
+      - 'link "Permalink: The Processs"':
+        - /url: "#the-processs"
+      - paragraph: The process of how the corpus was created.
+      - heading "The Theory (existing slide)" [level=4]
+      - 'link "Permalink: The Theory (existing slide)"':
+        - /url: "#the-theory-existing-slide"
+      - paragraph: The governed AI stack -6 layers
+      - paragraph: "OKF-MCP: trust meets execution"
+      - heading "The Evaluation" [level=3]
+      - 'link "Permalink: The Evaluation"':
+        - /url: "#the-evaluation"
+      - paragraph: The evaluation process.
+      - paragraph: Zoom in on an example (Late reporting or Supersession).
+      - paragraph: "Question 1. Ask OKF: where a child is awarded the highest-rate care component of DLA from 26 January 2025, but the change is reported to Universal Credit on 28 March 2026, what's the effective date of the higher disabled-child addition, and from which assessment period should it be paid?"
+      - paragraph: Answer 1.
+      - paragraph:
+        - text: Reference
+        - link "ADM A4":
+          - /url: https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf
+      - paragraph:
+        - emphasis: UC and award of other benefits A4361 In the case of UC where the claimant or a member of their family becomes entitled to another relevant benefit, ceases to be entitled or the rate of another such benefit alters then the superseding decision takes effect1 from the first day of the assessment period in which entitlement to the other benefit or an alteration in its rate arises or entitlement ends. 1 SS Act 98, s 8(3); DAWAP(S)Regs, reg 2; DACYP (S)Regs, reg 2; UC, PIP, JSA & ESA (D&A) Regs, Sch 1, Part 4, para 31(1) & 31(2)(a)
+      - heading "Demo" [level=3]
+      - 'link "Permalink: Demo"':
+        - /url: "#demo"
+      - list:
+        - listitem: Using Voice to ask a question ?
+        - listitem: Where to find the demo (QR Code to instructions?).
+        - listitem: How people could use the lab OKF to ask a question ?
+        - listitem: How people could use webMCP (dev mode)?
+      - heading "Questions" [level=3]
+      - 'link "Permalink: Questions"':
+        - /url: "#questions"
+      - paragraph: Ask the audience if they have any questions?
+- alert

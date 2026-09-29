@@ -1,0 +1,33 @@
+{
+  "observed_at": "2026-09-29T00:08:30.635Z",
+  "source_package": "receipts/S07-fresh-package-r1.json",
+  "context_id": "urn:sha256:bd0b9f7af358d61ec5e9d47009cadd1e04e76c47740fc901b08acd94a42ace28",
+  "u07": "https://chris-page-gov.github.io/okf-dwp/id/unit/zz-evidence-connect/pc-capital-u07",
+  "dmg_84861": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000200424-000-606242ace072",
+  "directed_relationship": {
+    "assertion_status": "model-derived",
+    "authority": {
+      "class": "model-assisted",
+      "label": "Unreviewed source navigation proposal",
+      "source": "https://github.com/chris-page-gov/okf-dwp/blob/main/domain-profile/evidence-connect/profile.json"
+    },
+    "id": "https://chris-page-gov.github.io/okf-dwp/id/assertion/evidence-connect/6ae33fbe71c85090116e97ba5ae02c0ef987720a683a1fc49d8f03d7122441b9",
+    "label": "Captured source entry: DMG 84861 et seq",
+    "predicate": "http://purl.org/dc/terms/references",
+    "provenance": [
+      {
+        "captured_at": "2026-09-15T14:21:02Z",
+        "literal_sha256": "74f363f1c2a2af1f32b905619d6689d30a21ac98da9058c21fe0952df2c8b3ec",
+        "locator": "PDF page 110",
+        "source_sha256": "f5c610b29bdb81e11736409b7f33ccf7917a4d8945f2821802801073e0d753ee",
+        "url": "https://assets.publishing.service.gov.uk/media/6a5e38bb8b7e4fa537e693d5/dmg-ch84.pdf#page=110"
+      }
+    ],
+    "scope": "Navigation to captured source only; legal effect and applicability unreviewed.",
+    "source": "https://chris-page-gov.github.io/okf-dwp/id/unit/zz-evidence-connect/pc-capital-u07",
+    "target": "https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol14-ch84/manual-structure-v1/source-0000200424-000-606242ace072"
+  },
+  "evidence_status": "insufficient",
+  "truncated": true,
+  "not_an_ai_answer": true
+}

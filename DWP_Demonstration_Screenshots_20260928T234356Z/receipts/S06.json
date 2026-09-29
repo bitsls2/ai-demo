@@ -1,0 +1,327 @@
+{
+  "id": "S06",
+  "title": "Inspect the effective-date branch in its source",
+  "priority": "main",
+  "presentation_act": "B — Investigating evidence",
+  "entry_key": "adm_a4_36",
+  "entry_url": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=36",
+  "steps": [
+    "Use the exact retained ADM A4 PDF and inspect page 36, A4361, including heading and qualifications.",
+    "Capture companion page 34, A4352, if necessary to show the exception pointer.",
+    "Compare any live PDF with the frozen version before identifying the two as the same source."
+  ],
+  "must_be_visible": [
+    "ADM A4",
+    "A4361",
+    "PDF page 36",
+    "complete relevant paragraph and context",
+    "source edition/capture distinction in notes"
+  ],
+  "permitted_claim": "A reviewer can inspect the branch that was missing from the retained retrieval.",
+  "does_not_establish": "This is not proof that the system selected it; assessment-period boundaries and full legal/factual applicability remain unverified.",
+  "fallback": "Render the exact local retained PDF without OCR or recreated text; keep page 34 as a companion, not a spliced synthetic page.",
+  "repository_evidence": [
+    "docs/uc-disabled-child-supersession-follow-up.md"
+  ],
+  "planned_frames": [
+    "S06a",
+    "S06b"
+  ],
+  "capture_status": "not-run",
+  "actual_url": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=36",
+  "actual_source_commit": null,
+  "actual_explorer_identity": null,
+  "captured_at": "2026-09-28T22:25:02.485Z",
+  "receipt_path": null,
+  "output_files": [],
+  "status": "captured",
+  "classification": "human inspection of retained original PDF",
+  "timezone": "Europe/London",
+  "dwp_checkout_commit": "77ef16047415ee48dcb93b80adf1ba057ea00d9b",
+  "explorer_identity": {
+    "url": "https://chris-page-gov.github.io/okf-explorer/okf-publication-identity.json",
+    "path": "receipts/explorer-public-identity.json",
+    "bytes": 1138,
+    "sha256": "d75aa3ad0e4fdcdd06db673f39d996ac346ad1646a629fdafcdfabd926d7e4bc",
+    "hash_verified": false,
+    "declared": {
+      "commit": "b633038c6173f1405199df9f08e8d8aa2ff51c0b",
+      "materials": [
+        {
+          "bytes": 33186,
+          "path": "okf.publication.json",
+          "sha256": "331c021c3a9104c26f00205d88fe42fae382908f2b38183e7649ad812b0fde0d"
+        },
+        {
+          "bytes": 33428,
+          "path": "okf-estate-registry.json",
+          "sha256": "fa9de8396731206a0005b0c4acf6de4e2403dce6cf94a267ed6203ad8936e742"
+        },
+        {
+          "bytes": 8937,
+          "path": "okf-registry.json",
+          "sha256": "27018c67a14af9a943a74ba65a174010fc6f0e2133c2e6871eb2b10f19602909"
+        },
+        {
+          "bytes": 29614,
+          "path": "registry/estate/index.html",
+          "sha256": "d020c468132daf155945fe80c5d6b40c2e72e7b7bc0c37cca7ec931a5d7677d4"
+        }
+      ],
+      "publication_boundary": "This identity is authoritative only when the Site candidate was assembled from a clean checkout of this commit and promoted without rebuild.",
+      "repository": {
+        "lifecycle": "active",
+        "name": "okf-explorer",
+        "role": "profile-and-consumer",
+        "root_index": "index.md",
+        "url": "https://github.com/chris-page-gov/okf-explorer"
+      },
+      "schema": "okf-publication-deployment-identity.v1"
+    }
+  },
+  "browser": {
+    "version": "154.0.8037.57",
+    "channel": "chrome",
+    "headless": true,
+    "viewport_css": {
+      "width": 1920,
+      "height": 1080
+    },
+    "device_scale_factor": 2,
+    "zoom": 1,
+    "locale": "en-GB",
+    "timezone": "Europe/London",
+    "clean_public_context": true
+  },
+  "actions": [
+    {
+      "action": "render exact retained PDF",
+      "renderer": "pdftoppm",
+      "dpi": 200,
+      "pages": [
+        36,
+        37,
+        34
+      ]
+    }
+  ],
+  "assertions": [
+    {
+      "retained_pdf_hash_verified": true,
+      "visual_review": "pending"
+    }
+  ],
+  "errors": [],
+  "frames": [
+    {
+      "id": "S06-p36",
+      "label": "Retained ADM A4 · A4361 · PDF page 36",
+      "caption": "Separate source inspection: this was not selected by the historical UC retrieval. No award decision.",
+      "source_label": "Retained PDF · SHA-256 4933d66a1cd1… · page 36 · source unchanged",
+      "actual_url": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=36",
+      "captured_at": "2026-09-28T22:25:01.882Z",
+      "css_width": 1654,
+      "raw": {
+        "path": "raw/S06-p36.png",
+        "bytes": 429784,
+        "sha256": "c2cba838473a83ad6c24de3821c5fe7bbda576a36b9d71ff8c9d05bfcd282ad2",
+        "pixels": {
+          "width": 1654,
+          "height": 2339
+        }
+      },
+      "pdf_page": 36,
+      "derivative": {
+        "path": "slide-ready/S06-p36.png",
+        "bytes": 208997,
+        "sha256": "e9a2ebe8ec13d1ce0e1eb12572af9dc424a75c8e8227f71ed89eceec9e0e408c",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "annotation_layer": "slide-ready/S06-p36.html",
+      "crop": {
+        "raw_pixels": {
+          "x": 0,
+          "y": 0,
+          "width": 1654,
+          "height": 2339
+        },
+        "fit_scale": 0.3719538264215477,
+        "method": "Uniform scale and letterbox; separate caption strip. Substantive pixels unedited."
+      }
+    },
+    {
+      "id": "S06-p37",
+      "label": "Retained ADM A4 · A4361 continuation · PDF page 37",
+      "caption": "Separate source inspection: this was not selected by the historical UC retrieval. No award decision.",
+      "source_label": "Retained PDF · SHA-256 4933d66a1cd1… · page 37 · source unchanged",
+      "actual_url": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=37",
+      "captured_at": "2026-09-28T22:25:02.154Z",
+      "css_width": 1654,
+      "raw": {
+        "path": "raw/S06-p37.png",
+        "bytes": 234174,
+        "sha256": "330a093166859162220196918257f3fab187c39992fbc12692edd52539d7081d",
+        "pixels": {
+          "width": 1654,
+          "height": 2339
+        }
+      },
+      "pdf_page": 37,
+      "derivative": {
+        "path": "slide-ready/S06-p37.png",
+        "bytes": 129180,
+        "sha256": "f3f9964cd2541c4b083643278c147b8c36ed8125bd9a2598d21450e4a68b360e",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "annotation_layer": "slide-ready/S06-p37.html",
+      "crop": {
+        "raw_pixels": {
+          "x": 0,
+          "y": 0,
+          "width": 1654,
+          "height": 2339
+        },
+        "fit_scale": 0.3719538264215477,
+        "method": "Uniform scale and letterbox; separate caption strip. Substantive pixels unedited."
+      }
+    },
+    {
+      "id": "S06-p34",
+      "label": "Retained ADM A4 · A4352 · PDF page 34",
+      "caption": "Separate source inspection: this was not selected by the historical UC retrieval. No award decision.",
+      "source_label": "Retained PDF · SHA-256 4933d66a1cd1… · page 34 · source unchanged",
+      "actual_url": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=34",
+      "captured_at": "2026-09-28T22:25:02.485Z",
+      "css_width": 1654,
+      "raw": {
+        "path": "raw/S06-p34.png",
+        "bytes": 381830,
+        "sha256": "074ef150e90484bb28ecb721f967945e5e826a2f06e1cfa64389adab7bb5cb0b",
+        "pixels": {
+          "width": 1654,
+          "height": 2339
+        }
+      },
+      "pdf_page": 34,
+      "derivative": {
+        "path": "slide-ready/S06-p34.png",
+        "bytes": 192599,
+        "sha256": "2186d6935ef288a312aa01abae99782463e9e73028bd25dd36c9ffd751fb9231",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "annotation_layer": "slide-ready/S06-p34.html",
+      "crop": {
+        "raw_pixels": {
+          "x": 0,
+          "y": 0,
+          "width": 1654,
+          "height": 2339
+        },
+        "fit_scale": 0.3719538264215477,
+        "method": "Uniform scale and letterbox; separate caption strip. Substantive pixels unedited."
+      }
+    },
+    {
+      "id": "S06-A4361",
+      "label": "A4361 · the separate UC effective-date branch",
+      "caption": "Human inspection of retained ADM A4 page 36; historical retrieval did not select this branch.",
+      "source_label": "Enlarged crop of raw/S06-p36.png · complete context and provenance retained",
+      "actual_url": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=36",
+      "captured_at": "2026-09-28T22:25:01.882Z",
+      "css_width": 1654,
+      "raw": {
+        "path": "raw/S06-p36.png",
+        "bytes": 429784,
+        "sha256": "c2cba838473a83ad6c24de3821c5fe7bbda576a36b9d71ff8c9d05bfcd282ad2",
+        "pixels": {
+          "width": 1654,
+          "height": 2339
+        }
+      },
+      "pdf_page": 36,
+      "annotation_layer": "slide-ready/S06-A4361.html",
+      "derived_from_frame": "S06-p36",
+      "derivative": {
+        "path": "slide-ready/S06-A4361.png",
+        "bytes": 213232,
+        "sha256": "248945c27c5e3da47238c919a332c356cbfbc789d5859dc57ce432c4b1148c19",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "crop": {
+        "raw_pixels": {
+          "x": 0,
+          "y": 675,
+          "width": 1654,
+          "height": 480
+        },
+        "fit_scale": 1.1027811366384523,
+        "method": "Uniform scale and letterbox; separate caption strip. Substantive pixels unedited."
+      }
+    },
+    {
+      "id": "S06-A4352",
+      "label": "A4352 · ordinary late rule and explicit exception pointer",
+      "caption": "Retained ADM A4 page 34, including “but see A4360 - A4361”. No assessment-period dates are invented.",
+      "source_label": "Enlarged crop of raw/S06-p34.png · complete context and provenance retained",
+      "actual_url": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=34",
+      "captured_at": "2026-09-28T22:25:02.485Z",
+      "css_width": 1654,
+      "raw": {
+        "path": "raw/S06-p34.png",
+        "bytes": 381830,
+        "sha256": "074ef150e90484bb28ecb721f967945e5e826a2f06e1cfa64389adab7bb5cb0b",
+        "pixels": {
+          "width": 1654,
+          "height": 2339
+        }
+      },
+      "pdf_page": 34,
+      "annotation_layer": "slide-ready/S06-A4352.html",
+      "derived_from_frame": "S06-p34",
+      "derivative": {
+        "path": "slide-ready/S06-A4352.png",
+        "bytes": 265887,
+        "sha256": "c802b341e034d302543936a55b44e2d74c0e4ab76ac449b5fc8736d38ad4cbff",
+        "pixels": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "crop": {
+        "raw_pixels": {
+          "x": 0,
+          "y": 1250,
+          "width": 1654,
+          "height": 705
+        },
+        "fit_scale": 1.1027811366384523,
+        "method": "Uniform scale and letterbox; separate caption strip. Substantive pixels unedited."
+      }
+    }
+  ],
+  "identities": [
+    {
+      "local_path": "/Users/crpage/repos/okf-dwp/source/adm-2026-09-19/pdf/adm-chapter-a4.pdf",
+      "sha256": "4933d66a1cd118687bbc10e30faf9ee8214d09b3e465e58efdbd9b832a58a8e8",
+      "bytes": 479129,
+      "verified_against": "Bound reading-help source / UC case record"
+    }
+  ],
+  "redactions": [],
+  "data_bindings": [],
+  "observed_application_assets": [],
+  "source_commits": [],
+  "actual_evidence_status": "not applicable: original retained PDF, not an assembled answer"
+}

@@ -1,0 +1,428 @@
+- link "Skip to evidence":
+  - /url: "#evidence-main"
+- banner:
+  - link "← Explorer":
+    - /url: ../explore/
+  - heading "Evidence workbench" [level=1]
+  - paragraph: Trace a staff question back to source pages, passages and declared evidence needs.
+  - paragraph:
+    - link "Review passage boundaries →":
+      - /url: ./passages/
+    - text: ·
+    - link "Open reading help →":
+      - /url: ../reading-help/
+  - text: Review manifest URL
+  - textbox "Review manifest URL": https://raw.githubusercontent.com/chris-page-gov/okf-dwp/d31f16fb7143d04b9de73e14cd493cfb832ae83e/evaluation/evidence-workbench/tools-manifest.json
+  - button "Load"
+- status: Page tools are unavailable in this browser. The workbench remains available.
+- 'complementary "DWP staff evidence workbench: 40 frozen questions"':
+  - 'heading "DWP staff evidence workbench: 40 frozen questions" [level=2]'
+  - paragraph: 40 questions · Independent experimental DWP research across frozen DMG and ADM source snapshots
+  - text: Find a question
+  - searchbox "Find a question"
+  - navigation "Staff questions":
+    - 'link "staff-001: General What happens to your benefits if you go abroad?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-001&tab=source"
+    - 'link "staff-002: State Pension If your birthday is 30th May 1960, what is the first date you will be entitled to State Pension?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-002&tab=source"
+    - 'link "staff-003: State Pension How does State Pension interact with PIP?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-003&tab=source"
+    - 'link "staff-004: State Pension What are the components which make up State Pension and how do you qualify for them?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-004&tab=source"
+    - 'link "staff-005: State Pension What other benefits could you receive in addition to State Pension, and under what circumstances would you be entitled to them?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-005&tab=source"
+    - 'link "staff-006: Pension Credit What is the maximum you can have in savings to still qualify for Pension Credit?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&tab=source"
+    - 'link "staff-007: Pension Credit What were the Pension Credit weekly rates over the last five years?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-007&tab=source"
+    - 'link "staff-008: Pension Credit What was the SDA amount over the last five years?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-008&tab=source"
+    - 'link "staff-009: Pension Credit Besides SDA, what are the other additional payments which you can receive in addition to basic Pension Credit, and what have been their rates over the last five years?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-009&tab=source"
+    - 'link "staff-010: Pension Credit What is used in the Pension Credit calculation to assess eligibility and what is the threshold for each element?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-010&tab=source"
+    - 'link "staff-011: Pension Credit How does Housing Benefit impact Pension Credit?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-011&tab=source"
+    - 'link "staff-012: Pension Credit Does Pension Credit stop is a citizen moves into a care home permanently if they are self-funding?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-012&tab=source"
+    - 'link "staff-013: Pension Credit Does Pension Credit stop is a citizen moves into a care home permanently if they are not self-funding?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-013&tab=source"
+    - 'link "staff-014: Pension Credit What is the impact of someone’s partner on their Pension Credit?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-014&tab=source"
+    - 'link "staff-015: Pension Credit What inputs are required for the Pension Credit calculation?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-015&tab=source"
+    - 'link "staff-016: Pension Credit Given these inputs what is the formula for calculating Pension Credit?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&tab=source"
+    - 'link "staff-017: Pension Credit What difference to Pension Credit does having a partner make?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-017&tab=source"
+    - 'link "staff-018: Pension Credit What happens if someone with a partner goes permanently into a Care Home (please give all scenarios)?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-018&tab=source"
+    - 'link "staff-019: Pension Credit How does Pension Credit work?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-019&tab=source"
+    - 'link "staff-020: Pension Credit How does a citizen qualify for Pension Credit?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-020&tab=source"
+    - 'link "staff-021: Pension Credit What are the eligibility rules and entitlement rate for PC?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-021&tab=source"
+    - 'link "staff-022: Pension Credit How do State Pension and Pension Credit fit together. For example: If someone receives State Pension, could they also be entitled to Pension Credit?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-022&tab=source"
+    - 'link "staff-023: Pension Credit What happens to Pension Credit if someone moves abroad?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-023&tab=source"
+    - 'link "staff-024: Industrial Injuries Benefits What additional benefits would you be entitled to if you are entitled to IIDB?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-024&tab=source"
+    - 'link "staff-025: Industrial Injuries Benefits What happens if you are on IIDB when you reach State Pension Age?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-025&tab=source"
+    - 'link "staff-026: Industrial Injuries Benefits What is the interaction between Child DLA and PIP?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-026&tab=source"
+    - 'link "staff-027: Industrial Injuries Benefits Can you receive both IIDB and JSA?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-027&tab=source"
+    - 'link "staff-028: Industrial Injuries Benefits Can you receive both IIDB and ESA?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-028&tab=source"
+    - 'link "staff-029: Industrial Injuries Benefits What is the relationship between IIDB, PIP, Attendance Allowance and DLA?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-029&tab=source"
+    - 'link "staff-030: Industrial Injuries Benefits How does IIDB relate to PIP?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-030&tab=source"
+    - 'link "staff-031: Personal Independence Payment What additional benefits would you be entitled to if you are entitled to PIP?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-031&tab=source"
+    - 'link "staff-032: Personal Independence Payment What happens if you are on PIP when you reach State Pension Age?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-032&tab=source"
+    - 'link "staff-033: Personal Independence Payment What is the interaction between Child DLA and PIP?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-033&tab=source"
+    - 'link "staff-034: Personal Independence Payment Can you receive both PIP and JSA?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-034&tab=source"
+    - 'link "staff-035: Personal Independence Payment Can you receive both PIP and ESA?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-035&tab=source"
+    - 'link "staff-036: Personal Independence Payment What is the relationship between PIP, Attendance Allowance and DLA?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-036&tab=source"
+    - 'link "staff-037: Personal Independence Payment If you receive PIP and War Pensions Constant Allowance, how much would you get each week (please provide all variations)?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-037&tab=source"
+    - 'link "staff-038: Carers Allowance Under what circumstances can a Citizen claim Carers Allowance?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-038&tab=source"
+    - 'link "staff-039: Carers Allowance What impact does Carers Allowance have on other benefits which are being claimed?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&tab=source"
+    - 'link "staff-040: Carers Allowance What happens to Carers Allowance if someone is caring for two or more people?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-040&tab=source"
+- main:
+  - paragraph: Question staff-039
+  - heading "What impact does Carers Allowance have on other benefits which are being claimed?" [level=2]
+  - paragraph:
+    - strong: "Declared evidence status:"
+    - text: insufficient. This is an assembly result within the declared scope, not an answer or legal decision.
+  - paragraph:
+    - strong: "Scope:"
+    - text: Complete frozen DMG and ADM source-led unit discovery with separately authored task profiles. Additive capital discovery groups over the full DMG and ADM structured corpus.
+  - paragraph: Snapshot evidence-connect-754be67f82c82e31d17c · Context urn:sha256:43727cfe8665e0434b01d9720d2e75e62a459836a58913534e64be39bda845d3 · Index 4e65253f72b2d771164d5ddd64374ed8142cf66b4a249f193a1fe44d5679f519
+  - paragraph:
+    - link "Open full machine-readable evidence package ↗":
+      - /url: https://raw.githubusercontent.com/chris-page-gov/okf-dwp/d31f16fb7143d04b9de73e14cd493cfb832ae83e/evaluation/evidence-workbench/packages/staff-039.json
+  - paragraph: "Manifest source date: Not supplied · Manifest capture date: Not supplied"
+  - region "Original question review brief":
+    - heading "Original question review brief" [level=3]
+    - paragraph: These notes came with the question catalogue. They describe the intended review and its recorded gaps; they are separate from the current context package's requirements and retrieval findings.
+    - heading "Recorded ambiguities" [level=4]
+    - list:
+      - listitem: Other benefits is unbounded; distinguish the carer’s own awards from the cared-for person’s awards.
+      - listitem: Entitlement, underlying entitlement, actual payment and benefit variants are not interchangeable.
+    - heading "Evidence identified for review" [level=4]
+    - list:
+      - listitem: A directional interaction matrix covering overlap/income, additional amounts and effects on the cared-for person, with qualifications.
+    - heading "Recorded scope gaps" [level=4]
+    - list:
+      - listitem: No governed topic-specific context profile or independently complete evidence requirement in the approved immutable Ask index.
+      - listitem: The universe of other benefits, relationships or all scenarios has not been bounded.
+  - complementary "Selected records (48)":
+    - heading "Selected records (48)" [level=3]
+    - navigation "Selected evidence and concepts":
+      - 'link "DMG Vol 3: Ch 15: Earnings for non-income-related benefits — unresolved fragment evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=interactions"
+        - strong: "DMG Vol 3: Ch 15: Earnings for non-income-related benefits — unresolved fragment"
+        - text: evidence · normalized
+      - 'link "DMG Vol 3: Ch 15: Earnings for non-income-related benefits — 15795 — Benefits other than Carers Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000211039-000-bd2b8ff2e8a2&tab=interactions"
+        - strong: "DMG Vol 3: Ch 15: Earnings for non-income-related benefits — 15795 — Benefits other than Carers Allowance"
+        - text: evidence · normalized
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — unresolved fragment evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000000000-000-387b2ad569b1&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — unresolved fragment"
+        - text: evidence · normalized
+      - 'link "DMG Vol 3: Ch 15: Earnings for non-income-related benefits — 15800 — Benefits other than Carers Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000211613-000-416873299dc9&tab=interactions"
+        - strong: "DMG Vol 3: Ch 15: Earnings for non-income-related benefits — 15800 — Benefits other than Carers Allowance"
+        - text: evidence · normalized
+      - link "Carer’s Allowance concept · model-derived":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcarers-allowance&tab=interactions"
+        - strong: Carer’s Allowance
+        - text: concept · model-derived
+      - link "Benefit interaction concept · model-derived":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Foverlap&tab=interactions"
+        - strong: Benefit interaction
+        - text: concept · model-derived
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — 60025 — Conditions for entitlement to Carer’s Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000002117-000-5fac0d6d5c5e&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — 60025 — Conditions for entitlement to Carer’s Allowance"
+        - text: evidence · normalized
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — 60033 — Conditions for entitlement to Carer’s Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000003923-000-6ecde8d36df3&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — 60033 — Conditions for entitlement to Carer’s Allowance"
+        - text: evidence · normalized
+      - link "Pension Credit severe-disability additional amount concept · model-derived":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fsevere-disability-addition&tab=interactions"
+        - strong: Pension Credit severe-disability additional amount
+        - text: concept · model-derived
+      - link "Pension Credit carer additional amount concept · model-derived":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fcarer-addition&tab=interactions"
+        - strong: Pension Credit carer additional amount
+        - text: concept · model-derived
+      - link "Caring for several people concept · model-derived":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fmultiple-care&tab=interactions"
+        - strong: Caring for several people
+        - text: concept · model-derived
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — 60037 — Conditions for entitlement to Carer’s Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000005999-000-b2d06483d01b&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — 60037 — Conditions for entitlement to Carer’s Allowance"
+        - text: evidence · normalized
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — 60069 — Conditions for entitlement to Carer’s Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000020596-000-1cb25e32700f&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — 60069 — Conditions for entitlement to Carer’s Allowance"
+        - text: evidence · normalized
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — 60068 — Conditions for entitlement to Carer’s Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000020196-000-519715b5d058&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — 60068 — Conditions for entitlement to Carer’s Allowance"
+        - text: evidence · normalized
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — 60046 — Conditions for entitlement to Carer’s Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000010247-000-666c3d184f43&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — 60046 — Conditions for entitlement to Carer’s Allowance"
+        - text: evidence · normalized
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — 60051 — Conditions for entitlement to Carer’s Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000012012-000-c8638300b7c9&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — 60051 — Conditions for entitlement to Carer’s Allowance"
+        - text: evidence · normalized
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — 60052 — Conditions for entitlement to Carer’s Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000012579-000-063b98c6aa99&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — 60052 — Conditions for entitlement to Carer’s Allowance"
+        - text: evidence · normalized
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — 60036 — Conditions for entitlement to Carer’s Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000005685-000-384b8d66040c&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — 60036 — Conditions for entitlement to Carer’s Allowance"
+        - text: evidence · normalized
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — 60058 — Conditions for entitlement to Carer’s Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000014933-000-beeaa6d199fc&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — 60058 — Conditions for entitlement to Carer’s Allowance"
+        - text: evidence · normalized
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — 60035 — Conditions for entitlement to Carer’s Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000005203-000-3b0b242b6077&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — 60035 — Conditions for entitlement to Carer’s Allowance"
+        - text: evidence · normalized
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — 60045 — Conditions for entitlement to Carer’s Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000009358-000-726d2338427e&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — 60045 — Conditions for entitlement to Carer’s Allowance"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78034 — Additional amount for the severely disabled evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch78%2Fmanual-structure-v1%2Fsource-0000008834-000-3e6250312bf0&tab=interactions"
+        - strong: "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78034 — Additional amount for the severely disabled"
+        - text: evidence · normalized
+      - 'link "DMG Vol 3 Ch 17: Overlapping benefits — 17086 — non-Act benefits evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch17%2Fmanual-structure-v1%2Fsource-0000016297-000-6e8223c2246e&tab=interactions"
+        - strong: "DMG Vol 3 Ch 17: Overlapping benefits — 17086 — non-Act benefits"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78035 — Additional amount for the severely disabled evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch78%2Fmanual-structure-v1%2Fsource-0000009786-000-11b38b9f21ca&tab=interactions"
+        - strong: "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78035 — Additional amount for the severely disabled"
+        - text: evidence · normalized
+      - link "War Pensions Constant Attendance Allowance concept · model-derived":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fwar-caa&tab=interactions"
+        - strong: War Pensions Constant Attendance Allowance
+        - text: concept · model-derived
+      - 'link "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78106 — Additional amount for carers evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch78%2Fmanual-structure-v1%2Fsource-0000040508-000-0d7e4e000682&tab=interactions"
+        - strong: "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78106 — Additional amount for carers"
+        - text: evidence · normalized
+      - 'link "DMG Vol 3 Ch 17: Overlapping benefits — 17001 — Introduction evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch17%2Fmanual-structure-v1%2Fsource-0000000977-000-3afc1e668c63&tab=interactions"
+        - strong: "DMG Vol 3 Ch 17: Overlapping benefits — 17001 — Introduction"
+        - text: evidence · normalized
+      - 'link "DMG Vol 5 Ch 28: Income other than earnings — 28054 — Carer''s allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol5-ch28%2Fmanual-structure-v1%2Fsource-0000010328-000-4aa50501a354&tab=interactions"
+        - strong: "DMG Vol 5 Ch 28: Income other than earnings — 28054 — Carer's allowance"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78056 — In receipt of \"AA\", DLA, CA and UC that includes the carer element evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch78%2Fmanual-structure-v1%2Fsource-0000016117-000-abfad6246119&tab=interactions"
+        - strong: "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78056 — In receipt of \"AA\", DLA, CA and UC that includes the carer element"
+        - text: evidence · normalized
+      - 'link "DMG Vol 3 Ch 17: Overlapping benefits — 17005 — Appendix 1 - Incompatible personal benefits - DMG evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch17%2Fmanual-structure-v1%2Fsource-0000002116-000-0a117fadf51e&tab=interactions"
+        - strong: "DMG Vol 3 Ch 17: Overlapping benefits — 17005 — Appendix 1 - Incompatible personal benefits - DMG"
+        - text: evidence · normalized
+      - 'link "DMG Vol 9 Ch 51: Income other than earnings — 51023 — Benefits taken fully into account evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol9-ch51%2Fmanual-structure-v1%2Fsource-0000008786-000-a34ff083b8c0&tab=interactions"
+        - strong: "DMG Vol 9 Ch 51: Income other than earnings — 51023 — Benefits taken fully into account"
+        - text: evidence · normalized
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — 60109 — Overlapping benefits evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000040307-000-490bd29315c0&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — 60109 — Overlapping benefits"
+        - text: evidence · normalized
+      - 'link "DMG Vol 3 Ch 17: Overlapping benefits — 17085 — non-Act benefits evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch17%2Fmanual-structure-v1%2Fsource-0000013721-000-1dcac6662d76&tab=interactions"
+        - strong: "DMG Vol 3 Ch 17: Overlapping benefits — 17085 — non-Act benefits"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78105 — Additional amount for carers evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch78%2Fmanual-structure-v1%2Fsource-0000039169-000-ac21864d49b9&tab=interactions"
+        - strong: "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78105 — Additional amount for carers"
+        - text: evidence · normalized
+      - 'link "DMG Vol 5 Ch 28: Income other than earnings — 28053 — Carer''s allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol5-ch28%2Fmanual-structure-v1%2Fsource-0000010157-000-7c9bcffcf74b&tab=interactions"
+        - strong: "DMG Vol 5 Ch 28: Income other than earnings — 28053 — Carer's allowance"
+        - text: evidence · normalized
+      - 'link "Chapter H5: Unearned income — H5064 — What is unearned income evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fadm%2Fadm-chapter-h5%2Fmanual-structure-v1%2Fsource-0000013170-000-b0b0d1e7625a&tab=interactions"
+        - strong: "Chapter H5: Unearned income — H5064 — What is unearned income"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78107 — Treated as satisfying the qualifying conditions - run on evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch78%2Fmanual-structure-v1%2Fsource-0000040820-000-04b5ba1b6066&tab=interactions"
+        - strong: "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78107 — Treated as satisfying the qualifying conditions - run on"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78058 — In receipt of \"AA\", DLA, CA and UC that includes the carer element evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch78%2Fmanual-structure-v1%2Fsource-0000017504-000-91906c1621ca&tab=interactions"
+        - strong: "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78058 — In receipt of \"AA\", DLA, CA and UC that includes the carer element"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78057 — In receipt of \"AA\", DLA, CA and UC that includes the carer element evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch78%2Fmanual-structure-v1%2Fsource-0000017029-000-2535f6dbaf9a&tab=interactions"
+        - strong: "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78057 — In receipt of \"AA\", DLA, CA and UC that includes the carer element"
+        - text: evidence · normalized
+      - 'link "DMG Vol 5 Ch 28: Income other than earnings — 28050 — Income other than earnings evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol5-ch28%2Fmanual-structure-v1%2Fsource-0000008217-000-b49968d0a63d&tab=interactions"
+        - strong: "DMG Vol 5 Ch 28: Income other than earnings — 28050 — Income other than earnings"
+        - text: evidence · normalized
+      - 'link "DMG Vol 9 Ch 51: Income other than earnings — 51020 — Types of income taken fully into account evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol9-ch51%2Fmanual-structure-v1%2Fsource-0000006592-000-8acf8cf2c8d5&tab=interactions"
+        - strong: "DMG Vol 9 Ch 51: Income other than earnings — 51020 — Types of income taken fully into account"
+        - text: evidence · normalized
+      - 'link "DMG Vol 3 Ch 17: Overlapping benefits — 17040 — Adjustment between different personal Act benefits evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch17%2Fmanual-structure-v1%2Fsource-0000003693-000-8253583d560a&tab=interactions"
+        - strong: "DMG Vol 3 Ch 17: Overlapping benefits — 17040 — Adjustment between different personal Act benefits"
+        - text: evidence · normalized
+      - link "State Pension Credit concept · model-derived":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fterm%2Fpension-credit&tab=interactions"
+        - strong: State Pension Credit
+        - text: concept · model-derived
+      - 'link "Severe-disability addition: claimant with no partner concept · model-derived"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Fno-partner-disability-addition&tab=interactions"
+        - strong: "Severe-disability addition: claimant with no partner"
+        - text: concept · model-derived
+      - 'link "DMG Vol 10 Ch 60: Carer’s Allowance — 60057 — Conditions for entitlement to Carer’s Allowance evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000014228-000-adb9edd3e69f&tab=interactions"
+        - strong: "DMG Vol 10 Ch 60: Carer’s Allowance — 60057 — Conditions for entitlement to Carer’s Allowance"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78065 — Additional amount for the severely disabled evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch78%2Fmanual-structure-v1%2Fsource-0000020128-000-b7f1c1d30de2&tab=interactions"
+        - strong: "DMG Vol 13 Ch 78: State Pension Credit: additional amounts and special groups — 78065 — Additional amount for the severely disabled"
+        - text: evidence · normalized
+      - 'link "DMG Vol 3 Ch 17: Overlapping benefits — 17092 — non-Act benefits evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch17%2Fmanual-structure-v1%2Fsource-0000018473-000-f779b0ef86c6&tab=interactions"
+        - strong: "DMG Vol 3 Ch 17: Overlapping benefits — 17092 — non-Act benefits"
+        - text: evidence · normalized
+      - 'link "DMG Vol 3 Ch 17: Overlapping benefits — 17095 — non-Act benefits evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch17%2Fmanual-structure-v1%2Fsource-0000019907-000-9dd40a632538&tab=interactions"
+        - strong: "DMG Vol 3 Ch 17: Overlapping benefits — 17095 — non-Act benefits"
+        - text: evidence · normalized
+  - 'region "DMG Vol 3: Ch 15: Earnings for non-income-related benefits — unresolved fragment"':
+    - paragraph: evidence · normalized
+    - 'heading "DMG Vol 3: Ch 15: Earnings for non-income-related benefits — unresolved fragment" [level=3]'
+    - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · unreviewed-specialist-review-required
+    - navigation "Evidence views":
+      - link "Original source":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=source"
+      - link "Extracted text and structure":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=extraction"
+      - link "Complete passage":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=passage"
+      - link "Concepts and relationships":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=ontology"
+      - link "Definitions and exceptions":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=definitions"
+      - link "Retrieval trace":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=trace"
+      - link "Review proposal":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=review"
+      - link "Graph":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=graph"
+      - link "Interactions":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=interactions"
+      - link "Requirements":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=requirements"
+      - link "Rates":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=rates"
+      - link "Calculation stages":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol3-ch15%2Fmanual-structure-v1%2Fsource-0000210821-000-cd55afa87a13&tab=calculation"
+    - region "Directional interaction proposals":
+      - paragraph: Interactions
+      - heading "Directional interaction proposals" [level=3]
+      - term: Authority
+      - definition: Authored proposal, not reviewed
+      - term: Assessment date
+      - definition: Unknown
+      - term: Effective from
+      - definition: Unknown
+      - term: Effective to
+      - definition: Unknown
+      - status: Showing rows 1–3 of 4. This is a partial page; further rows are available.
+      - region "Limitations":
+        - heading "Limitations" [level=4]
+        - list:
+          - listitem: Navigation and delivery do not establish evidence sufficiency. Read the source and its qualifications.
+          - listitem: "Retained context status: insufficient. Retrieval and assembly omissions remain in the evidence package."
+          - listitem: Some source references belong to another admitted question package. Open each reference to load and verify its passage and provenance.
+      - region "Interactions":
+        - heading "Interactions" [level=4]
+        - region "Scrollable view records":
+          - table:
+            - rowgroup:
+              - row "Whose benefit or circumstance Whose benefit is affected Source-supported observation Entitlement or payment Qualifications and gaps Evidence sources":
+                - columnheader "Whose benefit or circumstance"
+                - columnheader "Whose benefit is affected"
+                - columnheader "Source-supported observation"
+                - columnheader "Entitlement or payment"
+                - columnheader "Qualifications and gaps"
+                - columnheader "Evidence sources"
+            - rowgroup:
+              - row "Carer’s Allowance payment Carer’s own Pension Credit income assessment CA appears in income categories source-led directional proposal Treatment and exceptions remain unresolved Inspect source 1":
+                - cell "Carer’s Allowance payment"
+                - cell "Carer’s own Pension Credit income assessment"
+                - cell "CA appears in income categories"
+                - cell "source-led directional proposal"
+                - cell "Treatment and exceptions remain unresolved"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - row "Carer’s Allowance entitlement Carer’s own Pension Credit carer additional amount May be a qualifying route source-led directional proposal Entitlement, payment and exceptions differ; dated amount unresolved Inspect source 1":
+                - cell "Carer’s Allowance entitlement"
+                - cell "Carer’s own Pension Credit carer additional amount"
+                - cell "May be a qualifying route"
+                - cell "source-led directional proposal"
+                - cell "Entitlement, payment and exceptions differ; dated amount unresolved"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - row "Carer’s Allowance or UC carer element in payment Cared-for person’s Pension Credit severe-disability additional amount May affect applicability source-led directional proposal Only when payment has begun; other conditions and exceptions unresolved Inspect source 1":
+                - cell "Carer’s Allowance or UC carer element in payment"
+                - cell "Cared-for person’s Pension Credit severe-disability additional amount"
+                - cell "May affect applicability"
+                - cell "source-led directional proposal"
+                - cell "Only when payment has begun; other conditions and exceptions unresolved"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+      - region "Source references":
+        - heading "Source references" [level=4]
+        - list:
+          - listitem:
+            - button "Inspect PDF page 27"
+            - text: ·
+            - link "Open cited source ↗":
+              - /url: https://assets.publishing.service.gov.uk/media/69e10327f5069cdc54868955/dmg-Ch-78.pdf#page=27
+            - text: "· Source date: Unknown"
+          - listitem:
+            - button "Inspect PDF page 15"
+            - text: ·
+            - link "Open cited source ↗":
+              - /url: https://assets.publishing.service.gov.uk/media/69e10327f5069cdc54868955/dmg-Ch-78.pdf#page=15
+            - text: "· Source date: Unknown"
+    - status: This is a partial view. Showing 3 of 4 rows.
+    - button "Load more rows"
+- text: Evidence workbench | OKF Explorer

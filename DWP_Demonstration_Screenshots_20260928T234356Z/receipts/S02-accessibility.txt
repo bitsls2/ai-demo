@@ -1,0 +1,274 @@
+- banner:
+  - paragraph:
+    - link "← Bounded reading aid":
+      - /url: ../
+  - heading "Reading-help corpus" [level=1]
+  - paragraph: Select a document and passage from a governed catalogue. Source text and candidate help remain separate. This independent demonstration is not official DWP guidance and does not decide entitlement.
+- text: Reading-help catalogue URL
+- textbox "Reading-help catalogue URL":
+  - /placeholder: https://…/reading-help-corpus/manifest.json
+  - text: https://raw.githubusercontent.com/chris-page-gov/okf-dwp/cbada7bf544106bdceb2445fc379c8b3e5b73ee4/reading-help-corpus/manifest.json
+- button "Load catalogue"
+- paragraph: "513 processed documents · 893 extraction-blocked pages. Catalogue status: machine-proposed-unreviewed."
+- group: Catalogue identity and limits
+- region "Choose document":
+  - heading "Choose a document" [level=2]
+  - text: Family
+  - combobox "Family":
+    - option "All families"
+    - option "ADM"
+    - option "DMG" [selected]
+  - text: Document ID
+  - searchbox "Document ID": dmg-vol10-ch60
+  - paragraph: Showing 1 matching documents at most.
+  - list:
+    - listitem:
+      - button "DMG · dmg-vol10-ch60 · 85 passages"
+- region "Choose passage":
+  - heading "dmg-vol10-ch60" [level=2]
+  - paragraph: "85 ordered passage segments · 2 extraction-blocked pages. Specialist acceptance: not recorded."
+  - group: Machine-extraction gaps (2)
+  - text: Find a paragraph or declared label
+  - searchbox "Find a paragraph or declared label"
+  - text: Exact abbreviation occurrence in this document
+  - searchbox "Exact abbreviation occurrence in this document"
+  - paragraph: Showing up to 100 matching passages. Abbreviation search uses source-verified occurrence literals in the index.
+  - list:
+    - listitem:
+      - button "unresolved fragment · page 1 · unresolved-fragment"
+    - listitem:
+      - button "60001 — Introduction · page 2 · paragraph"
+    - listitem:
+      - button "60002 — Introduction · page 2 · paragraph"
+    - listitem:
+      - button "60003 — Introduction · page 2 · paragraph"
+    - listitem:
+      - button "60004 — Introduction · page 2 · paragraph"
+    - listitem:
+      - button "reserved · page 2 · reserved"
+    - listitem:
+      - button "unresolved fragment · page 3 · unresolved-fragment"
+    - listitem:
+      - button "60025 — Conditions for entitlement to Carer’s Allowance · page 3, 4 · paragraph"
+    - listitem:
+      - button "60026 — Conditions for entitlement to Carer’s Allowance · page 4 · paragraph"
+    - listitem:
+      - button "reserved · page 4 · reserved"
+    - listitem:
+      - button "60033 — Conditions for entitlement to Carer’s Allowance · page 4, 5 · paragraph"
+    - listitem:
+      - button "60035 — Conditions for entitlement to Carer’s Allowance · page 5 · paragraph"
+    - listitem:
+      - button "60036 — Conditions for entitlement to Carer’s Allowance · page 5 · paragraph"
+    - listitem:
+      - button "60037 — Conditions for entitlement to Carer’s Allowance · page 5 · paragraph"
+    - listitem:
+      - button "60038 — Conditions for entitlement to Carer’s Allowance · page 5, 6 · paragraph"
+    - listitem:
+      - button "60039 — Conditions for entitlement to Carer’s Allowance · page 6 · paragraph"
+    - listitem:
+      - button "60040 — Conditions for entitlement to Carer’s Allowance · page 6 · paragraph"
+    - listitem:
+      - button "60041 — Conditions for entitlement to Carer’s Allowance · page 6 · paragraph"
+    - listitem:
+      - button "60042 — Conditions for entitlement to Carer’s Allowance · page 6 · paragraph"
+    - listitem:
+      - button "60043 — Conditions for entitlement to Carer’s Allowance · page 6, 7 · paragraph"
+    - listitem:
+      - button "60044 — Conditions for entitlement to Carer’s Allowance · page 7 · paragraph"
+    - listitem:
+      - button "60045 — Conditions for entitlement to Carer’s Allowance · page 7 · paragraph"
+    - listitem:
+      - button "60046 — Conditions for entitlement to Carer’s Allowance · page 7, 8 · paragraph"
+    - listitem:
+      - button "60047 — Conditions for entitlement to Carer’s Allowance · page 8 · paragraph"
+    - listitem:
+      - button "60049 — Conditions for entitlement to Carer’s Allowance · page 8 · paragraph"
+    - listitem:
+      - button "60050 — Conditions for entitlement to Carer’s Allowance · page 8 · paragraph"
+    - listitem:
+      - button "60051 — Conditions for entitlement to Carer’s Allowance · page 8, 9 · paragraph"
+    - listitem:
+      - button "60052 — Conditions for entitlement to Carer’s Allowance · page 9 · paragraph"
+    - listitem:
+      - button "60053 — Conditions for entitlement to Carer’s Allowance · page 9 · paragraph"
+    - listitem:
+      - button "60054 — Conditions for entitlement to Carer’s Allowance · page 9 · paragraph"
+    - listitem:
+      - button "60055 — Conditions for entitlement to Carer’s Allowance · page 9 · paragraph"
+    - listitem:
+      - button "60056 — Conditions for entitlement to Carer’s Allowance · page 9 · paragraph"
+    - listitem:
+      - button "60057 — Conditions for entitlement to Carer’s Allowance · page 10 · paragraph"
+    - listitem:
+      - button "60058 — Conditions for entitlement to Carer’s Allowance · page 10 · paragraph"
+    - listitem:
+      - button "60059 — Conditions for entitlement to Carer’s Allowance · page 10 · paragraph"
+    - listitem:
+      - button "60060 — Conditions for entitlement to Carer’s Allowance · page 10 · paragraph"
+    - listitem:
+      - button "60061 — Conditions for entitlement to Carer’s Allowance · page 10, 11 · paragraph"
+    - listitem:
+      - button "60062 — Conditions for entitlement to Carer’s Allowance · page 11 · paragraph"
+    - listitem:
+      - button "60063 — Conditions for entitlement to Carer’s Allowance · page 11 · paragraph"
+    - listitem:
+      - button "60064 — Conditions for entitlement to Carer’s Allowance · page 12 · paragraph"
+    - listitem:
+      - button "60065 — Conditions for entitlement to Carer’s Allowance · page 12 · paragraph"
+    - listitem:
+      - button "60066 — Conditions for entitlement to Carer’s Allowance · page 12 · paragraph"
+    - listitem:
+      - button "60067 — Conditions for entitlement to Carer’s Allowance · page 12 · paragraph"
+    - listitem:
+      - button "60068 — Conditions for entitlement to Carer’s Allowance · page 12, 13 · paragraph"
+    - listitem:
+      - button "60069 — Conditions for entitlement to Carer’s Allowance · page 13 · paragraph"
+    - listitem:
+      - button "60070 — Conditions for entitlement to Carer’s Allowance · page 13, 14 · paragraph"
+    - listitem:
+      - button "60071 — Conditions for entitlement to Carer’s Allowance · page 14 · paragraph"
+    - listitem:
+      - button "60072 — Conditions for entitlement to Carer’s Allowance · page 14 · paragraph"
+    - listitem:
+      - button "60073 — Conditions for entitlement to Carer’s Allowance · page 15 · paragraph"
+    - listitem:
+      - button "60074 — Conditions for entitlement to Carer’s Allowance · page 15 · paragraph"
+    - listitem:
+      - button "60075 — Conditions for entitlement to Carer’s Allowance · page 15 · paragraph"
+    - listitem:
+      - button "60076 — Conditions for entitlement to Carer’s Allowance · page 15, 16 · paragraph"
+    - listitem:
+      - button "60077 — Conditions for entitlement to Carer’s Allowance · page 16 · paragraph"
+    - listitem:
+      - button "60078 — Conditions for entitlement to Carer’s Allowance · page 16 · paragraph"
+    - listitem:
+      - button "60079 — Conditions for entitlement to Carer’s Allowance · page 16 · paragraph"
+    - listitem:
+      - button "60080 — Conditions for entitlement to Carer’s Allowance · page 17 · paragraph"
+    - listitem:
+      - button "60081 — Conditions for entitlement to Carer’s Allowance · page 17 · paragraph"
+    - listitem:
+      - button "60082 — Increase for children (CDI) · page 17 · paragraph"
+    - listitem:
+      - button "60083 — Increase for children (CDI) · page 17, 19 · paragraph"
+    - listitem:
+      - button "60082 — Increase for children (CDI) · page 19 · paragraph"
+    - listitem:
+      - button "60083 — Increase for children (CDI) · page 19 · paragraph"
+    - listitem:
+      - button "60084 — Increase for children (CDI) · page 19 · paragraph"
+    - listitem:
+      - button "60085 — Increase for children (CDI) · page 19, 20 · paragraph"
+    - listitem:
+      - button "60087 — Increase for children (CDI) · page 20 · paragraph"
+    - listitem:
+      - button "60088 — Increase for children (CDI) · page 20 · paragraph"
+    - listitem:
+      - button "60089 — Increase for children (CDI) · page 20 · paragraph"
+    - listitem:
+      - button "60090 — Increase for children (CDI) · page 21 · paragraph"
+    - listitem:
+      - button "reserved · page 21 · reserved"
+    - listitem:
+      - button "unresolved fragment · page 22 · unresolved-fragment"
+    - listitem:
+      - button "60098 — Increase for adults (ADI) · page 22 · paragraph"
+    - listitem:
+      - button "60099 — Increase for adults (ADI) · page 22 · paragraph"
+    - listitem:
+      - button "60100 — Increase for adults (ADI) · page 22, 23 · paragraph"
+    - listitem:
+      - button "60101 — Increase for adults (ADI) · page 23 · paragraph"
+    - listitem:
+      - button "60102 — Increase for adults (ADI) · page 23, 24 · paragraph"
+    - listitem:
+      - button "60103 — Increase for adults (ADI) · page 24 · paragraph"
+    - listitem:
+      - button "60104 — Increase for adults (ADI) · page 24 · paragraph"
+    - listitem:
+      - button "reserved · page 24 · reserved"
+    - listitem:
+      - button "60109 — Overlapping benefits · page 26 · paragraph"
+    - listitem:
+      - button "reserved · page 26 · reserved"
+    - listitem:
+      - button "unresolved fragment · page 27 · unresolved-fragment"
+    - listitem:
+      - button "60121 — Imprisonment or detention in legal custody · page 27 · paragraph"
+    - listitem:
+      - button "60122 — Imprisonment or detention in legal custody · page 27 · paragraph"
+    - listitem:
+      - button "60123 — Imprisonment or detention in legal custody · page 28 · paragraph"
+    - listitem:
+      - button "reserved · page 28 · reserved"
+    - listitem:
+      - button "Appendix 1 - Earnings limit for gainful employment · page 29, 30 · section"
+  - group: Repeated phrase proposals (12)
+- region "Selected source passage":
+  - heading "Selected source passage" [level=2]
+  - paragraph:
+    - text: "Exact unit ID:"
+    - code: https://chris-page-gov.github.io/okf-dwp/id/unit/dmg/dmg-vol10-ch60/manual-structure-v1/source-0000002117-000-5fac0d6d5c5e
+    - text: . 1 bound leaf file loaded. The complete text joins 1 verified segment.
+  - paragraph: "Selected load: 2 files and 87,978 bytes fetched; 0 verified cache hits. The cache is limited to this browser session."
+  - paragraph: "Declared paragraph label: 60025."
+  - group: Ordered segment receipts
+  - paragraph:
+    - link "Open source PDF at page 3":
+      - /url: https://assets.publishing.service.gov.uk/media/69e0fdcbb5e95ca5017ed9da/dmg-Chap-60.pdf#page=3
+    - text: · Page 3, UTF-8 bytes 529–1093
+  - text: Introduction 60025 [See
+  - button "DMG memo 12/23"
+  - text: "] [See"
+  - button "DMG memo 12-25"
+  - text: "] The conditions for entitlement are that the claimant 1. is engaged in caring for a severely disabled person for any day1 (see"
+  - button "DMG 60035 - 60042"
+  - text: ) and 2. is regularly and substantially engaged in caring for that person 2 (see
+  - button "DMG 60035 - 60042"
+  - text: ) and 3. is not gainfully employed3 (see
+  - button "DMG 60051 - 60052"
+  - text: ) and 4. is aged 16 or over4 (see
+  - button "DMG 60058"
+  - text: ) and 5. is not in
+  - button "FTE" [expanded]
+  - text: 5 (see
+  - button "DMG 60068 - 60081"
+  - text: ) and 6. satisfies prescribed conditions of residence or presence in
+  - button "GB"
+  - text: 6 (see
+  - button "DMG Chapter 07 Part 2"
+  - text: ).
+  - paragraph:
+    - link "Open source PDF at page 4":
+      - /url: https://assets.publishing.service.gov.uk/media/69e0fdcbb5e95ca5017ed9da/dmg-Chap-60.pdf#page=4
+    - text: · Page 4, UTF-8 bytes 0–273
+  - text: "Note 1: The claimant does not have to be related to the severely disabled person 7. Note 2: See"
+  - button "DMG 60033"
+  - text: for the meaning of severely disabled person. 1
+  - button "SS CB Act 92, s 70(1)"
+  - text: ; 2 s 70(1)(a); 3 s 70(1)(b); 4 s 70(3); 5 s 70(3); 6 s 70(4); 7
+  - button "SS (ICA) Regs, reg 6"
+  - paragraph: The displayed source spans and occurrence literals match the frozen page extraction and joined passage hash. Candidate meanings and legal applicability remain unreviewed.
+  - paragraph: There is no exact cross-document occurrence target in this passage. Similar numbers or words are not linked by inference.
+  - heading "Printed reference rows" [level=3]
+  - paragraph: These rows are unresolved unless an exact bound body occurrence is named. Matching digits alone do not establish a link.
+  - list:
+    - listitem:
+      - button "1 SS CB Act 92, s 70(1); 2 s 70(1)(a); 3 s 70(1)(b); 4 s 70(3); 5 s 70(3); 6 s 70(4); 7 SS (ICA) Regs, reg 6 · page 4"
+- complementary:
+  - heading "Occurrence-scoped reading help" [level=2]
+  - paragraph:
+    - strong: FTE
+    - text: "· source page 3 · abbreviation. Literal status: source_verified."
+  - button "Close reading help"
+  - article:
+    - heading "expansion" [level=3]
+    - paragraph:
+      - text: "Candidate status:"
+      - strong: proposed
+      - text: . This is not reviewed guidance.
+    - paragraph: "Proposed scope: dmg-vol10-ch60; printed abbreviation source: dmg-abbreviations-0db6c476b0."
+    - paragraph: "Proposed expansion from the named printed table: Full-Time Education. This meaning remains a candidate for the declared document scope."
+    - group: Proposed printed-table support
+- text: Reading-help corpus | OKF Explorer

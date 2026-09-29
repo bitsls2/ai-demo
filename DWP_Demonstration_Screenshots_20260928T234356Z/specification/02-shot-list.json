@@ -1,0 +1,628 @@
+{
+  "schema": "dwp-presentation-screenshot-plan.v1",
+  "prepared_on": "2026-09-28",
+  "status": "instructions-only-not-a-capture-receipt",
+  "title": "From Horizon Scanning to Horizon Walking",
+  "baseline": {
+    "dwp_commit": "77ef16047415ee48dcb93b80adf1ba057ea00d9b",
+    "explorer_commit": "b633038c6173f1405199df9f08e8d8aa2ff51c0b",
+    "repository_reads_completed": true,
+    "fresh_browser_demo_verification_in_this_preparation": false
+  },
+  "default_capture": {
+    "viewport_css_px": [
+      1920,
+      1080
+    ],
+    "device_scale_factor": 2,
+    "locale": "en-GB",
+    "timezone": "Europe/London",
+    "raw_png": true,
+    "slide_ready_png": true,
+    "sidebar_requires_actual_window_capture": true
+  },
+  "limits": {
+    "new_model_comparison_runs": 0,
+    "max_existing_authorised_sidebar_turns": 2,
+    "new_paid_api_calls": 0,
+    "retry_policy": "retain initial failure; at most one bounded technical retry per shot"
+  },
+  "urls": {
+    "corpus_ch60": "https://chris-page-gov.github.io/okf-explorer/reading-help/corpus/?catalogue=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fcbada7bf544106bdceb2445fc379c8b3e5b73ee4%2Freading-help-corpus%2Fmanifest.json&catalogue_sha256=6c53b659b519aa4cbf7529e7e10eb4ad3bfe8efcac18055ec2a5ade724998b46&catalogue_bytes=260797&family=dmg&document=dmg-vol10-ch60&unit=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000002117-000-5fac0d6d5c5e",
+    "ch60_references": "https://chris-page-gov.github.io/okf-explorer/reading-help/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F2ad33add6d8660fec98bf34fb98480a9d0de9e27%2Freading-help-ch60-law.json&passage=dmg-60025",
+    "reading_help_workbench": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F2ad33add6d8660fec98bf34fb98480a9d0de9e27%2Fevaluation%2Fevidence-workbench%2Freading-help-manifest.json&case=staff-016",
+    "tools_workbench": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&tab=requirements",
+    "interactions": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&tab=interactions",
+    "calculation": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&tab=calculation",
+    "fresh_ask": "https://chris-page-gov.github.io/okf-explorer/explore/?bundle=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F7eeded763042ddd0070f4fed834c6074149e8e2f%2Fstructured-context%2Fevidence-connect-explorer.json",
+    "uc_observation": "https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/uc-disabled-child-supersession-follow-up.md",
+    "uc_record": "https://raw.githubusercontent.com/chris-page-gov/okf-dwp/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/out-of-sample/uc-disabled-child-supersession-001.json",
+    "adm_a4_36": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=36",
+    "adm_a4_34": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=34",
+    "passage_review": "https://chris-page-gov.github.io/okf-explorer/evidence/passages/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F65924955745c4ed1b8ce66252c4748902b5403ba%2Fevaluation%2Fpassage-boundary-review%2Fmanifest.json&case=case-001",
+    "learning_site": "https://chris-page-gov.github.io/okf-dwp/docs/learning-path.html",
+    "release_record": "https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/reading-help-release-2026-09-27.md",
+    "fallback_ch60": "https://chris-page-gov.github.io/okf-explorer/reading-help/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F46a85142e0fe3a73b686b91029d357770b68591d%2Freading-help-ch60.json&passage=dmg-60025"
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "title": "The source a beginner must read",
+      "priority": "main",
+      "presentation_act": "A — Reading guidance",
+      "entry_key": "corpus_ch60",
+      "entry_url": "https://chris-page-gov.github.io/okf-explorer/reading-help/corpus/?catalogue=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fcbada7bf544106bdceb2445fc379c8b3e5b73ee4%2Freading-help-corpus%2Fmanifest.json&catalogue_sha256=6c53b659b519aa4cbf7529e7e10eb4ad3bfe8efcac18055ec2a5ade724998b46&catalogue_bytes=260797&family=dmg&document=dmg-vol10-ch60&unit=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000002117-000-5fac0d6d5c5e",
+      "steps": [
+        "Resolve paragraph 60025 to its retained original Chapter 60 PDF and exact page through the manifest/source link.",
+        "Open that page in a real PDF viewer; frame the paragraph, abbreviations and footnote context together."
+      ],
+      "must_be_visible": [
+        "DMG Chapter 60 identity",
+        "60025 and surrounding qualification/reference context",
+        "PDF page locator"
+      ],
+      "permitted_claim": "This is the source material to be understood, before adding reading assistance.",
+      "does_not_establish": "Not an example of AI failure, nor evidence that every reader finds the material difficult.",
+      "fallback": "Use the exact retained PDF in a local viewer, clearly labelled frozen source; never recreate the source as invented HTML.",
+      "repository_evidence": [
+        "docs/reading-help-demo-2026-09-30.md",
+        "docs/reading-help-ch60.md"
+      ],
+      "planned_frames": [
+        "S01"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S02",
+      "title": "Reading help alongside the unchanged passage",
+      "priority": "main",
+      "presentation_act": "A — Reading guidance",
+      "entry_key": "corpus_ch60",
+      "entry_url": "https://chris-page-gov.github.io/okf-explorer/reading-help/corpus/?catalogue=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fcbada7bf544106bdceb2445fc379c8b3e5b73ee4%2Freading-help-corpus%2Fmanifest.json&catalogue_sha256=6c53b659b519aa4cbf7529e7e10eb4ad3bfe8efcac18055ec2a5ade724998b46&catalogue_bytes=260797&family=dmg&document=dmg-vol10-ch60&unit=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000002117-000-5fac0d6d5c5e",
+      "steps": [
+        "Select one actual highlighted abbreviation in paragraph 60025.",
+        "Keep the extracted passage and the separate expansion/proposal card visible.",
+        "Record the exact occurrence and source-span identity."
+      ],
+      "must_be_visible": [
+        "Paragraph 60025",
+        "selected source occurrence",
+        "separately labelled expansion/proposal",
+        "source locator",
+        "review/uncertainty status"
+      ],
+      "permitted_claim": "A reader can inspect just-in-time help and trace it back to a specific occurrence.",
+      "does_not_establish": "No guarantee that every proposed expansion or legal interpretation is correct.",
+      "fallback": "Use the preserved Chapter 60 v1 route and identify it as the fallback, not the corpus release.",
+      "repository_evidence": [
+        "docs/reading-help-demo-2026-09-30.md",
+        "docs/reading-help-release-2026-09-27.md"
+      ],
+      "planned_frames": [
+        "S02"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S03",
+      "title": "Follow this reference, not just this number",
+      "priority": "main",
+      "presentation_act": "A — Reading guidance",
+      "entry_key": "ch60_references",
+      "entry_url": "https://chris-page-gov.github.io/okf-explorer/reading-help/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F2ad33add6d8660fec98bf34fb98480a9d0de9e27%2Freading-help-ch60-law.json&passage=dmg-60025",
+      "steps": [
+        "Select a raised body reference marker and follow its paired footer occurrence.",
+        "Where available, open its dated statutory-link card without claiming the linked legal body is in the package.",
+        "Retain unresolved/territorial/date qualifications."
+      ],
+      "must_be_visible": [
+        "body marker",
+        "paired footer occurrence",
+        "printed citation",
+        "date/target or unresolved status"
+      ],
+      "permitted_claim": "Citation navigation is bound to an occurrence, with its uncertainty exposed.",
+      "does_not_establish": "A navigation link is not retained legal evidence or a finding of legal applicability.",
+      "fallback": "Capture the real unresolved reference state; do not repair or invent a target for the picture.",
+      "repository_evidence": [
+        "docs/reading-help-demo-2026-09-30.md",
+        "docs/reading-help-legislation-bridge.md"
+      ],
+      "planned_frames": [
+        "S03"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S04",
+      "title": "Processing coverage includes extraction gaps",
+      "priority": "reserve",
+      "presentation_act": "A — Reading guidance",
+      "entry_key": "corpus_ch60",
+      "entry_url": "https://chris-page-gov.github.io/okf-explorer/reading-help/corpus/?catalogue=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fcbada7bf544106bdceb2445fc379c8b3e5b73ee4%2Freading-help-corpus%2Fmanifest.json&catalogue_sha256=6c53b659b519aa4cbf7529e7e10eb4ad3bfe8efcac18055ec2a5ade724998b46&catalogue_bytes=260797&family=dmg&document=dmg-vol10-ch60&unit=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol10-ch60%2Fmanual-structure-v1%2Fsource-0000002117-000-5fac0d6d5c5e",
+      "steps": [
+        "Use the catalogue/document controls to show a genuine extraction-blocked page or recorded gap.",
+        "Use a separate original release-report view for aggregate counts if the UI does not expose them."
+      ],
+      "must_be_visible": [
+        "actual gap or no-extracted-text status",
+        "document/page identity",
+        "distinction between processing and review"
+      ],
+      "permitted_claim": "The processing ledger records missing extraction rather than pretending every page is readable.",
+      "does_not_establish": "893 extraction gaps do not mean 893 blank PDF pages; coverage is not answer accuracy.",
+      "fallback": "Screenshot the original pinned release record, labelled a repository report rather than an application screen.",
+      "repository_evidence": [
+        "docs/reading-help-release-2026-09-27.md"
+      ],
+      "planned_frames": [
+        "S04"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S05",
+      "title": "The UC effective-date question: a retained retrieval miss",
+      "priority": "main",
+      "presentation_act": "B — Investigating evidence",
+      "entry_key": "uc_observation",
+      "entry_url": "https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/uc-disabled-child-supersession-follow-up.md",
+      "steps": [
+        "Read the out-of-sample JSON and the complete follow-up note.",
+        "Capture the original rendered repository note containing the question, the observation and limitations; use two readable frames if needed.",
+        "Only use a product view for this case if a real supported view exists. Do not add the case to the frozen forty-question register."
+      ],
+      "must_be_visible": [
+        "26 January 2025",
+        "28 March 2026",
+        "F1123 selected",
+        "A4361 and A4352 missed",
+        "insufficient",
+        "historical observation label"
+      ],
+      "permitted_claim": "The retained test exposes an evidence-selection and routing failure that can be investigated.",
+      "does_not_establish": "Not a fresh current-service result, an LRM reasoning result, a validated answer, or one of the frozen 40 cases.",
+      "fallback": "Capture the real pinned Markdown/JSON in a readable browser view, explicitly labelled diagnostic record.",
+      "repository_evidence": [
+        "docs/uc-disabled-child-supersession-follow-up.md",
+        "evaluation/out-of-sample/uc-disabled-child-supersession-001.json"
+      ],
+      "planned_frames": [
+        "S05"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S06",
+      "title": "Inspect the effective-date branch in its source",
+      "priority": "main",
+      "presentation_act": "B — Investigating evidence",
+      "entry_key": "adm_a4_36",
+      "entry_url": "https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=36",
+      "steps": [
+        "Use the exact retained ADM A4 PDF and inspect page 36, A4361, including heading and qualifications.",
+        "Capture companion page 34, A4352, if necessary to show the exception pointer.",
+        "Compare any live PDF with the frozen version before identifying the two as the same source."
+      ],
+      "must_be_visible": [
+        "ADM A4",
+        "A4361",
+        "PDF page 36",
+        "complete relevant paragraph and context",
+        "source edition/capture distinction in notes"
+      ],
+      "permitted_claim": "A reviewer can inspect the branch that was missing from the retained retrieval.",
+      "does_not_establish": "This is not proof that the system selected it; assessment-period boundaries and full legal/factual applicability remain unverified.",
+      "fallback": "Render the exact local retained PDF without OCR or recreated text; keep page 34 as a companion, not a spliced synthetic page.",
+      "repository_evidence": [
+        "docs/uc-disabled-child-supersession-follow-up.md"
+      ],
+      "planned_frames": [
+        "S06a",
+        "S06b"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S07",
+      "title": "Ask a fresh question against pinned evidence",
+      "priority": "main",
+      "presentation_act": "B — Investigating evidence",
+      "entry_key": "fresh_ask",
+      "entry_url": "https://chris-page-gov.github.io/okf-explorer/explore/?bundle=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F7eeded763042ddd0070f4fed834c6074149e8e2f%2Fstructured-context%2Fevidence-connect-explorer.json",
+      "steps": [
+        "Open Ask OKF and enter the exact capital question specified in the instructions.",
+        "Use 64 records, 128 relationships, depth 6 and 524288 bytes.",
+        "Capture the completed result and save its actual receipt; do not call an answer model."
+      ],
+      "must_be_visible": [
+        "exact question",
+        "actual selected evidence",
+        "insufficient/truncation status where returned",
+        "source/budget identity"
+      ],
+      "permitted_claim": "This is a new evidence assembly, with explicit selection and budget limits.",
+      "does_not_establish": "A retrieval improvement does not establish an accurate AI answer or legal completeness.",
+      "fallback": "Use the original retained observation, labelled historical; do not report a failed or unavailable fresh run as successful.",
+      "repository_evidence": [
+        "docs/evidence-workbench-handover.md",
+        "docs/evidence-workbench.md"
+      ],
+      "planned_frames": [
+        "S07"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S08",
+      "title": "Inspect a selected passage and its provenance",
+      "priority": "main",
+      "presentation_act": "B — Investigating evidence",
+      "entry_key": "tools_workbench",
+      "entry_url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&tab=requirements",
+      "steps": [
+        "Resolve the capital-related retained case from the actual manifest; do not guess its staff ID.",
+        "Choose the appropriate actual selected capital passage, preferably the documented U07/DMG 84861 path when present.",
+        "Show exact passage text, original source link/page and transformation/provenance information."
+      ],
+      "must_be_visible": [
+        "actual case and selected record",
+        "passage text",
+        "source/page locator",
+        "source versus project-authored information",
+        "package status"
+      ],
+      "permitted_claim": "A retained package can be inspected back to its recorded source and extraction.",
+      "does_not_establish": "This saved package is not automatically the fresh result captured in S07; hashes do not establish meaning.",
+      "fallback": "Use another documented selected passage in the same retained case and report the substitution, without changing the evidence.",
+      "repository_evidence": [
+        "docs/evidence-workbench.md",
+        "docs/evidence-workbench-handover.md"
+      ],
+      "planned_frames": [
+        "S08"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S09",
+      "title": "A dependency and a missing requirement",
+      "priority": "main",
+      "presentation_act": "B — Investigating evidence",
+      "entry_key": "tools_workbench",
+      "entry_url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&tab=requirements",
+      "steps": [
+        "In the same retained case as S08, inspect one directed relationship and its evidence references.",
+        "Capture the associated missing requirement or omission in a companion frame or readable native layout.",
+        "Do not assume a generic graph edge is a legal or calculation dependency."
+      ],
+      "must_be_visible": [
+        "directed relationship with labels",
+        "source/proposal status",
+        "actual unresolved requirement",
+        "insufficient status"
+      ],
+      "permitted_claim": "The interface exposes both why passages are connected and what is still missing.",
+      "does_not_establish": "Relationships alone do not establish a complete rule or an approved legal interpretation.",
+      "fallback": "Capture the native relationship table and requirements separately; do not draw invented graph edges.",
+      "repository_evidence": [
+        "docs/evidence-workbench.md",
+        "docs/workbench-model-inspection.md"
+      ],
+      "planned_frames": [
+        "S09"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S10",
+      "title": "A calculation model that deliberately cannot calculate",
+      "priority": "main",
+      "presentation_act": "C — Inspecting and challenging the system",
+      "entry_key": "calculation",
+      "entry_url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&tab=calculation",
+      "steps": [
+        "Open staff-016 and Calculation stages.",
+        "Show the source-linked stages and unknown inputs/effective dates.",
+        "Do not enter claimant data, derive rates or produce an award."
+      ],
+      "must_be_visible": [
+        "staff-016",
+        "Calculation stages",
+        "blocked",
+        "authored/unreviewed status",
+        "unknown inputs or dates",
+        "no award result"
+      ],
+      "permitted_claim": "A business analyst can inspect proposed dependencies and blockers before execution is permitted.",
+      "does_not_establish": "There is no implemented, reviewed entitlement calculator in this demonstration.",
+      "fallback": "Use the real Requirements or Rates view and label the blocked Calculation view unavailable.",
+      "repository_evidence": [
+        "docs/workbench-model-inspection.md"
+      ],
+      "planned_frames": [
+        "S10"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S11",
+      "title": "Carer interactions are directional",
+      "priority": "main",
+      "presentation_act": "C — Inspecting and challenging the system",
+      "entry_key": "interactions",
+      "entry_url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&tab=interactions",
+      "steps": [
+        "Open staff-039 and Interactions.",
+        "Show the separate carer-income, carer-addition and cared-for-person entries.",
+        "Keep row ranges, omitted rows, uncertainty and source references visible."
+      ],
+      "must_be_visible": [
+        "staff-039",
+        "carer versus cared-for person",
+        "directional row descriptions",
+        "unreviewed/conditional status",
+        "shown row range"
+      ],
+      "permitted_claim": "The same named benefit can participate in different relationships depending on person and direction.",
+      "does_not_establish": "No symmetric interaction rule or actual award change has been established.",
+      "fallback": "Use the native table rather than a decorative graph; do not invent a fourth row in a bounded three-row response.",
+      "repository_evidence": [
+        "docs/workbench-model-inspection.md",
+        "docs/workbench-sidebar-demo.md"
+      ],
+      "planned_frames": [
+        "S11"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S12",
+      "title": "The assistant changes an inspectable page view",
+      "priority": "main",
+      "presentation_act": "C — Inspecting and challenging the system",
+      "entry_key": "tools_workbench",
+      "entry_url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&tab=requirements",
+      "steps": [
+        "Use an already authorised compatible sidebar session; first show staff-016 Requirements.",
+        "Capture the whole browser window including the real assistant panel and page.",
+        "Run the bounded follow-up to show staff-039 Interactions and capture the after state.",
+        "Record actual tool route, schemas, snapshot IDs, revisions, result IDs and visible state changes."
+      ],
+      "must_be_visible": [
+        "real sidebar prompt and response",
+        "same visible workbench page",
+        "before staff-016 Requirements",
+        "after staff-039 Interactions",
+        "returned limitations"
+      ],
+      "permitted_claim": "In this recorded session an assistant used the actual page tools to inspect evidence and change its presentation.",
+      "does_not_establish": "Developer-assisted native page-tool access is not automatic dedicated WebMCP discovery, remote MCP, universal client support, or validated reasoning.",
+      "fallback": "Mark sidebar capture BLOCKED with its exact reason; provide manually navigated S10/S11 as UI-only fallbacks, never as proof of agent action.",
+      "repository_evidence": [
+        "docs/workbench-sidebar-demo.md",
+        "docs/workbench-model-inspection.md"
+      ],
+      "planned_frames": [
+        "S12a",
+        "S12b"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S13",
+      "title": "Export a local review proposal",
+      "priority": "reserve",
+      "presentation_act": "C — Inspecting and challenging the system",
+      "entry_key": "tools_workbench",
+      "entry_url": "https://chris-page-gov.github.io/okf-explorer/evidence/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&tab=requirements",
+      "steps": [
+        "Use the actual review controls and clearly identify the entry as a screenshot rehearsal, not specialist approval.",
+        "Download a local proposal under the capture output directory.",
+        "Check that published packages and repository source are unchanged."
+      ],
+      "must_be_visible": [
+        "review/proposal status",
+        "actual case/source binding",
+        "local export action",
+        "no approval/award claim"
+      ],
+      "permitted_claim": "An inspectable suggestion can be handed to a separate review process.",
+      "does_not_establish": "Export does not approve a rule or change published evidence.",
+      "fallback": "Show the real review controls without exporting and explain the limitation.",
+      "repository_evidence": [
+        "docs/evidence-workbench.md",
+        "docs/passage-boundary-review.md"
+      ],
+      "planned_frames": [
+        "S13"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S14",
+      "title": "Audit how a passage was assembled",
+      "priority": "reserve",
+      "presentation_act": "Process / assurance appendix",
+      "entry_key": "passage_review",
+      "entry_url": "https://chris-page-gov.github.io/okf-explorer/evidence/passages/?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2F65924955745c4ed1b8ce66252c4748902b5403ba%2Fevaluation%2Fpassage-boundary-review%2Fmanifest.json&case=case-001",
+      "steps": [
+        "Open a documented case from the 28-case queue.",
+        "Show source/extraction and before/proposed-after boundaries or How this passage was built.",
+        "Record which parser proposal and case were shown; preserve unresolved status where present."
+      ],
+      "must_be_visible": [
+        "case ID",
+        "source PDF/extraction locator",
+        "before/proposed-after distinction",
+        "review uncertainty"
+      ],
+      "permitted_claim": "The transformation from source to evidence can itself be inspected.",
+      "does_not_establish": "These are selected known outliers, not a random sample or corpus-wide error-rate estimate.",
+      "fallback": "Show the pinned source review document if the live viewer is unavailable; do not imply a new repair was made.",
+      "repository_evidence": [
+        "docs/passage-boundary-review.md"
+      ],
+      "planned_frames": [
+        "S14"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S15",
+      "title": "Show what the checks actually measured",
+      "priority": "reserve",
+      "presentation_act": "Evaluation appendix",
+      "entry_key": "release_record",
+      "entry_url": "https://github.com/chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/reading-help-release-2026-09-27.md",
+      "steps": [
+        "Capture the original release record and relevant bound report rather than inventing a dashboard.",
+        "Show the technical checks with their denominators and the adjacent answerability limitations."
+      ],
+      "must_be_visible": [
+        "16 public browser checks, if reproduced from the original report",
+        "40/40 byte-identical packages",
+        "all insufficient",
+        "dated identities",
+        "zero new answer-model calls for the stated increment"
+      ],
+      "permitted_claim": "Recorded technical checks measure delivery, navigation and non-regression within their stated scope.",
+      "does_not_establish": "They do not measure improved answer accuracy; no percentage success chart should mix these denominators.",
+      "fallback": "Use the original report view with readable crops and source URL/date captions.",
+      "repository_evidence": [
+        "docs/reading-help-release-2026-09-27.md"
+      ],
+      "planned_frames": [
+        "S15"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    },
+    {
+      "id": "S16",
+      "title": "Where colleagues can try the public learning route",
+      "priority": "main",
+      "presentation_act": "Close / invitation to inspect",
+      "entry_key": "learning_site",
+      "entry_url": "https://chris-page-gov.github.io/okf-dwp/docs/learning-path.html",
+      "steps": [
+        "Open the actual public learning page and verify its destination.",
+        "Capture the relevant start/help section.",
+        "Optionally generate and decode-test a separate QR code to that confirmed public page."
+      ],
+      "must_be_visible": [
+        "public learning route",
+        "independent experimental status",
+        "useful entry instructions",
+        "no private session URL"
+      ],
+      "permitted_claim": "The audience has a public entry point for learning about and inspecting the exemplar.",
+      "does_not_establish": "No universal browser/Voice support or official DWP service is implied.",
+      "fallback": "Use a verified pinned public repository guide and record the substituted QR target; never encode localhost or an expired tool result.",
+      "repository_evidence": [
+        "docs/learning-path.md",
+        "docs/reading-help-demo-2026-09-30.md"
+      ],
+      "planned_frames": [
+        "S16"
+      ],
+      "capture_status": "not-run",
+      "actual_url": null,
+      "actual_source_commit": null,
+      "actual_explorer_identity": null,
+      "captured_at": null,
+      "receipt_path": null,
+      "output_files": []
+    }
+  ]
+}

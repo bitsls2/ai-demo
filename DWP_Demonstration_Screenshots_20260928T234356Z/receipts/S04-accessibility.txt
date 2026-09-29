@@ -1,0 +1,250 @@
+- banner:
+  - paragraph:
+    - link "← Bounded reading aid":
+      - /url: ../
+  - heading "Reading-help corpus" [level=1]
+  - paragraph: Select a document and passage from a governed catalogue. Source text and candidate help remain separate. This independent demonstration is not official DWP guidance and does not decide entitlement.
+- text: Reading-help catalogue URL
+- textbox "Reading-help catalogue URL":
+  - /placeholder: https://…/reading-help-corpus/manifest.json
+  - text: https://raw.githubusercontent.com/chris-page-gov/okf-dwp/cbada7bf544106bdceb2445fc379c8b3e5b73ee4/reading-help-corpus/manifest.json
+- button "Load catalogue"
+- paragraph: "513 processed documents · 893 extraction-blocked pages. Catalogue status: machine-proposed-unreviewed."
+- group: Catalogue identity and limits
+- region "Choose document":
+  - heading "Choose a document" [level=2]
+  - text: Family
+  - combobox "Family":
+    - option "All families"
+    - option "ADM" [selected]
+    - option "DMG"
+  - text: Document ID
+  - searchbox "Document ID": adm-chapter-a2
+  - paragraph: Showing 1 matching documents at most.
+  - list:
+    - listitem:
+      - button "ADM · adm-chapter-a2 · 158 passages"
+- region "Choose passage":
+  - heading "adm-chapter-a2" [level=2]
+  - paragraph: "158 ordered passage segments · 3 extraction-blocked pages. Specialist acceptance: not recorded."
+  - group:
+    - text: Machine-extraction gaps (3)
+    - paragraph: These pages have no usable machine text in the frozen extraction. The PDF pages may contain content; no OCR or legal meaning is inferred.
+    - list:
+      - listitem:
+        - link "Open source PDF at page 10":
+          - /url: https://assets.publishing.service.gov.uk/media/6a0f0a8f065847719dd7b47e/adm-ch-a2.pdf#page=10
+      - listitem:
+        - link "Open source PDF at page 56":
+          - /url: https://assets.publishing.service.gov.uk/media/6a0f0a8f065847719dd7b47e/adm-ch-a2.pdf#page=56
+      - listitem:
+        - link "Open source PDF at page 64":
+          - /url: https://assets.publishing.service.gov.uk/media/6a0f0a8f065847719dd7b47e/adm-ch-a2.pdf#page=64
+  - text: Find a paragraph or declared label
+  - searchbox "Find a paragraph or declared label"
+  - text: Exact abbreviation occurrence in this document
+  - searchbox "Exact abbreviation occurrence in this document"
+  - paragraph: Showing up to 100 matching passages. Abbreviation search uses source-verified occurrence literals in the index.
+  - list:
+    - listitem:
+      - button "unresolved fragment · page 1, 2 · unresolved-fragment"
+    - listitem:
+      - button "A2001 — Introduction · page 3 · paragraph"
+    - listitem:
+      - button "A2002 — Introduction · page 3, 4 · paragraph"
+    - listitem:
+      - button "A2003 — Appropriate Office · page 4 · paragraph"
+    - listitem:
+      - button "A2004 — Assessment Period · page 4 · paragraph"
+    - listitem:
+      - button "A2005 — Benefit · page 4, 5 · paragraph"
+    - listitem:
+      - button "reserved · page 5 · reserved"
+    - listitem:
+      - button "A2008 — Claimant · page 5 · paragraph"
+    - listitem:
+      - button "A2009 — Couple · page 5 · paragraph"
+    - listitem:
+      - button "A2010 — Earned income · page 5 · paragraph"
+    - listitem:
+      - button "A2011 — Electronic communications · page 5, 6 · paragraph"
+    - listitem:
+      - button "A2013 — Partner · page 6 · paragraph"
+    - listitem:
+      - button "reserved · page 6 · reserved"
+    - listitem:
+      - button "A2016 — Writing · page 6, 7 · paragraph"
+    - listitem:
+      - button "A2017 — General Requirement to make a claim · page 7 · paragraph"
+    - listitem:
+      - button "A2018 — General Requirement to make a claim · page 7 · paragraph"
+    - listitem:
+      - button "A2019 — Making a claim · page 7 · paragraph"
+    - listitem:
+      - button "A2020 — Making a claim · page 7, 8 · paragraph"
+    - listitem:
+      - button "A2021 — Making a claim · page 8 · paragraph"
+    - listitem:
+      - button "A2022 — Making a claim · page 8, 9 · paragraph"
+    - listitem:
+      - button "A2023 — Making a claim · page 9 · paragraph"
+    - listitem:
+      - button "A2024 — Making a claim · page 9 · paragraph"
+    - listitem:
+      - button "A2025 — Making a claim for UC · page 11 · paragraph"
+    - listitem:
+      - button "A2026 — Making a claim for UC · page 11 · paragraph"
+    - listitem:
+      - button "A2027 — Making a claim for UC · page 11 · paragraph"
+    - listitem:
+      - button "A2028 — Making a claim for UC · page 11, 12 · paragraph"
+    - listitem:
+      - button "A2029 — Claims to UC by members of a couple · page 13 · paragraph"
+    - listitem:
+      - button "A2030 — Claims to UC by members of a couple · page 13 · paragraph"
+    - listitem:
+      - button "A2031 — Claims to UC by members of a couple · page 13 · paragraph"
+    - listitem:
+      - button "A2032 — Claims to UC by members of a couple · page 13, 14 · paragraph"
+    - listitem:
+      - button "A2033 — Claims to UC by members of a couple · page 14 · paragraph"
+    - listitem:
+      - button "A2034 — Claims to UC by members of a couple · page 14, 15 · paragraph"
+    - listitem:
+      - button "A2035 — Claims to UC by members of a couple · page 15 · paragraph"
+    - listitem:
+      - button "A2036 — Claims to UC by members of a couple · page 15, 16 · paragraph"
+    - listitem:
+      - button "A2037 — Claims to UC by members of a couple · page 16, 17 · paragraph"
+    - listitem:
+      - button "A2038 — Date of claim for UC · page 17 · paragraph"
+    - listitem:
+      - button "A2039 — Date of claim for UC · page 17, 18 · paragraph"
+    - listitem:
+      - button "A2040 — Date of claim for UC · page 18 · paragraph"
+    - listitem:
+      - button "A2041 — Date of claim for UC · page 18 · paragraph"
+    - listitem:
+      - button "A2042 — Date of claim for UC · page 18, 19 · paragraph"
+    - listitem:
+      - button "A2043 — Date of claim for UC · page 19 · paragraph"
+    - listitem:
+      - button "A2044 — Date of claim for UC · page 19, 20 · paragraph"
+    - listitem:
+      - button "A2045 — Date of claim for UC · page 20, 21 · paragraph"
+    - listitem:
+      - button "A2046 — Date of claim for UC · page 21 · paragraph"
+    - listitem:
+      - button "A2047 — Date of claim for UC · page 21 · paragraph"
+    - listitem:
+      - button "A2048 — Date of claim for UC · page 21, 22 · paragraph"
+    - listitem:
+      - button "A2049 — Date of claim for UC · page 22 · paragraph"
+    - listitem:
+      - button "A2050 — Date of claim for UC · page 22, 23, 24 · paragraph"
+    - listitem:
+      - button "A2051 — Making a claim for PIP · page 24 · paragraph"
+    - listitem:
+      - button "A2052 — Making a claim for PIP · page 24 · paragraph"
+    - listitem:
+      - button "A2053 — Making a claim for PIP · page 24 · paragraph"
+    - listitem:
+      - button "A2054 — Making a claim for PIP · page 24, 25 · paragraph"
+    - listitem:
+      - button "A2055 — Making a claim for PIP · page 25 · paragraph"
+    - listitem:
+      - button "A2056 — Making a claim for PIP · page 25, 26 · paragraph"
+    - listitem:
+      - button "A2057 — Making a claim for PIP · page 26 · paragraph"
+    - listitem:
+      - button "A2058 — Making a claim for PIP · page 26 · paragraph"
+    - listitem:
+      - button "A2059 — Making a claim for PIP · page 26 · paragraph"
+    - listitem:
+      - button "A2060 — Making a claim for PIP · page 26 · paragraph"
+    - listitem:
+      - button "A2061 — Making a claim for PIP · page 27 · paragraph"
+    - listitem:
+      - button "A2062 — Making a claim for PIP · page 27 · paragraph"
+    - listitem:
+      - button "A2063 — Making a claim for PIP · page 27 · paragraph"
+    - listitem:
+      - button "A2064 — Making a claim for PIP · page 27 · paragraph"
+    - listitem:
+      - button "A2065 — Making a claim for PIP · page 27, 28, 29 · paragraph"
+    - listitem:
+      - button "A2066 — Making a claim for ESA · page 29 · paragraph"
+    - listitem:
+      - button "A2067 — Making a claim for ESA · page 29 · paragraph"
+    - listitem:
+      - button "A2068 — Making a claim for ESA · page 29 · paragraph"
+    - listitem:
+      - button "A2069 — Making a claim for ESA · page 30 · paragraph"
+    - listitem:
+      - button "A2070 — Making a claim for ESA · page 30 · paragraph"
+    - listitem:
+      - button "A2071 — Making a claim for ESA · page 30 · paragraph"
+    - listitem:
+      - button "A2072 — Making a claim for ESA · page 30 · paragraph"
+    - listitem:
+      - button "A2073 — Making a claim for ESA · page 30, 31 · paragraph"
+    - listitem:
+      - button "A2074 — Making a claim for ESA · page 31 · paragraph"
+    - listitem:
+      - button "A2075 — Making a claim for ESA · page 31 · paragraph"
+    - listitem:
+      - button "A2076 — Making a claim for ESA · page 31 · paragraph"
+    - listitem:
+      - button "A2077 — Making a claim for ESA · page 31, 32 · paragraph"
+    - listitem:
+      - button "A2078 — Making a claim for ESA · page 32 · paragraph"
+    - listitem:
+      - button "A2079 — Making a claim for ESA · page 32 · paragraph"
+    - listitem:
+      - button "A2080 — Making a claim for ESA · page 32 · paragraph"
+    - listitem:
+      - button "A2081 — Making a claim for ESA · page 32, 33 · paragraph"
+    - listitem:
+      - button "A2082 — Making a claim to JSA · page 33 · paragraph"
+    - listitem:
+      - button "A2083 — Making a claim to JSA · page 33 · paragraph"
+    - listitem:
+      - button "A2084 — Making a claim to JSA · page 33, 34 · paragraph"
+    - listitem:
+      - button "A2085 — Making a claim to JSA · page 34 · paragraph"
+    - listitem:
+      - button "A2086 — Making a claim to JSA · page 34 · paragraph"
+    - listitem:
+      - button "A2087 — Making a claim to JSA · page 34 · paragraph"
+    - listitem:
+      - button "A2088 — Making a claim to JSA · page 34 · paragraph"
+    - listitem:
+      - button "A2089 — Making a claim to JSA · page 34 · paragraph"
+    - listitem:
+      - button "A2090 — Making a claim to JSA · page 34, 35 · paragraph"
+    - listitem:
+      - button "A2091 — Making a claim to JSA · page 35 · paragraph"
+    - listitem:
+      - button "A2092 — Making a claim to JSA · page 35 · paragraph"
+    - listitem:
+      - button "A2093 — Making a claim to JSA · page 35 · paragraph"
+    - listitem:
+      - button "A2094 — Making a claim to JSA · page 35 · paragraph"
+    - listitem:
+      - button "A2095 — Making a claim to JSA · page 35, 36 · paragraph"
+    - listitem:
+      - button "A2096 — Making a claim to JSA · page 36 · paragraph"
+    - listitem:
+      - button "A2097 — Making a claim to JSA · page 36 · paragraph"
+    - listitem:
+      - button "A2098 — Making a claim to JSA · page 36, 37 · paragraph"
+    - listitem:
+      - button "A2099 — Making a claim to JSA · page 37 · paragraph"
+    - listitem:
+      - button "A2100 — Making a claim to JSA · page 37, 38 · paragraph"
+    - listitem:
+      - button "A2102 — Interchange with claims for other benefits · page 39 · paragraph"
+    - listitem:
+      - button "A2103 — Interchange with claims for other benefits · page 39 · paragraph"
+  - group: Repeated phrase proposals (46)
+- text: Reading-help corpus | OKF Explorer

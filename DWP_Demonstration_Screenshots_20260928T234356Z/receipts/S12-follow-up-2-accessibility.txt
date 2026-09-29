@@ -1,0 +1,332 @@
+HTML content Evidence workbench | OKF Explorer, URL: …
+								45 container
+									46 link Skip to evidence, Value: chris-page-gov.github.io/okf-explorer/evidence/
+									47 link ← Explorer, Value: chris-page-gov.github.io/okf-explorer/explore/
+									48 heading Evidence workbench, Value: 1
+										49 text Evidence workbench
+									50 text Trace a staff question back to source pages, passages and declared evidence needs.
+									51 container
+										52 link Review passage boundaries →, Value: chris-page-gov.github.io/okf-explorer/evidence/passages/
+										53 text  · 
+										54 link Open reading help →, Value: chris-page-gov.github.io/okf-explorer/reading-help/
+									55 container
+										56 text Review manifest URL
+										57 url (settable) Review manifest URL, Value: https://raw.githubusercontent.com/chris-page-gov/okf-dwp/d31f16fb7143d04b9de73e14cd493cfb832ae83e/evaluation/evidence-workbench/tools-manifest.json
+										58 button Load
+									59 text Workbench page tools registered. Assistant-host support must be checked separately.
+									60 container DWP staff evidence workbench: 40 frozen questions
+										61 heading DWP staff evidence workbench: 40 frozen questions, Value: 2
+											62 text DWP staff evidence workbench: 40 frozen questions
+										63 text 40 questions · Independent experimental DWP research across frozen DMG and ADM source snapshots
+										64 text Find a question
+										65 search text field (settable) Find a question
+										66 container Staff questions
+											67 link staff-001: General What happens to your benefits if you go abroad?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											68 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-002: State Pension If your birthday is 30th May 1960, what is the first date you will be entitled to State Pension?
+											69 link staff-003: State Pension How does State Pension interact with PIP?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											70 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-004: State Pension What are the components which make up State Pension and how do you qualify for them?
+											71 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-005: State Pension What other benefits could you receive in addition to State Pension, and under what circumstances would you be entitled to them?
+											72 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-006: Pension Credit What is the maximum you can have in savings to still qualify for Pension Credit?
+											73 link staff-007: Pension Credit What were the Pension Credit weekly rates over the last five years?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											74 link staff-008: Pension Credit What was the SDA amount over the last five years?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											75 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-009: Pension Credit Besides SDA, what are the other additional payments which you can receive in addition to basic Pension Credit, and what have been their rates over the last five years?
+											76 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-010: Pension Credit What is used in the Pension Credit calculation to assess eligibility and what is the threshold for each element?
+											77 link staff-011: Pension Credit How does Housing Benefit impact Pension Credit?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											78 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-012: Pension Credit Does Pension Credit stop is a citizen moves into a care home permanently if they are self-funding?
+											79 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-013: Pension Credit Does Pension Credit stop is a citizen moves into a care home permanently if they are not self-funding?
+											80 link staff-014: Pension Credit What is the impact of someone’s partner on their Pension Credit?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											81 link staff-015: Pension Credit What inputs are required for the Pension Credit calculation?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											82 link staff-016: Pension Credit Given these inputs what is the formula for calculating Pension Credit?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											83 link staff-017: Pension Credit What difference to Pension Credit does having a partner make?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											84 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-018: Pension Credit What happens if someone with a partner goes permanently into a Care Home (please give all scenarios)?
+											85 link staff-019: Pension Credit How does Pension Credit work?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											86 link staff-020: Pension Credit How does a citizen qualify for Pension Credit?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											87 link staff-021: Pension Credit What are the eligibility rules and entitlement rate for PC?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											88 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-022: Pension Credit How do State Pension and Pension Credit fit together. For example: If someone receives State Pension, could they also be entitled to Pension Credit?
+											89 link staff-023: Pension Credit What happens to Pension Credit if someone moves abroad?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											90 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-024: Industrial Injuries Benefits What additional benefits would you be entitled to if you are entitled to IIDB?
+											91 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-025: Industrial Injuries Benefits What happens if you are on IIDB when you reach State Pension Age?
+											92 link staff-026: Industrial Injuries Benefits What is the interaction between Child DLA and PIP?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											93 link staff-027: Industrial Injuries Benefits Can you receive both IIDB and JSA?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											94 link staff-028: Industrial Injuries Benefits Can you receive both IIDB and ESA?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											95 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-029: Industrial Injuries Benefits What is the relationship between IIDB, PIP, Attendance Allowance and DLA?
+											96 link staff-030: Industrial Injuries Benefits How does IIDB relate to PIP?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											97 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-031: Personal Independence Payment What additional benefits would you be entitled to if you are entitled to PIP?
+											98 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-032: Personal Independence Payment What happens if you are on PIP when you reach State Pension Age?
+											99 link staff-033: Personal Independence Payment What is the interaction between Child DLA and PIP?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											100 link staff-034: Personal Independence Payment Can you receive both PIP and JSA?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											101 link staff-035: Personal Independence Payment Can you receive both PIP and ESA?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											102 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-036: Personal Independence Payment What is the relationship between PIP, Attendance Allowance and DLA?
+											103 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-037: Personal Independence Payment If you receive PIP and War Pensions Constant Allowance, how much would you get each week (please provide all variations)?
+											104 link staff-038: Carers Allowance Under what circumstances can a Citizen claim Carers Allowance?, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											105 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-039: Carers Allowance What impact does Carers Allowance have on other benefits which are being claimed?
+											106 link Value: chris-page-gov.github.io/okf-explorer/evidence/, staff-040: Carers Allowance What happens to Carers Allowance if someone is caring for two or more people?
+									107 container
+										108 text QUESTION STAFF-016
+										109 heading Given these inputs what is the formula for calculating Pension Credit?, Value: 2
+											110 text Given these inputs what is the formula for calculating Pension Credit?
+										111 text Declared evidence status:
+										112 text  insufficient. This is an assembly result within the declared scope, not an answer or legal decision.
+										113 text Scope:
+										114 text  Complete frozen DMG and ADM source-led unit discovery with separately authored task profiles. Additive capital discovery groups over the full DMG and ADM structured corpus. Snapshot evidence-connect-754be67f82c82e31d17c · Context urn:sha256:0a1388a88bd18998396f1b87d7f0a111944b929718b41d7ae89ec340c890850d · Index 4e65253f72b2d771164d5ddd64374ed8142cf66b4a249f193a1fe44d5679f519
+										115 link Open full machine-readable evidence package ↗, Value: raw.githubusercontent.com/chris-page-gov/okf-dwp/d31f16fb7143d04b9de73e14cd493cfb832ae83e/evaluation/evidence-workbench…
+										116 text Manifest source date: Not supplied · Manifest capture date: Not supplied
+									117 container Original question review brief
+										118 heading Original question review brief, Value: 3
+											119 text Original question review brief
+										120 text These notes came with the question catalogue. They describe the intended review and its recorded gaps; they are separate from the current context package's requirements and retrieval findings.
+										121 heading Recorded ambiguities, Value: 4
+											122 text Recorded ambiguities
+										123 content list
+											124 container
+												125 AXListMarker • 
+												126 text These inputs refers to an earlier question; actual inputs have not been provided in this standalone prompt.
+											127 container
+												128 AXListMarker • 
+												129 text An explanatory formula and an executable decision engine require different assurance.
+										130 heading Evidence identified for review, Value: 4
+											131 text Evidence identified for review
+										132 content list
+											133 container
+												134 AXListMarker • 
+												135 text Resolved input contract, versioned component formulas, ordering/rounding, exceptions and non-calculation eligibility gates.
+										136 heading Recorded scope gaps, Value: 4
+											137 text Recorded scope gaps
+										138 content list
+											139 container
+												140 AXListMarker • 
+												141 text No governed topic-specific context profile or independently complete evidence requirement in the approved immutable Ask index.
+									142 container Selected records (36)
+										143 heading Selected records (36), Value: 3
+											144 text Selected records (36)
+										145 container Selected evidence and concepts
+											146 link Pension Credit assessment inputs concept · model-derived, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											147 link State Pension Credit concept · model-derived, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											148 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 14 Ch 85: Income other than earnings — 85092 — Types of income taken fully into account evidence · normalized
+											149 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77332 — Guarantee credit evidence · normalized
+											150 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable evidence · normalized
+											151 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 14 Ch 85: Income other than earnings — 85100 — Benefits taken fully into account evidence · normalized
+											152 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 14 Ch 85: Income other than earnings — 85091 — Types of income taken fully into account evidence · normalized
+											153 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable evidence · normalized
+											154 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit evidence · normalized
+											155 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77330 — Guarantee credit evidence · normalized
+											156 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable evidence · normalized
+											157 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77331 — Guarantee credit evidence · normalized
+											158 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77333 — Guarantee credit evidence · normalized
+											159 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 14 Ch 85: Income other than earnings — 85130 — Retirement pension income taken fully into account evidence · normalized
+											160 link DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction evidence · normalized, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											161 link DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction evidence · normalized, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											162 link DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law evidence · normalized, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											163 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 14 Ch 85: Income other than earnings — 85171 — Annuity income [See Memo DMG 16/18] evidence · normalized
+											164 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable evidence · normalized
+											165 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit evidence · normalized
+											166 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit evidence · normalized
+											167 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable evidence · normalized
+											168 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 14 Ch 84: Deemed weekly income from capital — Calculating deemed weekly income from capital evidence · normalized
+											169 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 14 Ch 84: Deemed weekly income from capital — 84921 — Deemed weekly income from capital evidence · normalized
+											170 link DMG Vol 14 Ch 84: Deemed weekly income from capital — reserved evidence · normalized, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											171 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 14 Ch 84: Deemed weekly income from capital — 84922 — Deemed weekly income from capital evidence · normalized
+											172 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — reserved evidence · normalized
+											173 link Savings Credit concept · model-derived, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											174 link Guarantee Credit concept · model-derived, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											175 link Income other than earnings concept · model-derived, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											176 link Capital concept · model-derived, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											177 link Pension Credit mixed-age couple conditions and protections concept · model-derived, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											178 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit evidence · normalized
+											179 link DMG Vol 14 Ch 85: Income other than earnings — 85131 — Retirement pension evidence · normalized, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											180 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 14 Ch 85: Income other than earnings — 85221 — Home income plans [See Memo DMG 16/18] evidence · normalized
+											181 link Value: chris-page-gov.github.io/okf-explorer/evidence/, DMG Vol 14 Ch 84: Deemed weekly income from capital — Valuing capital in the UK, outside the UK and in joint ownership evidence · normalized
+									182 container Pension Credit assessment inputs
+										183 container
+											184 text CONCEPT · MODEL-DERIVED
+											185 heading Pension Credit assessment inputs, Value: 3
+												186 text Pension Credit assessment inputs
+											187 text Staff-domain meaning proposal; specialist review required · unreviewed-specialist-review-required
+										188 container Evidence views
+											189 link Original source, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											190 link Extracted text and structure, Value: chris-page-gov.github.io/okf-explorer/evidence/
+											191 link Complete passage, Value: …
+											192 link Concepts and relationships, Value: …
+											193 link Definitions and exceptions, Value: …
+											194 link Retrieval trace, Value: …
+											195 link Review proposal, Value: …
+											196 link Graph, Value: …
+											197 link Interactions, Value: …
+											198 link Requirements, Value: …
+											199 link Rates, Value: …
+											200 link Calculation stages, Value: …
+										201 container Declared evidence requirements
+											202 container
+												203 text EVIDENCE REQUIREMENTS
+												204 heading Declared evidence requirements, Value: 3
+													205 text Declared evidence requirements
+											206 definition list
+												207 container Authority
+													208 text Authority
+												209 text Retained evidence projection
+												210 container Assessment date
+													211 text Assessment date
+												212 text Unknown
+												213 container Effective from
+													214 text Effective from
+												215 text Unknown
+												216 container Effective to
+													217 text Effective to
+												218 text Unknown
+											219 text Showing rows 1–3 of 6. This is a partial page; further rows are available.
+											220 container Limitations
+												221 heading Limitations, Value: 4
+													222 text Limitations
+												223 content list
+													224 container
+														225 AXListMarker • 
+														226 text Navigation and delivery do not establish evidence sufficiency. Read the source and its qualifications.
+													227 container
+														228 AXListMarker • 
+														229 text Retained context status: insufficient. Retrieval and assembly omissions remain in the evidence package.
+											230 container Evidence requirements
+												231 heading Evidence requirements, Value: 4
+													232 text Evidence requirements
+												233 container Scrollable view records
+													234 table
+														235 row
+															236 column header
+																237 text Requirement
+															238 column header
+																239 text Status
+															240 column header
+																241 text Missing evidence
+															242 column header
+																243 text Scope and limitations
+															244 column header
+																245 text Evidence sources
+														246 row
+															247 cell
+																248 text staff-010: Complete inputs, exclusions, disregards, calculation dependencies and versioned thresholds for the agreed scope.
+															249 cell
+																250 text insufficient
+															251 cell
+																252 text https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/9baeaf8124e6870bb3dfe884ec21d6c8193cd8884a30a7169e0e02e9edab2902; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/b8f41d85cb97e4decbba5dac7412a02e8f12e0d2238f20690fe35d5df425e6cc; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/d0fa043a1f995a9709be406cabdb479fa6428748c6f070b1e7a3ef60beae6f87; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/e409fba66acd4e44b1aff5fe849cebac5530e9
+															253 cell
+																254 text Proposed review scope for staff-010. What is used in the Pension Credit calculation to assess eligibility and what is the threshold for each element? evidence_closure_unverified: Complete inputs, exclusions, disregards, calculation dependencies and versioned thresholds for the agreed scope. applicability_unresolved: Resolve benefit regime, relevant date and territory; source capture is not legal applicability. legal_version_unreconciled: Reconcile the applicable legal provisions, amendments and cited judgme
+															255 cell
+																256 text Not supplied
+														257 row
+															258 cell
+																259 text staff-015: A complete source-backed input inventory including exclusions and evidence needed to determine each field.
+															260 cell
+																261 text insufficient
+															262 cell
+																263 text https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/9baeaf8124e6870bb3dfe884ec21d6c8193cd8884a30a7169e0e02e9edab2902; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/b8f41d85cb97e4decbba5dac7412a02e8f12e0d2238f20690fe35d5df425e6cc; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/d0fa043a1f995a9709be406cabdb479fa6428748c6f070b1e7a3ef60beae6f87; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/e409fba66acd4e44b1aff5fe849cebac5530e9
+															264 cell
+																265 text Proposed review scope for staff-015. What inputs are required for the Pension Credit calculation? evidence_closure_unverified: A complete source-backed input inventory including exclusions and evidence needed to determine each field. applicability_unresolved: Resolve benefit regime, relevant date and territory; source capture is not legal applicability. legal_version_unreconciled: Reconcile the applicable legal provisions, amendments and cited judgments. independent_review_pending: Independent specialist re
+															266 cell
+																267 text Not supplied
+														268 row
+															269 cell
+																270 text staff-016: Resolved input contract, versioned component formulas, ordering/rounding, exceptions and non-calculation eligibility gates.
+															271 cell
+																272 text insufficient
+															273 cell
+																274 text https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/9baeaf8124e6870bb3dfe884ec21d6c8193cd8884a30a7169e0e02e9edab2902; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/b8f41d85cb97e4decbba5dac7412a02e8f12e0d2238f20690fe35d5df425e6cc; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/d0fa043a1f995a9709be406cabdb479fa6428748c6f070b1e7a3ef60beae6f87; https://chris-page-gov.github.io/okf-dwp/id/assertion/staff-semantic/f998d6d2cdac7a4b10794ba4d171d404dc769f
+															275 cell
+																276 text Proposed review scope for staff-016. Given these inputs what is the formula for calculating Pension Credit? evidence_closure_unverified: Resolved input contract, versioned component formulas, ordering/rounding, exceptions and non-calculation eligibility gates. applicability_unresolved: Resolve benefit regime, relevant date and territory; source capture is not legal applicability. legal_version_unreconciled: Reconcile the applicable legal provisions, amendments and cited judgments. independent_review_pending
+															277 cell
+																278 text Not supplied
+											279 container Source references
+												280 heading Source references, Value: 4
+													281 text Source references
+												282 text No source references were supplied.
+										283 text This is a partial view. Showing 3 of 6 rows.
+										284 button Load more rows
+									285 text Evidence workbench | OKF Explorer
+					286 container Side pane ChatGPT
+						287 container
+							288 container
+								289 text ChatGPT
+								290 button Close
+							291 scroll area
+								292 HTML content ChatGPT, URL: …
+									293 container
+										294 container
+											295 button New chat
+											296 button Show staff-016 requirements gaps No chats in progress
+											297 button More actions
+											298 container
+												299 container
+													300 heading You said:, Value: 4
+														301 text You said:
+													302 text Use this Evidence workbench page's registered tools to show the Requirements view for staff-016 and explain the first three gaps. Use only returned evidence. Discover the available interface and schemas first. If a dedicated WebMCP interface is unavailable but this session already has authorised developer access to the page's native registered tools, use that route and identify it explicitly. Otherwise report the blocker. Obtain current state, then retrieve and show the view using the returned snapshot, res
+													303 button Show more
+													304 text 12:08 AM
+													305 button Copy message
+													306 button Worked for 1m 42s
+													307 heading ChatGPT said:, Value: 4
+														308 text ChatGPT said:
+													309 text I used the page’s native registered tools through the 
+													310 text authorised CDP developer route
+													311 text . This session has no dedicated WebMCP capability. After discovering the tool schemas, I called  okf_get_state , retrieved the Requirements data with  okf_get_view_data , and displayed its retained result with  okf_show_view . The page and a fresh state call confirm 
+													312 text staff-016 → Requirements
+													313 text , snapshot  sha256:294c665de0060769fe05c8e4774d864c540f9b24678791771ee9ed5054b3a65f , result  v-3309dad0-d6bb-4539-a105-158028742457 , revision  3 . The first three returned gaps are:
+													314 content list
+														315 container
+															316 AXListMarker 1. 
+															317 text staff-010:  Complete inputs, exclusions, disregards, calculation dependencies and versioned thresholds have not been established for an agreed scope. The date, household, credit component and relevant benefit regimes remain unspecified.
+														318 container
+															319 AXListMarker 2. 
+															320 text staff-015:  A complete, source-backed inventory of calculation inputs is missing, including exclusions and the evidence needed to determine each field. The intended date, household, credit component and scope remain unspecified.
+														321 container
+															322 AXListMarker 3. 
+															323 text staff-016:  The input contract, versioned component formulas, ordering and rounding, exceptions, and eligibility gates remain unresolved. “These inputs” refers to an earlier question; the standalone prompt does not supply them.
+													324 text All three rows have 
+													325 text insufficient
+													326 text  status. The returned view has 
+													327 text retained evidence projection
+													328 text  authority, unknown assessment and effective dates, no supplied evidence sources or source references, and outstanding applicability, legal-version, scope and specialist-review questions. It delivered 
+													329 text rows 1–3 of 6
+													330 text  with a continuation cursor, so this is a partial view. The workbench also says retrieval and assembly omissions remain; displaying the view does not establish evidence sufficiency.
+													331 button Copy
+													332 button Rate response
+													333 button 1 memory citation
+													334 text 12:10 AM
+													335 heading You said:, Value: 4
+														336 text You said:
+													337 text Now open question staff-039, show its Interactions table on the webpage, and explain the first three entries with their limitations. Use only the workbench's returned evidence. Distinguish the carer from the cared-for person and keep direction, review status, missing conditions and any omitted rows explicit. Verify that the displayed page actually changed. Do not calculate an award.
+													338 text 12:51 AM
+													339 button Copy message
+													340 button Worked for 4m 9s
+													341 heading ChatGPT said:, Value: 4
+														342 text ChatGPT said:
+													343 text I couldn’t complete or verify the page change. Browser control stopped attaching to the workbench, and a read of the existing staff-039 tab did not return. The selected page is still on 
+													344 text staff-016 → Requirements
+													345 text . I have no returned staff-039 Interactions rows from this attempt, so I can’t reliably explain the first three entries, their direction or review status, missing conditions, or omitted rows. I made no award calculation.
+													346 button Copy
+													347 button Rate response
+													348 text 12:55 AM
+													349 heading You said:, Value: 4
+														350 text You said:
+													351 text Now open question staff-039, show its Interactions table on the webpage, and explain the first three entries with their limitations. Use only the workbench's returned evidence. Distinguish the carer from the cared-for person and keep direction, review status, missing conditions and any omitted rows explicit. Verify that the displayed page actually changed. Do not calculate an award.
+													352 text 12:56 AM
+													353 button Copy message
+													354 button Worked for 2m 7s
+													355 heading ChatGPT said:, Value: 4
+														356 text ChatGPT said:
+													357 text I couldn’t complete this retry. The selected workbench tab is still on 
+													358 text staff-016 → Requirements
+													359 text : the browser’s developer connection detached again, and the existing staff-039 tab did not return its page content. I therefore cannot verify a change to the displayed page or explain three Interactions entries from returned evidence. No award was calculated.
+													360 button Copy
+													361 button Rate response
+													362 text 12:58 AM
+												363 container
+													364 container
+														365 text entry area (settable) Do anything, Value: 
+Do anything
+															366 text Do anything
+														367 button Add files and more
+														368 pop-up button Change permissions
+															369 image
+														370 pop-up button 6 Sol Medium
+														371 button Dictate
+														372 button Send
+										373 container Notifications alt+T
+					374 

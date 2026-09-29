@@ -1,0 +1,937 @@
+- link "Skip to evidence":
+  - /url: "#evidence-main"
+- banner:
+  - link "← Explorer":
+    - /url: ../explore/
+  - heading "Evidence workbench" [level=1]
+  - paragraph: Trace a staff question back to source pages, passages and declared evidence needs.
+  - paragraph:
+    - link "Review passage boundaries →":
+      - /url: ./passages/
+    - text: ·
+    - link "Open reading help →":
+      - /url: ../reading-help/
+  - text: Review manifest URL
+  - textbox "Review manifest URL": https://raw.githubusercontent.com/chris-page-gov/okf-dwp/d31f16fb7143d04b9de73e14cd493cfb832ae83e/evaluation/evidence-workbench/tools-manifest.json
+  - button "Load"
+- status: Page tools are unavailable in this browser. The workbench remains available.
+- 'complementary "DWP staff evidence workbench: 40 frozen questions"':
+  - 'heading "DWP staff evidence workbench: 40 frozen questions" [level=2]'
+  - paragraph: 40 questions · Independent experimental DWP research across frozen DMG and ADM source snapshots
+  - text: Find a question
+  - searchbox "Find a question"
+  - navigation "Staff questions":
+    - 'link "staff-001: General What happens to your benefits if you go abroad?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-001&tab=source"
+    - 'link "staff-002: State Pension If your birthday is 30th May 1960, what is the first date you will be entitled to State Pension?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-002&tab=source"
+    - 'link "staff-003: State Pension How does State Pension interact with PIP?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-003&tab=source"
+    - 'link "staff-004: State Pension What are the components which make up State Pension and how do you qualify for them?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-004&tab=source"
+    - 'link "staff-005: State Pension What other benefits could you receive in addition to State Pension, and under what circumstances would you be entitled to them?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-005&tab=source"
+    - 'link "staff-006: Pension Credit What is the maximum you can have in savings to still qualify for Pension Credit?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&tab=source"
+    - 'link "staff-007: Pension Credit What were the Pension Credit weekly rates over the last five years?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-007&tab=source"
+    - 'link "staff-008: Pension Credit What was the SDA amount over the last five years?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-008&tab=source"
+    - 'link "staff-009: Pension Credit Besides SDA, what are the other additional payments which you can receive in addition to basic Pension Credit, and what have been their rates over the last five years?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-009&tab=source"
+    - 'link "staff-010: Pension Credit What is used in the Pension Credit calculation to assess eligibility and what is the threshold for each element?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-010&tab=source"
+    - 'link "staff-011: Pension Credit How does Housing Benefit impact Pension Credit?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-011&tab=source"
+    - 'link "staff-012: Pension Credit Does Pension Credit stop is a citizen moves into a care home permanently if they are self-funding?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-012&tab=source"
+    - 'link "staff-013: Pension Credit Does Pension Credit stop is a citizen moves into a care home permanently if they are not self-funding?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-013&tab=source"
+    - 'link "staff-014: Pension Credit What is the impact of someone’s partner on their Pension Credit?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-014&tab=source"
+    - 'link "staff-015: Pension Credit What inputs are required for the Pension Credit calculation?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-015&tab=source"
+    - 'link "staff-016: Pension Credit Given these inputs what is the formula for calculating Pension Credit?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-016&tab=source"
+    - 'link "staff-017: Pension Credit What difference to Pension Credit does having a partner make?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-017&tab=source"
+    - 'link "staff-018: Pension Credit What happens if someone with a partner goes permanently into a Care Home (please give all scenarios)?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-018&tab=source"
+    - 'link "staff-019: Pension Credit How does Pension Credit work?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-019&tab=source"
+    - 'link "staff-020: Pension Credit How does a citizen qualify for Pension Credit?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-020&tab=source"
+    - 'link "staff-021: Pension Credit What are the eligibility rules and entitlement rate for PC?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-021&tab=source"
+    - 'link "staff-022: Pension Credit How do State Pension and Pension Credit fit together. For example: If someone receives State Pension, could they also be entitled to Pension Credit?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-022&tab=source"
+    - 'link "staff-023: Pension Credit What happens to Pension Credit if someone moves abroad?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-023&tab=source"
+    - 'link "staff-024: Industrial Injuries Benefits What additional benefits would you be entitled to if you are entitled to IIDB?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-024&tab=source"
+    - 'link "staff-025: Industrial Injuries Benefits What happens if you are on IIDB when you reach State Pension Age?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-025&tab=source"
+    - 'link "staff-026: Industrial Injuries Benefits What is the interaction between Child DLA and PIP?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-026&tab=source"
+    - 'link "staff-027: Industrial Injuries Benefits Can you receive both IIDB and JSA?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-027&tab=source"
+    - 'link "staff-028: Industrial Injuries Benefits Can you receive both IIDB and ESA?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-028&tab=source"
+    - 'link "staff-029: Industrial Injuries Benefits What is the relationship between IIDB, PIP, Attendance Allowance and DLA?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-029&tab=source"
+    - 'link "staff-030: Industrial Injuries Benefits How does IIDB relate to PIP?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-030&tab=source"
+    - 'link "staff-031: Personal Independence Payment What additional benefits would you be entitled to if you are entitled to PIP?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-031&tab=source"
+    - 'link "staff-032: Personal Independence Payment What happens if you are on PIP when you reach State Pension Age?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-032&tab=source"
+    - 'link "staff-033: Personal Independence Payment What is the interaction between Child DLA and PIP?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-033&tab=source"
+    - 'link "staff-034: Personal Independence Payment Can you receive both PIP and JSA?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-034&tab=source"
+    - 'link "staff-035: Personal Independence Payment Can you receive both PIP and ESA?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-035&tab=source"
+    - 'link "staff-036: Personal Independence Payment What is the relationship between PIP, Attendance Allowance and DLA?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-036&tab=source"
+    - 'link "staff-037: Personal Independence Payment If you receive PIP and War Pensions Constant Allowance, how much would you get each week (please provide all variations)?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-037&tab=source"
+    - 'link "staff-038: Carers Allowance Under what circumstances can a Citizen claim Carers Allowance?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-038&tab=source"
+    - 'link "staff-039: Carers Allowance What impact does Carers Allowance have on other benefits which are being claimed?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-039&tab=source"
+    - 'link "staff-040: Carers Allowance What happens to Carers Allowance if someone is caring for two or more people?"':
+      - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-040&tab=source"
+- main:
+  - paragraph: Question staff-006
+  - heading "What is the maximum you can have in savings to still qualify for Pension Credit?" [level=2]
+  - paragraph:
+    - strong: "Declared evidence status:"
+    - text: insufficient. This is an assembly result within the declared scope, not an answer or legal decision.
+  - paragraph:
+    - strong: "Scope:"
+    - text: Complete frozen DMG and ADM source-led unit discovery with separately authored task profiles. Additive capital discovery groups over the full DMG and ADM structured corpus.
+  - paragraph: Snapshot evidence-connect-754be67f82c82e31d17c · Context urn:sha256:88fe2cba3792174a4fb1202fbe55586b62b3dfdc31da87b4c378df9d78aa5e39 · Index 4e65253f72b2d771164d5ddd64374ed8142cf66b4a249f193a1fe44d5679f519
+  - paragraph:
+    - link "Open full machine-readable evidence package ↗":
+      - /url: https://raw.githubusercontent.com/chris-page-gov/okf-dwp/d31f16fb7143d04b9de73e14cd493cfb832ae83e/evaluation/evidence-workbench/packages/staff-006.json
+  - paragraph: "Manifest source date: Not supplied · Manifest capture date: Not supplied"
+  - region "Original question review brief":
+    - heading "Original question review brief" [level=3]
+    - paragraph: These notes came with the question catalogue. They describe the intended review and its recorded gaps; they are separate from the current context package's requirements and retrieval findings.
+    - heading "Recorded ambiguities" [level=4]
+    - list:
+      - listitem: Savings may refer to cash savings or all capital; disregards, notional capital and partner ownership matter.
+      - listitem: The question presupposes a universal maximum; that premise needs source testing.
+    - heading "Evidence identified for review" [level=4]
+    - list:
+      - listitem: Capital valuation/disregard and deemed-income rules combined with Guarantee Credit/Savings Credit conditions.
+    - heading "Recorded scope gaps" [level=4]
+    - list:
+      - listitem: No governed topic-specific context profile or independently complete evidence requirement in the approved immutable Ask index.
+  - complementary "Selected records (30)":
+    - heading "Selected records (30)" [level=3]
+    - navigation "Selected evidence and concepts":
+      - link "Conditions of entitlement concept · model-derived":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fstaff-domain%2Feligibility&tab=graph"
+        - strong: Conditions of entitlement
+        - text: concept · model-derived
+      - link "Capital concept · model-derived":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fterm%2Fcapital&tab=graph"
+        - strong: Capital
+        - text: concept · model-derived
+      - link "State Pension Credit concept · model-derived":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fterm%2Fpension-credit&tab=graph"
+        - strong: State Pension Credit
+        - text: concept · model-derived
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000042621-000-046d6e90e25d&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000042259-000-c25126f4261f&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000031647-000-bf25d7eccd00&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77032 — Entitlement to State Pension Credit evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000014738-000-7b284a545aab&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77032 — Entitlement to State Pension Credit"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000014888-000-8919461a36dd&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000015362-000-35776c37fae7&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000047234-000-df59e6dbee9e&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"
+        - text: evidence · normalized
+      - 'link "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=graph"
+        - strong: "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000045735-000-a2a67a2738ff&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit"
+        - text: evidence · normalized
+      - 'link "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001429-000-390ba1fbbda0&tab=graph"
+        - strong: "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction"
+        - text: evidence · normalized
+      - 'link "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000208235-000-1183f4811155&tab=graph"
+        - strong: "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000041956-000-a9d2633390ef&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000013997-000-2a724f8ec070&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000041577-000-7884db0c6371&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — unresolved fragment evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000046972-000-d468b3fab2fd&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — unresolved fragment"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000049278-000-58b9bb36987b&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000043008-000-18e46a4539bf&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77352 — Savings credit evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000048827-000-5c8761b839a4&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77352 — Savings credit"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77363 — Savings credit evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000052212-000-fc7f190cea22&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77363 — Savings credit"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77351 — Savings credit evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000048007-000-d1e7997e04c3&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77351 — Savings credit"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77053 — Entitlement to State Pension Credit evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000018813-000-f861504d21b2&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77053 — Entitlement to State Pension Credit"
+        - text: evidence · normalized
+      - 'link "DMG memo 4/2024: Closure of Tax Credits for State Pension Age Claimants and Transfer to Universal Credit and Pension Credit — Transfers to Universal Credit evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-memo-04-24-282c3cef22%2Fmanual-structure-v1%2Fsource-0000000338-000-9a7d1d75f165&tab=graph"
+        - strong: "DMG memo 4/2024: Closure of Tax Credits for State Pension Age Claimants and Transfer to Universal Credit and Pension Credit — Transfers to Universal Credit"
+        - text: evidence · normalized
+      - 'link "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — Appendix 1 - Amounts to be used in the calculation of entitlement evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol13-ch77%2Fmanual-structure-v1%2Fsource-0000057557-000-50792190bb3e&tab=graph"
+        - strong: "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — Appendix 1 - Amounts to be used in the calculation of entitlement"
+        - text: evidence · normalized
+      - 'link "DMG Memo 02/26: Rates for Income Tax, Benefit Rates and Social Security Contributions from April 2026 — 02-26: Rates for income Tax, Benefit Rates and Social Security Contributions from April 2026 evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-memo-02-26-f7835f1e40%2Fmanual-structure-v1%2Fsource-0000000000-000-a014637b6acf&tab=graph"
+        - strong: "DMG Memo 02/26: Rates for Income Tax, Benefit Rates and Social Security Contributions from April 2026 — 02-26: Rates for income Tax, Benefit Rates and Social Security Contributions from April 2026"
+        - text: evidence · normalized
+      - 'link "Chapter P1: Conditions of entitlement — PIP primary qualifying conditions evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fadm%2Fadm-chapter-p1%2Fv1-5ed9340f56c6a937%2Fpip-p1011-e23388b28ad2&tab=graph"
+        - strong: "Chapter P1: Conditions of entitlement — PIP primary qualifying conditions"
+        - text: evidence · normalized
+      - link "Beneficial ownership of capital concept · model-derived":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Fterm%2Fbeneficial-ownership&tab=graph"
+        - strong: Beneficial ownership of capital
+        - text: concept · model-derived
+      - 'link "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84921 — Deemed weekly income from capital evidence · normalized"':
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000208571-000-6fe9f31aa7b5&tab=graph"
+        - strong: "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84921 — Deemed weekly income from capital"
+        - text: evidence · normalized
+  - 'region "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction"':
+    - paragraph: evidence · normalized
+    - 'heading "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction" [level=3]'
+    - paragraph: Exact frozen source spans; logical boundary proposal; applicability unreviewed · unreviewed-specialist-review-required
+    - navigation "Evidence views":
+      - link "Original source":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=source"
+      - link "Extracted text and structure":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=extraction"
+      - link "Complete passage":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=passage"
+      - link "Concepts and relationships":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=ontology"
+      - link "Definitions and exceptions":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=definitions"
+      - link "Retrieval trace":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=trace"
+      - link "Review proposal":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=review"
+      - link "Graph":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=graph"
+      - link "Interactions":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=interactions"
+      - link "Requirements":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=requirements"
+      - link "Rates":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=rates"
+      - link "Calculation stages":
+        - /url: "?manifest=https%3A%2F%2Fraw.githubusercontent.com%2Fchris-page-gov%2Fokf-dwp%2Fd31f16fb7143d04b9de73e14cd493cfb832ae83e%2Fevaluation%2Fevidence-workbench%2Ftools-manifest.json&case=staff-006&record=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-dwp%2Fid%2Funit%2Fdmg%2Fdmg-vol14-ch84%2Fmanual-structure-v1%2Fsource-0000001157-000-d863e5f8aafb&tab=calculation"
+    - region "Directed retained relationships":
+      - paragraph: Concept map
+      - heading "Directed retained relationships" [level=3]
+      - paragraph: Arrows show the declared direction of a connection. The tables give the same nodes and connections in reading order.
+      - term: Authority
+      - definition: Retained evidence projection
+      - term: Assessment date
+      - definition: Unknown
+      - term: Effective from
+      - definition: Unknown
+      - term: Effective to
+      - definition: Unknown
+      - status: Showing rows 1–37 of 37. This view page is complete.
+      - region "Limitations":
+        - heading "Limitations" [level=4]
+        - list:
+          - listitem: Navigation and delivery do not establish evidence sufficiency. Read the source and its qualifications.
+          - listitem: "Retained context status: insufficient. Retrieval and assembly omissions remain in the evidence package."
+          - listitem: 10 selected assertions are outside this bounded graph. Direction is source to target, not proof of causation.
+      - region "Directed graph":
+        - heading "Directed graph" [level=4]
+        - region "Scrollable directed graph":
+          - img "Directed graph with 20 nodes and 37 displayed connections. The following tables contain the same information.": "Conditions of entitle… Capital State Pension Credit DMG Vol 13 Ch 77: Con… DMG Vol 13 Ch 77: Con… DMG Vol 13 Ch 77: Con… DMG Vol 13 Ch 77: Con… DMG Vol 13 Ch 77: Con… DMG Vol 13 Ch 77: Con… DMG Vol 13 Ch 77: Con… DMG Vol 14 Ch 84: Dee… DMG Vol 13 Ch 77: Con… DMG Vol 14 Ch 84: Dee… DMG Vol 14 Ch 84: Dee… DMG Vol 13 Ch 77: Con… DMG Vol 13 Ch 77: Con… DMG Vol 13 Ch 77: Con… DMG Vol 13 Ch 77: Con… DMG Vol 13 Ch 77: Con… DMG Vol 13 Ch 77: Con…"
+        - heading "Nodes" [level=5]
+        - region "Scrollable graph nodes":
+          - table:
+            - rowgroup:
+              - row "Record Status":
+                - columnheader "Record"
+                - columnheader "Status"
+            - rowgroup:
+              - row "Conditions of entitlement model-derived":
+                - rowheader "Conditions of entitlement":
+                  - button "Conditions of entitlement"
+                - cell "model-derived"
+              - row "Capital model-derived":
+                - rowheader "Capital":
+                  - button "Capital"
+                - cell "model-derived"
+              - row "State Pension Credit model-derived":
+                - rowheader "State Pension Credit":
+                  - button "State Pension Credit"
+                - cell "model-derived"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable normalized"':
+                - 'rowheader "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable normalized"':
+                - 'rowheader "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples normalized"':
+                - 'rowheader "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77032 — Entitlement to State Pension Credit normalized"':
+                - 'rowheader "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77032 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77032 — Entitlement to State Pension Credit"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit normalized"':
+                - 'rowheader "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit normalized"':
+                - 'rowheader "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit normalized"':
+                - 'rowheader "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"'
+                - cell "normalized"
+              - 'row "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction normalized"':
+                - 'rowheader "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction"':
+                  - 'button "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit normalized"':
+                - 'rowheader "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit"'
+                - cell "normalized"
+              - 'row "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction normalized"':
+                - 'rowheader "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction"':
+                  - 'button "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction"'
+                - cell "normalized"
+              - 'row "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law normalized"':
+                - 'rowheader "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"':
+                  - 'button "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable normalized"':
+                - 'rowheader "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit normalized"':
+                - 'rowheader "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable normalized"':
+                - 'rowheader "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — unresolved fragment normalized"':
+                - 'rowheader "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — unresolved fragment"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — unresolved fragment"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit normalized"':
+                - 'rowheader "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable normalized"':
+                - 'rowheader "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"'
+                - cell "normalized"
+        - heading "Connections" [level=5]
+        - region "Scrollable graph connections":
+          - table:
+            - rowgroup:
+              - row "From Connection To Status":
+                - columnheader "From"
+                - columnheader "Connection"
+                - columnheader "To"
+                - columnheader "Status"
+            - rowgroup:
+              - 'row "Conditions of entitlement references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable model-derived"':
+                - cell "Conditions of entitlement":
+                  - button "Conditions of entitlement"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"'
+                - cell "model-derived"
+              - 'row "Conditions of entitlement references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable model-derived"':
+                - cell "Conditions of entitlement":
+                  - button "Conditions of entitlement"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable"'
+                - cell "model-derived"
+              - 'row "Conditions of entitlement references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples model-derived"':
+                - cell "Conditions of entitlement":
+                  - button "Conditions of entitlement"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"'
+                - cell "model-derived"
+              - 'row "Conditions of entitlement references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77032 — Entitlement to State Pension Credit model-derived"':
+                - cell "Conditions of entitlement":
+                  - button "Conditions of entitlement"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77032 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77032 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+              - 'row "Conditions of entitlement references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit model-derived"':
+                - cell "Conditions of entitlement":
+                  - button "Conditions of entitlement"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+              - 'row "Conditions of entitlement references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit model-derived"':
+                - cell "Conditions of entitlement":
+                  - button "Conditions of entitlement"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+              - 'row "Conditions of entitlement references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit model-derived"':
+                - cell "Conditions of entitlement":
+                  - button "Conditions of entitlement"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"'
+                - cell "model-derived"
+              - 'row "Capital references source for scoped research DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction model-derived"':
+                - cell "Capital":
+                  - button "Capital"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction"':
+                  - 'button "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction"'
+                - cell "model-derived"
+              - 'row "Capital references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable model-derived"':
+                - cell "Capital":
+                  - button "Capital"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable"'
+                - cell "model-derived"
+              - 'row "Capital references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit model-derived"':
+                - cell "Capital":
+                  - button "Capital"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"'
+                - cell "model-derived"
+              - 'row "Capital references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit model-derived"':
+                - cell "Capital":
+                  - button "Capital"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit"'
+                - cell "model-derived"
+              - 'row "Capital references source for scoped research DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction model-derived"':
+                - cell "Capital":
+                  - button "Capital"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction"':
+                  - 'button "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction"'
+                - cell "model-derived"
+              - 'row "Capital references source for scoped research DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law model-derived"':
+                - cell "Capital":
+                  - button "Capital"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"':
+                  - 'button "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"'
+                - cell "model-derived"
+              - 'row "Capital references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable model-derived"':
+                - cell "Capital":
+                  - button "Capital"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"'
+                - cell "model-derived"
+              - 'row "State Pension Credit references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable model-derived"':
+                - cell "State Pension Credit":
+                  - button "State Pension Credit"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable"'
+                - cell "model-derived"
+              - 'row "State Pension Credit references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit model-derived"':
+                - cell "State Pension Credit":
+                  - button "State Pension Credit"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"'
+                - cell "model-derived"
+              - 'row "State Pension Credit references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit model-derived"':
+                - cell "State Pension Credit":
+                  - button "State Pension Credit"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+              - 'row "State Pension Credit references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable model-derived"':
+                - cell "State Pension Credit":
+                  - button "State Pension Credit"
+                - rowheader "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable"'
+                - cell "model-derived"
+              - 'row "Conditions of entitlement restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit model-derived"':
+                - cell "Conditions of entitlement":
+                  - button "Conditions of entitlement"
+                - rowheader "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+              - 'row "Conditions of entitlement restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit model-derived"':
+                - cell "Conditions of entitlement":
+                  - button "Conditions of entitlement"
+                - rowheader "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+              - 'row "Capital restored candidate location overlaps complete source unit; support unreviewed DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law model-derived"':
+                - cell "Capital":
+                  - button "Capital"
+                - rowheader "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"':
+                  - 'button "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"'
+                - cell "model-derived"
+              - 'row "Capital restored candidate location overlaps complete source unit; support unreviewed DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law model-derived"':
+                - cell "Capital":
+                  - button "Capital"
+                - rowheader "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"':
+                  - 'button "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"'
+                - cell "model-derived"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable model-derived"':
+                - cell "State Pension Credit":
+                  - button "State Pension Credit"
+                - rowheader "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"'
+                - cell "model-derived"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit model-derived"':
+                - cell "State Pension Credit":
+                  - button "State Pension Credit"
+                - rowheader "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable model-derived"':
+                - cell "State Pension Credit":
+                  - button "State Pension Credit"
+                - rowheader "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"'
+                - cell "model-derived"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit model-derived"':
+                - cell "State Pension Credit":
+                  - button "State Pension Credit"
+                - rowheader "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable model-derived"':
+                - cell "State Pension Credit":
+                  - button "State Pension Credit"
+                - rowheader "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"'
+                - cell "model-derived"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable model-derived"':
+                - cell "State Pension Credit":
+                  - button "State Pension Credit"
+                - rowheader "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"'
+                - cell "model-derived"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit model-derived"':
+                - cell "State Pension Credit":
+                  - button "State Pension Credit"
+                - rowheader "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable model-derived"':
+                - cell "State Pension Credit":
+                  - button "State Pension Credit"
+                - rowheader "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"'
+                - cell "model-derived"
+              - row "State Pension Credit Deemed-income assessment uses capital and partner aggregation; valuation and disregards remain dependencies. Capital model-derived":
+                - cell "State Pension Credit":
+                  - button "State Pension Credit"
+                - rowheader "Deemed-income assessment uses capital and partner aggregation; valuation and disregards remain dependencies."
+                - cell "Capital":
+                  - button "Capital"
+                - cell "model-derived"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples literal source reference; legal effect unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit normalized"':
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"'
+                - rowheader "literal source reference; legal effect unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples literal source reference; legal effect unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit normalized"':
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"'
+                - rowheader "literal source reference; legal effect unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit literal source reference; legal effect unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples normalized"':
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"'
+                - rowheader "literal source reference; legal effect unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit literal source reference; legal effect unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit normalized"':
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"'
+                - rowheader "literal source reference; legal effect unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit literal source reference; legal effect unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples normalized"':
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"'
+                - rowheader "literal source reference; legal effect unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"'
+                - cell "normalized"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable literal source reference; legal effect unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit normalized"':
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"'
+                - rowheader "literal source reference; legal effect unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit"':
+                  - 'button "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit"'
+                - cell "normalized"
+      - region "Graph records":
+        - heading "Graph records" [level=4]
+        - region "Scrollable view records":
+          - table:
+            - rowgroup:
+              - row "From Relationship To Assertion status Evidence sources":
+                - columnheader "From"
+                - columnheader "Relationship"
+                - columnheader "To"
+                - columnheader "Assertion status"
+                - columnheader "Evidence sources"
+            - rowgroup:
+              - 'row "Conditions of entitlement references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable model-derived Inspect source 1"':
+                - cell "Conditions of entitlement"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Conditions of entitlement references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable model-derived Inspect source 1"':
+                - cell "Conditions of entitlement"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Conditions of entitlement references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples model-derived Inspect source 1"':
+                - cell "Conditions of entitlement"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Conditions of entitlement references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77032 — Entitlement to State Pension Credit model-derived Inspect source 1"':
+                - cell "Conditions of entitlement"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77032 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Conditions of entitlement references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit model-derived Inspect source 1"':
+                - cell "Conditions of entitlement"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Conditions of entitlement references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit model-derived Inspect source 1"':
+                - cell "Conditions of entitlement"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Conditions of entitlement references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit model-derived Inspect source 1"':
+                - cell "Conditions of entitlement"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Capital references source for scoped research DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction model-derived Inspect source 1"':
+                - cell "Capital"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84001 — Introduction"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Capital references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable model-derived Inspect source 1"':
+                - cell "Capital"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77302 — Calculation of amount payable"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Capital references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit model-derived Inspect source 1"':
+                - cell "Capital"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Capital references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit model-derived Inspect source 1"':
+                - cell "Capital"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77334 — Guarantee credit"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Capital references source for scoped research DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction model-derived Inspect source 1"':
+                - cell "Capital"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84002 — Introduction"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Capital references source for scoped research DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law model-derived Inspect source 1"':
+                - cell "Capital"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Capital references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable model-derived Inspect source 1"':
+                - cell "Capital"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "State Pension Credit references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable model-derived Inspect source 1"':
+                - cell "State Pension Credit"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77301 — Calculation of amount payable"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "State Pension Credit references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit model-derived Inspect source 1"':
+                - cell "State Pension Credit"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "State Pension Credit references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit model-derived Inspect source 1"':
+                - cell "State Pension Credit"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "State Pension Credit references source for scoped research DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable model-derived Inspect source 1"':
+                - cell "State Pension Credit"
+                - cell "references source for scoped research"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77300 — Calculation of amount payable"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Conditions of entitlement restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit model-derived Inspect source 1"':
+                - cell "Conditions of entitlement"
+                - cell "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Conditions of entitlement restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit model-derived Inspect source 1"':
+                - cell "Conditions of entitlement"
+                - cell "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Capital restored candidate location overlaps complete source unit; support unreviewed DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law model-derived Inspect source 1"':
+                - cell "Capital"
+                - cell "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "Capital restored candidate location overlaps complete source unit; support unreviewed DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law model-derived Inspect source 1"':
+                - cell "Capital"
+                - cell "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 14 Ch 84: Deemed weekly income from capital — 84911 — The law"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable model-derived Inspect source 1"':
+                - cell "State Pension Credit"
+                - cell "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit model-derived Inspect source 1"':
+                - cell "State Pension Credit"
+                - cell "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable model-derived Inspect source 1"':
+                - cell "State Pension Credit"
+                - cell "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit model-derived Inspect source 1"':
+                - cell "State Pension Credit"
+                - cell "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable model-derived Inspect source 1"':
+                - cell "State Pension Credit"
+                - cell "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable model-derived Inspect source 1"':
+                - cell "State Pension Credit"
+                - cell "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit model-derived Inspect source 1"':
+                - cell "State Pension Credit"
+                - cell "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "State Pension Credit restored candidate location overlaps complete source unit; support unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable model-derived Inspect source 1"':
+                - cell "State Pension Credit"
+                - cell "restored candidate location overlaps complete source unit; support unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77303 — Calculation of amount payable"'
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - row "State Pension Credit Deemed-income assessment uses capital and partner aggregation; valuation and disregards remain dependencies. Capital model-derived Inspect source 1":
+                - cell "State Pension Credit"
+                - cell "Deemed-income assessment uses capital and partner aggregation; valuation and disregards remain dependencies."
+                - cell "Capital"
+                - cell "model-derived"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples literal source reference; legal effect unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit normalized Inspect source 1"':
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"'
+                - cell "literal source reference; legal effect unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"'
+                - cell "normalized"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples literal source reference; legal effect unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit normalized Inspect source 1"':
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"'
+                - cell "literal source reference; legal effect unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77033 — Entitlement to State Pension Credit"'
+                - cell "normalized"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit literal source reference; legal effect unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples normalized Inspect source 1"':
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"'
+                - cell "literal source reference; legal effect unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"'
+                - cell "normalized"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit literal source reference; legal effect unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit normalized Inspect source 1"':
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77350 — Savings credit"'
+                - cell "literal source reference; legal effect unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77035 — Entitlement to State Pension Credit"'
+                - cell "normalized"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit literal source reference; legal effect unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples normalized Inspect source 1"':
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77031 — Entitlement to State Pension Credit"'
+                - cell "literal source reference; legal effect unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77140 — Mixed-age couples"'
+                - cell "normalized"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+              - 'row "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable literal source reference; legal effect unreviewed DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit normalized Inspect source 1"':
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77304 — Calculation of amount payable"'
+                - cell "literal source reference; legal effect unreviewed"
+                - 'cell "DMG Vol 13 Ch 77: Conditions of entitlement, membership of the household and normal amount payable — 77353 — Savings credit"'
+                - cell "normalized"
+                - cell "Inspect source 1":
+                  - button "Inspect source 1"
+      - region "Source references":
+        - heading "Source references" [level=4]
+        - paragraph: No source references were supplied.
+- text: Evidence workbench | OKF Explorer

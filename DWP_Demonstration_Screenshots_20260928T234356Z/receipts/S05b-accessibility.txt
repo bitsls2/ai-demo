@@ -1,0 +1,405 @@
+- link "Skip to content":
+  - /url: "#start-of-content"
+- banner:
+  - heading "Navigation Menu" [level=2]
+  - link "Homepage":
+    - /url: /
+  - navigation "Global":
+    - list:
+      - listitem:
+        - button "Platform"
+      - listitem:
+        - button "Solutions"
+      - listitem:
+        - button "Resources"
+      - listitem:
+        - button "Open Source"
+      - listitem:
+        - button "Enterprise"
+      - listitem:
+        - link "Pricing":
+          - /url: https://github.com/pricing
+  - button "Search or jump to, type / to search": Search
+  - link "Sign in":
+    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fchris-page-gov%2Fokf-dwp%2Fblob%2F77ef16047415ee48dcb93b80adf1ba057ea00d9b%2Fdocs%2Fuc-disabled-child-supersession-follow-up.md
+  - link "Sign up":
+    - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=chris-page-gov%2Fokf-dwp
+  - button "Appearance settings"
+- main:
+  - link "chris-page-gov":
+    - /url: /chris-page-gov
+  - text: /
+  - strong:
+    - link "okf-dwp":
+      - /url: /chris-page-gov/okf-dwp
+  - text: Public
+  - list:
+    - listitem:
+      - link "You must be signed in to change notification settings":
+        - /url: /login?return_to=%2Fchris-page-gov%2Fokf-dwp
+        - text: Notifications
+    - listitem:
+      - link "Fork 0":
+        - /url: /login?return_to=%2Fchris-page-gov%2Fokf-dwp
+    - listitem:
+      - link "You must be signed in to star a repository":
+        - /url: /login?return_to=%2Fchris-page-gov%2Fokf-dwp
+        - text: Star 0
+  - navigation "Repository":
+    - list:
+      - listitem:
+        - link "Code":
+          - /url: /chris-page-gov/okf-dwp
+      - listitem:
+        - link "Issues 3":
+          - /url: /chris-page-gov/okf-dwp/issues
+      - listitem:
+        - link "Pull requests":
+          - /url: /chris-page-gov/okf-dwp/pulls
+      - listitem:
+        - link "Actions":
+          - /url: /chris-page-gov/okf-dwp/actions
+      - listitem:
+        - link "Projects":
+          - /url: /chris-page-gov/okf-dwp/projects
+      - listitem:
+        - link "Security and quality":
+          - /url: /chris-page-gov/okf-dwp/security
+      - listitem:
+        - link "Insights":
+          - /url: /chris-page-gov/okf-dwp/pulse
+  - heading "Collapse file tree" [level=2]:
+    - button "Collapse file tree" [expanded]
+  - heading "Files" [level=2]
+  - link "View file on default branch":
+    - /url: /chris-page-gov/okf-dwp/blob/main/docs/uc-disabled-child-supersession-follow-up.md
+  - button "77ef160 branch": 77ef160
+  - button "Search this repository (forward slash)"
+  - combobox "Go to file"
+  - navigation "File Tree Navigation":
+    - tree "Files":
+      - treeitem ".github" [level=1]
+      - treeitem "bundle" [level=1]
+      - treeitem "capital-pilot" [level=1]
+      - treeitem "combined" [level=1]
+      - treeitem "context" [level=1]
+      - treeitem "docs" [expanded] [level=1]:
+        - text: docs
+        - group "docs":
+          - treeitem "evidence" [level=2]
+          - treeitem "learning" [level=2]
+          - treeitem "next-stage" [level=2]
+          - treeitem "templates" [level=2]
+          - treeitem "abroad-semantic-audit.md" [level=2]
+          - treeitem "adm-acquisition.md" [level=2]
+          - treeitem "backlog-work-packages.md" [level=2]
+          - treeitem "backlog.md" [level=2]
+          - treeitem "carehome-component-dependency-review.md" [level=2]
+          - treeitem "chatgpt-connection.md" [level=2]
+          - treeitem "combined-reader.md" [level=2]
+          - treeitem "compact-evidence-demo.md" [level=2]
+          - treeitem "context-assembly-demo.md" [level=2]
+          - treeitem "context-corpus.md" [level=2]
+          - treeitem "context-discovery.md" [level=2]
+          - treeitem "context-performance.md" [level=2]
+          - treeitem "cpag-handbook.md" [level=2]
+          - treeitem "cpag-permission-request-draft.md" [level=2]
+          - treeitem "data-agent-semantic-review.md" [level=2]
+          - treeitem "demo-one-freeze-2026-09-23.md" [level=2]
+          - treeitem "demo-one-pair-protocol.md" [level=2]
+          - treeitem "demo-one-pair-results.md" [level=2]
+          - treeitem "demo-one-question-ledger.md" [level=2]
+          - treeitem "disability-addition-qualification-review.md" [level=2]
+          - treeitem "discovery-cards-experiment.md" [level=2]
+          - treeitem "discovery.md" [level=2]
+          - treeitem "evidence-connect-profile.md" [level=2]
+          - treeitem "evidence-delivery-learning.md" [level=2]
+          - treeitem "evidence-workbench-handover.md" [level=2]
+          - treeitem "evidence-workbench-work-log.md" [level=2]
+          - treeitem "evidence-workbench.md" [level=2]
+          - treeitem "full-dmg-walkthrough.md" [level=2]
+          - treeitem "future-sources.md" [level=2]
+          - treeitem "glossary.md" [level=2]
+          - treeitem "household-evidence-expansion.md" [level=2]
+          - treeitem "household-qualification-budget-review.md" [level=2]
+          - treeitem "household-reader-public-verification.md" [level=2]
+          - treeitem "household-reader-verification.md" [level=2]
+          - treeitem "household-service-verification.md" [level=2]
+          - treeitem "ignored-person-qualification-review.md" [level=2]
+          - treeitem "learning-pages-regressions.md" [level=2]
+          - treeitem "learning-path.md" [level=2]
+          - treeitem "learning-website.md" [level=2]
+          - treeitem "legal-body-evidence.md" [level=2]
+          - treeitem "legal-reconciliation.md" [level=2]
+          - treeitem "liteparse-pilot.md" [level=2]
+          - treeitem "logical-evidence-units.md" [level=2]
+          - treeitem "logical-units-work-log.md" [level=2]
+          - treeitem "manual-structure-evaluation.md" [level=2]
+          - treeitem "manual-structure-process.md" [level=2]
+          - treeitem "meeting-walkthrough.md" [level=2]
+          - treeitem "methodology.md" [level=2]
+          - treeitem "monday-delivery-work-log.md" [level=2]
+          - treeitem "monday-demo-2026-09-21.md" [level=2]
+          - treeitem "monday-direct-trial-protocol.md" [level=2]
+          - treeitem "monday-direct-v4-trial-protocol.md" [level=2]
+          - treeitem "monday-handover-2026-09-21.md" [level=2]
+          - treeitem "monday-model-trials.md" [level=2]
+          - treeitem "ontology-use.md" [level=2]
+          - treeitem "original-acceptance-restoration.md" [level=2]
+          - treeitem "partner-addition-qualification-review.md" [level=2]
+          - treeitem "passage-boundary-review.md" [level=2]
+          - treeitem "pc-capital-bounded-repair.md" [level=2]
+          - treeitem "pip-transition-source-review.md" [level=2]
+          - treeitem "publication-contract-details.json" [level=2]
+          - treeitem "reading-help-ch60.md" [level=2]
+          - treeitem "reading-help-corpus-contract.md" [level=2]
+          - treeitem "reading-help-demo-2026-09-30.md" [level=2]
+          - treeitem "reading-help-legislation-bridge.md" [level=2]
+          - treeitem "reading-help-release-2026-09-27.md" [level=2]
+          - treeitem "reading-help-rollout-work-log.md" [level=2]
+          - treeitem "reading-help-rollout.md" [level=2]
+          - treeitem "relationship-audit.md" [level=2]
+          - treeitem "remaining-work.md" [level=2]
+          - treeitem "remote-mcp-demo.md" [level=2]
+          - treeitem "remote-mcp-hospital-coverage.md" [level=2]
+          - treeitem "repository-governance.md" [level=2]
+          - treeitem "research-index.md" [level=2]
+          - treeitem "retained-evidence-browser-verification.md" [level=2]
+          - treeitem "retained-evidence-examples.md" [level=2]
+          - treeitem "retained-evidence-publication.md" [level=2]
+          - treeitem "retrospective.md" [level=2]
+          - treeitem "semantic-closure-and-compact-delivery.md" [level=2]
+          - treeitem "semantic-expansion.md" [level=2]
+          - treeitem "service-publication.md" [level=2]
+          - treeitem "source-led-demonstration.md" [level=2]
+          - treeitem "source-led-manual-guide.md" [level=2]
+          - treeitem "source-led-results.md" [level=2]
+          - treeitem "source-refresh.md" [level=2]
+          - treeitem "source-roles-diagram.svg" [level=2]
+          - treeitem "staff-model-trials.md" [level=2]
+          - treeitem "staff-service-browser-verification.md" [level=2]
+          - treeitem "team-handover-2026-09-20.md" [level=2]
+          - treeitem "uc-disabled-child-supersession-follow-up.md" [level=2]
+          - treeitem "unmerged-work-review-2026-09-24.md" [level=2]
+          - treeitem "voice-rehearsal.md" [level=2]
+          - treeitem "work-log-2026-09-19.md" [level=2]
+          - treeitem "work-log-2026-09-20.md" [level=2]
+          - treeitem "workbench-model-inspection.md" [level=2]
+          - treeitem "workbench-sidebar-demo.md" [level=2]
+      - treeitem "domain-profile" [level=1]
+      - treeitem "evaluation" [level=1]
+      - treeitem "evidence-examples" [level=1]
+      - treeitem "full-dmg" [level=1]
+      - treeitem "knowledge" [level=1]
+      - treeitem "logical-context" [level=1]
+      - treeitem "logical-units" [level=1]
+      - treeitem "manual-guide" [level=1]
+      - treeitem "pdf-structure" [level=1]
+      - treeitem "profiles" [level=1]
+      - treeitem "reading-help-corpus" [level=1]
+      - treeitem "research" [level=1]
+      - treeitem "scripts" [level=1]
+      - treeitem "source" [level=1]
+      - treeitem "structured-context" [level=1]
+      - treeitem "structured-units" [level=1]
+      - treeitem "tools" [level=1]
+      - treeitem "validation" [level=1]
+      - treeitem ".gitattributes" [level=1]
+      - treeitem ".gitignore" [level=1]
+      - treeitem ".python-version" [level=1]
+      - treeitem "AGENTS.md" [level=1]
+      - treeitem "AI_USAGE.md" [level=1]
+      - treeitem "CHANGELOG.md" [level=1]
+      - treeitem "LICENSE" [level=1]
+      - treeitem "LICENSE_DECISIONS.md" [level=1]
+      - treeitem "NOTICE.md" [level=1]
+      - treeitem "README.md" [level=1]
+      - treeitem "REPOSITORY_STATUS.md" [level=1]
+      - treeitem "SECURITY.md" [level=1]
+      - treeitem "okf.delivery.json" [level=1]
+      - treeitem "okf.publication.json" [level=1]
+      - treeitem "okf.semantic.json" [level=1]
+      - treeitem "pyproject.toml" [level=1]
+      - treeitem "reading-help-ch60-law.json" [level=1]
+      - treeitem "reading-help-ch60-references.json" [level=1]
+      - treeitem "reading-help-ch60.json" [level=1]
+      - treeitem "uv.lock" [level=1]
+  - slider "Draggable pane splitter"
+  - navigation "Breadcrumbs":
+    - heading "Breadcrumbs" [level=2]
+    - list:
+      - listitem:
+        - link "okf-dwp":
+          - /url: /chris-page-gov/okf-dwp/tree/77ef16047415ee48dcb93b80adf1ba057ea00d9b
+      - listitem:
+        - link "docs":
+          - /url: /chris-page-gov/okf-dwp/tree/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs
+  - heading "uc-disabled-child-supersession-follow-up.md" [level=1]
+  - button "Copy path"
+  - button "More file actions"
+  - heading "Latest commit" [level=2]
+  - link "chris-page-gov":
+    - /url: /chris-page-gov
+    - img "chris-page-gov"
+  - link "commits by chris-page-gov":
+    - /url: /chris-page-gov/okf-dwp/commits?author=chris-page-gov
+    - text: chris-page-gov
+  - link "Add workbench model inspection, source-role guide and UC follow-up (":
+    - /url: /chris-page-gov/okf-dwp/commit/d31f16fb7143d04b9de73e14cd493cfb832ae83e
+  - link "#39":
+    - /url: https://github.com/chris-page-gov/okf-dwp/pull/39
+  - link ")":
+    - /url: /chris-page-gov/okf-dwp/commit/d31f16fb7143d04b9de73e14cd493cfb832ae83e
+  - button "Open commit details"
+  - button "success"
+  - link "Commit d31f16f":
+    - /url: /chris-page-gov/okf-dwp/commit/d31f16fb7143d04b9de73e14cd493cfb832ae83e
+    - text: d31f16f
+  - text: · Sep 24, 20264 days ago
+  - heading "History" [level=2]
+  - link "History":
+    - /url: /chris-page-gov/okf-dwp/commits/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/uc-disabled-child-supersession-follow-up.md
+  - heading "File metadata and controls" [level=2]
+  - list "File view":
+    - listitem:
+      - button "Preview" [pressed]
+    - listitem:
+      - button "Code"
+    - listitem:
+      - button "Blame"
+  - text: 43 lines (25 loc) · 7.23 KB
+  - link "Raw":
+    - /url: https://github.com/chris-page-gov/okf-dwp/raw/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/uc-disabled-child-supersession-follow-up.md
+  - button "Copy raw file"
+  - button "Download raw file"
+  - button "Outline"
+  - region "uc-disabled-child-supersession-follow-up.md":
+    - article:
+      - 'heading "A new UC question: finding the rule is not deciding the award" [level=1]'
+      - 'link "Permalink: A new UC question: finding the rule is not deciding the award"':
+        - /url: "#a-new-uc-question-finding-the-rule-is-not-deciding-the-award"
+      - paragraph:
+        - text: This is an anonymised, out-of-sample follow-up to the
+        - link "40-question Evidence workbench":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/evidence-workbench.md
+        - text: . The
+        - link "case and observed replay":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/out-of-sample/uc-disabled-child-supersession-001.json
+        - text: are separate from its frozen registry and packages. No claimant details, model answer or new source acquisition were used.
+      - heading "What the question asks" [level=2]
+      - 'link "Permalink: What the question asks"':
+        - /url: "#what-the-question-asks"
+      - paragraph:
+        - text: A child is said to have the highest care rate of Disability Living Allowance (DLA) from 26 January 2025. Universal Credit (UC) is told on 28 March 2026. The question asks when the
+        - emphasis: higher disabled-child addition
+        - text: takes effect and which UC assessment period should include it. An assessment period is the monthly window used for a UC award. The question does
+        - strong: not
+        - text: give that window's start and end dates.
+      - paragraph:
+        - strong: ADM
+        - text: means
+        - emphasis: Advice for decision making
+        - text: ", DWP's staff guidance. Its codes identify numbered paragraphs: A4361 is in Chapter A4."
+        - strong: Supersession
+        - text: means replacing an existing benefit decision because a relevant ground for changing it applies; the applicable rule determines when the replacement takes effect. Everyday terms such as “backdating” do not identify that rule by themselves.
+      - paragraph:
+        - text: The retained
+        - link "ADM F1, F1123, PDF page 18":
+          - /url: https://assets.publishing.service.gov.uk/media/6a86fe84c9205b515d421f44/adm-ch-f1-child-element.pdf#page=18
+        - text: says the highest DLA care rate is a condition for the higher addition.
+        - link "ADM A4, A4361, PDF page 36":
+          - /url: https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=36
+        - text: "gives a distinct UC effective-date branch where a claimant or family member becomes entitled to another relevant benefit or its rate changes: the first day of the assessment period containing that other-benefit change."
+        - link "A4352, PDF page 34":
+          - /url: https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf#page=34
+        - text: expressly points from the ordinary late-notification branch to A4361 as an exception. A4361's DLA example concerns the
+        - emphasis: carer element
+        - text: ", so it is an analogy, not a decision about this addition."
+      - paragraph:
+        - strong: "Conditional reading:"
+        - text: if the highest-rate DLA entitlement legally starts on 26 January 2025, the child qualifies within the claimant's UC family, and A4361 governs this change, the effective date would be the
+        - strong: first day of the assessment period containing 26 January 2025
+        - text: . The higher addition would be considered from that assessment period. Without its boundaries, an exact calendar start date or named payment period is unknown. Whether the award and any retrospective payment should actually change needs the governing legislation, facts and specialist review; this page does not decide it.
+      - heading "What the current system did" [level=2]
+      - 'link "Permalink: What the current system did"':
+        - /url: "#what-the-current-system-did"
+      - paragraph:
+        - text: The retained 19 September ADM A4 PDF has SHA-256
+        - code: 4933d66a…58a8e8
+        - text: ; F1 has
+        - code: 124b7e41…5b8731
+        - text: . Their exact local pages and stable passage IDs are in the
+        - link "case record":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/out-of-sample/uc-disabled-child-supersession-001.json
+        - text: . The A4 text was also checked against the
+        - link "official PDF":
+          - /url: https://assets.publishing.service.gov.uk/media/6a2172db56e988a798b38645/adm-ch-a4.pdf
+        - text: on 24 September 2026. The F1 web URL could not be opened in that check; its retained PDF was available locally. These are official guidance sources, while the extracted text and passage boundaries are unreviewed project projections.
+      - paragraph:
+        - text: One file-backed, hash-checked replay of the unchanged source and Explorer engine used the same 512 KiB/64-record/128-relationship/depth-6 limits as the workbench. It selected
+        - strong: F1123
+        - text: but missed
+        - strong: A4361
+        - text: ","
+        - strong: A4352
+        - text: and F1120. It returned
+        - code: insufficient
+        - text: ", used 522,141 bytes and reported query, candidate and resource budget omissions. It also attached the unrelated frozen Staff 008 requirement about a different benefit. This measures retrieval and task routing, not whether an AI could give a correct legal answer."
+      - paragraph:
+        - text: To repeat that
+        - strong: historical observation
+        - text: "with a local Explorer checkout whose context-engine hashes match the case record, run:"
+      - text: node scripts/replay_uc_supersession_case.mjs --explorer-root /path/to/pinned-okf-explorer
+      - button "Copy code to clipboard"
+      - paragraph: The script reads only declared local source shards, verifies their bytes and hashes, makes no model or network calls, and checks the retained result. A later repair should have a new comparison receipt; it should not rewrite this failed baseline.
+      - paragraph: The question still needs the UC assessment-period dates, the actual start of the highest DLA care entitlement, responsibility for the child, any earlier notifications and intervening decisions, jurisdiction and applicable legal version. ADM A4361 cites the 2013 Decisions and Appeals Regulations, Schedule 1 paragraph 31; F1123 cites UC regulation 24. Those statutory bodies were not in the retained local legal-body set, and the live legislation.gov.uk requests returned HTTP 429 in this investigation. They remain a verification task rather than a silently supplied rule.
+      - heading "Next evaluation gate" [level=2]
+      - 'link "Permalink: Next evaluation gate"':
+        - /url: "#next-evaluation-gate"
+      - paragraph:
+        - text: Keep this observed miss intact. Add a versioned source-led route only after reviewing the statutory and guidance dependencies; then replay this case and separately frozen new phrasings with wrong-rate, wrong-family, changed DLA date and ordinary-late-rule controls. Measure passage selection, exact source spans, exception delivery, unknown dates and unrelated task activation separately. Keep
+        - code: insufficient
+        - text: and no individual award claim until a specialist accepts the full rule and applicable facts. The
+        - link "BL007 evidence-profile work":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/backlog-work-packages.md#dwp-bl-007-broader-semantic-modelling-task-specific-evidence-profiles
+        - text: ","
+        - link "BL006 legal reconciliation":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/backlog-work-packages.md#dwp-bl-006-legislation-regulations-and-case-law-reconciliation
+        - text: and
+        - link "BL025 workbench review":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/backlog-work-packages.md#dwp-bl-025-evidence-workbench-and-all-question-inspection
+        - text: remain the appropriate open gates.
+      - 'heading "Separate leads: Demo 2 and hospital coverage" [level=2]'
+      - 'link "Permalink: Separate leads: Demo 2 and hospital coverage"':
+        - /url: "#separate-leads-demo-2-and-hospital-coverage"
+      - paragraph:
+        - text: A separate public
+        - link "Demo 2 overview":
+          - /url: https://github.com/bitsls2/ai-demo/blob/main/demo-2-overview.md
+        - text: describes a Pension Credit application concept with CASA and eventual submission through tools. The current workbench only inspects evidence and exports an unreviewed local proposal. A small next demonstration would use
+        - strong: fictional
+        - text: form details to link a few
+        - link "PC1/PC1H questions":
+          - /url: https://www.gov.uk/government/publications/pension-credit-claim-form--2
+        - text: to their source passages in a local preview. It would not collect details or submit a claim.
+      - paragraph:
+        - text: The four-benefit hospital question is another, separate lead. It is
+        - link "outside the 40-case catalogue":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/evidence-workbench/manifest.json
+        - text: and has a
+        - link "retained remote Ask OKF case":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/evaluation/remote-mcp/hospital-case.json
+        - text: . The
+        - link "hospital coverage review":
+          - /url: /chris-page-gov/okf-dwp/blob/77ef16047415ee48dcb93b80adf1ba057ea00d9b/docs/remote-mcp-hospital-coverage.md
+        - text: records hospital source candidates beyond that tested index. Its existing result was
+        - code: insufficient
+        - text: with no answer. The cited
+        - link "ESA Regulations 2013, regulation 21":
+          - /url: https://www.legislation.gov.uk/uksi/2013/379/regulation/21
+        - text: has
+        - strong: not
+        - text: been acquired into the frozen legal-body evidence; regime, version and application remain unverified. The retained remote context was 444,815 bytes and reported
+        - code: "truncated: false"
+        - text: ". A report that a browser tool response looked truncated is a different claim: no exact WebMCP call, cursor, page count or browser receipt was available to verify it. Inspect source coverage and delivery independently before changing either."
+- alert
